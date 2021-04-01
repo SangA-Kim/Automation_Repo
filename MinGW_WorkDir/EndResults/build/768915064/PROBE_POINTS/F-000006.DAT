@@ -1,0 +1,3 @@
+probe_points.c.process_door_event
+uut_prototype_stubs.door_ajar_alarm
+probe_points.c.process_door_event

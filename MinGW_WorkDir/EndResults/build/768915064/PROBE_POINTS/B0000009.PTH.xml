@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="3196122225" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="process_door_event" canonical="" mangled="process_door_event" class_member="FALSE" testable="TRUE">
+    <listing_start>13</listing_start>
+    <listing_end>48</listing_end>
+  </subprogram>
+  <subprogram index="2" name="check_rx_err_bit" canonical="" mangled="check_rx_err_bit" class_member="FALSE" testable="TRUE">
+    <listing_start>52</listing_start>
+    <listing_end>62</listing_end>
+  </subprogram>
+  <subprogram index="3" name="monitor_task" canonical="" mangled="monitor_task" class_member="FALSE" testable="TRUE">
+    <listing_start>69</listing_start>
+    <listing_end>83</listing_end>
+  </subprogram>
+  <subprogram index="4" name="miles_before_fillup" canonical="" mangled="miles_before_fillup" class_member="FALSE" testable="TRUE">
+    <listing_start>89</listing_start>
+    <listing_end>103</listing_end>
+  </subprogram>
+</basis_paths>

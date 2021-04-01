@@ -1,0 +1,38 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2485995867\DISH_BLACKBOX.tst.tmp
+(I) @LINE: 28
+    >>> Processing Test Case: <<INIT>>.001
+(S) @LINE: 29
+    >>> Processed Test Case: <<INIT>>.001
+(I) @LINE: 39
+    >>> Processing Test Case: DRY
+(S) @LINE: 43
+    >>> Processed Test Case: DRY
+(I) @LINE: 49
+    >>> Processing Test Case: RINSE
+(S) @LINE: 53
+    >>> Processed Test Case: RINSE
+(I) @LINE: 59
+    >>> Processing Test Case: STOP
+(S) @LINE: 63
+    >>> Processed Test Case: STOP
+(I) @LINE: 69
+    >>> Processing Test Case: WASH
+(S) @LINE: 73
+    >>> Processed Test Case: WASH
+(I) @LINE: 81
+    >>> Processing Test Case: applyPower.001
+(S) @LINE: 84
+    >>> Processed Test Case: applyPower.001
+(I) @LINE: 92
+    >>> Processing Test Case: turnOffPower.001
+(S) @LINE: 95
+    >>> Processed Test Case: turnOffPower.001
+(I) @LINE: 101
+    >>> Processing Test Case: COMPLETE_CYCLE
+(E) @LINE: 102 TEST.END
+    >>> There are no slots in compound test COMPLETE_CYCLE.
+(S) @LINE: 102
+    >>> Processed Test Case: COMPLETE_CYCLE
+(S) @LINE: 103
+    >>> Script processing completed

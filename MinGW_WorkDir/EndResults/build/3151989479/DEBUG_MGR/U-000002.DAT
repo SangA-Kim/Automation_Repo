@@ -1,0 +1,8 @@
+TEST.STUB_VAL_USER_CODE:uut_prototype_stubs.Get_Table_Record.Table
+if (<<uut_prototype_stubs.Get_Table_Record.Table>> == 3)
+{
+  unsigned xyzzz = 10;
+  while (xyzzz-- >= 0);
+}
+
+TEST.END_STUB_VAL_USER_CODE:

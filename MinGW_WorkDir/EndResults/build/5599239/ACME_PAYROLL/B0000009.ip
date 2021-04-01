@@ -1,0 +1,7 @@
+1,0,B    {
+1,1,S    mTaxRate=.20;
+1,2,S    mTotalTaxCollections = 0;
+2,0,B    {
+2,1,S    double Salary;
+2,2,S    Salary = emp.getSalary();
+2,3,S    mTotalTaxCollections += (mTaxRate * Salary);

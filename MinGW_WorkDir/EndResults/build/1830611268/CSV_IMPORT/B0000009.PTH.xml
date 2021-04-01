@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="248774517" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="findY" canonical="" mangled="findY" class_member="FALSE" testable="TRUE">
+    <listing_start>7</listing_start>
+    <listing_end>11</listing_end>
+  </subprogram>
+  <subprogram index="2" name="findX" canonical="" mangled="findX" class_member="FALSE" testable="TRUE">
+    <listing_start>11</listing_start>
+    <listing_end>15</listing_end>
+  </subprogram>
+  <subprogram index="3" name="findM" canonical="" mangled="findM" class_member="FALSE" testable="TRUE">
+    <listing_start>15</listing_start>
+    <listing_end>19</listing_end>
+  </subprogram>
+  <subprogram index="4" name="findB" canonical="" mangled="findB" class_member="FALSE" testable="TRUE">
+    <listing_start>19</listing_start>
+    <listing_end>23</listing_end>
+  </subprogram>
+</basis_paths>

@@ -1,0 +1,24 @@
+-- Script Features
+TEST.SCRIPT_FEATURE:C_DIRECT_ARRAY_INDEXING
+TEST.SCRIPT_FEATURE:CPP_CLASS_OBJECT_REVISION
+TEST.SCRIPT_FEATURE:MULTIPLE_UUT_SUPPORT
+TEST.SCRIPT_FEATURE:REMOVED_CL_PREFIX
+TEST.SCRIPT_FEATURE:MIXED_CASE_NAMES
+TEST.SCRIPT_FEATURE:STANDARD_SPACING_R2
+TEST.SCRIPT_FEATURE:OVERLOADED_CONST_SUPPORT
+TEST.SCRIPT_FEATURE:UNDERSCORE_NULLPTR
+TEST.SCRIPT_FEATURE:FULL_PARAMETER_TYPES
+TEST.SCRIPT_FEATURE:STRUCT_DTOR_ADDS_POINTER
+TEST.SCRIPT_FEATURE:STRUCT_FIELD_CTOR_ADDS_POINTER
+TEST.SCRIPT_FEATURE:STATIC_HEADER_FUNCS_IN_UUTS
+TEST.SCRIPT_FEATURE:VCAST_MAIN_NOT_RENAMED
+--
+TEST.SLOT: "1", "Acme_PayrollSystem", "Acme_PayrollSystem::Acme_PayrollSystem", "1", "Init10K.001"
+TEST.SLOT: "2", "Acme_PayrollSystem", "Acme_PayrollSystem::addEmployee", "1", "Add_Mary1K.001"
+TEST.SLOT: "3", "Acme_PayrollSystem", "Acme_PayrollSystem::addEmployee", "1", "Add_Sue2K.001"
+TEST.SLOT: "4", "Acme_PayrollSystem", "Acme_PayrollSystem::addEmployee", "1", "Add_Tom2K.001"
+TEST.SLOT: "5", "Acme_PayrollSystem", "Acme_PayrollSystem::runPayroll", "1", "RunPayroll.001"
+TEST.SLOT: "6", "<<INIT>>", "<<INIT>>", "1", "Verify5k"
+TEST.SLOT: "7", "Acme_PayrollSystem", "Acme_PayrollSystem::removeEmployee", "1", "RemoveSue.001"
+TEST.SLOT: "8", "Acme_PayrollSystem", "Acme_PayrollSystem::runPayroll", "1", "RunPayroll.001"
+TEST.SLOT: "9", "<<INIT>>", "<<INIT>>", "1", "Verify2K"

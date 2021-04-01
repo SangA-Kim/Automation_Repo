@@ -1,0 +1,197 @@
+COMMAND: C:/VCAST/enviroedg.exe C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/2636699725/SHAPES.env
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/2636699725
+TIME: 2021-03-30 14:24:30
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+---------------------------End Process Environment----------------------------
+**Environment Builder Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2636699725\CCAST_.CFG
+    Reading environment script "C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/2636699725/SHAPES.env"
+    Initializing search list
+    Creating the Environment Directory
+    Creating Environment "SHAPES"
+    Calling QuickParse Utility for C:\VCAST\Environments\Git_Test\SourceFiles\Shapes
+            Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
+            Command Returned Exit Code: 0
+           File: rectangle.cpp (using cached data)
+            Running Command: C:/Users/skim\.vcastProcessMonitorLogs\2_Command
+            Command Returned Exit Code: 0
+           File: shape.cpp (using cached data)
+    QuickParse Utility Completed
+    Unit 8 (not-stubbed): User Defined Globals
+       Parsing 
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\2_Command
+        Command Returned Exit Code: 0
+       Initializing parse data
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\3_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\4_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\5_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\6_Command
+        Command Returned Exit Code: 0
+       Generating harness code
+       Saving unit data
+    Parsing rectangle
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\7_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\8_Command
+        Command Returned Exit Code: 0
+    Parsing shape
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\9_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\10_Command
+        Command Returned Exit Code: 0
+    Unit 9 (stub-by-function): rectangle
+       Loading stored IL
+       Initializing parse data
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\11_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\12_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\13_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\14_Command
+        Command Returned Exit Code: 0
+       Generating harness code
+       Saving unit data
+    Unit 11 (stub-by-function): shape
+       Loading stored IL
+       Initializing parse data
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\15_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\16_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\17_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\18_Command
+        Command Returned Exit Code: 0
+       Generating harness code
+       Saving unit data
+    Compiling file VECTORCAST_IO
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\19_Command
+        Command Returned Exit Code: 0
+    Compiling file User Defined Globals
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\20_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\21_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\22_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\23_Command
+        Command Returned Exit Code: 0
+    Compiling file Data File Number 1
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\24_Command
+        Command Returned Exit Code: 0
+    Compiling file Data File Number 2
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\25_Command
+        Command Returned Exit Code: 0
+    Compiling file Driver
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\26_Command
+        Command Returned Exit Code: 0
+    Compiling file User Defined Package
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\27_Command
+        Command Returned Exit Code: 0
+    Setting Up ISO-26262 (Automotive) Unit Level ASIL B/C Coverage
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\28_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\29_Command
+        Command Returned Exit Code: 0
+    Instrumenting file rectangle
+    Compiling file rectangle
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\30_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\31_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\32_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\33_Command
+        Command Returned Exit Code: 0
+    Instrumenting file shape
+    Compiling file shape
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\34_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\35_Command
+        Command Returned Exit Code: 0
+    Compiling file Data File Number 1
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\36_Command
+        Command Returned Exit Code: 0
+    Linking Instrumented Harness
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\37_Command
+        Command Returned Exit Code: 0
+    Coverage Initialized
+    Writing VectorCAST Database Files to Disk
+    Environment built Successfully
+COMMAND: C:\VCAST\clicast.exe -e SHAPES -l CPLUSPLUS test script run C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/2636699725/SHAPES.tst.tmp
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/2636699725
+TIME: 2021-03-30 14:24:47
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2021
+**Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2636699725\CCAST_.CFG
+    Opening Environment
+    Determining Size/Range Information
+    Opening Parameter/Global File
+    Opening Types File
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2636699725\SHAPES\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
+        Command Returned Exit Code: 0
+    Building Master Min Mid Max data.
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Processing Script File
+    Processing script line 50
+    Script Creation Completed
+--------------------------------------------------------------------------------
+Test Script Log
+--------------------------------------------------------------------------------
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2636699725\SHAPES.tst.tmp
+(I) @LINE: 26
+    >>> Processing Test Case: RECTANGLE_INIT
+(S) @LINE: 33
+    >>> Processed Test Case: RECTANGLE_INIT
+(I) @LINE: 43
+    >>> Processing Test Case: Rectangle::Rectangle(int,int,int,int).001
+(S) @LINE: 52
+    >>> Processed Test Case: Rectangle::Rectangle(int,int,int,int).001
+(I) @LINE: 58
+    >>> Processing Test Case: BUILD_RECT1
+(S) @LINE: 63
+    >>> Processed Test Case: BUILD_RECT1
+(I) @LINE: 71
+    >>> Processing Test Case: Default
+(S) @LINE: 78
+    >>> Processed Test Case: Default
+(I) @LINE: 84
+    >>> Processing Test Case: GetArea_RECT1
+(S) @LINE: 86
+    >>> Processed Test Case: GetArea_RECT1
+(I) @LINE: 92
+    >>> Processing Test Case: Normal
+(S) @LINE: 99
+    >>> Processed Test Case: Normal
+(I) @LINE: 105
+    >>> Processing Test Case: SegFault
+(S) @LINE: 106
+    >>> Processed Test Case: SegFault
+(I) @LINE: 114
+    >>> Processing Test Case: GetY_RECT1
+(S) @LINE: 116
+    >>> Processed Test Case: GetY_RECT1
+(I) @LINE: 122
+    >>> Processing Test Case: RECT1
+(S) @LINE: 126
+    >>> Processed Test Case: RECT1
+(S) @LINE: 127
+    >>> Script processing completed

@@ -1,0 +1,4 @@
+
+INITIALIZATION_CODE.uut_prototype_stubs.debug_flag
+=1;
+END_INITIALIZATION_CODE.uut_prototype_stubs.debug_flag

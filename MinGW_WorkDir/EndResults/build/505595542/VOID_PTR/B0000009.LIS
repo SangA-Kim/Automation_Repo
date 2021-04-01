@@ -1,0 +1,57 @@
+               #include "C:/VCAST/Environments/Git_Test/SourceFiles/communication.h"
+               /*
+                *  Copy & paste these 3 lines into User Globals:
+                 #include "communication.h"
+                 VCAST_USER_GLOBALS_EXTERN AltCmdT AltCmd;
+                 VCAST_USER_GLOBALS_EXTERN CourseCmdT CourseCmd;
+                */
+               enum Boolean ProcessMessage ( MessageT messageCategory, void *message )
+               {
+1 0     ( )    ProcessMessage
+1 1              enum Boolean rc=True;
+1 2              switch ( messageCategory )
+                {
+1 3     ( )        case Change_Altitude:
+                  {
+1 4                  AltCmdT *cmd = (AltCmdT *)message;
+1 5                  int altitude = cmd->newAltitude;
+1 6     ( )( )       if ( (altitude < 10) || (altitude > 40000) )
+                     {
+1 7                    printf("\nBad Altitude: %d\n", altitude);
+1 8                    rc = False;
+                     }
+                     else
+                     {
+1 9                    ChangeAltitude ( altitude );
+1 10                   printf("\nNew Altitude: %d\n", altitude);
+                     }
+1 11                 break;
+                  }
+1 12    ( )        case Change_Course:
+                  {
+1 13                 CourseCmdT *cmd = (CourseCmdT *)message;
+1 14                 float course = cmd->newCourse;
+1 15    ( )( )       if ( (course < 0) || (course > (2*(3.14159265))))
+                     {
+1 16                   printf("\nBad Course: %f\n", course);
+1 17                   rc = False;
+                     }
+                     else
+                     {
+1 18                   printf ("\nNew Course: %f\n", course );
+1 19                   ChangeCourse ( course );
+                     }
+1 20                 break;
+                  }
+1 21    ( )        case Text_Message:
+                  {
+                     char *ascii_msg;
+1 22                 ascii_msg = (char *)message;
+1 23                 printf ("\n%s\n", ascii_msg );
+1 24                 break;
+                  }
+1 25    ( )        default:
+1 26                 InvalidCommand( messageCategory );
+                }
+1 27             return(rc);
+               }

@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------------
+Environment Overview
+--------------------------------------------------------------------------------
+
+
+
+
+  Environment Name:    INLINES
+  Environment Status:  Normal
+  Environment Version: REVISION_2020_RENAME_BUILD_INFO_XML
+  Environment Build Type: Full
+  Coverage Status:     ISO-26262 (Automotive) Unit Level ASIL A (enabled)
+  Language:            C++
+  Compiler Name:       VectorCAST MinGW_C++
+  White Box:           Yes
+  Search List:         $(PROJECT_ROOT_DIR)\SourceFiles  (testable)
+                       $(PROJECT_ROOT_DIR)\SourceFiles\Shapes  (testable)
+  Units Under Test:    inlines
+  Stub List:           None
+  Stub None (Source Files): None
+

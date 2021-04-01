@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <unit id="8">
+    <variables>
+      <variable defined="1">VECTORCAST_INT1</variable>
+      <variable defined="1">VECTORCAST_INT2</variable>
+      <variable defined="1">VECTORCAST_INT3</variable>
+      <variable defined="1">VECTORCAST_FLT1</variable>
+      <variable defined="1">VECTORCAST_STR1</variable>
+      <variable defined="1">VECTORCAST_BUFFER</variable>
+    </variables>
+  </unit>
+  <unit id="9">
+    <functions>
+      <function defined="1" stubbed="1">door_ajar_alarm</function>
+      <function defined="1">process_door_event</function>
+      <function defined="1">check_rx_err_bit</function>
+      <function defined="1" stubbed="1">sleep1</function>
+      <function defined="1" stubbed="1">report_error</function>
+      <function defined="1">monitor_task</function>
+      <function defined="1" stubbed="1">get_fuel_level</function>
+      <function defined="1" stubbed="1">get_recent_mpg</function>
+      <function defined="1">miles_before_fillup</function>
+    </functions>
+  </unit>
+</definitions>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE testcase_data>
+<testcase_data xml_testcase_version="2.0">
+  <compound>
+    <name>&lt;&lt;COMPOUND&gt;&gt;</name>
+  </compound>
+  <init>
+    <name>&lt;&lt;INIT&gt;&gt;</name>
+  </init>
+  <unit index="9" coverage_type="Statement">
+    <name>stack</name>
+    <subprogram index="1">
+      <name>Stack&lt;float&gt;::Stack</name>
+    </subprogram>
+    <subprogram index="2">
+      <name>Stack&lt;float&gt;::empty</name>
+    </subprogram>
+    <subprogram index="3">
+      <name>Stack&lt;float&gt;::operator bool</name>
+    </subprogram>
+    <subprogram index="4">
+      <name>Stack&lt;float&gt;::push</name>
+      <testcase index="1">
+        <name>PUSH_FLT</name>
+        <unique_id>1</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="5">
+      <name>Stack&lt;float&gt;::pop</name>
+    </subprogram>
+    <subprogram index="6">
+      <name>Stack&lt;float&gt;::count</name>
+    </subprogram>
+    <subprogram index="7">
+      <name>Stack&lt;float&gt;::grow</name>
+    </subprogram>
+    <subprogram index="8">
+      <name>Stack&lt;int&gt;::Stack</name>
+    </subprogram>
+    <subprogram index="9">
+      <name>Stack&lt;int&gt;::empty</name>
+    </subprogram>
+    <subprogram index="10">
+      <name>Stack&lt;int&gt;::operator bool</name>
+    </subprogram>
+    <subprogram index="11">
+      <name>Stack&lt;int&gt;::push</name>
+      <testcase index="1">
+        <name>PUSH_INT</name>
+        <unique_id>2</unique_id>
+      </testcase>
+      <testcase index="2">
+        <name>PUSH_INT2</name>
+        <unique_id>3</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="12">
+      <name>Stack&lt;int&gt;::pop</name>
+    </subprogram>
+    <subprogram index="13">
+      <name>Stack&lt;int&gt;::count</name>
+    </subprogram>
+    <subprogram index="14">
+      <name>Stack&lt;int&gt;::grow</name>
+    </subprogram>
+    <subprogram index="15">
+      <name>Stack&lt;float&gt;::ItemContainer::ItemContainer</name>
+    </subprogram>
+    <subprogram index="16">
+      <name>Stack&lt;int&gt;::ItemContainer::ItemContainer</name>
+    </subprogram>
+  </unit>
+</testcase_data>

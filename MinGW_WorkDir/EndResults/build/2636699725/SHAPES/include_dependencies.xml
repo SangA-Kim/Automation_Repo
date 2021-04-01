@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includedeps>
+  <unit id="8"/>
+<unit id="9"><file chksum="b641545e859634e17349ae7127018fbf" timestamp="1566516204">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/rectangle.cpp</file><file chksum="0ea950e42e43c199c6c5850e8c6705b9" timestamp="1566516204">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/rectangle.h</file><file chksum="920f620852b2925b6e518123ef7659d3" timestamp="1566516204">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.h</file></unit><unit id="11"><file chksum="6b8a4a1e3ba87cb3a8a8159b057224e6" timestamp="1566516204">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.cpp</file><file chksum="920f620852b2925b6e518123ef7659d3" timestamp="1566516204">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.h</file></unit></includedeps>

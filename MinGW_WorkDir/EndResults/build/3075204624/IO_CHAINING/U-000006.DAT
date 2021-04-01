@@ -1,0 +1,3 @@
+TEST.VALUE_USER_CODE:io_wrapper.WriteString.fp
+<<io_wrapper.WriteString.fp>> = ( <<io_wrapper.OpenFile.return>> );
+TEST.END_VALUE_USER_CODE:

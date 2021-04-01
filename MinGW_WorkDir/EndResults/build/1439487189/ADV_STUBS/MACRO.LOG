@@ -1,0 +1,56 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1439487189\ADV_STUBS.tst.tmp
+(I) @LINE: 28
+    >>> Processing Test Case: <<INIT>>.001
+(S) @LINE: 29
+    >>> Processed Test Case: <<INIT>>.001
+(I) @LINE: 39
+    >>> Processing Test Case: get3
+(S) @LINE: 43
+    >>> Processed Test Case: get3
+(I) @LINE: 49
+    >>> Processing Test Case: get_3_2_4
+(S) @LINE: 54
+    >>> Processed Test Case: get_3_2_4
+(I) @LINE: 62
+    >>> Processing Test Case: log_error_msg.001
+(S) @LINE: 66
+    >>> Processed Test Case: log_error_msg.001
+(I) @LINE: 74
+    >>> Processing Test Case: C_BOILING
+(S) @LINE: 79
+    >>> Processed Test Case: C_BOILING
+(I) @LINE: 85
+    >>> Processing Test Case: C_FREEZING
+(S) @LINE: 90
+    >>> Processed Test Case: C_FREEZING
+(I) @LINE: 96
+    >>> Processing Test Case: C_NORMAL
+(S) @LINE: 101
+    >>> Processed Test Case: C_NORMAL
+(I) @LINE: 107
+    >>> Processing Test Case: F_BOILING
+(S) @LINE: 112
+    >>> Processed Test Case: F_BOILING
+(I) @LINE: 118
+    >>> Processing Test Case: F_BOILING.001
+(S) @LINE: 123
+    >>> Processed Test Case: F_BOILING.001
+(I) @LINE: 129
+    >>> Processing Test Case: F_FREEZING
+(S) @LINE: 134
+    >>> Processed Test Case: F_FREEZING
+(I) @LINE: 140
+    >>> Processing Test Case: NullFunction
+(S) @LINE: 143
+    >>> Processed Test Case: NullFunction
+(I) @LINE: 151
+    >>> Processing Test Case: Real
+(S) @LINE: 153
+    >>> Processed Test Case: Real
+(I) @LINE: 159
+    >>> Processing Test Case: Stub
+(S) @LINE: 163
+    >>> Processed Test Case: Stub
+(S) @LINE: 163
+    >>> Script processing completed

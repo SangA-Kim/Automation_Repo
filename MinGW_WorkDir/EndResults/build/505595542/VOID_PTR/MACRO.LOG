@@ -1,0 +1,28 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\505595542\VOID_PTR.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: BadAlt
+(S) @LINE: 36
+    >>> Processed Test Case: BadAlt
+(I) @LINE: 42
+    >>> Processing Test Case: BadCourse
+(S) @LINE: 47
+    >>> Processed Test Case: BadCourse
+(I) @LINE: 53
+    >>> Processing Test Case: GoodAlt
+(S) @LINE: 58
+    >>> Processed Test Case: GoodAlt
+(I) @LINE: 64
+    >>> Processing Test Case: GoodCourse
+(S) @LINE: 69
+    >>> Processed Test Case: GoodCourse
+(I) @LINE: 75
+    >>> Processing Test Case: InvalidCmd
+(S) @LINE: 78
+    >>> Processed Test Case: InvalidCmd
+(I) @LINE: 84
+    >>> Processing Test Case: TextMsg
+(S) @LINE: 90
+    >>> Processed Test Case: TextMsg
+(S) @LINE: 90
+    >>> Script processing completed

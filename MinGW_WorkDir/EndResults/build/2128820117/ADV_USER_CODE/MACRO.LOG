@@ -1,0 +1,12 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2128820117\ADV_USER_CODE.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: LARGE
+(S) @LINE: 50
+    >>> Processed Test Case: LARGE
+(I) @LINE: 56
+    >>> Processing Test Case: SMALL
+(S) @LINE: 67
+    >>> Processed Test Case: SMALL
+(S) @LINE: 67
+    >>> Script processing completed

@@ -1,0 +1,22 @@
+               #include "C:/VCAST/TRAINING/SOURCEFILES/SEARCHPATHS/include/vcast_time.h"
+               time_T time_add_seconds ( time_T start, int seconds )
+               {
+                   time_T ret ;
+                   int newseconds;
+1 0     ( )    time_add_seconds
+1 1     ( )( )   if (invalid_time(start))
+                   {
+1 2                ret.secs=0;
+1 3                ret.mins=0;
+1 4                return ret;
+                   }
+1 5              newseconds = start.secs + seconds ;
+1 6              ret.mins = start.mins ;
+1 7     ( )( )   if ( newseconds >= 60 )
+                   {
+1 8                ret.mins++ ;
+1 9                newseconds -= 60 ;
+                   }
+1 10             ret.secs = newseconds ;
+1 11             return ret ;
+               }

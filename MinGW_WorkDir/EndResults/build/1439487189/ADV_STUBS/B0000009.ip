@@ -1,0 +1,43 @@
+1,0,B    {
+1,1,S    char* ptr = (char*)malloc( 10 );
+1,2,B    if ( !ptr )
+1,3,S    return 0;
+1,4,S    strcpy( ptr, "ok" );
+1,5,S    return ptr;
+2,0,B    {
+2,1,B    if ( !func_ptr )
+2,2,S    rc = BAD_GAUGE;
+2,3,S    current_temperature = (*func_ptr)();
+2,4,B    if (scale == CELSIUS)
+2,5,B    if (current_temperature <= 0.0)
+2,6,S    rc = FREEZING;
+2,7,B    if (current_temperature >= 100.0)
+2,8,S    rc = BOILING;
+2,9,S    rc = NORMAL;
+2,10,B    if (scale == FAHRENHEIT)
+2,11,B    if (current_temperature <= 32.0)
+2,12,S    rc = FREEZING;
+2,13,B    if (current_temperature >= 212.0)
+2,14,S    rc = BOILING;
+2,15,S    rc = NORMAL;
+2,16,S    return rc;
+3,0,B    {
+3,1,B    for (i=0; i < string_length; i++)
+3,2,S    ch = read_key_pad();
+3,3,B    if (!((ch >= '0') && (ch <= '9')))
+3,4,S    ch='0';
+3,5,S    str[i] = ch;
+3,6,S    val = atoi(str);
+3,7,S    return(val);
+4,0,B    {
+4,1,S    time_t tod = time(
+# 127 "C:/VCAST/Environments/Git_Test/SourceFiles/advanced_stubbing.c" 3 4
+                     ((void *)0)
+# 127 "C:/VCAST/Environments/Git_Test/SourceFiles/advanced_stubbing.c"
+                         );
+4,2,B    if ( debug_flag )
+4,3,S    printf("Log Msg #%d:  %s\n", msg_num, str);
+4,4,S    printf("Error Occurred on:  %s\n", ctime(&tod));
+4,5,S    printf("Log Msg #%d:  %s\n", msg_num, str);
+4,6,S    msg_num++;
+4,7,S    return debug_flag;

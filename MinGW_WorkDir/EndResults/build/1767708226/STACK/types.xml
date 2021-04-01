@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typefile version="1">
+  <type typeid="100001" typetype="STR_ING" array_type="800001" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100002" typetype="AR_RAY" array_type="800002">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="800001" typetype="CHAR_ACTER">
+    <range_data min="-128" mid="-1" max="127"/>
+  </type>
+  <type typeid="800002" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="800003" typetype="FL_OAT">
+    <range_data min="-3.40282e+038" mid="0" max="3.40282e+038"/>
+  </type>
+  <type typeid="900001" typetype="UNKNOWN"/>
+  <type typeid="900002" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="900003" typetype="ACCE_SS" ada_scope="Stack&lt;T&gt;::ItemContainer" pointer_type="900017">
+    <field index="1" name="item" typeid="900001"/>
+    <field index="2" name="next" typeid="900003"/>
+    <subclass index="1" typeid="900017" unsupported_type_reason="TI_STATUS_NO_AVAILABLE_CONSTRUCTORS"/>
+  </type>
+  <type typeid="900004" typetype="UN_SIGNED">
+    <range_data min="0" mid="2147483647" max="4294967295"/>
+  </type>
+  <type typeid="900005" typetype="BOOL_EAN">
+    <range_data min="false" mid="false" max="true"/>
+  </type>
+  <type typeid="900006" typetype="UNKNOWN"/>
+  <type typeid="900007" typetype="ENUMERATION">
+    <range_data min="E_OVERFLOW" max="E_UNDERFLOW"/>
+    <enum value="E_OVERFLOW" constant="0"/>
+    <enum value="E_UNDERFLOW" constant="1"/>
+  </type>
+  <type typeid="900008" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_VOID_TYPES_ARE_UNTESTABLE"/>
+  <type typeid="900009" typetype="CLASS_PTR" ada_scope="Stack&lt;float&gt;::ItemContainer" pointer_type="900012">
+    <constructor index="1" prototype="Stack&lt; float&gt;::ItemContainer::ItemContainer(float p)">
+      <subprog name="Stack&lt; float&gt; ::ItemContainer::ItemContainer" index="0" is_constructor="1" mangled="__ct__Q2_14Stack__tm__2_f13ItemContainerFZ1Z" parameterization="(float)" is_inline="1">
+        <param name="p" index="1" typeid="900011"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="item" typeid="900011"/>
+    <field index="2" name="next" typeid="900009"/>
+    <subclass index="1" typeid="900012"/>
+  </type>
+  <type typeid="900010" typetype="CLASS_PTR" ada_scope="Stack&lt;float&gt;" pointer_type="900018">
+    <constructor index="1" prototype="Stack&lt; float&gt;::Stack(unsigned maxSize)">
+      <subprog name="Stack&lt; float&gt; ::Stack" index="0" is_constructor="1" mangled="__ct__14Stack__tm__2_fFUi" parameterization="(unsigned)">
+        <param name="maxSize" index="1" typeid="900004"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="mStack" typeid="900009"/>
+    <field index="2" name="mStackCount" typeid="900004"/>
+    <field index="3" name="mMaxSize" typeid="900004"/>
+    <subclass index="1" typeid="900018"/>
+  </type>
+  <type typeid="900011" typetype="FL_OAT">
+    <range_data min="-3.40282e+038" mid="0" max="3.40282e+038"/>
+  </type>
+  <type typeid="900012" typetype="CLASS" ada_scope="Stack&lt;float&gt;::ItemContainer">
+    <constructor index="1" prototype="Stack&lt; float&gt;::ItemContainer::ItemContainer(float p)">
+      <subprog name="Stack&lt; float&gt; ::ItemContainer::ItemContainer" index="0" is_constructor="1" mangled="__ct__Q2_14Stack__tm__2_f13ItemContainerFZ1Z" parameterization="(float)" is_inline="1">
+        <param name="p" index="1" typeid="900011"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="item" typeid="900011"/>
+    <field index="2" name="next" typeid="900009"/>
+  </type>
+  <type typeid="900013" typetype="CLASS_PTR" ada_scope="Stack&lt;int&gt;::ItemContainer" pointer_type="900015">
+    <constructor index="1" prototype="Stack&lt; int&gt;::ItemContainer::ItemContainer(int p)">
+      <subprog name="Stack&lt; int&gt; ::ItemContainer::ItemContainer" index="0" is_constructor="1" mangled="__ct__Q2_14Stack__tm__2_i13ItemContainerFZ1Z" parameterization="(int)" is_inline="1">
+        <param name="p" index="1" typeid="900002"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="item" typeid="900002"/>
+    <field index="2" name="next" typeid="900013"/>
+    <subclass index="1" typeid="900015"/>
+  </type>
+  <type typeid="900014" typetype="CLASS_PTR" ada_scope="Stack&lt;int&gt;" pointer_type="900021">
+    <constructor index="1" prototype="Stack&lt; int&gt;::Stack(unsigned maxSize)">
+      <subprog name="Stack&lt; int&gt; ::Stack" index="0" is_constructor="1" mangled="__ct__14Stack__tm__2_iFUi" parameterization="(unsigned)">
+        <param name="maxSize" index="1" typeid="900004"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="mStack" typeid="900013"/>
+    <field index="2" name="mStackCount" typeid="900004"/>
+    <field index="3" name="mMaxSize" typeid="900004"/>
+    <subclass index="1" typeid="900021"/>
+  </type>
+  <type typeid="900015" typetype="CLASS" ada_scope="Stack&lt;int&gt;::ItemContainer">
+    <constructor index="1" prototype="Stack&lt; int&gt;::ItemContainer::ItemContainer(int p)">
+      <subprog name="Stack&lt; int&gt; ::ItemContainer::ItemContainer" index="0" is_constructor="1" mangled="__ct__Q2_14Stack__tm__2_i13ItemContainerFZ1Z" parameterization="(int)" is_inline="1">
+        <param name="p" index="1" typeid="900002"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="item" typeid="900002"/>
+    <field index="2" name="next" typeid="900013"/>
+  </type>
+  <type typeid="900016" typetype="CLASS" ada_scope="Stack&lt;T&gt;">
+    <field index="1" name="mStack" typeid="900003"/>
+    <field index="2" name="mStackCount" typeid="900004"/>
+    <field index="3" name="mMaxSize" typeid="900004"/>
+  </type>
+  <type typeid="900017" typetype="REC_ORD" ada_scope="Stack&lt;T&gt;::ItemContainer">
+    <field index="1" name="item" typeid="900001"/>
+    <field index="2" name="next" typeid="900003"/>
+  </type>
+  <type typeid="900018" typetype="CLASS" ada_scope="Stack&lt;float&gt;">
+    <constructor index="1" prototype="Stack&lt; float&gt;::Stack(unsigned maxSize)">
+      <subprog name="Stack&lt; float&gt; ::Stack" index="0" is_constructor="1" mangled="__ct__14Stack__tm__2_fFUi" parameterization="(unsigned)">
+        <param name="maxSize" index="1" typeid="900004"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="mStack" typeid="900009"/>
+    <field index="2" name="mStackCount" typeid="900004"/>
+    <field index="3" name="mMaxSize" typeid="900004"/>
+  </type>
+  <type typeid="900019" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900020" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900021" typetype="CLASS" ada_scope="Stack&lt;int&gt;">
+    <constructor index="1" prototype="Stack&lt; int&gt;::Stack(unsigned maxSize)">
+      <subprog name="Stack&lt; int&gt; ::Stack" index="0" is_constructor="1" mangled="__ct__14Stack__tm__2_iFUi" parameterization="(unsigned)">
+        <param name="maxSize" index="1" typeid="900004"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="mStack" typeid="900013"/>
+    <field index="2" name="mStackCount" typeid="900004"/>
+    <field index="3" name="mMaxSize" typeid="900004"/>
+  </type>
+  <type typeid="900022" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900023" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+</typefile>

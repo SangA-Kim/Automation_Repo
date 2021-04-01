@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="714957269" handle_ternary="N" handle_nested_ternary="N" script_always_uses_params="N" cover_headers="Y" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="class_with_some_inlines::get_int" canonical="get_int__23class_with_some_inlinesFv in c:/vcast/environments/git_test/sourcefiles/inlines.h" mangled="get_int__23class_with_some_inlinesFv" class_member="FALSE" testable="TRUE" from_header="Y">
+    <listing_start>7</listing_start>
+    <listing_end>9</listing_end>
+  </subprogram>
+  <subprogram index="2" name="non_member_inline" canonical="non_member_inline__Fv in c:/vcast/environments/git_test/sourcefiles/inlines.h" mangled="non_member_inline__Fv" class_member="FALSE" testable="TRUE" from_header="Y">
+    <listing_start>12</listing_start>
+    <listing_end>16</listing_end>
+  </subprogram>
+  <subprogram index="3" name="class_with_only_inlines::class_with_only_inlines" canonical="__ct__23class_with_only_inlinesFv in c:/vcast/environments/git_test/sourcefiles/inlines.h" mangled="__ct__23class_with_only_inlinesFv" class_member="FALSE" testable="TRUE" from_header="Y">
+    <listing_start>19</listing_start>
+    <listing_end>21</listing_end>
+  </subprogram>
+  <subprogram index="4" name="class_with_only_inlines::inline_member" canonical="inline_member__23class_with_only_inlinesFv in c:/vcast/environments/git_test/sourcefiles/inlines.h" mangled="inline_member__23class_with_only_inlinesFv" class_member="FALSE" testable="TRUE" from_header="Y">
+    <listing_start>21</listing_start>
+    <listing_end>23</listing_end>
+  </subprogram>
+  <subprogram index="5" name="class_with_some_inlines::class_with_some_inlines" canonical="" mangled="__ct__23class_with_some_inlinesFi" class_member="FALSE" testable="TRUE">
+    <listing_start>25</listing_start>
+    <listing_end>29</listing_end>
+  </subprogram>
+  <subprogram index="6" name="class_with_some_inlines::use_int" canonical="" mangled="use_int__23class_with_some_inlinesFv" class_member="FALSE" testable="TRUE">
+    <listing_start>29</listing_start>
+    <listing_end>37</listing_end>
+  </subprogram>
+</basis_paths>

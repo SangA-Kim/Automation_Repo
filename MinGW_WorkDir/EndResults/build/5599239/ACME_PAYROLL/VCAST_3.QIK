@@ -1,0 +1,55 @@
+--  QuickParse File Version: QP_DROP_CTOR_TESTABLE_INCLUDES  --
+HOME_DIRECTORY C:\VCAST\Training\SourceFiles\Payroll
+BEGIN_RECORD Acme_PayrollSystem.cpp
+CHECKSUM 2484802962
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   __ct__18Acme_PayrollSystemFd
+   processPayCheck__18Acme_PayrollSystemF8Employee
+CALLED_OBJECTS
+   __ct__13PayrollSystemFd
+   __ct__8EmployeeFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi
+   __ct__8EmployeeFv
+   __dt__8EmployeeFv
+   getSalary__8EmployeeFv
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+END_RECORD Acme_PayrollSystem.cpp
+BEGIN_RECORD Employee.cpp
+CHECKSUM 4193447569
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   __ab5cxx11getName__8EmployeeFv
+   __ct__8EmployeeFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi
+   __ct__8EmployeeFv
+   __dt__8EmployeeFv
+   getAge__8EmployeeFv
+   getSalary__8EmployeeFv
+CALLED_OBJECTS
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+END_RECORD Employee.cpp
+BEGIN_RECORD PayrollSystem.cpp
+CHECKSUM 898454469
+BLACKLIST FALSE
+DEFINED_OBJECTS
+   __ct__13PayrollSystemFd
+   addCash__13PayrollSystemFi
+   addEmployee__13PayrollSystemFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi
+   removeEmployee__13PayrollSystemFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_c
+   runPayroll__13PayrollSystemFv
+CALLED_OBJECTS
+   __ab5cxx11getName__8EmployeeFv
+   __ct__8EmployeeFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi
+   __ct__8EmployeeFv
+   __dt__8EmployeeFv
+   getSalary__8EmployeeFv
+STATIC_MEMBERS_DECLARED
+STATIC_MEMBERS_NEEDED
+GLOBAL_OBJECTS_NEEDED
+GLOBAL_OBJECTS_DEFINED
+END_RECORD PayrollSystem.cpp

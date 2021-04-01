@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="3420378614" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="use_malloc" canonical="" mangled="use_malloc" class_member="FALSE" testable="TRUE">
+    <listing_start>5</listing_start>
+    <listing_end>19</listing_end>
+  </subprogram>
+  <subprogram index="2" name="temp_monitor" canonical="" mangled="temp_monitor" class_member="FALSE" testable="TRUE">
+    <listing_start>38</listing_start>
+    <listing_end>73</listing_end>
+  </subprogram>
+  <subprogram index="3" name="get_numeric_string" canonical="" mangled="get_numeric_string" class_member="FALSE" testable="TRUE">
+    <listing_start>80</listing_start>
+    <listing_end>96</listing_end>
+  </subprogram>
+  <subprogram index="4" name="log_error_msg" canonical="" mangled="log_error_msg" class_member="FALSE" testable="TRUE">
+    <listing_start>102</listing_start>
+    <listing_end>121</listing_end>
+  </subprogram>
+</basis_paths>

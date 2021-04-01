@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <unit id="8">
+    <variables>
+      <variable defined="1">VECTORCAST_INT1</variable>
+      <variable defined="1">VECTORCAST_INT2</variable>
+      <variable defined="1">my_stub_ctr</variable>
+      <variable defined="1">VECTORCAST_FLT1</variable>
+      <variable defined="1">VECTORCAST_STR1</variable>
+      <variable defined="1">VECTORCAST_BUFFER</variable>
+    </variables>
+  </unit>
+  <unit id="9">
+    <functions>
+      <function defined="1" stubbed="1">log_msg</function>
+      <function defined="1" stubbed="1">calc_crc</function>
+      <function defined="1" stubbed="1">reset_transmitter</function>
+      <function defined="1">hw_send_rts</function>
+      <function defined="1">hw_check_cts</function>
+      <function defined="1">hw_tx_byte</function>
+      <function defined="1">data_tx_V1</function>
+      <function defined="1">data_tx_V2</function>
+      <function defined="1">pkt_transmit</function>
+    </functions>
+  </unit>
+</definitions>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="4202985057" handle_ternary="Y" handle_nested_ternary="Y" script_always_uses_params="N" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="Shape::Shape()" canonical="" mangled="__ct__5ShapeFv" class_member="FALSE" testable="TRUE">
+    <listing_start>2</listing_start>
+    <listing_end>6</listing_end>
+  </subprogram>
+  <subprogram index="2" name="Shape::Shape(int,int)" canonical="" mangled="__ct__5ShapeFiT1" class_member="FALSE" testable="TRUE">
+    <listing_start>6</listing_start>
+    <listing_end>12</listing_end>
+  </subprogram>
+  <subprogram index="3" name="Shape::setPosition" canonical="" mangled="setPosition__5ShapeFiT1" class_member="FALSE" testable="TRUE">
+    <listing_start>12</listing_start>
+    <listing_end>18</listing_end>
+  </subprogram>
+  <subprogram index="4" name="Shape::getX" canonical="" mangled="getX__5ShapeCFv" class_member="FALSE" testable="TRUE">
+    <listing_start>18</listing_start>
+    <listing_end>23</listing_end>
+  </subprogram>
+  <subprogram index="5" name="Shape::getY" canonical="" mangled="getY__5ShapeCFv" class_member="FALSE" testable="TRUE">
+    <listing_start>23</listing_start>
+    <listing_end>28</listing_end>
+  </subprogram>
+</basis_paths>

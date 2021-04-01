@@ -1,0 +1,66 @@
+COMMAND: C:\VCAST\clicast.exe -e DISH_WHITEBOX -l CPLUSPLUS execute batch
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/2322984139
+TIME: 2021-03-30 14:22:38
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2021
+**Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2322984139\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Running all <<COMPOUND>> test cases
+    Running: <<COMPOUND>>.001
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2322984139\DISH_WHITEBOX\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all dishwasher_fsm.<<INIT>> test cases
+    Running: POWER_ON
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2322984139\DISH_WHITEBOX\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\2_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all dishwasher_fsm.processIdleState test cases
+    Running: START_WASH
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2322984139\DISH_WHITEBOX\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\3_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all dishwasher_fsm.processWashCycle test cases
+    Running: START_RINSE
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2322984139\DISH_WHITEBOX\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\4_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all dishwasher_fsm.processRinseCycle test cases
+    Running: NO_HEAT
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2322984139\DISH_WHITEBOX\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\5_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Completed Batch Execution processing

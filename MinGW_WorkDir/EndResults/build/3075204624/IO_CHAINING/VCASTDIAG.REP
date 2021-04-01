@@ -1,0 +1,266 @@
+
+###################################
+############# MISC ################
+###################################
+Tool version: 20.sp6 (02/02/21)
+Current directory: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3075204624\IO_CHAINING
+Current directory is writable.
+
+--------------------------------------------------------------------------------
+Environment Overview
+--------------------------------------------------------------------------------
+  Environment Name:    IO_CHAINING
+  Environment Status:  Normal
+  Environment Version: REVISION_2020_RENAME_BUILD_INFO_XML
+  Environment Build Type: Full
+  Coverage Status:     ISO-26262 (Automotive) Unit Level ASIL B/C (enabled)
+  Language:            C++
+  Compiler Name:       VectorCAST MinGW_C++
+  White Box:           Yes
+  Search List:         $(PROJECT_ROOT_DIR)\SourceFiles  (testable)
+                       $(PROJECT_ROOT_DIR)\SourceFiles\Shapes  (testable)
+  Units Under Test:    io_wrapper
+  Stub List:           None
+  Stub None (Source Files): None
+###################################
+
+###################################
+### COMPILER/PREPROCESSOR/LINKER ##
+###################################
+Found preprocessor C:\VCAST\MinGW\bin\g++.exe
+Found compiler C:\VCAST\MinGW\bin\g++.exe
+###################################
+
+
+
+###################################
+############ ENV. VARS ############
+###################################
+ComSpec=C:\WINDOWS\system32\cmd.exe
+ProgramFiles=C:\Program Files
+USERPROFILE=C:\Users\skim
+USERNAME=skim
+PROCESSOR_LEVEL=6
+HOMEPATH=\Users\skim
+TEMP=D:\TEMP
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+OS=Windows_NT
+Z3_LIBRARY_PATH=C:/VCAST/python/3rd_party/z3
+DriverData=C:\Windows\System32\Drivers\DriverData
+SystemDrive=C:
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+PUBLIC=C:\Users\Public
+VECTORCAST_SUB_PROCESS_VERBOSE=TRUE
+ProgramData=C:\ProgramData
+GIT_HOME=C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd
+PROMPT=$P$G
+USERDOMAIN=VECTOR
+ProgramFiles(x86)=C:\Program Files (x86)
+CommonProgramFiles=C:\Program Files\Common Files
+USERDNSDOMAIN=VI.VECTOR.INT
+PROCESSOR_ARCHITECTURE=AMD64
+GIT_SSL_NO_VERIFY=true
+PROCESSOR_REVISION=8e0c
+ProgramW6432=C:\Program Files
+windir=C:\WINDOWS
+OneDrive=C:\Users\skim\OneDrive
+SESSIONNAME=Console
+SVN_SSH=a3701311b84bd278347b5b1bb69f1606_ssh -q --
+LOGONSERVER=\\VKSEORODC2
+USERDOMAIN_ROAMINGPROFILE=VECTOR
+NcpClntDataPath=C:\ProgramData\NCP\SecureClient
+NcpClntInstallPath=C:\Program Files\NCP\SecureClient
+HOMEDRIVE=C:
+APPDATA=C:\Users\skim\AppData\Roaming
+COMPUTERNAME=KR02003NB
+NUMBER_OF_PROCESSORS=8
+SystemRoot=C:\WINDOWS
+LOCALAPPDATA=C:\Users\skim\AppData\Local
+PROJECT_ROOT_DIR=C:\VCAST\Environments\Git_Test
+LM_APP_DISABLE_CACHE_READ=1
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\NWC Services\PSX7\Modules
+VECTORCAST_DIR=C:\VCAST
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+PWD=C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3075204624
+VECTOR_LICENSE_FILE=27000@localhost
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+CommonProgramW6432=C:\Program Files\Common Files
+PATH=C:\VCAST\MinGW\bin;C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+TMP=D:\TEMP
+VCV_ENVIRONMENT_NAME=IO_CHAINING
+VCV_ENVIRONMENT_DIR=c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3075204624\IO_CHAINING
+VCAST_OBJECT_PATH=c:\\VCAST\\Environments\\Git_Test\\MinGW_WorkDir\\EndResults\\build\\3075204624\\IO_CHAINING
+VCAST_OBJECT_FILES=B0000001.o B0000002.o S0000003.o B0000008.o B0000004.o  B0000007.o  B1_switch.o  B4_switch.o  S3_switch.o   I0000009.o
+
+###################################
+
+
+###################################
+######## MISSING BINARIES #########
+###################################
+none
+###################################
+
+
+###################################
+########## CONFIG FILES ###########
+###################################
+CCAST Options read from file:
+(exists) c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3075204624\CCAST_.CFG (current dir)
+Contents of c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3075204624\CCAST_.CFG:
+  ASM_FUNCS_BEHAVE_AS_INLINES: FALSE
+  ASSEMBLER_CMD: 
+  AUTO_INCLUDE: 
+  COMREADER_ENABLED: FALSE
+  COVERAGE_TYPE: Statement+Branch
+  C_ALT_COMPILE_CMD: gcc -c -g
+  C_ALT_EDG_FLAGS: -w --gcc --gnu_version 60300 --mingw
+  C_ALT_PREPROCESS_CMD: gcc -E -C
+  C_COMPILER_CFG_SOURCE: BUILT_IN_TAG
+  C_COMPILER_FAMILY_NAME: 
+  C_COMPILER_HIERARCHY_STRING: VectorCAST MinGW_C++
+  C_COMPILER_OUTPUT_FLAG: -o
+  C_COMPILER_PY_ARGS: 
+  C_COMPILER_TAG: BUILTIN_MINGW_63_CPP
+  C_COMPILER_VERSION_CMD: g++ --version
+  C_COMPILE_CMD: g++ -c -g
+  C_COMPILE_CMD_FLAG: -c
+  C_COMPILE_EXCLUDE_FLAGS: -o**
+  C_DEBUG_CMD: gdb
+  C_DEBUG_HELP_FILE: 
+  C_DEFINE_FLAG: -D
+  C_DEFINE_LIST: VCAST_NO_PTR_TO_UNCON_ARRAY_SUPPORT
+  C_EDG_FLAGS: -w --g++ --gnu_version 60300 --type_info_in_std --type_traits_helpers --mingw
+  C_EXECUTE_CMD: 
+  C_EXEC_HELP_FILE: 
+  C_INCLUDE_FLAG: -I
+  C_LINKER_VERSION_CMD: ld --version
+  C_LINK_CMD: g++ -g
+  C_LINK_OPTIONS: -static-libgcc -static-libstdc++
+  C_OBJECT_EXT: .o
+  C_OUTPUT_FLAG: -o
+  C_PREPROCESS_CMD: g++ -E -C
+  C_PREPROCESS_FILE: 
+  EXECUTABLE_EXTENSION: 
+  MAX_VARY_RANGE: 20
+  PRECOMPILE_CMD: 
+  PRECOMPILE_EXT: 
+  SBF_LOC_MEMBER_IN_NSP: DECL_NAMESPACE
+  SBF_LOC_MEMBER_OUTSIDE_NSP: DECL_NAMESPACE
+  SBF_LOC_NONMEMBER_IN_NSP: DECL_NAMESPACE
+  SBF_LOC_NONMEMBER_OUTSIDE_NSP: DECL_NAMESPACE
+  SOURCE_EXTENSION: .cpp
+  STANDARD_ERROR: REDIRECT
+  STANDARD_OUTPUT: REDIRECT
+  SUBSTITUTE_CODE_FOR_C_FILE: FALSE
+  VCAST_ALT_WB_METHOD: FALSE
+  VCAST_ASSEMBLY_FILE_EXTENSIONS: s
+  VCAST_ASSIGN_WITHOUT_COPY_CTOR: TRUE
+  VCAST_AUTO_CLEAR_TEST_USER_CODE: FALSE
+  VCAST_AVOID_COMMA_OPERATOR: FALSE
+  VCAST_BUFFER_OUTPUT: FALSE
+  VCAST_COLLAPSE_STD_HEADERS: COLLAPSE_SYSTEM_HEADERS
+  VCAST_COMMAND_LINE_DEBUGGER: TRUE
+  VCAST_COMPILER_SUPPORTS_CPP_CASTS: TRUE
+  VCAST_COVERAGE_FOR_AGGREGATE_INIT: TRUE
+  VCAST_CYGPATH_LINE_DIRECTIVES: FALSE
+  VCAST_C_FILE_EXTENSIONS: c
+  VCAST_DISABLE_CPP_EXCEPTIONS: FALSE
+  VCAST_DISABLE_STD_STRING_DETECTION: FALSE
+  VCAST_DISABLE_STD_WSTRING_DETECTION: TRUE
+  VCAST_DISABLE_TI_BITFIELD: FALSE
+  VCAST_DISABLE_TI_STRING: FALSE
+  VCAST_DUMP_BUFFER: FALSE
+  VCAST_ENVIRONMENT_FILES: 
+  VCAST_ESCAPE_LINE_DIRECTIVES: FALSE
+  VCAST_EXECUTE_WITH_STDIO: FALSE
+  VCAST_EXECUTE_WITH_STDOUT: FALSE
+  VCAST_FAR_STDIN_DATA: FALSE
+  VCAST_FILE_INDEX: FALSE
+  VCAST_FILE_PREFIX: 
+  VCAST_FORCE_ELAB_TYPE_SPEC: TRUE
+  VCAST_FORCE_NO_USERGLOBALS: FALSE
+  VCAST_GH_INTEX_CMD: 
+  VCAST_GH_INT_FILE: 
+  VCAST_HAS_LONGLONG: TRUE
+  VCAST_INST_FILE_MAX_LINES: 0
+  VCAST_MAIN: FALSE
+  VCAST_MAX_COVERED_SUBPROGRAMS: 1000
+  VCAST_MAX_HEAP_SIZE: 1000
+  VCAST_MAX_MCDC_STATEMENTS: 1000
+  VCAST_MAX_STRING_LENGTH: 1000
+  VCAST_MICROSOFT_LONG_LONG: FALSE
+  VCAST_MINIMAL_TERMINATION: FALSE
+  VCAST_NO_EXIT: FALSE
+  VCAST_NO_FFLUSH: FALSE
+  VCAST_NO_FLOAT: FALSE
+  VCAST_NO_LIMITS: FALSE
+  VCAST_NO_LONG_DOUBLE: TRUE
+  VCAST_NO_MALLOC: FALSE
+  VCAST_NO_SETJMP: FALSE
+  VCAST_NO_SIGNAL: FALSE
+  VCAST_NO_STDIN: FALSE
+  VCAST_NO_STDLIB: FALSE
+  VCAST_NO_STD_FILES: FALSE
+  VCAST_OUTPUT_BUFFER_SIZE: 20000
+  VCAST_PREPEND_TO_PATH_DIRS: $(VECTORCAST_DIR)/MinGW/bin
+  VCAST_PREPROCESS_PREINCLUDE: 
+  VCAST_REMOVE_PREPROCESSOR_COMMENTS: TRUE
+  VCAST_STDIO: FALSE
+  VCAST_TYPEOF_OPERATOR: TRUE
+  VCAST_USE_COMPOUND_FOR_BATCH: FALSE
+  VCAST_USE_EDG_PREPROCESSOR: FALSE
+  VCAST_USE_STATIC_MEMORY: FALSE
+  VCAST_USE_STD_STRING: TRUE
+  VCAST_USE_VCPP: FALSE
+  VCAST_VCDB_FLAG_STRING: -isystem=1
+  VCAST_VXWORKS: FALSE
+  WHITEBOX: YES
+
+ADACAST Options read from file:
+( none ) c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3075204624\ADACAST_.CFG (current dir)
+
+###################################
+
+
+###################################
+######## ENV. VAR. CONFIG #########
+###################################
+These config options are being set by environment vars:
+none
+
+These env. vars contain VCAST and could be affecting behavior:
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+Z3_LIBRARY_PATH=C:/VCAST/python/3rd_party/z3
+PROJECT_ROOT_DIR=C:\VCAST\Environments\Git_Test
+VECTORCAST_DIR=C:\VCAST
+PWD=C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3075204624
+PATH=C:\VCAST\MinGW\bin;C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+VCV_ENVIRONMENT_DIR=c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3075204624\IO_CHAINING
+VCAST_OBJECT_PATH=c:\\VCAST\\Environments\\Git_Test\\MinGW_WorkDir\\EndResults\\build\\3075204624\\IO_CHAINING
+VCAST_OBJECT_FILES=B0000001.o B0000002.o S0000003.o B0000008.o B0000004.o  B0000007.o  B1_switch.o  B4_switch.o  S3_switch.o   I0000009.o
+
+###################################
+
+###################################
+####### ENVIRONMENT SCRIPT ########
+###################################
+Contents of C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3075204624\IO_CHAINING.env:
+  ENVIRO.NEW
+  ENVIRO.NAME:IO_CHAINING
+  ENVIRO.STUB_BY_FUNCTION:io_wrapper
+  ENVIRO.MAX_VARY_RANGE: 20
+  ENVIRO.STUB: ALL_BY_PROTOTYPE
+  ENVIRO.TYPE_HANDLED_DIRS_ALLOWED:
+  ENVIRO.LIBRARY_STUBS:
+  ENVIRO.COVERAGE_TYPE: STATEMENT+BRANCH
+  ENVIRO.WHITE_BOX: YES
+  ENVIRO.SEARCH_LIST: $(PROJECT_ROOT_DIR)\SourceFiles
+  ENVIRO.SEARCH_LIST: $(PROJECT_ROOT_DIR)\SourceFiles\Shapes
+  ENVIRO.END
+
+###################################
+
+

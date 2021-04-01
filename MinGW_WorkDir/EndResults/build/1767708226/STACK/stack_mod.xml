@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeset checksum="786733335">
+  <modification id="0">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned P_9_1_1;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="1">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+bool R_9_2;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="2">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+bool R_9_3;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="3">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+float P_9_4_1;
+enum StackErrorsT E_9_4_0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="4">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+float R_9_5;
+enum StackErrorsT E_9_5_0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="5">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned R_9_6;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="6">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned P_9_7_1;
+enum StackErrorsT E_9_7_0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="7">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned P_9_8_1;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="8">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+bool R_9_9;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="9">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+bool R_9_10;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="10">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int P_9_11_1;
+enum StackErrorsT E_9_11_0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="11">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int R_9_12;
+enum StackErrorsT E_9_12_0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="12">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned R_9_13;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="13">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned P_9_14_1;
+enum StackErrorsT E_9_14_0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="14">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+float P_9_15_1;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="15">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int P_9_16_1;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="16">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="TEMPLATE_HEADER" function="__ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z">
+      <line>26</line>
+      <col>7</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct SBF___ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z_121526501 {
+  static unsigned char _SBF_enabled;
+  void stub(T p);
+};
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="17">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="__ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z">
+      <line>26</line>
+      <col>45</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+if (SBF___ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z_121526501::_SBF_enabled) {
+  SBF___ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z_121526501().stub(p);
+  return;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="18">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_TEMPLATE_4178012948
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_4178012948
+
+#define VCAST_STUBBED_TEMPLATE_2241338165
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_2241338165
+
+template&lt; class T&gt; 
+void Stack&lt; T&gt; ::ItemContainer::SBF___ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z_121526501::stub(T p) {
+  Stack&lt; T&gt; ::ItemContainer::SBF___ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z_121526501::_SBF_enabled = 0;
+  ItemContainer _SBF_dummy(p);
+}
+template&lt; class T&gt; 
+unsigned char Stack&lt; T&gt; ::ItemContainer::SBF___ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z_121526501::_SBF_enabled = 0;
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="19">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="TEMPLATE_HEADER" function="__ct__16Stack__tm__4_Z1ZFUi">
+      <line>13</line>
+      <col>5</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct SBF___ct__16Stack__tm__4_Z1ZFUi_1601437447 {
+  static unsigned char _SBF_enabled;
+  void stub(unsigned maxSize);
+};
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="20">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="__ct__16Stack__tm__4_Z1ZFUi">
+      <line>40</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+if (SBF___ct__16Stack__tm__4_Z1ZFUi_1601437447::_SBF_enabled) {
+  SBF___ct__16Stack__tm__4_Z1ZFUi_1601437447().stub(maxSize);
+  return;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="21">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_TEMPLATE_1622493966
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_1622493966
+
+#define VCAST_STUBBED_TEMPLATE_953572184
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_953572184
+
+template&lt; class T&gt; 
+void Stack&lt; T&gt; ::SBF___ct__16Stack__tm__4_Z1ZFUi_1601437447::stub(unsigned maxSize) {
+  Stack&lt; T&gt; ::SBF___ct__16Stack__tm__4_Z1ZFUi_1601437447::_SBF_enabled = 0;
+  Stack&lt; T&gt;  _SBF_dummy(maxSize);
+}
+template&lt; class T&gt; 
+unsigned char Stack&lt; T&gt; ::SBF___ct__16Stack__tm__4_Z1ZFUi_1601437447::_SBF_enabled = 0;
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="22">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="TEMPLATE_HEADER" function="empty__16Stack__tm__4_Z1ZFv_b">
+      <line>15</line>
+      <col>5</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct SBF_empty__16Stack__tm__4_Z1ZFv_b_2666998317 {
+  static unsigned char _SBF_enabled;
+  bool stub();
+  Stack&amp; _SBF_parent;
+  SBF_empty__16Stack__tm__4_Z1ZFv_b_2666998317(Stack&amp; __SBF_parent) : _SBF_parent(__SBF_parent) {}
+};
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="23">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="empty__16Stack__tm__4_Z1ZFv_b">
+      <line>45</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+if (SBF_empty__16Stack__tm__4_Z1ZFv_b_2666998317::_SBF_enabled) {
+  return SBF_empty__16Stack__tm__4_Z1ZFv_b_2666998317(*this).stub();
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="24">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_TEMPLATE_3027053020
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_3027053020
+
+#define VCAST_STUBBED_TEMPLATE_910016013
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_910016013
+
+template&lt; class T&gt; 
+bool Stack&lt; T&gt; ::SBF_empty__16Stack__tm__4_Z1ZFv_b_2666998317::stub() {
+  Stack&lt; T&gt; ::SBF_empty__16Stack__tm__4_Z1ZFv_b_2666998317::_SBF_enabled = 0;
+  return this-&gt;_SBF_parent.empty();
+}
+template&lt; class T&gt; 
+unsigned char Stack&lt; T&gt; ::SBF_empty__16Stack__tm__4_Z1ZFv_b_2666998317::_SBF_enabled = 0;
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="25">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="TEMPLATE_HEADER" function="__opb__16Stack__tm__4_Z1ZFv">
+      <line>16</line>
+      <col>5</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct SBF___opb__16Stack__tm__4_Z1ZFv_695050629 {
+  static unsigned char _SBF_enabled;
+  bool stub();
+  Stack&amp; _SBF_parent;
+  SBF___opb__16Stack__tm__4_Z1ZFv_695050629(Stack&amp; __SBF_parent) : _SBF_parent(__SBF_parent) {}
+};
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="26">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="__opb__16Stack__tm__4_Z1ZFv">
+      <line>51</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+if (SBF___opb__16Stack__tm__4_Z1ZFv_695050629::_SBF_enabled) {
+  return SBF___opb__16Stack__tm__4_Z1ZFv_695050629(*this).stub();
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="27">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_TEMPLATE_3446060922
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_3446060922
+
+#define VCAST_STUBBED_TEMPLATE_3325751367
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_3325751367
+
+template&lt; class T&gt; 
+bool Stack&lt; T&gt; ::SBF___opb__16Stack__tm__4_Z1ZFv_695050629::stub() {
+  Stack&lt; T&gt; ::SBF___opb__16Stack__tm__4_Z1ZFv_695050629::_SBF_enabled = 0;
+  return this-&gt;_SBF_parent.operator bool();
+}
+template&lt; class T&gt; 
+unsigned char Stack&lt; T&gt; ::SBF___opb__16Stack__tm__4_Z1ZFv_695050629::_SBF_enabled = 0;
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="28">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="TEMPLATE_HEADER" function="push__16Stack__tm__4_Z1ZFZ1Z_v">
+      <line>18</line>
+      <col>5</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct SBF_push__16Stack__tm__4_Z1ZFZ1Z_v_3177782385 {
+  static unsigned char _SBF_enabled;
+  void stub(T item);
+  Stack&amp; _SBF_parent;
+  SBF_push__16Stack__tm__4_Z1ZFZ1Z_v_3177782385(Stack&amp; __SBF_parent) : _SBF_parent(__SBF_parent) {}
+};
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="29">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="push__16Stack__tm__4_Z1ZFZ1Z_v">
+      <line>58</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+if (SBF_push__16Stack__tm__4_Z1ZFZ1Z_v_3177782385::_SBF_enabled) {
+  SBF_push__16Stack__tm__4_Z1ZFZ1Z_v_3177782385(*this).stub(item);
+  return;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="30">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_TEMPLATE_2064609495
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_2064609495
+
+#define VCAST_STUBBED_TEMPLATE_2370240574
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_2370240574
+
+template&lt; class T&gt; 
+void Stack&lt; T&gt; ::SBF_push__16Stack__tm__4_Z1ZFZ1Z_v_3177782385::stub(T item) {
+  Stack&lt; T&gt; ::SBF_push__16Stack__tm__4_Z1ZFZ1Z_v_3177782385::_SBF_enabled = 0;
+  this-&gt;_SBF_parent.push(item);
+}
+template&lt; class T&gt; 
+unsigned char Stack&lt; T&gt; ::SBF_push__16Stack__tm__4_Z1ZFZ1Z_v_3177782385::_SBF_enabled = 0;
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="31">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="TEMPLATE_HEADER" function="pop__16Stack__tm__4_Z1ZFv_Z1Z">
+      <line>19</line>
+      <col>5</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct SBF_pop__16Stack__tm__4_Z1ZFv_Z1Z_2876666714 {
+  static unsigned char _SBF_enabled;
+  T stub();
+  Stack&amp; _SBF_parent;
+  SBF_pop__16Stack__tm__4_Z1ZFv_Z1Z_2876666714(Stack&amp; __SBF_parent) : _SBF_parent(__SBF_parent) {}
+};
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="32">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="pop__16Stack__tm__4_Z1ZFv_Z1Z">
+      <line>80</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+if (SBF_pop__16Stack__tm__4_Z1ZFv_Z1Z_2876666714::_SBF_enabled) {
+  return SBF_pop__16Stack__tm__4_Z1ZFv_Z1Z_2876666714(*this).stub();
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="33">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_TEMPLATE_4018297964
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_4018297964
+
+#define VCAST_STUBBED_TEMPLATE_432680069
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_432680069
+
+template&lt; class T&gt; 
+T Stack&lt; T&gt; ::SBF_pop__16Stack__tm__4_Z1ZFv_Z1Z_2876666714::stub() {
+  Stack&lt; T&gt; ::SBF_pop__16Stack__tm__4_Z1ZFv_Z1Z_2876666714::_SBF_enabled = 0;
+  return this-&gt;_SBF_parent.pop();
+}
+template&lt; class T&gt; 
+unsigned char Stack&lt; T&gt; ::SBF_pop__16Stack__tm__4_Z1ZFv_Z1Z_2876666714::_SBF_enabled = 0;
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="34">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="TEMPLATE_HEADER" function="count__16Stack__tm__4_Z1ZFv_Ui">
+      <line>20</line>
+      <col>5</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct SBF_count__16Stack__tm__4_Z1ZFv_Ui_2502702118 {
+  static unsigned char _SBF_enabled;
+  unsigned stub();
+  Stack&amp; _SBF_parent;
+  SBF_count__16Stack__tm__4_Z1ZFv_Ui_2502702118(Stack&amp; __SBF_parent) : _SBF_parent(__SBF_parent) {}
+};
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="35">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="count__16Stack__tm__4_Z1ZFv_Ui">
+      <line>94</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+if (SBF_count__16Stack__tm__4_Z1ZFv_Ui_2502702118::_SBF_enabled) {
+  return SBF_count__16Stack__tm__4_Z1ZFv_Ui_2502702118(*this).stub();
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="36">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_TEMPLATE_851654740
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_851654740
+
+#define VCAST_STUBBED_TEMPLATE_3281357441
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_3281357441
+
+template&lt; class T&gt; 
+unsigned Stack&lt; T&gt; ::SBF_count__16Stack__tm__4_Z1ZFv_Ui_2502702118::stub() {
+  Stack&lt; T&gt; ::SBF_count__16Stack__tm__4_Z1ZFv_Ui_2502702118::_SBF_enabled = 0;
+  return this-&gt;_SBF_parent.count();
+}
+template&lt; class T&gt; 
+unsigned char Stack&lt; T&gt; ::SBF_count__16Stack__tm__4_Z1ZFv_Ui_2502702118::_SBF_enabled = 0;
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="37">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="TEMPLATE_HEADER" function="grow__16Stack__tm__4_Z1ZFUi_v">
+      <line>22</line>
+      <col>5</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct SBF_grow__16Stack__tm__4_Z1ZFUi_v_1856310542 {
+  static unsigned char _SBF_enabled;
+  void stub(unsigned newMax);
+  Stack&amp; _SBF_parent;
+  SBF_grow__16Stack__tm__4_Z1ZFUi_v_1856310542(Stack&amp; __SBF_parent) : _SBF_parent(__SBF_parent) {}
+};
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="38">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="grow__16Stack__tm__4_Z1ZFUi_v">
+      <line>100</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+if (SBF_grow__16Stack__tm__4_Z1ZFUi_v_1856310542::_SBF_enabled) {
+  SBF_grow__16Stack__tm__4_Z1ZFUi_v_1856310542(*this).stub(newMax);
+  return;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="39">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>107</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_TEMPLATE_47424539
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_47424539
+
+#define VCAST_STUBBED_TEMPLATE_4085585614
+#include "vcast_stubbed_templates.cpp"
+#undef VCAST_STUBBED_TEMPLATE_4085585614
+
+template&lt; class T&gt; 
+void Stack&lt; T&gt; ::SBF_grow__16Stack__tm__4_Z1ZFUi_v_1856310542::stub(unsigned newMax) {
+  Stack&lt; T&gt; ::SBF_grow__16Stack__tm__4_Z1ZFUi_v_1856310542::_SBF_enabled = 0;
+  this-&gt;_SBF_parent.grow(newMax);
+}
+template&lt; class T&gt; 
+unsigned char Stack&lt; T&gt; ::SBF_grow__16Stack__tm__4_Z1ZFUi_v_1856310542::_SBF_enabled = 0;
+/*vcast_internal_end*/
+</text>
+  </modification>
+</changeset>

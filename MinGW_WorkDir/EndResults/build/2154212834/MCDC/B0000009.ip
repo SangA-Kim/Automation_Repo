@@ -1,0 +1,14 @@
+1,0,B    {
+1,1,B    if ((time > 800) && (time < 1700) && (day != SUNDAY))
+
+
+
+1,2,S    return(1);
+1,3,S    return(0);
+2,0,B    {
+2,1,B    if (a && (b || c))
+
+
+
+2,2,S    return 1;
+2,3,S    return 0;

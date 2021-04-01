@@ -1,0 +1,40 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2636699725\SHAPES.tst.tmp
+(I) @LINE: 26
+    >>> Processing Test Case: RECTANGLE_INIT
+(S) @LINE: 33
+    >>> Processed Test Case: RECTANGLE_INIT
+(I) @LINE: 43
+    >>> Processing Test Case: Rectangle::Rectangle(int,int,int,int).001
+(S) @LINE: 52
+    >>> Processed Test Case: Rectangle::Rectangle(int,int,int,int).001
+(I) @LINE: 58
+    >>> Processing Test Case: BUILD_RECT1
+(S) @LINE: 63
+    >>> Processed Test Case: BUILD_RECT1
+(I) @LINE: 71
+    >>> Processing Test Case: Default
+(S) @LINE: 78
+    >>> Processed Test Case: Default
+(I) @LINE: 84
+    >>> Processing Test Case: GetArea_RECT1
+(S) @LINE: 86
+    >>> Processed Test Case: GetArea_RECT1
+(I) @LINE: 92
+    >>> Processing Test Case: Normal
+(S) @LINE: 99
+    >>> Processed Test Case: Normal
+(I) @LINE: 105
+    >>> Processing Test Case: SegFault
+(S) @LINE: 106
+    >>> Processed Test Case: SegFault
+(I) @LINE: 114
+    >>> Processing Test Case: GetY_RECT1
+(S) @LINE: 116
+    >>> Processed Test Case: GetY_RECT1
+(I) @LINE: 122
+    >>> Processing Test Case: RECT1
+(S) @LINE: 126
+    >>> Processed Test Case: RECT1
+(S) @LINE: 127
+    >>> Script processing completed

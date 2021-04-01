@@ -1,0 +1,6 @@
+probe_points.c.monitor_task
+uut_prototype_stubs.sleep1
+uut_prototype_stubs.sleep1
+uut_prototype_stubs.sleep1
+uut_prototype_stubs.sleep1
+probe_points.c.monitor_task

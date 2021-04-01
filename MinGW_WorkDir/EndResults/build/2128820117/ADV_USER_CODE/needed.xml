@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="memcpy" name="memcpy" defined="0" const="0" file="1" return="void*">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+          <parameter type="const void*" name="&lt;anon&gt;"/>
+          <parameter type="size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="strncat" name="strncat" defined="0" const="0" file="1" return="char*">
+        <parameters>
+          <parameter type="char*" name="&lt;anon&gt;"/>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+          <parameter type="size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="strncpy" name="strncpy" defined="0" const="0" file="1" return="char*">
+        <parameters>
+          <parameter type="char*" name="&lt;anon&gt;"/>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+          <parameter type="size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="log_msg" name="log_msg" defined="0" const="0" file="2" return="int">
+        <parameters>
+          <parameter type="void*" name="msg"/>
+          <parameter type="int" name="msg_len"/>
+        </parameters>
+      </function>
+      <function id="calc_crc" name="calc_crc" defined="0" const="0" file="2" return="int">
+        <parameters>
+          <parameter type="void*" name="msg"/>
+          <parameter type="int" name="msg_len"/>
+        </parameters>
+      </function>
+      <function id="reset_transmitter" name="reset_transmitter" defined="0" const="0" file="2" return=""/>
+      <function id="hw_send_rts" name="hw_send_rts" defined="1" const="0" inline="1" file="3" return=""/>
+      <function id="hw_check_cts" name="hw_check_cts" defined="1" const="0" inline="1" file="3" return="int"/>
+      <function id="hw_tx_byte" name="hw_tx_byte" defined="1" const="0" inline="1" file="3" return="">
+        <parameters>
+          <parameter type="unsigned char" name="ch"/>
+        </parameters>
+      </function>
+      <function id="data_tx_V1" name="data_tx_V1" defined="1" const="0" file="4" return="t_msg_sts">
+        <parameters>
+          <parameter type="unsigned char*" name="msg"/>
+          <parameter type="unsigned char" name="msg_len"/>
+        </parameters>
+      </function>
+      <function id="data_tx_V2" name="data_tx_V2" defined="1" const="0" file="4" return="t_msg_sts">
+        <parameters>
+          <parameter type="unsigned char*" name="data_ptr"/>
+          <parameter type="unsigned char" name="data_len"/>
+        </parameters>
+      </function>
+      <function id="pkt_transmit" name="pkt_transmit" defined="1" const="0" file="4" return="t_msg_sts">
+        <parameters>
+          <parameter type="unsigned char*" name="msg"/>
+          <parameter type="unsigned char" name="msg_len"/>
+          <parameter type="unsigned char" name="msg_num"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">c:\vcast\mingw\include\string.h</file>
+    <file id="2">C:/VCAST/Environments/Git_Test/SourceFiles/datalink_types.h</file>
+    <file id="3">C:/VCAST/Environments/Git_Test/SourceFiles/datalink_hdwr_tx.h</file>
+    <file id="4">C:/VCAST/Environments/Git_Test/SourceFiles/datalink_transmit.c</file>
+  </files>
+</env_info>

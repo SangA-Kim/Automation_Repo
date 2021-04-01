@@ -1,0 +1,17 @@
+               #include "C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/rectangle.h"
+               Rectangle::Rectangle()
+               {
+1 0     ( )    Rectangle::Rectangle
+1 1            }
+               Rectangle::Rectangle(int x, int y, int height, int width)
+                 : Shape( x, y ),
+                   mHeight(height),
+                   mWidth(width)
+               {
+2 0     ( )    Rectangle::Rectangle
+2 1            }
+               float Rectangle::getArea() const
+               {
+3 0     ( )    Rectangle::getArea
+3 1              return mHeight * mWidth;
+               }

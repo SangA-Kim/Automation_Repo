@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="invalid_time" name="invalid_time" defined="0" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="time_T" name="time_val"/>
+        </parameters>
+      </function>
+      <function id="time_add_seconds" name="time_add_seconds" defined="1" const="0" file="2" return="time_T">
+        <parameters>
+          <parameter type="time_T" name="start"/>
+          <parameter type="int" name="seconds"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:\VCAST\TRAINING\SOURCEFILES\SEARCHPATHS\include/vcast_time.h</file>
+    <file id="2">C:/VCAST/Training/SourceFiles/SearchPaths/vcast_time.c</file>
+  </files>
+</env_info>

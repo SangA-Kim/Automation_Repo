@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <variable id="close_ret" name="close_ret" defined="1" type="scalar" file="1">
+        <reference type="initialized" function-scope="false" line="8" col="5" statement-line="8" statement-col="5" statement-end-line="8" statement-end-col="18"/>
+      </variable>
+      <function id="malloc" name="malloc" defined="0" const="0" file="2" return="void*">
+        <parameters>
+          <parameter type="size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="fopen" name="fopen" defined="0" const="0" file="3" return="FILE*">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="fclose" name="fclose" defined="0" const="0" file="3" return="int">
+        <parameters>
+          <parameter type="FILE*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="fprintf" name="fprintf" defined="0" const="0" file="3" return="int">
+        <parameters>
+          <parameter type="FILE*" name="&lt;anon&gt;"/>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="printf" name="printf" defined="0" const="0" file="3" return="int">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="fgets" name="fgets" defined="0" const="0" file="3" return="char*">
+        <parameters>
+          <parameter type="char*" name="&lt;anon&gt;"/>
+          <parameter type="int" name="&lt;anon&gt;"/>
+          <parameter type="FILE*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="strlen" name="strlen" defined="0" const="0" file="4" return="size_t">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="CloseFile" name="CloseFile" defined="1" const="0" file="1" return="t_bool">
+        <parameters>
+          <parameter type="struct FILE_TYPE*" name="fp"/>
+        </parameters>
+      </function>
+      <function id="OpenFile" name="OpenFile" defined="1" const="0" file="1" return="struct FILE_TYPE*">
+        <parameters>
+          <parameter type="char*" name="filename"/>
+          <parameter type="enum FileModeT" name="mode"/>
+        </parameters>
+      </function>
+      <function id="ReadLine" name="ReadLine" defined="1" const="0" file="1" return="t_bool">
+        <parameters>
+          <parameter type="struct FILE_TYPE*" name="fp"/>
+          <parameter type="char*" name="line"/>
+        </parameters>
+      </function>
+      <function id="WriteString" name="WriteString" defined="1" const="0" file="1" return="t_bool">
+        <parameters>
+          <parameter type="struct FILE_TYPE*" name="fp"/>
+          <parameter type="char*" name="line"/>
+        </parameters>
+      </function>
+      <function id="WriteInteger" name="WriteInteger" defined="1" const="0" file="1" return="t_bool">
+        <parameters>
+          <parameter type="struct FILE_TYPE*" name="fp"/>
+          <parameter type="int" name="value"/>
+        </parameters>
+      </function>
+      <function id="WriteFloat" name="WriteFloat" defined="1" const="0" file="1" return="t_bool">
+        <parameters>
+          <parameter type="struct FILE_TYPE*" name="fp"/>
+          <parameter type="float" name="value"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Environments/Git_Test/SourceFiles/io_wrapper.c</file>
+    <file id="2">c:\vcast\mingw\include\stdlib.h</file>
+    <file id="3">c:\vcast\mingw\include\stdio.h</file>
+    <file id="4">c:\vcast\mingw\include\string.h</file>
+  </files>
+</env_info>

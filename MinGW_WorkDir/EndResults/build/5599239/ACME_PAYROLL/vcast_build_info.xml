@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build_info xml_build_info_version=" 1">
+  <directory type="TESTABLE_SOURCE_DIR">$(PROJECT_ROOT_DIR)\SourceFiles</directory>
+  <directory type="TESTABLE_SOURCE_DIR">$(PROJECT_ROOT_DIR)\SourceFiles\Shapes</directory>
+  <directory type="TESTABLE_SOURCE_DIR">C:\VCAST\Training\SourceFiles\Payroll</directory>
+</build_info>

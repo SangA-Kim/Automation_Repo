@@ -1,0 +1,40 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3075204624\IO_CHAINING.tst.tmp
+(I) @LINE: 28
+    >>> Processing Test Case: <<INIT>>.001
+(S) @LINE: 29
+    >>> Processed Test Case: <<INIT>>.001
+(I) @LINE: 39
+    >>> Processing Test Case: CLOSE
+(S) @LINE: 45
+    >>> Processed Test Case: CLOSE
+(I) @LINE: 53
+    >>> Processing Test Case: OPEN_READ
+(S) @LINE: 62
+    >>> Processed Test Case: OPEN_READ
+(I) @LINE: 68
+    >>> Processing Test Case: OPEN_WRITE
+(S) @LINE: 81
+    >>> Processed Test Case: OPEN_WRITE
+(I) @LINE: 89
+    >>> Processing Test Case: READ_DATA
+(S) @LINE: 98
+    >>> Processed Test Case: READ_DATA
+(I) @LINE: 106
+    >>> Processing Test Case: WRITE_DATA
+(S) @LINE: 114
+    >>> Processed Test Case: WRITE_DATA
+(I) @LINE: 120
+    >>> Processing Test Case: READ_FILE
+(S) @LINE: 124
+    >>> Processed Test Case: READ_FILE
+(I) @LINE: 131
+    >>> Processing Test Case: WRITE_AND_READ
+(S) @LINE: 134
+    >>> Processed Test Case: WRITE_AND_READ
+(I) @LINE: 141
+    >>> Processing Test Case: WRITE_FILE
+(S) @LINE: 145
+    >>> Processed Test Case: WRITE_FILE
+(S) @LINE: 146
+    >>> Script processing completed

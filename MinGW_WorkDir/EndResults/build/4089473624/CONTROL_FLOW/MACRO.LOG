@@ -1,0 +1,24 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\4089473624\CONTROL_FLOW.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: AreaTest
+(S) @LINE: 38
+    >>> Processed Test Case: AreaTest
+(I) @LINE: 46
+    >>> Processing Test Case: VolumeTest1
+(S) @LINE: 53
+    >>> Processed Test Case: VolumeTest1
+(I) @LINE: 59
+    >>> Processing Test Case: VolumeTest1.001
+(S) @LINE: 66
+    >>> Processed Test Case: VolumeTest1.001
+(I) @LINE: 74
+    >>> Processing Test Case: partitionExample-PARTITIONS
+(S) @LINE: 77
+    >>> Processed Test Case: partitionExample-PARTITIONS
+(I) @LINE: 83
+    >>> Processing Test Case: partitionExample-PARTITIONS.001
+(S) @LINE: 86
+    >>> Processed Test Case: partitionExample-PARTITIONS.001
+(S) @LINE: 86
+    >>> Script processing completed

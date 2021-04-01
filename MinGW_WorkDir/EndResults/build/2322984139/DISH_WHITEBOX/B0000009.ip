@@ -1,0 +1,89 @@
+1,0,B    {
+1,1,S    return( STS_ALL_GOOD );
+2,0,B    {
+2,1,S    switch (event)
+2,2,B    case EVENT_START_WASH:
+2,3,B    if (powerOn)
+2,4,S    sts = STS_ALL_GOOD;
+2,5,S    currentState = STATE_WASHING;
+2,6,S    sts = STS_NO_POWER;
+2,7,S    break;
+2,8,B    case EVENT_STOP:
+2,9,S    sts = STS_ALL_GOOD;
+2,10,S    break;
+2,11,B    default:
+2,12,S    sts = STS_UNEXPECTED_EVENT;
+2,13,S    break;
+2,14,S    return sts;
+3,0,B    {
+3,1,S    switch (event)
+3,2,B    case EVENT_START_RINSE:
+3,3,B    if (powerOn)
+3,4,S    sts = STS_ALL_GOOD;
+3,5,S    currentState = STATE_RINSING;
+3,6,S    sts = STS_NO_POWER;
+3,7,S    break;
+3,8,B    case EVENT_STOP:
+3,9,S    sts = STS_ALL_GOOD;
+3,10,S    currentState = STATE_IDLE;
+3,11,S    break;
+3,12,B    default:
+3,13,S    sts = STS_UNEXPECTED_EVENT;
+3,14,S    break;
+3,15,S    return sts;
+4,0,B    {
+4,1,S    switch (event)
+4,2,B    case EVENT_START_DRY:
+4,3,B    if (powerOn)
+4,4,S    sts = checkHeatingElement();
+4,5,B    if (sts == STS_ALL_GOOD)
+4,6,S    currentState = STATE_DRYING;
+4,7,S    currentState = STATE_IDLE;
+4,8,S    sts = STS_NO_POWER;
+4,9,S    break;
+4,10,B    case EVENT_STOP:
+4,11,S    sts = STS_ALL_GOOD;
+4,12,S    currentState = STATE_IDLE;
+4,13,S    break;
+4,14,B    default:
+4,15,S    sts = STS_UNEXPECTED_EVENT;
+4,16,S    break;
+4,17,S    return sts;
+5,0,B    {
+5,1,S    switch (event)
+5,2,B    case EVENT_STOP:
+5,3,S    sts = STS_ALL_GOOD;
+5,4,S    currentState = STATE_IDLE;
+5,5,S    break;
+5,6,B    default:
+5,7,S    sts = STS_UNEXPECTED_EVENT;
+5,8,S    break;
+5,9,S    return sts;
+6,0,B    {
+6,1,B    if (currentState == STATE_IDLE)
+6,2,S    powerOn = 1;
+6,3,S    return (STS_ALL_GOOD);
+6,4,S    return (STS_GENERAL_ERROR);
+7,0,B    {
+7,1,B    if (currentState == STATE_IDLE)
+7,2,S    powerOn = 0;
+7,3,S    return (STS_ALL_GOOD);
+7,4,S    return (STS_GENERAL_ERROR);
+8,0,B    {
+8,1,S    switch (currentState)
+8,2,B    case STATE_IDLE :
+8,3,S    ret_sts = processIdleState (event);
+8,4,S    break;
+8,5,B    case STATE_WASHING :
+8,6,S    ret_sts = processWashCycle (event);
+8,7,S    break;
+8,8,B    case STATE_RINSING :
+8,9,S    ret_sts = processRinseCycle (event);
+8,10,S    break;
+8,11,B    case STATE_DRYING :
+8,12,S    ret_sts = processDryCycle (event);
+8,13,S    break;
+8,14,B    default :
+8,15,S    ret_sts = STS_GENERAL_ERROR;
+8,16,S    break;
+8,17,S    return ret_sts;

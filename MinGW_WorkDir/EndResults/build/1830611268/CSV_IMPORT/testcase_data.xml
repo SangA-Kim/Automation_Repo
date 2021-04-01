@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE testcase_data>
+<testcase_data xml_testcase_version="2.0">
+  <compound>
+    <name>&lt;&lt;COMPOUND&gt;&gt;</name>
+  </compound>
+  <init>
+    <name>&lt;&lt;INIT&gt;&gt;</name>
+  </init>
+  <unit index="9" coverage_type="Statement+Branch">
+    <name>line</name>
+    <subprogram index="1">
+      <name>findY</name>
+      <testcase index="1">
+        <name>(MAP)findY.001</name>
+        <unique_id>44</unique_id>
+        <special>CSV_MAP</special>
+      </testcase>
+      <testcase index="2">
+        <name>findY-ROW_0001</name>
+        <unique_id>45</unique_id>
+      </testcase>
+      <testcase index="3">
+        <name>findY-ROW_0002</name>
+        <unique_id>46</unique_id>
+      </testcase>
+      <testcase index="4">
+        <name>findY-ROW_0003</name>
+        <unique_id>47</unique_id>
+      </testcase>
+      <testcase index="5">
+        <name>findY-ROW_0004</name>
+        <unique_id>48</unique_id>
+      </testcase>
+      <testcase index="6">
+        <name>findY-ROW_0005</name>
+        <unique_id>49</unique_id>
+      </testcase>
+      <testcase index="7">
+        <name>findY-ROW_0006</name>
+        <unique_id>50</unique_id>
+      </testcase>
+      <testcase index="8">
+        <name>findY-ROW_0007</name>
+        <unique_id>51</unique_id>
+      </testcase>
+      <testcase index="9">
+        <name>findY-ROW_0008</name>
+        <unique_id>52</unique_id>
+      </testcase>
+      <testcase index="10">
+        <name>findY-ROW_0009</name>
+        <unique_id>53</unique_id>
+      </testcase>
+      <testcase index="11">
+        <name>findY-ROW_0010</name>
+        <unique_id>54</unique_id>
+      </testcase>
+      <testcase index="12">
+        <name>findY-ROW_0011</name>
+        <unique_id>55</unique_id>
+      </testcase>
+      <testcase index="13">
+        <name>findY-ROW_0012</name>
+        <unique_id>56</unique_id>
+      </testcase>
+      <testcase index="14">
+        <name>findY-ROW_0013</name>
+        <unique_id>57</unique_id>
+      </testcase>
+      <testcase index="15">
+        <name>findY-ROW_0014</name>
+        <unique_id>58</unique_id>
+      </testcase>
+      <testcase index="16">
+        <name>findY-ROW_0015</name>
+        <unique_id>59</unique_id>
+      </testcase>
+      <testcase index="17">
+        <name>findY-ROW_0016</name>
+        <unique_id>60</unique_id>
+      </testcase>
+      <testcase index="18">
+        <name>findY-ROW_0017</name>
+        <unique_id>61</unique_id>
+      </testcase>
+      <testcase index="19">
+        <name>findY-ROW_0018</name>
+        <unique_id>62</unique_id>
+      </testcase>
+      <testcase index="20">
+        <name>findY-ROW_0019</name>
+        <unique_id>63</unique_id>
+      </testcase>
+      <testcase index="21">
+        <name>findY-ROW_0020</name>
+        <unique_id>64</unique_id>
+      </testcase>
+      <testcase index="22">
+        <name>findY-ROW_0021</name>
+        <unique_id>65</unique_id>
+      </testcase>
+      <testcase index="23">
+        <name>findY-ROW_0022</name>
+        <unique_id>66</unique_id>
+      </testcase>
+      <testcase index="24">
+        <name>findY-ROW_0023</name>
+        <unique_id>67</unique_id>
+      </testcase>
+      <testcase index="25">
+        <name>findY-ROW_0024</name>
+        <unique_id>68</unique_id>
+      </testcase>
+      <testcase index="26">
+        <name>findY-ROW_0025</name>
+        <unique_id>69</unique_id>
+      </testcase>
+      <testcase index="27">
+        <name>findY-ROW_0026</name>
+        <unique_id>70</unique_id>
+      </testcase>
+      <testcase index="28">
+        <name>findY-ROW_0027</name>
+        <unique_id>71</unique_id>
+      </testcase>
+      <testcase index="29">
+        <name>findY-ROW_0028</name>
+        <unique_id>72</unique_id>
+      </testcase>
+      <testcase index="30">
+        <name>findY-ROW_0029</name>
+        <unique_id>73</unique_id>
+      </testcase>
+      <testcase index="31">
+        <name>findY-ROW_0030</name>
+        <unique_id>74</unique_id>
+      </testcase>
+      <testcase index="32">
+        <name>findY-ROW_0031</name>
+        <unique_id>75</unique_id>
+      </testcase>
+      <testcase index="33">
+        <name>findY-ROW_0032</name>
+        <unique_id>76</unique_id>
+      </testcase>
+      <testcase index="34">
+        <name>findY-ROW_0033</name>
+        <unique_id>77</unique_id>
+      </testcase>
+      <testcase index="35">
+        <name>findY-ROW_0034</name>
+        <unique_id>78</unique_id>
+      </testcase>
+      <testcase index="36">
+        <name>findY-ROW_0035</name>
+        <unique_id>79</unique_id>
+      </testcase>
+      <testcase index="37">
+        <name>findY-ROW_0036</name>
+        <unique_id>80</unique_id>
+      </testcase>
+      <testcase index="38">
+        <name>findY-ROW_0037</name>
+        <unique_id>81</unique_id>
+      </testcase>
+      <testcase index="39">
+        <name>findY-ROW_0038</name>
+        <unique_id>82</unique_id>
+      </testcase>
+      <testcase index="40">
+        <name>findY-ROW_0039</name>
+        <unique_id>83</unique_id>
+      </testcase>
+      <testcase index="41">
+        <name>findY-ROW_0040</name>
+        <unique_id>84</unique_id>
+      </testcase>
+      <testcase index="42">
+        <name>findY-ROW_0041</name>
+        <unique_id>85</unique_id>
+      </testcase>
+      <testcase index="43">
+        <name>findY-ROW_0042</name>
+        <unique_id>86</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="2">
+      <name>findX</name>
+      <testcase index="1">
+        <name>(MAP)findX.001</name>
+        <unique_id>1</unique_id>
+        <special>CSV_MAP</special>
+      </testcase>
+      <testcase index="2">
+        <name>findX-ROW_0001</name>
+        <unique_id>2</unique_id>
+      </testcase>
+      <testcase index="3">
+        <name>findX-ROW_0002</name>
+        <unique_id>3</unique_id>
+      </testcase>
+      <testcase index="4">
+        <name>findX-ROW_0003</name>
+        <unique_id>4</unique_id>
+      </testcase>
+      <testcase index="5">
+        <name>findX-ROW_0004</name>
+        <unique_id>5</unique_id>
+      </testcase>
+      <testcase index="6">
+        <name>findX-ROW_0005</name>
+        <unique_id>6</unique_id>
+      </testcase>
+      <testcase index="7">
+        <name>findX-ROW_0006</name>
+        <unique_id>7</unique_id>
+      </testcase>
+      <testcase index="8">
+        <name>findX-ROW_0007</name>
+        <unique_id>8</unique_id>
+      </testcase>
+      <testcase index="9">
+        <name>findX-ROW_0008</name>
+        <unique_id>9</unique_id>
+      </testcase>
+      <testcase index="10">
+        <name>findX-ROW_0009</name>
+        <unique_id>10</unique_id>
+      </testcase>
+      <testcase index="11">
+        <name>findX-ROW_0010</name>
+        <unique_id>11</unique_id>
+      </testcase>
+      <testcase index="12">
+        <name>findX-ROW_0011</name>
+        <unique_id>12</unique_id>
+      </testcase>
+      <testcase index="13">
+        <name>findX-ROW_0012</name>
+        <unique_id>13</unique_id>
+      </testcase>
+      <testcase index="14">
+        <name>findX-ROW_0013</name>
+        <unique_id>14</unique_id>
+      </testcase>
+      <testcase index="15">
+        <name>findX-ROW_0014</name>
+        <unique_id>15</unique_id>
+      </testcase>
+      <testcase index="16">
+        <name>findX-ROW_0015</name>
+        <unique_id>16</unique_id>
+      </testcase>
+      <testcase index="17">
+        <name>findX-ROW_0016</name>
+        <unique_id>17</unique_id>
+      </testcase>
+      <testcase index="18">
+        <name>findX-ROW_0017</name>
+        <unique_id>18</unique_id>
+      </testcase>
+      <testcase index="19">
+        <name>findX-ROW_0018</name>
+        <unique_id>19</unique_id>
+      </testcase>
+      <testcase index="20">
+        <name>findX-ROW_0019</name>
+        <unique_id>20</unique_id>
+      </testcase>
+      <testcase index="21">
+        <name>findX-ROW_0020</name>
+        <unique_id>21</unique_id>
+      </testcase>
+      <testcase index="22">
+        <name>findX-ROW_0021</name>
+        <unique_id>22</unique_id>
+      </testcase>
+      <testcase index="23">
+        <name>findX-ROW_0022</name>
+        <unique_id>23</unique_id>
+      </testcase>
+      <testcase index="24">
+        <name>findX-ROW_0023</name>
+        <unique_id>24</unique_id>
+      </testcase>
+      <testcase index="25">
+        <name>findX-ROW_0024</name>
+        <unique_id>25</unique_id>
+      </testcase>
+      <testcase index="26">
+        <name>findX-ROW_0025</name>
+        <unique_id>26</unique_id>
+      </testcase>
+      <testcase index="27">
+        <name>findX-ROW_0026</name>
+        <unique_id>27</unique_id>
+      </testcase>
+      <testcase index="28">
+        <name>findX-ROW_0027</name>
+        <unique_id>28</unique_id>
+      </testcase>
+      <testcase index="29">
+        <name>findX-ROW_0028</name>
+        <unique_id>29</unique_id>
+      </testcase>
+      <testcase index="30">
+        <name>findX-ROW_0029</name>
+        <unique_id>30</unique_id>
+      </testcase>
+      <testcase index="31">
+        <name>findX-ROW_0030</name>
+        <unique_id>31</unique_id>
+      </testcase>
+      <testcase index="32">
+        <name>findX-ROW_0031</name>
+        <unique_id>32</unique_id>
+      </testcase>
+      <testcase index="33">
+        <name>findX-ROW_0032</name>
+        <unique_id>33</unique_id>
+      </testcase>
+      <testcase index="34">
+        <name>findX-ROW_0033</name>
+        <unique_id>34</unique_id>
+      </testcase>
+      <testcase index="35">
+        <name>findX-ROW_0034</name>
+        <unique_id>35</unique_id>
+      </testcase>
+      <testcase index="36">
+        <name>findX-ROW_0035</name>
+        <unique_id>36</unique_id>
+      </testcase>
+      <testcase index="37">
+        <name>findX-ROW_0036</name>
+        <unique_id>37</unique_id>
+      </testcase>
+      <testcase index="38">
+        <name>findX-ROW_0037</name>
+        <unique_id>38</unique_id>
+      </testcase>
+      <testcase index="39">
+        <name>findX-ROW_0038</name>
+        <unique_id>39</unique_id>
+      </testcase>
+      <testcase index="40">
+        <name>findX-ROW_0039</name>
+        <unique_id>40</unique_id>
+      </testcase>
+      <testcase index="41">
+        <name>findX-ROW_0040</name>
+        <unique_id>41</unique_id>
+      </testcase>
+      <testcase index="42">
+        <name>findX-ROW_0041</name>
+        <unique_id>42</unique_id>
+      </testcase>
+      <testcase index="43">
+        <name>findX-ROW_0042</name>
+        <unique_id>43</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="3">
+      <name>findM</name>
+    </subprogram>
+    <subprogram index="4">
+      <name>findB</name>
+    </subprogram>
+  </unit>
+</testcase_data>

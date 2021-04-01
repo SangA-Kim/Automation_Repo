@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <variable id="debug_flag" name="debug_flag" defined="0" type="scalar" file="1"/>
+      <function id="atoi" name="atoi" defined="0" const="0" file="2" return="int">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="malloc" name="malloc" defined="0" const="0" file="2" return="void*">
+        <parameters>
+          <parameter type="size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="printf" name="printf" defined="0" const="0" file="3" return="int">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="time" name="time" defined="0" const="0" file="4" return="time_t">
+        <parameters>
+          <parameter type="time_t*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="ctime" name="ctime" defined="0" const="0" file="4" return="char*">
+        <parameters>
+          <parameter type="const time_t*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="strcpy" name="strcpy" defined="0" const="0" file="5" return="char*">
+        <parameters>
+          <parameter type="char*" name="&lt;anon&gt;"/>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="use_malloc" name="use_malloc" defined="1" const="0" file="1" return="char*"/>
+      <function id="temp_monitor" name="temp_monitor" defined="1" const="0" file="1" return="enum e_temp_range">
+        <parameters>
+          <parameter type="tempurature_guage_func_ptr_t" name="func_ptr"/>
+          <parameter type="enum e_scale" name="scale"/>
+        </parameters>
+      </function>
+      <function id="read_key_pad" name="read_key_pad" defined="0" const="0" file="1" return="char"/>
+      <function id="get_numeric_string" name="get_numeric_string" defined="1" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="int" name="string_length"/>
+        </parameters>
+      </function>
+      <function id="log_error_msg" name="log_error_msg" defined="1" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="char*" name="str"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Environments/Git_Test/SourceFiles/advanced_stubbing.c</file>
+    <file id="2">c:\vcast\mingw\include\stdlib.h</file>
+    <file id="3">c:\vcast\mingw\include\stdio.h</file>
+    <file id="4">c:\vcast\mingw\include\time.h</file>
+    <file id="5">c:\vcast\mingw\include\string.h</file>
+  </files>
+</env_info>

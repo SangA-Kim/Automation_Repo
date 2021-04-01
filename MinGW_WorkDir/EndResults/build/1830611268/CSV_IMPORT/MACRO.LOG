@@ -1,0 +1,348 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: (MAP)findX.001
+(S) @LINE: 41
+    >>> Processed Test Case: (MAP)findX.001
+(I) @LINE: 47
+    >>> Processing Test Case: findX-ROW_0001
+(S) @LINE: 59
+    >>> Processed Test Case: findX-ROW_0001
+(I) @LINE: 65
+    >>> Processing Test Case: findX-ROW_0002
+(S) @LINE: 77
+    >>> Processed Test Case: findX-ROW_0002
+(I) @LINE: 83
+    >>> Processing Test Case: findX-ROW_0003
+(S) @LINE: 95
+    >>> Processed Test Case: findX-ROW_0003
+(I) @LINE: 101
+    >>> Processing Test Case: findX-ROW_0004
+(S) @LINE: 113
+    >>> Processed Test Case: findX-ROW_0004
+(I) @LINE: 119
+    >>> Processing Test Case: findX-ROW_0005
+(S) @LINE: 131
+    >>> Processed Test Case: findX-ROW_0005
+(I) @LINE: 137
+    >>> Processing Test Case: findX-ROW_0006
+(S) @LINE: 149
+    >>> Processed Test Case: findX-ROW_0006
+(I) @LINE: 155
+    >>> Processing Test Case: findX-ROW_0007
+(S) @LINE: 167
+    >>> Processed Test Case: findX-ROW_0007
+(I) @LINE: 173
+    >>> Processing Test Case: findX-ROW_0008
+(S) @LINE: 185
+    >>> Processed Test Case: findX-ROW_0008
+(I) @LINE: 191
+    >>> Processing Test Case: findX-ROW_0009
+(S) @LINE: 203
+    >>> Processed Test Case: findX-ROW_0009
+(I) @LINE: 209
+    >>> Processing Test Case: findX-ROW_0010
+(S) @LINE: 221
+    >>> Processed Test Case: findX-ROW_0010
+(I) @LINE: 227
+    >>> Processing Test Case: findX-ROW_0011
+(S) @LINE: 239
+    >>> Processed Test Case: findX-ROW_0011
+(I) @LINE: 245
+    >>> Processing Test Case: findX-ROW_0012
+(S) @LINE: 257
+    >>> Processed Test Case: findX-ROW_0012
+(I) @LINE: 263
+    >>> Processing Test Case: findX-ROW_0013
+(S) @LINE: 275
+    >>> Processed Test Case: findX-ROW_0013
+(I) @LINE: 281
+    >>> Processing Test Case: findX-ROW_0014
+(S) @LINE: 293
+    >>> Processed Test Case: findX-ROW_0014
+(I) @LINE: 299
+    >>> Processing Test Case: findX-ROW_0015
+(S) @LINE: 311
+    >>> Processed Test Case: findX-ROW_0015
+(I) @LINE: 317
+    >>> Processing Test Case: findX-ROW_0016
+(S) @LINE: 329
+    >>> Processed Test Case: findX-ROW_0016
+(I) @LINE: 335
+    >>> Processing Test Case: findX-ROW_0017
+(S) @LINE: 347
+    >>> Processed Test Case: findX-ROW_0017
+(I) @LINE: 353
+    >>> Processing Test Case: findX-ROW_0018
+(S) @LINE: 365
+    >>> Processed Test Case: findX-ROW_0018
+(I) @LINE: 371
+    >>> Processing Test Case: findX-ROW_0019
+(S) @LINE: 383
+    >>> Processed Test Case: findX-ROW_0019
+(I) @LINE: 389
+    >>> Processing Test Case: findX-ROW_0020
+(S) @LINE: 401
+    >>> Processed Test Case: findX-ROW_0020
+(I) @LINE: 407
+    >>> Processing Test Case: findX-ROW_0021
+(S) @LINE: 419
+    >>> Processed Test Case: findX-ROW_0021
+(I) @LINE: 425
+    >>> Processing Test Case: findX-ROW_0022
+(S) @LINE: 437
+    >>> Processed Test Case: findX-ROW_0022
+(I) @LINE: 443
+    >>> Processing Test Case: findX-ROW_0023
+(S) @LINE: 455
+    >>> Processed Test Case: findX-ROW_0023
+(I) @LINE: 461
+    >>> Processing Test Case: findX-ROW_0024
+(S) @LINE: 473
+    >>> Processed Test Case: findX-ROW_0024
+(I) @LINE: 479
+    >>> Processing Test Case: findX-ROW_0025
+(S) @LINE: 491
+    >>> Processed Test Case: findX-ROW_0025
+(I) @LINE: 497
+    >>> Processing Test Case: findX-ROW_0026
+(S) @LINE: 509
+    >>> Processed Test Case: findX-ROW_0026
+(I) @LINE: 515
+    >>> Processing Test Case: findX-ROW_0027
+(S) @LINE: 527
+    >>> Processed Test Case: findX-ROW_0027
+(I) @LINE: 533
+    >>> Processing Test Case: findX-ROW_0028
+(S) @LINE: 545
+    >>> Processed Test Case: findX-ROW_0028
+(I) @LINE: 551
+    >>> Processing Test Case: findX-ROW_0029
+(S) @LINE: 563
+    >>> Processed Test Case: findX-ROW_0029
+(I) @LINE: 569
+    >>> Processing Test Case: findX-ROW_0030
+(S) @LINE: 581
+    >>> Processed Test Case: findX-ROW_0030
+(I) @LINE: 587
+    >>> Processing Test Case: findX-ROW_0031
+(S) @LINE: 599
+    >>> Processed Test Case: findX-ROW_0031
+(I) @LINE: 605
+    >>> Processing Test Case: findX-ROW_0032
+(S) @LINE: 617
+    >>> Processed Test Case: findX-ROW_0032
+(I) @LINE: 623
+    >>> Processing Test Case: findX-ROW_0033
+(S) @LINE: 635
+    >>> Processed Test Case: findX-ROW_0033
+(I) @LINE: 641
+    >>> Processing Test Case: findX-ROW_0034
+(S) @LINE: 653
+    >>> Processed Test Case: findX-ROW_0034
+(I) @LINE: 659
+    >>> Processing Test Case: findX-ROW_0035
+(S) @LINE: 671
+    >>> Processed Test Case: findX-ROW_0035
+(I) @LINE: 677
+    >>> Processing Test Case: findX-ROW_0036
+(S) @LINE: 689
+    >>> Processed Test Case: findX-ROW_0036
+(I) @LINE: 695
+    >>> Processing Test Case: findX-ROW_0037
+(S) @LINE: 707
+    >>> Processed Test Case: findX-ROW_0037
+(I) @LINE: 713
+    >>> Processing Test Case: findX-ROW_0038
+(S) @LINE: 725
+    >>> Processed Test Case: findX-ROW_0038
+(I) @LINE: 731
+    >>> Processing Test Case: findX-ROW_0039
+(S) @LINE: 743
+    >>> Processed Test Case: findX-ROW_0039
+(I) @LINE: 749
+    >>> Processing Test Case: findX-ROW_0040
+(S) @LINE: 761
+    >>> Processed Test Case: findX-ROW_0040
+(I) @LINE: 767
+    >>> Processing Test Case: findX-ROW_0041
+(S) @LINE: 779
+    >>> Processed Test Case: findX-ROW_0041
+(I) @LINE: 785
+    >>> Processing Test Case: findX-ROW_0042
+(S) @LINE: 797
+    >>> Processed Test Case: findX-ROW_0042
+(I) @LINE: 805
+    >>> Processing Test Case: (MAP)findY.001
+(S) @LINE: 815
+    >>> Processed Test Case: (MAP)findY.001
+(I) @LINE: 821
+    >>> Processing Test Case: findY-ROW_0001
+(S) @LINE: 833
+    >>> Processed Test Case: findY-ROW_0001
+(I) @LINE: 839
+    >>> Processing Test Case: findY-ROW_0002
+(S) @LINE: 851
+    >>> Processed Test Case: findY-ROW_0002
+(I) @LINE: 857
+    >>> Processing Test Case: findY-ROW_0003
+(S) @LINE: 869
+    >>> Processed Test Case: findY-ROW_0003
+(I) @LINE: 875
+    >>> Processing Test Case: findY-ROW_0004
+(S) @LINE: 887
+    >>> Processed Test Case: findY-ROW_0004
+(I) @LINE: 893
+    >>> Processing Test Case: findY-ROW_0005
+(S) @LINE: 905
+    >>> Processed Test Case: findY-ROW_0005
+(I) @LINE: 911
+    >>> Processing Test Case: findY-ROW_0006
+(S) @LINE: 923
+    >>> Processed Test Case: findY-ROW_0006
+(I) @LINE: 929
+    >>> Processing Test Case: findY-ROW_0007
+(S) @LINE: 941
+    >>> Processed Test Case: findY-ROW_0007
+(I) @LINE: 947
+    >>> Processing Test Case: findY-ROW_0008
+(S) @LINE: 959
+    >>> Processed Test Case: findY-ROW_0008
+(I) @LINE: 965
+    >>> Processing Test Case: findY-ROW_0009
+(S) @LINE: 977
+    >>> Processed Test Case: findY-ROW_0009
+(I) @LINE: 983
+    >>> Processing Test Case: findY-ROW_0010
+(S) @LINE: 995
+    >>> Processed Test Case: findY-ROW_0010
+(I) @LINE: 1001
+    >>> Processing Test Case: findY-ROW_0011
+(S) @LINE: 1013
+    >>> Processed Test Case: findY-ROW_0011
+(I) @LINE: 1019
+    >>> Processing Test Case: findY-ROW_0012
+(S) @LINE: 1031
+    >>> Processed Test Case: findY-ROW_0012
+(I) @LINE: 1037
+    >>> Processing Test Case: findY-ROW_0013
+(S) @LINE: 1049
+    >>> Processed Test Case: findY-ROW_0013
+(I) @LINE: 1055
+    >>> Processing Test Case: findY-ROW_0014
+(S) @LINE: 1067
+    >>> Processed Test Case: findY-ROW_0014
+(I) @LINE: 1073
+    >>> Processing Test Case: findY-ROW_0015
+(S) @LINE: 1085
+    >>> Processed Test Case: findY-ROW_0015
+(I) @LINE: 1091
+    >>> Processing Test Case: findY-ROW_0016
+(S) @LINE: 1103
+    >>> Processed Test Case: findY-ROW_0016
+(I) @LINE: 1109
+    >>> Processing Test Case: findY-ROW_0017
+(S) @LINE: 1121
+    >>> Processed Test Case: findY-ROW_0017
+(I) @LINE: 1127
+    >>> Processing Test Case: findY-ROW_0018
+(S) @LINE: 1139
+    >>> Processed Test Case: findY-ROW_0018
+(I) @LINE: 1145
+    >>> Processing Test Case: findY-ROW_0019
+(S) @LINE: 1157
+    >>> Processed Test Case: findY-ROW_0019
+(I) @LINE: 1163
+    >>> Processing Test Case: findY-ROW_0020
+(S) @LINE: 1175
+    >>> Processed Test Case: findY-ROW_0020
+(I) @LINE: 1181
+    >>> Processing Test Case: findY-ROW_0021
+(S) @LINE: 1193
+    >>> Processed Test Case: findY-ROW_0021
+(I) @LINE: 1199
+    >>> Processing Test Case: findY-ROW_0022
+(S) @LINE: 1211
+    >>> Processed Test Case: findY-ROW_0022
+(I) @LINE: 1217
+    >>> Processing Test Case: findY-ROW_0023
+(S) @LINE: 1229
+    >>> Processed Test Case: findY-ROW_0023
+(I) @LINE: 1235
+    >>> Processing Test Case: findY-ROW_0024
+(S) @LINE: 1247
+    >>> Processed Test Case: findY-ROW_0024
+(I) @LINE: 1253
+    >>> Processing Test Case: findY-ROW_0025
+(S) @LINE: 1265
+    >>> Processed Test Case: findY-ROW_0025
+(I) @LINE: 1271
+    >>> Processing Test Case: findY-ROW_0026
+(S) @LINE: 1283
+    >>> Processed Test Case: findY-ROW_0026
+(I) @LINE: 1289
+    >>> Processing Test Case: findY-ROW_0027
+(S) @LINE: 1301
+    >>> Processed Test Case: findY-ROW_0027
+(I) @LINE: 1307
+    >>> Processing Test Case: findY-ROW_0028
+(S) @LINE: 1319
+    >>> Processed Test Case: findY-ROW_0028
+(I) @LINE: 1325
+    >>> Processing Test Case: findY-ROW_0029
+(S) @LINE: 1337
+    >>> Processed Test Case: findY-ROW_0029
+(I) @LINE: 1343
+    >>> Processing Test Case: findY-ROW_0030
+(S) @LINE: 1355
+    >>> Processed Test Case: findY-ROW_0030
+(I) @LINE: 1361
+    >>> Processing Test Case: findY-ROW_0031
+(S) @LINE: 1373
+    >>> Processed Test Case: findY-ROW_0031
+(I) @LINE: 1379
+    >>> Processing Test Case: findY-ROW_0032
+(S) @LINE: 1391
+    >>> Processed Test Case: findY-ROW_0032
+(I) @LINE: 1397
+    >>> Processing Test Case: findY-ROW_0033
+(S) @LINE: 1409
+    >>> Processed Test Case: findY-ROW_0033
+(I) @LINE: 1415
+    >>> Processing Test Case: findY-ROW_0034
+(S) @LINE: 1427
+    >>> Processed Test Case: findY-ROW_0034
+(I) @LINE: 1433
+    >>> Processing Test Case: findY-ROW_0035
+(S) @LINE: 1445
+    >>> Processed Test Case: findY-ROW_0035
+(I) @LINE: 1451
+    >>> Processing Test Case: findY-ROW_0036
+(S) @LINE: 1463
+    >>> Processed Test Case: findY-ROW_0036
+(I) @LINE: 1469
+    >>> Processing Test Case: findY-ROW_0037
+(S) @LINE: 1481
+    >>> Processed Test Case: findY-ROW_0037
+(I) @LINE: 1487
+    >>> Processing Test Case: findY-ROW_0038
+(S) @LINE: 1499
+    >>> Processed Test Case: findY-ROW_0038
+(I) @LINE: 1505
+    >>> Processing Test Case: findY-ROW_0039
+(S) @LINE: 1517
+    >>> Processed Test Case: findY-ROW_0039
+(I) @LINE: 1523
+    >>> Processing Test Case: findY-ROW_0040
+(S) @LINE: 1535
+    >>> Processed Test Case: findY-ROW_0040
+(I) @LINE: 1541
+    >>> Processing Test Case: findY-ROW_0041
+(S) @LINE: 1553
+    >>> Processed Test Case: findY-ROW_0041
+(I) @LINE: 1559
+    >>> Processing Test Case: findY-ROW_0042
+(S) @LINE: 1571
+    >>> Processed Test Case: findY-ROW_0042
+(S) @LINE: 1571
+    >>> Script processing completed

@@ -1,0 +1,2204 @@
+#line 3 "vcast_preprocess.15924.10.c"                                                                                                                            
+# 1 "vcast_preprocess.15924.8.c" 1
+
+typedef int VECTORCAST_MARKER__UNIT_PREFIX_START;
+
+typedef int VECTORCAST_MARKER__UNIT_PREFIX_END;
+# 1 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_transmit.c" 1
+
+# 1 "c:\\vcast\\mingw\\include\\stdlib.h" 1 3
+
+# 1 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/*
+ * stdlib.h
+ *
+ * ANSI/POSIX + Microsoft compatible standard library function prototypes,
+ * associated macros, and manifest constant definitions.
+ *
+ * $Id: stdlib.h,v 2f3798017d64 2016/11/28 14:14:48 keithmarshall $
+ *
+ * Written by Colin Peters <colin@bird.fu.is.saga-u.ac.jp>
+ * Copyright (C) 1997-2009, 2011, 2014-2016, MinGW.org Project.
+ *
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice, this permission notice, and the following
+ * disclaimer shall be included in all copies or substantial portions of
+ * the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+       
+# 35 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+
+/* Some of the content of this header is made selectively accessible,
+ * when indirectly included via <wchar.h>; only when we have established
+ * that this inclusion is NOT via this selective method...
+ */
+
+ /* ...do we define the repeat inclusion guard for <stdlib.h> itself.
+  */
+
+
+/* All MinGW headers must include <_mingw.h>; if included via <wchar.h>,
+ * we assume that this has been done already, otherwise we must attend to
+ * it for <stdlib.h>.
+ */
+# 1 "c:\\vcast\\mingw\\include\\_mingw.h" 1 3
+
+/*
+ * _mingw.h
+ *
+ * MinGW specific macros included by ALL mingwrt include files; (this file
+ * is part of the MinGW32 runtime library package).
+ *
+ * $Id: _mingw.h.in,v dab5f46101c7 2017/06/05 19:15:12 keithmarshall $
+ *
+ * Written by Mumit Khan  <khan@xraylith.wisc.edu>
+ * Copyright (C) 1999, 2001-2011, 2014-2017, MinGW.org Project
+ *
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+
+/* In previous versions, __MINGW32_VERSION was expressed as a dotted
+ * numeric pair, representing major.minor; unfortunately, this doesn't
+ * adapt well to the inclusion of a patch-level component, since the
+ * major.minor.patch dotted triplet representation is not valid as a
+ * numeric entity.  Thus, for this version, we adopt a representation
+ * which encodes the version as a long integer value, expressing:
+ *
+ *   __MINGW32_VERSION = 1,000,000 * major + 1,000 * minor + patch
+ *
+ * DO NOT EDIT these package version assignments manually; they are
+ * derived from the package version specification within configure.ac,
+ * whence they are propagated automatically, at package build time.
+ */
+
+
+
+
+
+
+       
+# 56 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+
+
+
+/* Legacy versions of mingwrt use the macro __MSVCRT_VERSION__ to
+ * enable evolving features of different MSVCRT.DLL versions.  This
+ * usage is no longer recommended, but the __MSVCRT_VERSION__ macro
+ * remains useful when a non-freely distributable MSVCRxx.DLL is to
+ * be substituted for MSVCRT.DLL; for such usage, the substitute
+ * MSVCRxx.DLL may be identified as specified in...
+ */
+# 1 "c:\\vcast\\mingw\\include\\msvcrtver.h" 1 3
+/*
+ * msvcrtver.h
+ *
+ * Macros for identification of specific versions of MSVC runtime
+ * libraries, which may be substituted for MSVCRT.DLL
+ *
+ * $Id: msvcrtver.h,v 6d8ad2c4dde7 2015/06/19 11:43:28 keithmarshall $
+ *
+ * Written by Keith Marshall <keithmarshall@users.sourceforge.net>
+ * Copyright (C) 2015, MinGW.org Project
+ *
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+
+       
+# 36 "c:\\vcast\\mingw\\include\\msvcrtver.h" 3
+
+/* When it is intended to link an application with any one of the
+ * MSVC version specific MSVCRxx.DLL libraries, rather than with the
+ * OS default MSVCRT.DLL, the particular substitute MSVCRxx.DLL may
+ * be specified as any one of the following...
+ */
+# 53 "c:\\vcast\\mingw\\include\\msvcrtver.h" 3
+/* This may be set, when the intent is to link with any of the above
+ * non-freely distributable MSVCRxx.DLL libraries, rather than with the
+ * pseudo-free MSVCRT.DLL provided as an OS component.  High byte is the
+ * major version number, low byte is the minor; however, users are advised
+ * to use custom GCC specs files to set this, while also substituting the
+ * appropriate library in place of MSVCRT.DLL, rather than to simply set
+ * it directly.
+ *
+ * It should be noted that __MSVCRT_VERSION__ is NOT a good indicator of
+ * evolving MSVCRT.DLL features; that is better accomplished by using the
+ * NTDDI_VERSION setting from the Windows API.  Thus, users of MSVCRT.DLL
+ * should NOT set __MSVCRT_VERSION__, leaving us to establish a default,
+ * equivalent to MSVCR60.DLL, which seems reasonably well aligned with
+ * the feature set of the earliest MSVCRT.DLL version we support.
+ */
+
+
+
+/* This is an exception to the normal rule, that all mingwrt system
+ * header files should include _mingw.h, since inclusion of _mingw.h
+ * itself will cause this file to be included.  Thus, we recommend
+ * that this file should not be included directly, but we do not
+ * forbid doing so; however, in this event...
+ */
+# 67 "c:\\vcast\\mingw\\include\\_mingw.h" 2 3
+
+
+/* A better inference than __MSVCRT_VERSION__, of the capabilities
+ * supported by the operating system default MSVCRT.DLL, is provided
+ * by the Windows API version identification macros.
+ */
+# 1 "c:\\vcast\\mingw\\include\\w32api.h" 1 3
+/*
+ * w32api.h
+ *
+ * Package version identification, operating system support level set up,
+ * and "convenience" macros to be shared by all package header files.
+ *
+ * $Id: w32api.h.in,v 0bd67cc9bc86 2017/03/20 20:01:38 keithmarshall $
+ *
+ * Written by Earnie Boyd  <earnie@users.sourceforge.net>
+ * Copyright (C) 2001-2011, 2015, 2016, MinGW.org Project
+ *
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+
+       
+# 36 "c:\\vcast\\mingw\\include\\w32api.h" 3
+
+/* Package version identification: formerly specified as a simple
+ * dotted numeric pair representing major.minor, this doesn't adapt
+ * well to the inclusion of the patch-level, since the dotted triplet
+ * representation of major.minor.patch is not a valid representation
+ * of a numeric entity.  Thus, from version 3.18 onwards we adopt a
+ * representation which encodes the version as a long integer value,
+ * expressing:
+ *
+ *   __W32API_VERSION = 1,000,000 * major + 1,000 * minor + patch
+ *
+ * DO NOT EDIT these package version assignments manually; they are
+ * derived from the package version specification within configure.ac,
+ * whence they are propagated automatically, at package build time.
+ */
+
+
+
+
+
+/* The underlying operating system platform version, and its
+ * identifying macros for application support, are established by:
+ */
+# 1 "c:\\vcast\\mingw\\include\\sdkddkver.h" 1 3
+/*
+ * sdkddkver.h
+ *
+ * Macros to set up the compilation environment, such that it provides
+ * support for a user specified host OS version, (default Win2K).
+ *
+ * $Id: sdkddkver.h,v d7ac2ac748a9 2016/11/25 21:29:02 keithmarshall $
+ *
+ * Written by Earnie Boyd  <earnie@users.sourceforge.net>
+ * Copyright (C) 2012, 2013, 2015, MinGW.org Project
+ *
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice (including the next
+ * paragraph) shall be included in all copies or substantial portions of the
+ * Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+
+       
+# 36 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+
+/* Define masks for extracting version components from NTDDI_VERSION;
+ * values and names are guessed based on comments in the documentation; see
+ * http://msdn.microsoft.com/en-us/library/windows/desktop/aa383745(v=vs.85).aspx
+ */
+
+
+
+
+/* Macros to facilitate such extraction; derived from comments on MSDN or
+ * on social.microsoft.com
+ */
+
+
+
+
+
+/* Macros to construct a minimal NTDDI_VERSION from a _WIN32_WINNT value.
+ */
+
+
+
+/* Version constants specifying _WIN32_WINNT versions; these are defined at
+ * http://msdn.microsoft.com/en-us/library/windows/desktop/aa383745(v=vs.85).aspx
+ * (values for legacy platforms have been inferred from historical knowledge).
+ */
+# 79 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+/* Version constants specifying Internet Explorer versions; also defined at
+ * http://msdn.microsoft.com/en-us/library/windows/desktop/aa383745(v=vs.85).aspx
+ */
+# 98 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+/* Version constants specifying NTDDI_VERSION; these are also defined at
+ * http://msdn.microsoft.com/en-us/library/windows/desktop/aa383745(v=vs.85).aspx
+ */
+# 147 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+/* Although NTDDI_VERSION is now the preferred designator for the
+ * level of support required from the operating system, legacy code
+ * is likely to have specified WINVER, from which _WIN32_WINNT may
+ * be inferred.
+ */
+# 163 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+/* Stipulate defaults; check consistency of any user specified overrides.
+ */
+# 204 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+/* Map GCC architecture identification macros to their MSVC equivalents.
+ * This mapping was previously specified in <winnt.h>, and duplicated in
+ * <windows.h>; it is now only defined here, because both <windows.h> and
+ * <winnt.h> must include this file anyway, and the potentially error prone
+ * burden of maintaining duplicates is as unnecessary as it is undesirable.
+ */
+
+ /* Note that we must process the _M_IX86 equivalent macros in diminishing
+  * order of processor version, since GCC defines __i386__ as identification
+  * for the X86 processor family, in addition to any one of the other three
+  * macros, which may be used to identify a particular processor version.
+  */
+# 230 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+/* The preceding logic may have established the host type as X86, or it
+ * may have done nothing at all; we must check further.
+ */
+
+ /* We've established that we ARE compiling for an X86 host; any MinGW32
+  * compiler SHOULD have set this for us already...
+  */
+# 245 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+  /* MSVC defines this, to provide additional information about particular
+   * capabilties of the X86 host environment; specifically...
+   */
+# 260 "c:\\vcast\\mingw\\include\\sdkddkver.h" 3
+   /* ...and this disallows its use, entirely.
+    */
+
+
+
+
+/* When not compiling for an X86 host; check mapping from other possible
+ * GCC architecture identifiers, to their MSVC equivalents.
+ */
+# 60 "c:\\vcast\\mingw\\include\\w32api.h" 2 3
+
+/* The following defines are for documentation purposes.  Although not used
+ * within it, they were provided in earlier versions of the Win32 API, as a
+ * convenience for users who wished to symbolically declare a minimum level
+ * of required operating system and Internet Explorer version support, when
+ * assigning WINVER, _WIN32_WINDOWS, _WIN32_WINNT, and _WIN32_IE values.
+ *
+ * Each of the following "old name" macros is now considered deprecated in
+ * favour of manifest "preferred name" macro definitions from <sdkddkver.h>.
+ * Hence, redefine each in terms of the appropriate "preferred name" macro;
+ * new code should avoid the old names, and use the preferred name instead.
+ *
+ *
+ * _WIN32_WINDOWS and/or WINVER may be set to any of the following manifest
+ * values, to specify a minimum Win9x support level requirement:
+ *
+ *      Old Name	Preferred Name
+ *      -------------	------------------
+ */
+
+
+
+
+/* _WIN32_WINNT and/or WINVER may be set to any of the following manifest
+ * values, to specify a minimum WinNT support level requirement:
+ *
+ *      Old Name	Preferred Name
+ *      -------------	------------------
+ */
+
+
+
+
+
+
+/* _WIN32_IE may be set to any of the following manifest values, to
+ * specify a minimum Internet Explorer support level requirement:
+ *
+ *      Old Name	Preferred Name
+ *      -------------	------------------
+ */
+# 118 "c:\\vcast\\mingw\\include\\w32api.h" 3
+/* Only Microsoft could attempt to justify this insanity: when building
+ * a UTF-16LE application -- apparently their understanding of Unicode is
+ * limited to this -- the C/C++ runtime requires that the user must define
+ * the _UNICODE macro, while to use the Windows API's UTF-16LE capabilities,
+ * it is the UNICODE macro, (without the leading underscore), which must be
+ * defined.  The (bogus) explanation appears to be that it is the C standard
+ * which dictates the requirement for the leading underscore, to avoid any
+ * possible conflict with a user defined symbol; (bogus because the macro
+ * must be user defined anyway -- it is not a private symbol -- and in
+ * any case, the Windows API already reserves the UNICODE symbol as
+ * a user defined macro, with equivalent intent.
+ *
+ * The real explanation, of course, is that this is just another example
+ * of Microsoft irrationality; in any event, there seems to be no sane
+ * scenario in which defining one without the other would be required,
+ * or indeed would not raise potential for internal inconsistency, so we
+ * ensure that either both are, or neither is defined.
+ */
+
+
+
+
+
+/* Related to the UNICODE macro definition, there are many functions in
+ * the Win32 API with a generic name, which is mapped to a variant with
+ * wchar_t UTF-16LE encoding of string arguments, in cases when UNICODE
+ * is defined, as facilitated by the following macro...
+ */
+
+
+
+
+
+ /* ...or by appending an "A" suffix, to select an ANSI variant with
+  * char encoding of string arguments, when UNICODE is not defined.
+  */
+
+
+/* Further related, the __AW_EXTENDED__ macro reproduces the effect of
+ * __AW_SUFFIXED__, with the addition of a single underscore character
+ * separating the base name from the appropriate suffix.
+ */
+
+
+/* __AW_EXTENDED__ may often be used to map manifest string constants.
+ * The following triplet provide a convenient mechanism to derive the
+ * UNICODE variant of the string from its ANSI definition; (note that
+ * this requires a two stage expansion, to ensure that the "L" prefix
+ * is attached to the expansion of the ANSI string definition, rather
+ * than just to the defining macro name).
+ */
+
+
+
+
+/* Further uses of __AW_SUFFIXED__ and __AW_EXTENDED__, encapsulated
+ * within __AW_ALIAS__ and __AW_ALIAS_EX__; each provides a convenient
+ * generic mapping for type names with alternative representations for
+ * UNICODE and non-UNICODE usage.
+ */
+# 191 "c:\\vcast\\mingw\\include\\w32api.h" 3
+/* ...while remaining transparent, when compiling C code.
+ */
+# 74 "c:\\vcast\\mingw\\include\\_mingw.h" 2 3
+
+/* The following are defined by the user (or by the compiler), to specify how
+ * identifiers are imported from a DLL.  All headers should include this first,
+ * and then use __DECLSPEC_SUPPORTED to choose between the old ``__imp__name''
+ * style or the __MINGW_IMPORT style for declarations.
+ *
+ * __DECLSPEC_SUPPORTED            Defined if dllimport attribute is supported.
+ * __MINGW_IMPORT                  The attribute definition to specify imported
+ *                                 variables/functions.
+ * _CRTIMP                         As above.  For MS compatibility.
+ *
+ * Macros to enable MinGW features which deviate from standard MSVC
+ * compatible behaviour; these may be specified directly in user code,
+ * activated implicitly, (e.g. by specifying _POSIX_C_SOURCE or such),
+ * or by inclusion in __MINGW_FEATURES__:
+ *
+ * __USE_MINGW_ANSI_STDIO          Select a more ANSI C99 compatible
+ *                                 implementation of printf() and friends;
+ *                                 (users should not set this directly).
+ *
+ * Other macros:
+ *
+ * __int64                         define to be long long.  Using a typedef
+ *                                 doesn't work for "unsigned __int64"
+ *
+ *
+ * Manifest definitions for flags to control globbing of the command line
+ * during application start up, (before main() is called).  The first pair,
+ * when assigned as bit flags within _CRT_glob, select the globbing algorithm
+ * to be used; (the MINGW algorithm overrides MSCVRT, if both are specified).
+ * Prior to mingwrt-3.21, only the MSVCRT option was supported; this choice
+ * may produce different results, depending on which particular version of
+ * MSVCRT.DLL is in use; (in recent versions, it seems to have become
+ * definitively broken, when globbing within double quotes).
+ */
+
+
+/* From mingwrt-3.21 onward, this should be the preferred choice; it will
+ * produce consistent results, regardless of the MSVCRT.DLL version in use.
+ */
+
+
+/* When the __CRT_GLOB_USE_MINGW__ flag is set, within _CRT_glob, the
+ * following additional options are also available; they are not enabled
+ * by default, but the user may elect to enable any combination of them,
+ * by setting _CRT_glob to the boolean sum (i.e. logical OR combination)
+ * of __CRT_GLOB_USE_MINGW__ and the desired options.
+ *
+ *    __CRT_GLOB_USE_SINGLE_QUOTE__	allows use of single (apostrophe)
+ *    					quoting characters, analogously to
+ *    					POSIX usage, as an alternative to
+ *    					double quotes, for collection of
+ *    					arguments separated by white space
+ *    					into a single logical argument.
+ *
+ *    __CRT_GLOB_BRACKET_GROUPS__	enable interpretation of bracketed
+ *    					character groups as POSIX compatible
+ *    					globbing patterns, matching any one
+ *    					character which is either included
+ *    					in, or excluded from the group.
+ *
+ * The following options, which may also be specified within _CRT_glob,
+ * are specified in terms of their glob() flags, as defined in <glob.h>
+ *
+ *    GLOB_CASEMATCH			enable case sensitive matching for
+ *    					globbing patterns; this is default
+ *    					behaviour for POSIX, but because of
+ *    					the case insensitive nature of the
+ *    					MS-Windows file system, it is more
+ *    					appropriate to use case insensitive
+ *    					globbing as the MinGW default.
+ *
+ *    GLOB_BRACE			enable expansion of GNU style brace
+ *    					delimited expression groups within
+ *    					the globbing pattern.
+ *
+ */
+
+
+
+/* The MinGW globbing algorithm uses the ASCII DEL control code as a marker
+ * for globbing characters which were embedded within quoted arguments; (the
+ * quotes are stripped away BEFORE the argument is globbed; the globbing code
+ * treats the marked character as immutable, and strips out the DEL markers,
+ * before storing the resultant argument).  The DEL code is mapped to this
+ * function here; DO NOT change it, without rebuilding the runtime.
+ */
+
+
+
+/* Manifest definitions identifying the flag bits, controlling activation
+ * of MinGW features, as specified by the user in __MINGW_FEATURES__.
+ */
+
+/*
+ * The following three are not yet formally supported; they are
+ * included here, to document anticipated future usage.
+ */
+
+
+
+
+
+/* Try to avoid problems with outdated checks for GCC __attribute__ support.
+ */
+# 223 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+   /* Note the extern. This is needed to work around GCC's
+      limitations in handling dllimport attribute.  */
+# 242 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+/*
+ * The next two defines can cause problems if user code adds the
+ * __cdecl attribute like so:
+ * void __attribute__ ((__cdecl)) foo(void);
+ */
+# 301 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+  /* A special form of __CRT_INLINE is provided; it will ALWAYS request
+   * inlining when possible.  Originally specified as _CRTALIAS, this is
+   * now deprecated in favour of __CRT_ALIAS, for syntactic consistency
+   * with __CRT_INLINE itself.
+   */
+
+
+
+
+
+
+/*
+ * Each function which is implemented as a __CRT_ALIAS should also be
+ * accompanied by an externally visible interface.  The following pair
+ * of macros provide a mechanism for implementing this, either as a stub
+ * redirecting to an alternative external function, or by compilation of
+ * the normally inlined code into free standing object code; each macro
+ * provides a way for us to offer arbitrary hints for use by the build
+ * system, while remaining transparent to the compiler.
+ */
+# 350 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+/* Attribute `nonnull' was valid as of gcc 3.3.  We don't use GCC's
+   variadiac macro facility, because variadic macros cause syntax
+   errors with  --traditional-cpp.  */
+# 372 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+/* TODO: Mark (almost) all CRT functions as __MINGW_NOTHROW.  This will
+allow GCC to optimize away some EH unwind code, at least in DW2 case.  */
+
+/* Activation of MinGW specific extended features:
+ */
+
+/* Users should not set this directly; rather, define one (or more)
+ * of the feature test macros (tabulated below), or specify any of the
+ * compiler's command line options, (e.g. -posix, -ansi, or -std=c...),
+ * which cause _POSIX_SOURCE, or __STRICT_ANSI__ to be defined.
+ *
+ * We must check this BEFORE we specifiy any implicit _POSIX_C_SOURCE,
+ * otherwise we would always implicitly choose __USE_MINGW_ANSI_STDIO,
+ * even if none of these selectors are specified explicitly...
+ */
+# 398 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+   /* otherwise use whatever __MINGW_FEATURES__ specifies...
+    */
+
+
+
+
+/* Some applications may define _XOPEN_SOURCE, without assigning any
+ * value to it.  Such usage may have been permitted in early SUS, but
+ * it became obsolete as of SUSv2.  Attempt to detect obsolete usage,
+ * as it makes an effective evaluation of any _XOPEN_SOURCE version
+ * dependency difficult, (without the use of ugly kludges at EVERY
+ * point of reference which attempts a version comparison).
+ */
+# 430 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+ /* Users may define this, either directly or indirectly, to explicitly
+  * enable a particular level of visibility for the subset of those POSIX
+  * features which are supported by MinGW; (notice that this offers no
+  * guarantee that any particular POSIX feature will be supported).
+  */
+# 456 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+  /*
+   * No explicit level of support has been specified; implicitly grant
+   * the most comprehensive level to any compilation unit which requests
+   * either GNU or BSD feature support, or does not seek to be strictly
+   * ANSI-C compliant.
+   */
+
+
+
+   /* For this default case, unless it has already been specified
+    * otherwise, we enable some GNU glibc extensions, which may be
+    * considered as violations of strict POSIX.1 conformance.
+    */
+# 482 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+ /* libmingwex.a provides free-standing implementations for many of the
+  * functions which were introduced in C99; MinGW headers do not expose
+  * prototypes for these, unless this feature test macro is defined, by
+  * the user, or implied by other standards.  We will use a bit-mapped
+  * representation, comprising the bit-wise sum of:
+  *
+  *   0x08  user declared
+  *   0x04  required by C compiler, supporting ISO-C99
+  *   0x02  required by C++ compiler, supporting ISO-C++11
+  *   0x01  required to support recent POSIX.1 features
+  *
+  * to ensure that we can identify the reason for implicit declaration,
+  * (in the event that we may need to discriminate).
+  */
+
+  /* This represents a compiler supporting ISO-C99; enable all potential
+   * use of ISO-C99 features, (to the maximum extent supportable), which
+   * presumably also covers all C++11 and POSIX.1 usage.
+   */
+# 539 "c:\\vcast\\mingw\\include\\_mingw.h" 3
+ /* Enable mingw32 extensions by default, except when __STRICT_ANSI__
+  * conformity mode has been enabled.
+  */
+# 50 "c:\\vcast\\mingw\\include\\stdlib.h" 2 3
+
+
+
+
+
+# 1 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 1 3 4
+/* Copyright (C) 1989-2016 Free Software Foundation, Inc.
+
+This file is part of GCC.
+
+GCC is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3, or (at your option)
+any later version.
+
+GCC is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Under Section 7 of GPL version 3, you are granted additional
+permissions described in the GCC Runtime Library Exception, version
+3.1, as published by the Free Software Foundation.
+
+You should have received a copy of the GNU General Public License and
+a copy of the GCC Runtime Library Exception along with this program;
+see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
+<http://www.gnu.org/licenses/>.  */
+
+/*
+ * ISO C Standard:  7.17  Common definitions  <stddef.h>
+ */
+
+
+
+
+
+
+/* Any one of these symbols __need_* means that GNU libc
+   wants us just to define one data type.  So don't define
+   the symbols that indicate this file's entire job has been done.  */
+# 46 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* This avoids lossage on SunOS but only if stdtypes.h comes first.
+   There's no way to win with the other order!  Sun lossage.  */
+
+/* On 4.3bsd-net2, make sure ansi.h is included, so we have
+   one less case to deal with in the following.  */
+
+
+
+/* On FreeBSD 5, machine/ansi.h does not exist anymore... */
+
+
+
+
+/* In 4.3bsd-net2, machine/ansi.h defines these symbols, which are
+   defined if the corresponding type is *not* defined.
+   FreeBSD-2.1 defines _MACHINE_ANSI_H_ instead of _ANSI_H_.
+   NetBSD defines _I386_ANSI_H_ and _X86_64_ANSI_H_ instead of _ANSI_H_ */
+# 92 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Sequent's header files use _PTRDIFF_T_ in some conflicting way.
+   Just ignore it.  */
+
+
+
+
+/* On VxWorks, <type/vxTypesBase.h> may have defined macros like
+   _TYPE_size_t which will typedef size_t.  fixincludes patched the
+   vxTypesBase.h so that this macro is only defined if _GCC_SIZE_T is
+   not defined, and so that defining this macro defines _GCC_SIZE_T.
+   If we find that the macros are still defined at this point, we must
+   invoke them so that the type is defined as expected.  */
+# 117 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* In case nobody has defined these types, but we aren't running under
+   GCC 2.00, make sure that __PTRDIFF_TYPE__, __SIZE_TYPE__, and
+   __WCHAR_TYPE__ have reasonable values.  This can happen if the
+   parts of GCC is compiled by an older compiler, that actually
+   include gstddef.h, such as collect2.  */
+
+/* Signed type of difference of two pointers.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 165 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Unsigned type of `sizeof' something.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 216 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+typedef unsigned int size_t;
+# 242 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Wide character type.
+   Locale-writers should change this as necessary to
+   be big enough to hold unique values not between 0 and 127,
+   and not (wchar_t) -1, for each defined multibyte character.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 283 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* On BSD/386 1.1, at least, machine/ansi.h defines _BSD_WCHAR_T_
+   instead of _WCHAR_T_, and _BSD_RUNE_T_ (which, unlike the other
+   symbols in the _FOO_T_ family, stays defined even after its
+   corresponding type is defined).  If we define wchar_t, then we
+   must undef _WCHAR_T_; for BSD/386 1.1 (and perhaps others), if
+   we undef _WCHAR_T_, then we must also define rune_t, since 
+   headers like runetype.h assume that if machine/ansi.h is included,
+   and _BSD_WCHAR_T_ is not defined, then rune_t is available.
+   machine/ansi.h says, "Note that _WCHAR_T_ and _RUNE_T_ must be of
+   the same type." */
+# 310 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* FreeBSD 5 can't be handled well using "traditional" logic above
+   since it no longer defines _BSD_RUNE_T_ yet still desires to export
+   rune_t in some cases... */
+# 328 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+typedef short unsigned int wchar_t;
+# 362 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/*  In 4.3bsd-net2, leave these undefined to indicate that size_t, etc.
+    are already defined.  */
+/*  BSD/OS 3.1 and FreeBSD [23].x require the MACHINE_ANSI_H check here.  */
+/*  NetBSD 5 requires the I386_ANSI_H and X86_64_ANSI_H checks here.  */
+# 398 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* A null pointer constant.  */
+# 56 "c:\\vcast\\mingw\\include\\stdlib.h" 2 3
+
+
+/* RAND_MAX is the maximum value that may be returned by rand.
+ * The minimum is zero.
+ */
+
+
+/* These values may be used as exit status codes.
+ */
+
+
+
+/* Definitions for path name functions.
+ * NOTE: All of these values have simply been chosen to be conservatively
+ * high.  Remember that with long file names we can no longer depend on
+ * extensions being short.
+ */
+# 90 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+
+
+
+
+/* This seems like a convenient place to declare these variables, which
+ * give programs using WinMain (or main for that matter) access to main-ish
+ * argc and argv. environ is a pointer to a table of environment variables.
+ * NOTE: Strings in _argv and environ are ANSI strings.
+ */
+extern int _argc;
+extern char **_argv;
+
+
+/* Imports from the runtime DLL, for the above variables.
+ */
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) int *__p___argc(void);
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) char ***__p___argv(void);
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t ***__p___wargv(void);
+# 137 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/* FIXME: also defined in <ctype.h>; should be factored out.
+ */
+
+
+
+   extern __attribute__((__dllimport__)) int __mb_cur_max;
+# 159 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/* FIXME: Nominally in <errno.h>, Microsoft likes to declare errno
+ * in <stdlib.h> as well; we should factor this out.
+ */
+
+
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int *_errno(void);
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int *__doserrno(void);
+
+
+
+/* Use environ from the DLL, not as a global.
+ */
+
+
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) char ***__p__environ(void);
+
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t ***__p__wenviron(void);
+# 195 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/* One of the MSVCRTxx libraries */
+
+
+
+
+
+
+extern __attribute__((__dllimport__)) int _sys_nerr;
+# 227 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+extern __attribute__((__dllimport__)) char *_sys_errlist[];
+
+
+
+
+
+
+/* OS version and such constants.
+ */
+
+
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned int *__p__osver(void);
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned int *__p__winver(void);
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned int *__p__winmajor(void);
+extern __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned int *__p__winminor(void);
+# 250 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+extern __attribute__((__dllimport__)) unsigned int _osver;
+extern __attribute__((__dllimport__)) unsigned int _winver;
+extern __attribute__((__dllimport__)) unsigned int _winmajor;
+extern __attribute__((__dllimport__)) unsigned int _winminor;
+# 285 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/* Although _pgmptr is exported as DATA, be safe and use the access
+ * function __p__pgmptr() to get it.
+ */
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char **__p__pgmptr(void);
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t **__p__wpgmptr(void);
+# 309 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/* This variable determines the default file mode.
+ * TODO: Which flags work?
+ */
+# 325 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+extern __attribute__((__dllimport__)) int _fmode;
+# 335 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int atoi (const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) long atol (const char *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) double strtod (const char *, char **);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) double atof (const char *);
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) double _wtof (const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _wtoi (const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) long _wtol (const wchar_t *);
+# 373 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/* Irrespective of requested standards conformity, where MSVCRT.DLL
+ * falls short, ISO-C99 offers this pair of alternative return type
+ * specific variants of strtod(), which MSVCRT.DLL does not, but we
+ * do, in libmingwex.a:
+ */
+__attribute__((__cdecl__)) __attribute__((__nothrow__))
+float strtof (const char *__restrict__, char **__restrict__);
+
+__attribute__((__cdecl__)) __attribute__((__nothrow__))
+long double strtold (const char *__restrict__, char **__restrict__);
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) long strtol (const char *, char **, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned long strtoul (const char *, char **, int);
+
+
+
+/* Prototypes which are to be declared both here, in <stdlib.h>,
+ * and also in <wchar.h>; declare them here, such that they may be
+ * selectively included by <wchar.h>.
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+long wcstol (const wchar_t *, wchar_t **, int);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+unsigned long wcstoul (const wchar_t *, wchar_t **, int);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) double wcstod (const wchar_t *, wchar_t **);
+
+
+/* Variants on wcstod(), specified by ISO-C99; once again, MSVCRT.DLL
+ * doesn't have them, but we offer them in libmingwex.a
+ */
+__attribute__((__cdecl__)) __attribute__((__nothrow__))
+float wcstof (const wchar_t *__restrict__, wchar_t **__restrict__);
+
+__attribute__((__cdecl__)) __attribute__((__nothrow__))
+long double wcstold (const wchar_t *__restrict__, wchar_t **__restrict__);
+# 451 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_wgetenv (const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _wputenv (const wchar_t *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+void _wsearchenv (const wchar_t *, const wchar_t *, wchar_t *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _wsystem (const wchar_t *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+void _wmakepath (wchar_t *, const wchar_t *, const wchar_t *, const wchar_t *,
+    const wchar_t *
+  );
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+void _wsplitpath (const wchar_t *, wchar_t *, wchar_t *, wchar_t *, wchar_t *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+wchar_t *_wfullpath (wchar_t *, const wchar_t *, size_t);
+
+
+
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t wcstombs (char *, const wchar_t *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int wctomb (char *, wchar_t);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int mblen (const char *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t mbstowcs (wchar_t *, const char *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int mbtowc (wchar_t *, const char *, size_t);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int rand (void);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void srand (unsigned int);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *calloc (size_t, size_t) __attribute__((__malloc__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *malloc (size_t) __attribute__((__malloc__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *realloc (void *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void free (void *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void abort (void) __attribute__((__noreturn__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void exit (int) __attribute__((__noreturn__));
+
+/* Note: this is in startup code, not imported directly from the runtime DLL
+ */
+int __attribute__((__cdecl__)) __attribute__((__nothrow__)) atexit (void (*)(void));
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int system (const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *getenv (const char *);
+
+/* bsearch() and qsort() are declared both here, in <stdlib.h>, and in
+ * non-ANSI header <search.h>; we reproduce these declarations in both,
+ * with no attempt to guard them, so the compiler may verify that they
+ * are consistent, if both headers are included.
+ */
+ __attribute__((__cdecl__)) void *bsearch
+(const void *, const void *, size_t, size_t, int (*)(const void *, const void *));
+
+ __attribute__((__cdecl__)) void qsort
+(void *, size_t, size_t, int (*)(const void *, const void *));
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int abs (int) __attribute__((__const__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) long labs (long) __attribute__((__const__));
+
+/* div_t and ldiv_t are structures used to return the results of div()
+ * and ldiv() functions.
+ *
+ * NOTE: div() and ldiv() appear not to work correctly unless
+ *       -fno-pcc-struct-return is specified. This is included in the
+ *       mingw32 specs file.
+ */
+typedef struct { int quot, rem; } div_t;
+typedef struct { long quot, rem; } ldiv_t;
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) div_t div (int, int) __attribute__((__const__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) ldiv_t ldiv (long, long) __attribute__((__const__));
+
+
+/* Although not nominally valid in "__STRICT_ANSI__" mode, when compiling C99
+ * source, we use Microsoft's _exit() function to facilitate our provision of
+ * an inline implementation of ISO-C99's _Exit() function.
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void _exit (int) __attribute__((__noreturn__));
+
+
+/* Similarly, we use Microsoft's MSVCRT.DLL specific _atoi64() function,
+ * to facilitate an inline implementation of ISO-C99's atoll() function.
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) long long _atoi64 (const char *);
+
+
+
+
+
+/* NOTE: Officially the three following functions are obsolete. The Win32 API
+ *       functions SetErrorMode, Beep and Sleep are their replacements.
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void _beep (unsigned int, unsigned int) __attribute__((__deprecated__));
+/* Not to be confused with  _set_error_mode (int).  */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void _seterrormode (int) __attribute__((__deprecated__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void _sleep (unsigned long) __attribute__((__deprecated__));
+
+/* _onexit is a Microsoft extension. Use atexit for portability. */
+/* Note: This is in startup code, not imported directly from dll */
+typedef int (* _onexit_t)(void);
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) _onexit_t _onexit( _onexit_t );
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _putenv (const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+void _searchenv (const char *, const char *, char *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_ecvt (double, int, int *, int *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_fcvt (double, int, int *, int *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_gcvt (double, int, char *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+void _makepath (char *, const char *, const char *, const char *, const char *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__))
+void _splitpath (const char *, char *, char *, char *, char *);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_fullpath (char*, const char*, size_t);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_itoa (int, char *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_ltoa (long, char *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_ultoa(unsigned long, char *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_itow (int, wchar_t *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_ltow (long, wchar_t *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_ultow (unsigned long, wchar_t *, int);
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char* _i64toa (long long, char *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char* _ui64toa (unsigned long long, char *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) long long _wtoi64 (const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t* _i64tow (long long, wchar_t *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t* _ui64tow (unsigned long long, wchar_t *, int);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned int (_rotl)(unsigned int, int) __attribute__((__const__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned int (_rotr)(unsigned int, int) __attribute__((__const__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned long (_lrotl)(unsigned long, int) __attribute__((__const__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) unsigned long (_lrotr)(unsigned long, int) __attribute__((__const__));
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _set_error_mode (int);
+# 628 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int putenv (const char*);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void searchenv (const char*, const char*, char*);
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char* itoa (int, char*, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char* ltoa (long, char*, int);
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char* ecvt (double, int, int*, int*);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char* fcvt (double, int, int*, int*);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char* gcvt (double, int, char*);
+
+
+
+
+
+
+/* Further APIs required to support ISO-C99, but missing from MSVCRT.DLL;
+ * we provide them in libmingwex.a:
+ *
+ * ISO-C99 name for _exit()
+ */
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) void _Exit(int) __attribute__((__noreturn__));
+
+
+
+
+
+
+typedef struct { long long quot, rem; } lldiv_t;
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) lldiv_t lldiv (long long, long long) __attribute__((__const__));
+
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) long long llabs (long long);
+# 670 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+__attribute__((__cdecl__)) __attribute__((__nothrow__))
+long long strtoll (const char *__restrict__, char **__restrict, int);
+
+__attribute__((__cdecl__)) __attribute__((__nothrow__))
+unsigned long long strtoull (const char *__restrict__, char **__restrict__, int);
+
+
+/* MSVCRT.DLL does not provide ISO-C99's atoll() function, but it does
+ * provide an analogue, in _atoi64(); map it accordingly.
+ */
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) long long atoll (const char *);
+# 716 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/* Type long long analogues for MSVCRT.DLL specific type long functions;
+ * none are actually provided by any version of MSVCRT.DLL, with names as
+ * specified here, but rather as called by the inline functions used to
+ * implement them, (i.e. the REMAPPED name specified in each__JMPSTUB__
+ * function reference respectively).
+ *
+ * FIXME: Not one of these is specified by ISO-C99, nor by POSIX, either;
+ * is there really any justification for us to specify them at all?  For
+ * the time being, declare as deprecated; perhaps remove later?
+ */
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) __attribute__((__deprecated__)) long long wtoll (const wchar_t *);
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) __attribute__((__deprecated__)) char *lltoa (long long, char *, int);
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) __attribute__((__deprecated__)) char *ulltoa (unsigned long long , char *, int);
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) __attribute__((__deprecated__)) wchar_t *lltow (long long, wchar_t *, int);
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) __attribute__((__deprecated__)) wchar_t *ulltow (unsigned long long, wchar_t *, int);
+# 758 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+/* POSIX/BSD extensions in libmingwex.a; these should be exposed only on
+ * the basis of appropriate POSIX or BSD specific feature tests...
+ *
+ * mkstemp(3) function support; added per feature request #2003.
+ * POSIX wants _XOPEN_SOURCE >= 500, (implying _POSIX_C_SOURCE >= 200112L).
+ */
+
+
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) int mkstemp (char *);
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) int __mingw_mkstemp (int, char *);
+
+/* On POSIX platforms, programmers may adopt an idiom such as:
+ *
+ *   if( mkstemp( template ) >= 0 )
+ *   { unlink( template );
+ *     . . .
+ *   }
+ *
+ * to ensure that a temporary file does NOT persist after it is
+ * closed; MS-Windows does not allow such use of unlink(2), while
+ * the file remains open.  Thus, MS-Windows programmers must take
+ * extra care, to close and unlink temporary files AFTER use, if
+ * similar behaviour is desired.
+ *
+ * To mitigate this MS-Windows limitation, we provide support for
+ * an alternative, MinGW specific idiom:
+ *
+ *   #include <fcntl.h>
+ *
+ *   _MKSTEMP_SETMODE( _O_TEMPORARY );
+ *   if( mkstemp( template ) >= 0 )
+ *   {
+ *     . . .
+ *   }
+ *
+ * to achieve a similar effect to that of the above POSIX idiom; the
+ * following macros are a MinGW specific extension, to facilite such
+ * use of _O_TEMPORARY, (in addition to the POSIX required attributes),
+ * when creating the temporary file.  Note that they require <fcntl.h>,
+ * which <stdlib.h> should NOT automatically include; we leave it to
+ * the user to explicitly include it, if using _MKSTEMP_SETMODE.
+ */
+# 808 "c:\\vcast\\mingw\\include\\stdlib.h" 3
+extern inline __attribute__((__gnu_inline__)) __attribute__((__always_inline__))
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) int mkstemp (char *__filename_template)
+{ return __mingw_mkstemp( 0, __filename_template ); }
+
+
+
+/* mkdtemp(3) function support: added as adjunct to feature request #2003.
+ * POSIX wants _XOPEN_SOURCE >= 700, (implying _POSIX_C_SOURCE >= 200809L).
+ */
+
+
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) char *mkdtemp (char *);
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) char *__mingw_mkdtemp (char *);
+
+extern inline __attribute__((__gnu_inline__)) __attribute__((__always_inline__))
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) char *mkdtemp (char *__dirname_template)
+{ return __mingw_mkdtemp( __dirname_template ); }
+
+
+
+
+/* setenv() and unsetenv() are also available, from POSIX.1-2001 onwards.
+ */
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) int setenv( const char *, const char *, int );
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) int unsetenv( const char * );
+
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) int __mingw_setenv( const char *, const char *, int );
+
+extern inline __attribute__((__gnu_inline__)) __attribute__((__always_inline__))
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) int setenv( const char *__n, const char *__v, int __f )
+{ return __mingw_setenv( __n, __v, __f ); }
+
+extern inline __attribute__((__gnu_inline__)) __attribute__((__always_inline__))
+__attribute__((__cdecl__)) __attribute__((__nothrow__)) int unsetenv( const char *__name )
+{ return __mingw_setenv( __name, ((void *)0), 1 ); }
+
+
+
+
+
+# 3 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_transmit.c" 2
+# 1 "c:\\vcast\\mingw\\include\\string.h" 1 3
+/*
+ * string.h
+ *
+ * ISO-C standard header, with MSVC compatible extensions.
+ *
+ * $Id: string.h,v 9a1ff48b3525 2017/02/07 11:20:05 keithmarshall $
+ *
+ * Written by Colin Peters <colin@bird.fu.is.saga-u.ac.jp>
+ * Copyright (C) 1997-2000, 2002-2004, 2007, 2009, 2015-2017,
+ *  MinGW.org Project.
+ *
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice, this permission notice, and the following
+ * disclaimer shall be included in all copies or substantial portions of
+ * the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+       
+# 35 "c:\\vcast\\mingw\\include\\string.h" 3
+
+
+/* All MinGW system headers must include this...
+ */
+
+
+
+/* ISO-C requires this header to expose definitions for NULL and size_t,
+ * retaining compatiblity with their fundamental <stddef.h> definitions.
+ */
+
+
+
+ /* MSVC extends this requirement to include a definition of wchar_t,
+  * (which contravenes strict ISO-C standards conformity).
+  */
+
+
+# 1 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 1 3 4
+/* Copyright (C) 1989-2016 Free Software Foundation, Inc.
+
+This file is part of GCC.
+
+GCC is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3, or (at your option)
+any later version.
+
+GCC is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Under Section 7 of GPL version 3, you are granted additional
+permissions described in the GCC Runtime Library Exception, version
+3.1, as published by the Free Software Foundation.
+
+You should have received a copy of the GNU General Public License and
+a copy of the GCC Runtime Library Exception along with this program;
+see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
+<http://www.gnu.org/licenses/>.  */
+
+/*
+ * ISO C Standard:  7.17  Common definitions  <stddef.h>
+ */
+
+
+
+
+
+
+/* Any one of these symbols __need_* means that GNU libc
+   wants us just to define one data type.  So don't define
+   the symbols that indicate this file's entire job has been done.  */
+# 46 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* This avoids lossage on SunOS but only if stdtypes.h comes first.
+   There's no way to win with the other order!  Sun lossage.  */
+
+/* On 4.3bsd-net2, make sure ansi.h is included, so we have
+   one less case to deal with in the following.  */
+
+
+
+/* On FreeBSD 5, machine/ansi.h does not exist anymore... */
+
+
+
+
+/* In 4.3bsd-net2, machine/ansi.h defines these symbols, which are
+   defined if the corresponding type is *not* defined.
+   FreeBSD-2.1 defines _MACHINE_ANSI_H_ instead of _ANSI_H_.
+   NetBSD defines _I386_ANSI_H_ and _X86_64_ANSI_H_ instead of _ANSI_H_ */
+# 92 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Sequent's header files use _PTRDIFF_T_ in some conflicting way.
+   Just ignore it.  */
+
+
+
+
+/* On VxWorks, <type/vxTypesBase.h> may have defined macros like
+   _TYPE_size_t which will typedef size_t.  fixincludes patched the
+   vxTypesBase.h so that this macro is only defined if _GCC_SIZE_T is
+   not defined, and so that defining this macro defines _GCC_SIZE_T.
+   If we find that the macros are still defined at this point, we must
+   invoke them so that the type is defined as expected.  */
+# 117 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* In case nobody has defined these types, but we aren't running under
+   GCC 2.00, make sure that __PTRDIFF_TYPE__, __SIZE_TYPE__, and
+   __WCHAR_TYPE__ have reasonable values.  This can happen if the
+   parts of GCC is compiled by an older compiler, that actually
+   include gstddef.h, such as collect2.  */
+
+/* Signed type of difference of two pointers.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 165 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Unsigned type of `sizeof' something.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 242 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Wide character type.
+   Locale-writers should change this as necessary to
+   be big enough to hold unique values not between 0 and 127,
+   and not (wchar_t) -1, for each defined multibyte character.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 362 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/*  In 4.3bsd-net2, leave these undefined to indicate that size_t, etc.
+    are already defined.  */
+/*  BSD/OS 3.1 and FreeBSD [23].x require the MACHINE_ANSI_H check here.  */
+/*  NetBSD 5 requires the I386_ANSI_H and X86_64_ANSI_H checks here.  */
+# 398 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* A null pointer constant.  */
+# 54 "c:\\vcast\\mingw\\include\\string.h" 2 3
+
+
+/* GNU's glibc declares strcasecmp() and strncasecmp() in <string.h>,
+ * contravening POSIX.1-2008 which requires them to be declared only in
+ * <strings.h>; we may emulate this anomalous glibc behaviour, which is
+ * ostensibly to support BSD usage, (in spite of such usage now being
+ * obsolete in BSD), by simply including our <strings.h> here.
+ */
+# 1 "c:\\vcast\\mingw\\include\\strings.h" 1 3
+/*
+ * strings.h
+ *
+ * API declarations for POSIX.1-2008 string functions supported by MinGW.
+ *
+ * $Id: strings.h,v afe05b778eef 2017/01/10 19:43:48 keithmarshall $
+ *
+ * Written by Keith Marshall <keithmarshall@users.sourceforge.net>
+ * Copyright (C) 2015-2017, MinGW.org Project.
+ *
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice, this permission notice, and the following
+ * disclaimer shall be included in all copies or substantial portions of
+ * the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+       
+# 34 "c:\\vcast\\mingw\\include\\strings.h" 3
+
+/* In addition to the POSIX strcasecmp() and strncasecmp() functions,
+ * this header declares the prototypes for the MSVC specific stricmp()
+ * and strincmp() functions, which MSVC expects to find in <string.h>;
+ * thus, we support selective partial inclusion by <string.h>, to make
+ * this pair of function prototypes available as MSVC expects...
+ */
+
+/* ...and we define the _STRINGS_H guard macro only when NOT included
+ * in this partial fashion.
+ */
+
+
+/* All MinGW system headers must include <_mingw.h>; if we had been
+ * sourced by <string.h>, we could safely assume that it had already
+ * done this, but since that doesn't apply in this case, we must do
+ * it ourselves.
+ */
+
+
+
+/* POSIX.1-2008 requires this header to expose the typedef for size_t; to
+ * ensure consistency, we import this from GCC's own <stddef.h> header.
+ */
+
+# 1 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 1 3 4
+/* Copyright (C) 1989-2016 Free Software Foundation, Inc.
+
+This file is part of GCC.
+
+GCC is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3, or (at your option)
+any later version.
+
+GCC is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Under Section 7 of GPL version 3, you are granted additional
+permissions described in the GCC Runtime Library Exception, version
+3.1, as published by the Free Software Foundation.
+
+You should have received a copy of the GNU General Public License and
+a copy of the GCC Runtime Library Exception along with this program;
+see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
+<http://www.gnu.org/licenses/>.  */
+
+/*
+ * ISO C Standard:  7.17  Common definitions  <stddef.h>
+ */
+
+
+
+
+
+
+/* Any one of these symbols __need_* means that GNU libc
+   wants us just to define one data type.  So don't define
+   the symbols that indicate this file's entire job has been done.  */
+# 46 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* This avoids lossage on SunOS but only if stdtypes.h comes first.
+   There's no way to win with the other order!  Sun lossage.  */
+
+/* On 4.3bsd-net2, make sure ansi.h is included, so we have
+   one less case to deal with in the following.  */
+
+
+
+/* On FreeBSD 5, machine/ansi.h does not exist anymore... */
+
+
+
+
+/* In 4.3bsd-net2, machine/ansi.h defines these symbols, which are
+   defined if the corresponding type is *not* defined.
+   FreeBSD-2.1 defines _MACHINE_ANSI_H_ instead of _ANSI_H_.
+   NetBSD defines _I386_ANSI_H_ and _X86_64_ANSI_H_ instead of _ANSI_H_ */
+# 92 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Sequent's header files use _PTRDIFF_T_ in some conflicting way.
+   Just ignore it.  */
+
+
+
+
+/* On VxWorks, <type/vxTypesBase.h> may have defined macros like
+   _TYPE_size_t which will typedef size_t.  fixincludes patched the
+   vxTypesBase.h so that this macro is only defined if _GCC_SIZE_T is
+   not defined, and so that defining this macro defines _GCC_SIZE_T.
+   If we find that the macros are still defined at this point, we must
+   invoke them so that the type is defined as expected.  */
+# 117 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* In case nobody has defined these types, but we aren't running under
+   GCC 2.00, make sure that __PTRDIFF_TYPE__, __SIZE_TYPE__, and
+   __WCHAR_TYPE__ have reasonable values.  This can happen if the
+   parts of GCC is compiled by an older compiler, that actually
+   include gstddef.h, such as collect2.  */
+
+/* Signed type of difference of two pointers.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 165 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Unsigned type of `sizeof' something.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 242 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* Wide character type.
+   Locale-writers should change this as necessary to
+   be big enough to hold unique values not between 0 and 127,
+   and not (wchar_t) -1, for each defined multibyte character.  */
+
+/* Define this type if we are doing the whole job,
+   or if we want this type in particular.  */
+# 362 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/*  In 4.3bsd-net2, leave these undefined to indicate that size_t, etc.
+    are already defined.  */
+/*  BSD/OS 3.1 and FreeBSD [23].x require the MACHINE_ANSI_H check here.  */
+/*  NetBSD 5 requires the I386_ANSI_H and X86_64_ANSI_H checks here.  */
+# 398 "c:\\vcast\\mingw\\lib\\gcc\\mingw32\\6.3.0\\include\\stddef.h" 3 4
+/* A null pointer constant.  */
+# 60 "c:\\vcast\\mingw\\include\\strings.h" 2 3
+
+
+
+int __attribute__((__cdecl__)) __attribute__((__nothrow__)) strcasecmp( const char *, const char * );
+int __attribute__((__cdecl__)) __attribute__((__nothrow__)) strncasecmp( const char *, const char *, size_t );
+
+
+
+
+
+/* These are the MSVCRT.DLL equivalents for POSIX.1's strcasecmp() and
+ * strncasecmp() functions, for which we provide in-line implementations
+ * in <strings.h> respectively; MSVC expects to find these prototypes in
+ * <string.h>, but we also need them here, in <strings.h>, to facilitate
+ * the in-line function implementations; we declare them here, and allow
+ * <string.h> to include them selectively.  Note that <string.h> doesn't
+ * need these if __STRICT_ANSI__ is defined, while <strings.h> doesn't
+ * if __NO_INLINE__ is defined; thus we declare them, unless BOTH of
+ * these conditions for not requiring them are satisfied.
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _stricmp( const char *, const char * );
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _strnicmp( const char *, const char *, size_t );
+# 100 "c:\\vcast\\mingw\\include\\strings.h" 3
+
+# 63 "c:\\vcast\\mingw\\include\\string.h" 2 3
+
+
+
+
+
+/* Prototypes for the ISO-C Standard library string functions.
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *memchr (const void *, int, size_t) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int memcmp (const void *, const void *, size_t) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *memcpy (void *, const void *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *memmove (void *, const void *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *memset (void *, int, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strcat (char *, const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strchr (const char *, int) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int strcmp (const char *, const char *) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int strcoll (const char *, const char *); /* Compare using locale */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strcpy (char *, const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t strcspn (const char *, const char *) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strerror (int); /* NOTE: NOT an old name wrapper. */
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t strlen (const char *) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strncat (char *, const char *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int strncmp (const char *, const char *, size_t) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strncpy (char *, const char *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strpbrk (const char *, const char *) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strrchr (const char *, int) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t strspn (const char *, const char *) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strstr (const char *, const char *) __attribute__((__pure__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strtok (char *, const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t strxfrm (char *, const char *, size_t);
+
+
+/* Extra non-ANSI functions provided by the CRTDLL library
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_strerror (const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *_memccpy (void *, const void *, int, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _memicmp (const void *, const void *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_strdup (const char *) __attribute__((__malloc__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _strcmpi (const char *, const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _stricoll (const char *, const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_strlwr (char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_strnset (char *, int, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_strrev (char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_strset (char *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *_strupr (char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void _swab (const char *, char *, size_t);
+# 123 "c:\\vcast\\mingw\\include\\string.h" 3
+ /* These were not present in the CRTDLL prior to the first release of
+  * MSVCRT.DLL, but are available in all versions of that library.
+  */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _strncoll(const char *, const char *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _strnicoll(const char *, const char *, size_t);
+
+
+
+ /* Non-underscore decorated versions of non-ANSI functions. They live in the
+  * OLDNAMES libraries, whence they provide a little extra portability.
+  */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void *memccpy (void *, const void *, int, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int memicmp (const void *, const void *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strdup (const char *) __attribute__((__malloc__));
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int strcmpi (const char *, const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int stricmp (const char *, const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int stricoll (const char *, const char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strlwr (char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int strnicmp (const char *, const char *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strnset (char *, int, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strrev (char *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strset (char *, int);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) char *strupr (char *);
+
+
+  /* FIXME: Do we really care that UWin doesn't support this?  We are
+   * under no obligation to support UWin.
+   */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) void swab (const char *, char *, size_t);
+
+
+
+
+/* MSVC also expects <string.h> to declare duplicates of the wchar_t
+ * string functions which are nominally declared in <wchar.h>, (which
+ * is where ISO-C specifies that they should be declared).  For the
+ * convenience of applications which rely on this Microsoft anomaly,
+ * inclusion of <wchar.h>, within the current __STRING_H_SOURCED__
+ * scope, will selectively expose the required function prototypes;
+ * however, strictly ISO-C conforming applications should include
+ * <wchar.h> directly; they should not rely on this MSVC specific
+ * anomalous behaviour.  (We use the quoted form of inclusion here,
+ * to ensure that we get our own "wchar.h", and not any predecessor
+ * which may have been insinuated into the system include path, and
+ * so could interfere with our mechanism for partial inclusion of
+ * shared header content).
+ */
+# 1 "c:\\vcast\\mingw\\include\\wchar.h" 1 3
+/*
+ * wchar.h
+ *
+ * Declarations relating to support for wide characters; many are simply
+ * inherited by (sub-optimal) inclusion of other header files.
+ *
+ * $Id: wchar.h,v ec519c2a99b3 2017/01/28 16:20:51 keithmarshall $
+ *
+ * Unattributed original source.
+ * Adapted by Rob Savoye <rob@cygnus.com>
+ * Copyright (C) 1997, 1999-2009, 2011, 2015, 2016, MinGW.org Project.
+ *
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice, this permission notice, and the following
+ * disclaimer shall be included in all copies or substantial portions of
+ * the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+       
+# 36 "c:\\vcast\\mingw\\include\\wchar.h" 3
+
+/* This header declares prototypes for wchar_t string functions, as are
+ * prescribed by ISO-C, but which MSVC also expects, (in contravention of
+ * ISO-C prescriptions), to find in <string.h>.  To accommodate this MSVC
+ * anomaly, we make provision for <string.h> to include a selected subset
+ * of <wchar.h>; thus, we do not immediately define _WCHAR_T...
+ */
+# 383 "c:\\vcast\\mingw\\include\\wchar.h" 3
+/* ...such that these declarations are exposed when either _WCHAR_H is defined,
+ * or when _STRING_H is defined and __STRICT_ANSI__ is not, but NOT when BOTH of
+ * these apply, since that indicates that this group of declarations has already
+ * been processed, during partial inclusion of <wchar.h> by <string.h>, whereas
+ * we are now including <wchar.h> in its own right.
+ *
+ *
+ * Wide character versions of the ISO-C standard string functions.
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcscat (wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcschr (const wchar_t *, wchar_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int wcscmp (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int wcscoll (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcscpy (wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t wcscspn (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t wcslen (const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsncat (wchar_t *, const wchar_t *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int wcsncmp (const wchar_t *, const wchar_t *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsncpy (wchar_t *, const wchar_t *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcspbrk (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsrchr (const wchar_t *, wchar_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t wcsspn (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsstr (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcstok (wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) size_t wcsxfrm (wchar_t *, const wchar_t *, size_t);
+
+
+/* UTF-16LE versions of non-ANSI string functions provided by CRTDLL.DLL
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_wcsdup (const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _wcsicmp (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _wcsicoll (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_wcslwr (wchar_t*);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _wcsnicmp (const wchar_t *, const wchar_t *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_wcsnset (wchar_t *, wchar_t, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_wcsrev (wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_wcsset (wchar_t *, wchar_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *_wcsupr (wchar_t *);
+
+
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _wcsncoll (const wchar_t *, const wchar_t *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int _wcsnicoll (const wchar_t *, const wchar_t *, size_t);
+
+/* A wide character counterpart to the strerror() API was introduced in
+ * MSVCR70.DLL, and subsequently back-ported to MSVCRT.DLL in WinXP.
+ */
+# 440 "c:\\vcast\\mingw\\include\\wchar.h" 3
+/* MSVCRT.DLL provides neither _wcscmpi() nor wcscmpi(); the heritage
+ * is uncertain, but for the convenience, (and portability), of legacy
+ * applications which assume wcscmpi() should be available:
+ */
+
+int __attribute__((__cdecl__)) __attribute__((__nothrow__)) wcscmpi (const wchar_t *, const wchar_t *);
+# 454 "c:\\vcast\\mingw\\include\\wchar.h" 3
+/* Older CRTDLL.DLL versions may have provided these alternatively named
+ * functions; we continue to support them, via the OLDNAME libraries:
+ */
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsdup (const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int wcsicmp (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int wcsicoll (const wchar_t *, const wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcslwr (wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) int wcsnicmp (const wchar_t *, const wchar_t *, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsnset (wchar_t *, wchar_t, size_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsrev (wchar_t *);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsset (wchar_t *, wchar_t);
+ __attribute__((__cdecl__)) __attribute__((__nothrow__)) wchar_t *wcsupr (wchar_t *);
+# 483 "c:\\vcast\\mingw\\include\\wchar.h" 3
+/* Emulation, to support recent POSIX.1; we prefer this for ALL versions
+ * of MSVCRT.DLL, (even those which already provide wcsnlen()); to avoid
+ * the GCC breakage noted above.  (Note that we implement wcsnlen() with
+ * the alternative external name, __mingw_wcsnlen() in libmingwex.a, to
+ * avoid possible link time collision with MSVCR80.DLL's implementation,
+ * then map this to wcsnlen() via a __CRT_ALIAS, with stubs designated
+ * for linking from within the appropriate oldname libraries.
+ */
+extern size_t __mingw_wcsnlen (const wchar_t *, size_t);
+
+
+extern inline __attribute__((__gnu_inline__)) __attribute__((__always_inline__)) size_t wcsnlen (const wchar_t *__text, size_t __maxlen)
+{ return __mingw_wcsnlen (__text, __maxlen); }
+
+
+
+
+/* This completes the set of declarations which are to be duplicated by
+ * inclusion of <string.h>; revert the declarative condition, to make it
+ * specific to <wchar.h> alone.
+ */
+# 171 "c:\\vcast\\mingw\\include\\string.h" 2 3
+# 185 "c:\\vcast\\mingw\\include\\string.h" 3
+/* Emulation, to support recent POSIX.1; we prefer this for ALL versions
+ * of MSVCRT.DLL, (even those which already provide strnlen()); to avoid
+ * the GCC breakage noted above.  (Note that we implement strnlen() with
+ * the alternative external name, __mingw_strnlen() in libmingwex.a, to
+ * avoid possible link time collision with MSVCR80.DLL's implementation,
+ * then map this to strnlen() via a __CRT_ALIAS, with stubs designated
+ * for linking from within the appropriate oldname libraries.
+ */
+extern size_t __mingw_strnlen (const char *, size_t);
+
+
+extern inline __attribute__((__gnu_inline__)) __attribute__((__always_inline__)) size_t strnlen (const char *__text, size_t __maxlen)
+{ return __mingw_strnlen (__text, __maxlen); }
+
+
+
+
+
+/* POSIX.1-2001 added a re-entrant variant of strerror(), which stores
+ * the message text in a user supplied buffer, rather than in (possibly
+ * volatile) system supplied storage.  Although inherently thread-safe,
+ * Microsoft's strerror() also uses a potentially volatile buffer, (in
+ * the sense that it is overwritten by successive calls within a single
+ * thread); thus, we provide our own implementation of POSIX.1-2001's
+ * strerror_r() function, to facilitate the return of non-volatile
+ * copies of strerror()'s message text.
+ */
+extern int strerror_r (int, char *, size_t);
+# 223 "c:\\vcast\\mingw\\include\\string.h" 3
+/* For the benefit of pre-Vista MSVCRT.DLL users, we provide an approximate
+ * emulation of strerror_s(), in terms of inline referral to POSIX.1-2001's
+ * strerror_r() function.
+ */
+extern inline __attribute__((__gnu_inline__)) __attribute__((__always_inline__)) int strerror_s (char *__buf, size_t __len, int __err)
+{ return strerror_r (__err, __buf, __len); }
+
+
+
+
+
+# 4 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_transmit.c" 2
+# 1 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_types.h" 1
+# 9 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_types.h"
+
+# 9 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_types.h"
+extern int log_msg(void *msg, int msg_len);
+extern int calc_crc(void *msg, int msg_len);
+extern void reset_transmitter(void);
+
+
+enum e_msg_sts
+{
+  BAD_PTR = -1,
+  BAD_MSG = -2,
+  TX_GOOD = 0,
+  TX_BAD,
+  RX_GOOD,
+  RX_BAD,
+};
+typedef enum e_msg_sts t_msg_sts;
+# 38 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_types.h"
+struct s_msg_hdr
+{
+    unsigned char len;
+    unsigned char num;
+    unsigned char crc;
+};
+typedef struct s_msg_hdr t_msg_hdr;
+
+struct s_msg_packet
+{
+    t_msg_hdr hdr;
+    unsigned char data[100];
+};
+typedef struct s_msg_packet t_msg_packet;
+# 5 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_transmit.c" 2
+# 1 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_hdwr_tx.h" 1
+
+extern inline void hw_send_rts(void);
+extern inline int hw_check_cts(void);
+extern inline void hw_tx_byte(unsigned char ch );
+
+
+inline void hw_send_rts(void)
+{/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_3686245375
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_3686245375
+/*vcast_internal_end*/
+/*vcast_internal_start*/{/*vcast_internal_end*/
+
+        *((unsigned char *)0x8000000) |= 1;
+/*vcast_internal_start*/}/*vcast_internal_end*/
+}
+
+inline int hw_check_cts(void)
+{/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_1321332304
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_1321332304
+/*vcast_internal_end*/
+/*vcast_internal_start*/{/*vcast_internal_end*/
+
+     return(*((unsigned char *)0x8000000) & 1);
+
+/*vcast_internal_start*/}/*vcast_internal_end*/
+}
+
+inline void hw_tx_byte(unsigned char ch )
+{/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_3236889976
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_3236889976
+/*vcast_internal_end*/
+/*vcast_internal_start*/{/*vcast_internal_end*/
+
+    *((unsigned char *)0x8000004) = ch;
+/*vcast_internal_start*/}/*vcast_internal_end*/
+}
+# 6 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_transmit.c" 2
+
+
+
+
+
+
+t_msg_sts data_tx_V1( unsigned char *msg, unsigned char msg_len )
+{/*vcast_internal_start*/
+extern unsigned char *P_9_4_1;
+extern unsigned char P_9_4_2;
+extern enum e_msg_sts R_9_4;
+extern unsigned char SBF_9_4;
+if(SBF_9_4) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_4036716187
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_4036716187
+  if ( vcast_is_in_driver ) {
+    P_9_4_1 = msg;
+    P_9_4_2 = msg_len;
+    vCAST_COMMON_STUB_PROC_9( 9, 4, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_4036716187
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_4036716187
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_4;
+}
+/*vcast_internal_end*/
+/*vcast_internal_start*/{/*vcast_internal_end*/
+
+    int timeout_ctr=0;
+    int i=0;
+
+    if (!msg)
+    {
+        return(BAD_PTR);
+    }
+
+    if ((msg_len < 1) || (msg_len > 100))
+    {
+        return(BAD_MSG);
+    }
+
+/*
+
+#define HW_STS_REG  ((unsigned char *)0x8000000)
+
+#define HW_DATA_REG ((unsigned char *)0x8000004)
+
+*/
+# 32 "C:/VCAST/Environments/Git_Test/SourceFiles/datalink_transmit.c"
+    while (i < msg_len)
+    {
+        *((unsigned char *)0x8000000) = 1;
+        if (*((unsigned char *)0x8000000) & 1)
+        {
+            timeout_ctr = 0;
+            ((unsigned char *)0x8000004)[i++] = *msg++;
+        }
+        else
+        {
+            if (++timeout_ctr > 10)
+            {
+                reset_transmitter();
+                log_msg(msg, msg_len);
+                return(TX_BAD);
+            }
+        }
+    }
+
+    return(TX_GOOD);
+
+/*vcast_internal_start*/}/*vcast_internal_end*/
+}
+
+
+
+t_msg_sts data_tx_V2( unsigned char *data_ptr, unsigned char data_len )
+{/*vcast_internal_start*/
+extern unsigned char *P_9_5_1;
+extern unsigned char P_9_5_2;
+extern enum e_msg_sts R_9_5;
+extern unsigned char SBF_9_5;
+if(SBF_9_5) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_1771190049
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_1771190049
+  if ( vcast_is_in_driver ) {
+    P_9_5_1 = data_ptr;
+    P_9_5_2 = data_len;
+    vCAST_COMMON_STUB_PROC_9( 9, 5, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_1771190049
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_1771190049
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_5;
+}
+/*vcast_internal_end*/
+/*vcast_internal_start*/{/*vcast_internal_end*/
+
+    int timeout_ctr=0;
+    int i=0;
+
+    if (!data_ptr)
+    {
+        return(BAD_PTR);
+    }
+
+    while (i < data_len)
+    {
+        hw_send_rts();
+        if (hw_check_cts())
+        {
+            timeout_ctr = 0;
+            hw_tx_byte(*data_ptr++);
+            i++;
+        }
+        else
+        {
+            if (++timeout_ctr > 10)
+            {
+                reset_transmitter();
+                log_msg(data_ptr, data_len);
+                return(TX_BAD);
+            }
+        }
+    }
+
+    return(TX_GOOD);
+
+/*vcast_internal_start*/}/*vcast_internal_end*/
+}
+
+static int log_flag=1;
+t_msg_sts pkt_transmit( unsigned char *msg, unsigned char msg_len, unsigned char msg_num )
+{/*vcast_internal_start*/
+extern unsigned char *P_9_6_1;
+extern unsigned char P_9_6_2;
+extern unsigned char P_9_6_3;
+extern enum e_msg_sts R_9_6;
+extern unsigned char SBF_9_6;
+if(SBF_9_6) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_313951443
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_313951443
+  if ( vcast_is_in_driver ) {
+    P_9_6_1 = msg;
+    P_9_6_2 = msg_len;
+    P_9_6_3 = msg_num;
+    vCAST_COMMON_STUB_PROC_9( 9, 6, 4, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_313951443
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_313951443
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_6;
+}
+/*vcast_internal_end*/
+/*vcast_internal_start*/{/*vcast_internal_end*/
+
+    t_msg_packet pkt;
+    int rc;
+    char log_buf[200];
+
+
+    if (!msg)
+    {
+        return(BAD_PTR);
+    }
+
+    if ((msg_len < 1) || (msg_len > 100))
+    {
+        return(BAD_MSG);
+    }
+
+    pkt.hdr.len = msg_len + sizeof(pkt.hdr);
+    pkt.hdr.num = msg_num;
+    pkt.hdr.crc = calc_crc(msg, msg_len);
+
+    memcpy(pkt.data, msg, msg_len);
+
+    rc = data_tx_V2( (unsigned char *)&pkt, sizeof(t_msg_hdr) + msg_len );
+
+    if (log_flag)
+    {
+        strncpy(log_buf, "Message Transmitted: ", sizeof(log_buf));
+        strncat(log_buf, msg, sizeof(log_buf));
+        log_msg( log_buf, sizeof(log_buf) );
+    }
+
+
+    return(rc);
+/*vcast_internal_start*/}/*vcast_internal_end*/
+}
+# 6 "vcast_preprocess.15924.8.c" 2
+
+/*vcast_internal_start*/
+unsigned char SBF_9_1 = 0;
+
+/*vcast_internal_end*/
+/*vcast_internal_start*/
+int R_9_2;
+unsigned char SBF_9_2 = 0;
+
+/*vcast_internal_end*/
+/*vcast_internal_start*/
+unsigned char P_9_3_1;
+unsigned char SBF_9_3 = 0;
+
+/*vcast_internal_end*/
+/*vcast_internal_start*/
+unsigned char *P_9_4_1;
+unsigned char P_9_4_2;
+enum e_msg_sts R_9_4;
+unsigned char SBF_9_4 = 0;
+
+/*vcast_internal_end*/
+/*vcast_internal_start*/
+unsigned char *P_9_5_1;
+unsigned char P_9_5_2;
+enum e_msg_sts R_9_5;
+unsigned char SBF_9_5 = 0;
+
+/*vcast_internal_end*/
+/*vcast_internal_start*/
+unsigned char *P_9_6_1;
+unsigned char P_9_6_2;
+unsigned char P_9_6_3;
+enum e_msg_sts R_9_6;
+unsigned char SBF_9_6 = 0;
+
+/*vcast_internal_end*/
+typedef int VECTORCAST_MARKER__UNIT_APPENDIX_START;
+
+typedef int VECTORCAST_MARKER__UNIT_APPENDIX_END;
+# 4 "vcast_preprocess.15924.10.c" 2
+
+                                               

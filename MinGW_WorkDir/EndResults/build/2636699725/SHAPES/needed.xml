@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <variable id="npos__Q3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; _CharT, _Traits, _Alloc&gt; ::npos" defined="0" type="unknown" file="1">
+        <reference type="initialized" function-scope="false" line="96" col="30" statement-line="96" statement-col="30" statement-end-line="96" statement-end-col="62"/>
+      </variable>
+      <function id="__ct__5ShapeFv" name="Shape::Shape" defined="0" const="0" file="2" return=""/>
+      <function id="__ct__5ShapeFiT1" name="Shape::Shape" defined="0" const="0" file="2" return="">
+        <parameters>
+          <parameter type="int" name="x"/>
+          <parameter type="int" name="y"/>
+        </parameters>
+      </function>
+      <type name="std::exception"/>
+      <type name="std::bad_exception">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::nested_exception"/>
+      <type name="std::_Nested_exception&lt; _Except&gt; ">
+        <base name="_Except"/>
+        <base name="std::nested_exception"/>
+      </type>
+      <type name="std::bad_alloc">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::bad_array_new_length">
+        <base name="std::bad_alloc"/>
+      </type>
+      <function id="__ab5cxx11getName__5ShapeCFv" name="Shape::getName" defined="0" const="1" virtual="1" type="Shape" file="2" return="std::__cxx11::string"/>
+      <function id="getArea__5ShapeCFv" name="Shape::getArea" defined="0" const="1" virtual="1" type="Shape" file="2" return="float"/>
+      <type name="Shape"/>
+      <function id="__ct__9RectangleFv" name="Rectangle::Rectangle" defined="1" const="0" file="3" return=""/>
+      <function id="__ct__9RectangleFiN31" name="Rectangle::Rectangle" defined="1" const="0" file="3" return="">
+        <parameters>
+          <parameter type="int" name="x"/>
+          <parameter type="int" name="y"/>
+          <parameter type="int" name="height"/>
+          <parameter type="int" name="width"/>
+        </parameters>
+      </function>
+      <function id="getArea__9RectangleCFv" name="Rectangle::getArea" defined="1" const="1" virtual="1" type="Rectangle" file="3" return="float">
+        <overrides function="getArea__5ShapeCFv" type="Shape"/>
+      </function>
+      <function id="__ab5cxx11getName__9RectangleCFv" name="Rectangle::getName" defined="1" const="1" virtual="1" type="Rectangle" inline="1" file="4" return="std::__cxx11::string">
+        <overrides function="__ab5cxx11getName__5ShapeCFv" type="Shape"/>
+      </function>
+      <type name="Rectangle">
+        <base name="Shape"/>
+      </type>
+      <function id="__nw__FUi" name="operator new" defined="0" const="0" file="5" return="void*">
+        <parameters>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dl__FPvUi" name="operator delete" defined="0" const="0" file="5" return="">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <type name="__cxxabiv1::__forced_unwind"/>
+    </unit>
+    <unit id="11">
+      <function id="__ct__5ShapeFv" name="Shape::Shape" defined="1" const="0" file="6" return=""/>
+      <function id="__ct__5ShapeFiT1" name="Shape::Shape" defined="1" const="0" file="6" return="">
+        <parameters>
+          <parameter type="int" name="x"/>
+          <parameter type="int" name="y"/>
+        </parameters>
+      </function>
+      <function id="setPosition__5ShapeFiT1" name="Shape::setPosition" defined="1" const="0" file="6" return="">
+        <parameters>
+          <parameter type="int" name="x"/>
+          <parameter type="int" name="y"/>
+        </parameters>
+      </function>
+      <function id="getX__5ShapeCFv" name="Shape::getX" defined="1" const="1" file="6" return="int"/>
+      <function id="getY__5ShapeCFv" name="Shape::getY" defined="1" const="1" file="6" return="int"/>
+      <type name="std::exception"/>
+      <type name="std::bad_exception">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::nested_exception"/>
+      <type name="std::_Nested_exception&lt; _Except&gt; ">
+        <base name="_Except"/>
+        <base name="std::nested_exception"/>
+      </type>
+      <type name="std::bad_alloc">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::bad_array_new_length">
+        <base name="std::bad_alloc"/>
+      </type>
+      <function id="__ab5cxx11getName__5ShapeCFv" name="Shape::getName" defined="0" const="1" virtual="1" type="Shape" file="2" return="std::__cxx11::string"/>
+      <function id="getArea__5ShapeCFv" name="Shape::getArea" defined="0" const="1" virtual="1" type="Shape" file="2" return="float"/>
+      <type name="Shape"/>
+      <function id="__nw__FUi" name="operator new" defined="0" const="0" file="5" return="void*">
+        <parameters>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dl__FPvUi" name="operator delete" defined="0" const="0" file="5" return="">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <type name="__cxxabiv1::__forced_unwind"/>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h</file>
+    <file id="2">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.h</file>
+    <file id="3">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/rectangle.cpp</file>
+    <file id="4">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/rectangle.h</file>
+    <file id="5">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\new</file>
+    <file id="6">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.cpp</file>
+  </files>
+</env_info>

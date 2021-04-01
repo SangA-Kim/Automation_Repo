@@ -1,0 +1,20 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1188312848\ABSTRACT_SHAPE.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: GET.001.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 25 TEST.NAME:GET.001
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: GET.001.001
+(S) @LINE: 41
+    >>> Processed Test Case: GET.001.001
+(I) @LINE: 47
+    >>> Processing Test Case: GET.002
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 16 TEST.NAME:GET
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: GET.002
+(S) @LINE: 57
+    >>> Processed Test Case: GET.002
+(S) @LINE: 57
+    >>> Script processing completed

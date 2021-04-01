@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="findY" name="findY" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="float" name="x"/>
+          <parameter type="float" name="m"/>
+          <parameter type="float" name="b"/>
+        </parameters>
+      </function>
+      <function id="findX" name="findX" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="float" name="y"/>
+          <parameter type="float" name="m"/>
+          <parameter type="float" name="b"/>
+        </parameters>
+      </function>
+      <function id="findM" name="findM" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="coordT" name="coord"/>
+          <parameter type="float" name="b"/>
+        </parameters>
+      </function>
+      <function id="findB" name="findB" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="coordT" name="coord"/>
+          <parameter type="float" name="m"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Environments/Git_Test/SourceFiles/line.c</file>
+  </files>
+</env_info>

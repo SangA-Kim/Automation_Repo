@@ -1,0 +1,5 @@
+TEST.EXPECTED_USER_CODE:vcast_time.time_add_seconds.return
+{{ <<vcast_time.time_add_seconds.return>>.mins == 2 }}
+{{ <<vcast_time.time_add_seconds.return>>.secs == 5 }}
+
+TEST.END_EXPECTED_USER_CODE:

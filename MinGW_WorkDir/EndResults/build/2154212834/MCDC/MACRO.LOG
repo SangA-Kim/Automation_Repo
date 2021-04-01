@@ -1,0 +1,44 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2154212834\MCDC.tst.tmp
+(I) @LINE: 29
+    >>> Processing Test Case: PairA_Row1_TTT_T
+(S) @LINE: 34
+    >>> Processed Test Case: PairA_Row1_TTT_T
+(I) @LINE: 40
+    >>> Processing Test Case: PairA_Row5_FTT_F
+(S) @LINE: 45
+    >>> Processed Test Case: PairA_Row5_FTT_F
+(I) @LINE: 51
+    >>> Processing Test Case: PairB_Row2_TTF_T
+(S) @LINE: 56
+    >>> Processed Test Case: PairB_Row2_TTF_T
+(I) @LINE: 62
+    >>> Processing Test Case: PairB_Row4_TFF_F
+(S) @LINE: 67
+    >>> Processed Test Case: PairB_Row4_TFF_F
+(I) @LINE: 73
+    >>> Processing Test Case: PairC_Row4_TFF_F
+(S) @LINE: 78
+    >>> Processed Test Case: PairC_Row4_TFF_F
+(I) @LINE: 84
+    >>> Processing Test Case: PairC_Row4_TFT_T
+(S) @LINE: 89
+    >>> Processed Test Case: PairC_Row4_TFT_T
+(I) @LINE: 97
+    >>> Processing Test Case: Closed_Mon_1701
+(S) @LINE: 101
+    >>> Processed Test Case: Closed_Mon_1701
+(I) @LINE: 107
+    >>> Processing Test Case: Closed_Mon_759
+(S) @LINE: 111
+    >>> Processed Test Case: Closed_Mon_759
+(I) @LINE: 117
+    >>> Processing Test Case: Closed_Sun_1000
+(S) @LINE: 121
+    >>> Processed Test Case: Closed_Sun_1000
+(I) @LINE: 127
+    >>> Processing Test Case: Open_Mon_1000
+(S) @LINE: 131
+    >>> Processed Test Case: Open_Mon_1000
+(S) @LINE: 131
+    >>> Script processing completed

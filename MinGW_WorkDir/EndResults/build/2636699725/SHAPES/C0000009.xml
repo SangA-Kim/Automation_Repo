@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage_data xml_testcase_version="6">
+  <unit index="9" coverage_type="STATEMENT_BRANCH" field_width="8">
+    <name>rectangle</name>
+    <configuration>
+      <empty_statements_coverable>1</empty_statements_coverable>
+      <cover_catch_as_branch>1</cover_catch_as_branch>
+      <cover_logical_operators_in_parameters>1</cover_logical_operators_in_parameters>
+      <handle_ternary_operator>1</handle_ternary_operator>
+      <cover_nested_conditional>1</cover_nested_conditional>
+      <coverage_for_included_c_files>1</coverage_for_included_c_files>
+      <coverage_for_headers>0</coverage_for_headers>
+      <instrument_by_block>0</instrument_by_block>
+      <coverage_for_declarations>2</coverage_for_declarations>
+      <basis_paths_for_constant_branches>1</basis_paths_for_constant_branches>
+      <edg_coverage_available>1</edg_coverage_available>
+      <cover_included_c_files>1</cover_included_c_files>
+      <cover_headers>0</cover_headers>
+      <preprocessed>1</preprocessed>
+      <masking_mcdc>0</masking_mcdc>
+      <cuda_mode>0</cuda_mode>
+      <coverage_for_lambdas>1</coverage_for_lambdas>
+      <pack_instr_storage>1</pack_instr_storage>
+      <global_buffer_opts>0</global_buffer_opts>
+    </configuration>
+    <attributes>
+      <has_empty_statements>0</has_empty_statements>
+      <has_catch_statements>0</has_catch_statements>
+      <has_logical_operators_in_parameters>0</has_logical_operators_in_parameters>
+      <has_ternary_operator>0</has_ternary_operator>
+      <has_nested_ternary_operator>0</has_nested_ternary_operator>
+      <has_constant_branch>0</has_constant_branch>
+      <number_ascii_bytes>144</number_ascii_bytes>
+      <file_timestamp>1566516204</file_timestamp>
+      <file_checksum>4052558256</file_checksum>
+      <translation_unit_checksum>3751519696</translation_unit_checksum>
+    </attributes>
+    <files>
+      <file index="1" path="c:/vcast/environments/git_test/sourcefiles/shapes/rectangle.cpp" crc_checksum="4052558256" sha_checksum="f896ccc7a99cb3d89dadf9358b93250e9bbec53d" timestamp="1566516204"/>
+    </files>
+    <subprogram index="1">
+      <name>Rectangle::Rectangle()</name>
+      <file_index>1</file_index>
+      <mangled>__ct__9RectangleFv</mangled>
+      <source_function_checksum>2550104086</source_function_checksum>
+      <translation_unit_function_checksum>2065323568</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="1" stmt_id="1" startline="4" startcol="1" endline="4" endcol="1" tustartline="27913" tustartcol="1" tuendline="27913" tuendcol="1" allowed_position="1"/>
+        <line number="1" id="1" stmt_id="2" startline="5" startcol="1" endline="5" endcol="1" tustartline="27914" tustartcol="1" tuendline="27914" tuendcol="1" allowed_position="2"/>
+      </lines>
+      <startline>27912</startline>
+      <startcol>12</startcol>
+      <endline>27914</endline>
+      <endcol>1</endcol>
+      <orig_startline>3</orig_startline>
+      <orig_endline>5</orig_endline>
+      <firstexec_startline>27914</firstexec_startline>
+      <firstexec_startcol>1</firstexec_startcol>
+      <firstexec_orig_startline>5</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="BRANCH">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="2">
+      <name>Rectangle::Rectangle(int,int,int,int)</name>
+      <file_index>1</file_index>
+      <mangled>__ct__9RectangleFiN31</mangled>
+      <source_function_checksum>2550104086</source_function_checksum>
+      <translation_unit_function_checksum>4244150346</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="2" stmt_id="1" startline="11" startcol="1" endline="11" endcol="1" tustartline="27920" tustartcol="1" tuendline="27920" tuendcol="1" allowed_position="1"/>
+        <line number="1" id="2" stmt_id="2" startline="12" startcol="1" endline="12" endcol="1" tustartline="27921" tustartcol="1" tuendline="27921" tuendcol="1" allowed_position="2"/>
+      </lines>
+      <startline>27916</startline>
+      <startcol>12</startcol>
+      <endline>27921</endline>
+      <endcol>1</endcol>
+      <orig_startline>7</orig_startline>
+      <orig_endline>12</orig_endline>
+      <firstexec_startline>27921</firstexec_startline>
+      <firstexec_startcol>1</firstexec_startcol>
+      <firstexec_orig_startline>12</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="BRANCH">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="3">
+      <name>Rectangle::getArea</name>
+      <file_index>1</file_index>
+      <mangled>getArea__9RectangleCFv</mangled>
+      <source_function_checksum>176103570</source_function_checksum>
+      <translation_unit_function_checksum>2415224916</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="3" stmt_id="1" startline="15" startcol="1" endline="15" endcol="1" tustartline="27924" tustartcol="1" tuendline="27924" tuendcol="1" allowed_position="1"/>
+        <line number="1" id="3" stmt_id="3" startline="16" startcol="3" endline="16" endcol="26" tustartline="27925" tustartcol="3" tuendline="27925" tuendcol="26" allowed_position="0"/>
+      </lines>
+      <startline>27923</startline>
+      <startcol>18</startcol>
+      <endline>27926</endline>
+      <endcol>1</endcol>
+      <orig_startline>14</orig_startline>
+      <orig_endline>17</orig_endline>
+      <firstexec_startline>27925</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>16</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+        <coverage coverage_type="BRANCH">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+  </unit>
+</coverage_data>

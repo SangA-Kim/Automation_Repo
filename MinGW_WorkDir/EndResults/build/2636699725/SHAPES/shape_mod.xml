@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeset checksum="4202985057">
+  <modification id="8">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="__ct__5ShapeFv">
+      <line>27894</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern unsigned char SBF_10_7;
+if(SBF_10_7) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_10_3751723047
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_10_3751723047
+  if ( vcast_is_in_driver ) {
+    vCAST_COMMON_STUB_PROC_11( 10, 7, 1, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_10_3751723047
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_10_3751723047
+  vCAST_USER_CODE_TIMER_START();
+  return;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="9">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>27920</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned char SBF_10_7 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="10">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="__ct__5ShapeFiT1">
+      <line>27900</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern int P_10_8_1;
+extern int P_10_8_2;
+extern unsigned char SBF_10_8;
+if(SBF_10_8) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_10_2550907283
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_10_2550907283
+  if ( vcast_is_in_driver ) {
+    P_10_8_1 = x;
+    P_10_8_2 = y;
+    vCAST_COMMON_STUB_PROC_11( 10, 8, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_10_2550907283
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_10_2550907283
+  vCAST_USER_CODE_TIMER_START();
+  return;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="11">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>27920</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int P_10_8_1;
+int P_10_8_2;
+unsigned char SBF_10_8 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="12">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="setPosition__5ShapeFiT1">
+      <line>27904</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern int P_11_1_1;
+extern int P_11_1_2;
+extern unsigned char SBF_11_1;
+if(SBF_11_1) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_11_2386613739
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_11_2386613739
+  if ( vcast_is_in_driver ) {
+    P_11_1_1 = x;
+    P_11_1_2 = y;
+    vCAST_COMMON_STUB_PROC_11( 11, 1, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_11_2386613739
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_11_2386613739
+  vCAST_USER_CODE_TIMER_START();
+  return;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="13">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>27920</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int P_11_1_1;
+int P_11_1_2;
+unsigned char SBF_11_1 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="14">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="getX__5ShapeCFv">
+      <line>27910</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern int R_11_2;
+extern unsigned char SBF_11_2;
+if(SBF_11_2) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_11_3116114357
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_11_3116114357
+  if ( vcast_is_in_driver ) {
+    vCAST_COMMON_STUB_PROC_11( 11, 2, 1, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_11_3116114357
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_11_3116114357
+  vCAST_USER_CODE_TIMER_START();
+  return R_11_2;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="15">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>27920</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int R_11_2;
+unsigned char SBF_11_2 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="16">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="getY__5ShapeCFv">
+      <line>27915</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern int R_11_3;
+extern unsigned char SBF_11_3;
+if(SBF_11_3) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_11_572091866
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_11_572091866
+  if ( vcast_is_in_driver ) {
+    vCAST_COMMON_STUB_PROC_11( 11, 3, 1, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_11_572091866
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_11_572091866
+  vCAST_USER_CODE_TIMER_START();
+  return R_11_3;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="17">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>27920</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int R_11_3;
+unsigned char SBF_11_3 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+</changeset>

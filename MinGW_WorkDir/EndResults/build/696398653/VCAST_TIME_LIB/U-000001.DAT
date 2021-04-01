@@ -1,0 +1,5 @@
+TEST.VALUE_USER_CODE:vcast_time.time_add_seconds.start
+<<vcast_time.time_add_seconds.start>>.mins = 1;
+<<vcast_time.time_add_seconds.start>>.secs = 59;
+
+TEST.END_VALUE_USER_CODE:

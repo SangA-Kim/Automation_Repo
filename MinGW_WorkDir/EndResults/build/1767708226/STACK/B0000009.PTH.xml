@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="786733335" handle_ternary="N" handle_nested_ternary="N" script_always_uses_params="N" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="Stack&lt;T&gt;::ItemContainer::ItemContainer" canonical="" mangled="__ct__Q2_16Stack__tm__4_Z1Z13ItemContainerFZ1Z" class_member="FALSE" testable="FALSE">
+    <listing_start>14</listing_start>
+    <listing_end>16</listing_end>
+  </subprogram>
+  <subprogram index="2" name="Stack&lt;T&gt;::Stack" canonical="" mangled="__ct__16Stack__tm__4_Z1ZFUi" class_member="FALSE" testable="FALSE">
+    <listing_start>24</listing_start>
+    <listing_end>30</listing_end>
+  </subprogram>
+  <subprogram index="3" name="Stack&lt;T&gt;::empty" canonical="" mangled="empty__16Stack__tm__4_Z1ZFv_b" class_member="FALSE" testable="FALSE">
+    <listing_start>31</listing_start>
+    <listing_end>35</listing_end>
+  </subprogram>
+  <subprogram index="4" name="Stack&lt;T&gt;::operator bool" canonical="" mangled="__opb__16Stack__tm__4_Z1ZFv" class_member="FALSE" testable="FALSE">
+    <listing_start>36</listing_start>
+    <listing_end>40</listing_end>
+  </subprogram>
+  <subprogram index="5" name="Stack&lt;T&gt;::push" canonical="" mangled="push__16Stack__tm__4_Z1ZFZ1Z_v" class_member="FALSE" testable="FALSE">
+    <listing_start>41</listing_start>
+    <listing_end>61</listing_end>
+  </subprogram>
+  <subprogram index="6" name="Stack&lt;T&gt;::pop" canonical="" mangled="pop__16Stack__tm__4_Z1ZFv_Z1Z" class_member="FALSE" testable="FALSE">
+    <listing_start>62</listing_start>
+    <listing_end>75</listing_end>
+  </subprogram>
+  <subprogram index="7" name="Stack&lt;T&gt;::count" canonical="" mangled="count__16Stack__tm__4_Z1ZFv_Ui" class_member="FALSE" testable="FALSE">
+    <listing_start>76</listing_start>
+    <listing_end>80</listing_end>
+  </subprogram>
+  <subprogram index="8" name="Stack&lt;T&gt;::grow" canonical="" mangled="grow__16Stack__tm__4_Z1ZFUi_v" class_member="FALSE" testable="FALSE">
+    <listing_start>81</listing_start>
+    <listing_end>87</listing_end>
+  </subprogram>
+</basis_paths>

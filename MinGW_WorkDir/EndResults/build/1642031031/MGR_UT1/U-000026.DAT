@@ -1,0 +1,6 @@
+TEST.VALUE_USER_CODE:<<testcase>>
+printf("Test Case User Code Input!\n");
+TEST.END_VALUE_USER_CODE:
+TEST.VALUE_USER_CODE:manager.Place_Order.Order.Entree
+printf("input parameter user code\n");
+TEST.END_VALUE_USER_CODE:

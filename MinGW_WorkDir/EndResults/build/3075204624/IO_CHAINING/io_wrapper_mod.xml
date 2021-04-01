@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeset checksum="2426940212">
+  <modification id="0">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="CloseFile">
+      <line>2850</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern struct FILE_TYPE *P_9_1_1;
+extern enum bool R_9_1;
+extern unsigned char SBF_9_1;
+if(SBF_9_1) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_706831348
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_706831348
+  if ( vcast_is_in_driver ) {
+    P_9_1_1 = fp;
+    vCAST_COMMON_STUB_PROC_9( 9, 1, 2, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_706831348
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_706831348
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_1;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="1">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="CloseFile">
+      <line>2850</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="2">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="CloseFile">
+      <line>2860</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="3">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2957</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct FILE_TYPE *P_9_1_1;
+enum bool R_9_1;
+unsigned char SBF_9_1 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="4">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="OpenFile">
+      <line>2866</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern vCAST_boolean P_9_2_1_set;
+extern char *P_9_2_1;
+extern enum FileModeT P_9_2_2;
+extern struct FILE_TYPE *R_9_2;
+extern unsigned char SBF_9_2;
+if(SBF_9_2) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_170249972
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_170249972
+  if ( vcast_is_in_driver ) {
+    P_9_2_1 = filename;
+    P_9_2_2 = mode;
+    vCAST_COMMON_STUB_PROC_9( 9, 2, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_170249972
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_170249972
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_2;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="5">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="OpenFile">
+      <line>2866</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="6">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="OpenFile">
+      <line>2899</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="7">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2957</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+vCAST_boolean P_9_2_1_set = vCAST_false
+;
+char *P_9_2_1;
+enum FileModeT P_9_2_2;
+struct FILE_TYPE *R_9_2;
+unsigned char SBF_9_2 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="8">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="ReadLine">
+      <line>2904</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern struct FILE_TYPE *P_9_3_1;
+extern vCAST_boolean P_9_3_2_set;
+extern char *P_9_3_2;
+extern enum bool R_9_3;
+extern unsigned char SBF_9_3;
+if(SBF_9_3) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_1423409462
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_1423409462
+  if ( vcast_is_in_driver ) {
+    P_9_3_1 = fp;
+    P_9_3_2 = line;
+    vCAST_COMMON_STUB_PROC_9( 9, 3, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_1423409462
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_1423409462
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_3;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="9">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="ReadLine">
+      <line>2904</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="10">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="ReadLine">
+      <line>2916</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="11">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2957</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct FILE_TYPE *P_9_3_1;
+vCAST_boolean P_9_3_2_set = vCAST_false
+;
+char *P_9_3_2;
+enum bool R_9_3;
+unsigned char SBF_9_3 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="12">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="WriteString">
+      <line>2920</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern struct FILE_TYPE *P_9_4_1;
+extern vCAST_boolean P_9_4_2_set;
+extern char *P_9_4_2;
+extern enum bool R_9_4;
+extern unsigned char SBF_9_4;
+if(SBF_9_4) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_3778736389
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_3778736389
+  if ( vcast_is_in_driver ) {
+    P_9_4_1 = fp;
+    P_9_4_2 = line;
+    vCAST_COMMON_STUB_PROC_9( 9, 4, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_3778736389
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_3778736389
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_4;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="13">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="WriteString">
+      <line>2920</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="14">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="WriteString">
+      <line>2932</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="15">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2957</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct FILE_TYPE *P_9_4_1;
+vCAST_boolean P_9_4_2_set = vCAST_false
+;
+char *P_9_4_2;
+enum bool R_9_4;
+unsigned char SBF_9_4 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="16">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="WriteInteger">
+      <line>2936</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern struct FILE_TYPE *P_9_5_1;
+extern int P_9_5_2;
+extern enum bool R_9_5;
+extern unsigned char SBF_9_5;
+if(SBF_9_5) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_2232467595
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_2232467595
+  if ( vcast_is_in_driver ) {
+    P_9_5_1 = fp;
+    P_9_5_2 = value;
+    vCAST_COMMON_STUB_PROC_9( 9, 5, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_2232467595
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_2232467595
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_5;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="17">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="WriteInteger">
+      <line>2936</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="18">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="WriteInteger">
+      <line>2943</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="19">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2957</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct FILE_TYPE *P_9_5_1;
+int P_9_5_2;
+enum bool R_9_5;
+unsigned char SBF_9_5 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="20">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="WriteFloat">
+      <line>2947</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern struct FILE_TYPE *P_9_6_1;
+extern float P_9_6_2;
+extern enum bool R_9_6;
+extern unsigned char SBF_9_6;
+if(SBF_9_6) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_669731289
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_669731289
+  if ( vcast_is_in_driver ) {
+    P_9_6_1 = fp;
+    P_9_6_2 = value;
+    vCAST_COMMON_STUB_PROC_9( 9, 6, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_669731289
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_669731289
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_6;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="21">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="WriteFloat">
+      <line>2947</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="22">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="WriteFloat">
+      <line>2954</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="23">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2957</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct FILE_TYPE *P_9_6_1;
+float P_9_6_2;
+enum bool R_9_6;
+unsigned char SBF_9_6 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+</changeset>

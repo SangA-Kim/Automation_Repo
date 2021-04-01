@@ -1,0 +1,104 @@
+               #include "c:/vcast/mingw/include/stdlib.h"
+               #include "c:/vcast/mingw/include/stdio.h"
+               #include "c:/vcast/mingw/include/string.h"
+               #include "C:/VCAST/Environments/Git_Test/SourceFiles/io_wrapper.h"
+               int close_ret = 99;
+               t_bool CloseFile ( struct FILE_TYPE *fp )
+               {
+1 0     ( )    CloseFile
+1 1     ( )( )   if ( fp->isOpen )
+                 {
+1 2                close_ret = fclose ( (FILE *)fp->fileHandle );
+1 3     ( )( )     if (close_ret == 0)
+1 4                  return True;
+                    else
+1 5                  return False;
+                 }
+1 6              return False;
+               }
+               struct FILE_TYPE *OpenFile ( char filename[],
+                                            enum FileModeT mode )
+               {
+                  struct FILE_TYPE *retVal;
+2 0     ( )    OpenFile
+2 1              retVal = (struct FILE_TYPE *)malloc(sizeof(struct FILE_TYPE));
+2 2     ( )( )   if (!retVal)
+                  {
+2 3                printf("\nNo memory available!\n");
+2 4                return(retVal);
+                  }
+2 5              retVal->isOpen = False;
+2 6              switch ( mode )
+                  {
+2 7     ( )        case F_READ:
+2 8                  retVal->fileHandle = (unsigned int)fopen ( filename, "r" );
+2 9                  break;
+2 10    ( )        case F_WRITE:
+2 11                 retVal->fileHandle = (unsigned int)fopen ( filename, "w" );
+2 12                 break;
+2 13    ( )        case F_APPEND:
+2 14                 retVal->fileHandle = (unsigned int)fopen ( filename, "a" );
+2 15                 break;
+                  }
+2 16    ( )( )   if (retVal->fileHandle == 0)
+                  {
+2 17               retVal->isOpen = False;
+                  }
+                  else
+                  {
+2 18               retVal->isOpen = True;
+                  }
+2 19             return retVal;
+               }
+               t_bool ReadLine ( struct FILE_TYPE *fp,
+                              char line[] )
+               {
+                 char *ret_ptr;
+3 0     ( )    ReadLine
+3 1     ( )( )   if ( fp->isOpen )
+                 {
+3 2                ret_ptr = fgets ( line, 100, (FILE *)fp->fileHandle );
+3 3     ( )( )     if (ret_ptr == 0)
+3 4                  return False;
+                   else
+3 5                  return True;
+                 }
+3 6              return False;
+               }
+               t_bool WriteString ( struct FILE_TYPE *fp,
+                                 char line[])
+               {
+                 int rc;
+4 0     ( )    WriteString
+4 1     ( )( )   if ( fp->isOpen )
+                 {
+4 2                rc = fprintf ( (FILE *)fp->fileHandle, "%s", line );
+4 3     ( )( )     if (rc == strlen(line))
+4 4                  return True;
+                   else
+4 5                  return False;
+                 }
+4 6              return False;
+               }
+               t_bool WriteInteger ( struct FILE_TYPE *fp,
+                                  int value )
+               {
+5 0     ( )    WriteInteger
+5 1     ( )( )   if ( fp->isOpen )
+                 {
+5 2                fprintf ( (FILE *)fp->fileHandle, "%d", value );
+5 3                return True;
+                 }
+5 4              return False;
+               }
+               t_bool WriteFloat ( struct FILE_TYPE *fp,
+                                float value )
+               {
+6 0     ( )    WriteFloat
+6 1     ( )( )   if ( fp->isOpen )
+                 {
+6 2                fprintf ( (FILE *)fp->fileHandle, "%f", value );
+6 3                return True;
+                 }
+6 4              return False;
+               }

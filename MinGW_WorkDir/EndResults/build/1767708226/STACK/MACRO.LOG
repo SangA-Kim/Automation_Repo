@@ -1,0 +1,16 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1767708226\STACK.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: PUSH_FLT
+(S) @LINE: 35
+    >>> Processed Test Case: PUSH_FLT
+(I) @LINE: 43
+    >>> Processing Test Case: PUSH_INT
+(S) @LINE: 47
+    >>> Processed Test Case: PUSH_INT
+(I) @LINE: 53
+    >>> Processing Test Case: PUSH_INT2
+(S) @LINE: 58
+    >>> Processed Test Case: PUSH_INT2
+(S) @LINE: 58
+    >>> Script processing completed

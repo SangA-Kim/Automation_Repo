@@ -1,0 +1,48 @@
+1,0,B    {
+1,1,S    int timeout_ctr=0;
+1,2,S    int i=0;
+1,3,B    if (!msg)
+1,4,S    return(BAD_PTR);
+1,5,B    if ((msg_len < 1) || (msg_len > 100))
+1,6,S    return(BAD_MSG);
+1,7,B    while (i < msg_len)
+1,8,S    *((unsigned char *)0x8000000) = 1;
+1,9,B    if (*((unsigned char *)0x8000000) & 1)
+1,10,S    timeout_ctr = 0;
+1,11,S    ((unsigned char *)0x8000004)[i++] = *msg++;
+1,12,B    if (++timeout_ctr > 10)
+1,13,S    reset_transmitter();
+1,14,S    log_msg(msg, msg_len);
+1,15,S    return(TX_BAD);
+1,16,S    return(TX_GOOD);
+2,0,B    {
+2,1,S    int timeout_ctr=0;
+2,2,S    int i=0;
+2,3,B    if (!data_ptr)
+2,4,S    return(BAD_PTR);
+2,5,B    while (i < data_len)
+2,6,S    hw_send_rts();
+2,7,B    if (hw_check_cts())
+2,8,S    timeout_ctr = 0;
+2,9,S    hw_tx_byte(*data_ptr++);
+2,10,S    i++;
+2,11,B    if (++timeout_ctr > 10)
+2,12,S    reset_transmitter();
+2,13,S    log_msg(data_ptr, data_len);
+2,14,S    return(TX_BAD);
+2,15,S    return(TX_GOOD);
+3,0,B    {
+3,1,B    if (!msg)
+3,2,S    return(BAD_PTR);
+3,3,B    if ((msg_len < 1) || (msg_len > 100))
+3,4,S    return(BAD_MSG);
+3,5,S    pkt.hdr.len = msg_len + sizeof(pkt.hdr);
+3,6,S    pkt.hdr.num = msg_num;
+3,7,S    pkt.hdr.crc = calc_crc(msg, msg_len);
+3,8,S    memcpy(pkt.data, msg, msg_len);
+3,9,S    rc = data_tx_V2( (unsigned char *)&pkt, sizeof(t_msg_hdr) + msg_len );
+3,10,B    if (log_flag)
+3,11,S    strncpy(log_buf, "Message Transmitted: ", sizeof(log_buf));
+3,12,S    strncat(log_buf, msg, sizeof(log_buf));
+3,13,S    log_msg( log_buf, sizeof(log_buf) );
+3,14,S    return(rc);

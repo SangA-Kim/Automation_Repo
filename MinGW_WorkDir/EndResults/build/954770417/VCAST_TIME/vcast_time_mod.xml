@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeset checksum="404578086">
+  <modification id="0">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="time_add_seconds">
+      <line>22</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern struct time P_9_1_1;
+extern int P_9_1_2;
+extern struct time R_9_1;
+extern unsigned char SBF_9_1;
+if(SBF_9_1) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_3285303213
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_3285303213
+  if ( vcast_is_in_driver ) {
+    P_9_1_1 = start;
+    P_9_1_2 = seconds;
+    vCAST_COMMON_STUB_PROC_9( 9, 1, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_3285303213
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_3285303213
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_1;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="1">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="time_add_seconds">
+      <line>22</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="2">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="time_add_seconds">
+      <line>43</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="3">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>46</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+struct time P_9_1_1;
+int P_9_1_2;
+struct time R_9_1;
+unsigned char SBF_9_1 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+</changeset>

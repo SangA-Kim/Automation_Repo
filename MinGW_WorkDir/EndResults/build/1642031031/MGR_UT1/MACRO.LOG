@@ -1,0 +1,120 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: COND_1_ROW_1_PAIR_a_TTT
+(S) @LINE: 47
+    >>> Processed Test Case: COND_1_ROW_1_PAIR_a_TTT
+(I) @LINE: 53
+    >>> Processing Test Case: COND_1_ROW_2_PAIR_c_TTF
+(S) @LINE: 69
+    >>> Processed Test Case: COND_1_ROW_2_PAIR_c_TTF
+(I) @LINE: 75
+    >>> Processing Test Case: COND_1_ROW_3_PAIR_b_TFT
+(S) @LINE: 91
+    >>> Processed Test Case: COND_1_ROW_3_PAIR_b_TFT
+(I) @LINE: 97
+    >>> Processing Test Case: COND_1_ROW_5_PAIR_a_FTT
+(S) @LINE: 113
+    >>> Processed Test Case: COND_1_ROW_5_PAIR_a_FTT
+(I) @LINE: 119
+    >>> Processing Test Case: COND_2_ROW_1_PAIR_a_TTT
+(S) @LINE: 136
+    >>> Processed Test Case: COND_2_ROW_1_PAIR_a_TTT
+(I) @LINE: 142
+    >>> Processing Test Case: COND_2_ROW_2_PAIR_c_TTF
+(S) @LINE: 159
+    >>> Processed Test Case: COND_2_ROW_2_PAIR_c_TTF
+(I) @LINE: 165
+    >>> Processing Test Case: COND_2_ROW_3_PAIR_b_TFT
+(S) @LINE: 182
+    >>> Processed Test Case: COND_2_ROW_3_PAIR_b_TFT
+(I) @LINE: 188
+    >>> Processing Test Case: COND_2_ROW_5_PAIR_a_FTT
+(S) @LINE: 205
+    >>> Processed Test Case: COND_2_ROW_5_PAIR_a_FTT
+(I) @LINE: 211
+    >>> Processing Test Case: Cake
+(S) @LINE: 218
+    >>> Processed Test Case: Cake
+(I) @LINE: 224
+    >>> Processing Test Case: Neither
+(S) @LINE: 230
+    >>> Processed Test Case: Neither
+(I) @LINE: 236
+    >>> Processing Test Case: Pie
+(S) @LINE: 243
+    >>> Processed Test Case: Pie
+(I) @LINE: 251
+    >>> Processing Test Case: Add_Party_To_Waiting_List.001
+(S) @LINE: 258
+    >>> Processed Test Case: Add_Party_To_Waiting_List.001
+(I) @LINE: 264
+    >>> Processing Test Case: Add_Party_To_Waiting_List.002
+(S) @LINE: 291
+    >>> Processed Test Case: Add_Party_To_Waiting_List.002
+(I) @LINE: 299
+    >>> Processing Test Case: CheckStubValues
+(S) @LINE: 312
+    >>> Processed Test Case: CheckStubValues
+(I) @LINE: 318
+    >>> Processing Test Case: Normal
+(S) @LINE: 325
+    >>> Processed Test Case: Normal
+(I) @LINE: 331
+    >>> Processing Test Case: Normal.001
+(S) @LINE: 341
+    >>> Processed Test Case: Normal.001
+(I) @LINE: 347
+    >>> Processing Test Case: TenPercentTax
+(S) @LINE: 355
+    >>> Processed Test Case: TenPercentTax
+(I) @LINE: 361
+    >>> Processing Test Case: ZeroTax
+(S) @LINE: 366
+    >>> Processed Test Case: ZeroTax
+(I) @LINE: 374
+    >>> Processing Test Case: Clear_Table.001
+(S) @LINE: 376
+    >>> Processed Test Case: Clear_Table.001
+(I) @LINE: 384
+    >>> Processing Test Case: BASIS-PATH-001
+(S) @LINE: 394
+    >>> Warning: Setting data to out-of-range value.  The value 5 does not correspond to an enumeral value.
+(S) @LINE: 395
+    >>> Processed Test Case: BASIS-PATH-001
+(I) @LINE: 401
+    >>> Processing Test Case: BASIS-PATH-002
+(S) @LINE: 412
+    >>> Processed Test Case: BASIS-PATH-002
+(I) @LINE: 418
+    >>> Processing Test Case: BASIS-PATH-003
+(S) @LINE: 429
+    >>> Processed Test Case: BASIS-PATH-003
+(I) @LINE: 435
+    >>> Processing Test Case: BASIS-PATH-004
+(S) @LINE: 446
+    >>> Processed Test Case: BASIS-PATH-004
+(I) @LINE: 452
+    >>> Processing Test Case: BASIS-PATH-005
+(S) @LINE: 463
+    >>> Processed Test Case: BASIS-PATH-005
+(I) @LINE: 469
+    >>> Processing Test Case: BASIS-PATH-006
+(S) @LINE: 480
+    >>> Processed Test Case: BASIS-PATH-006
+(I) @LINE: 486
+    >>> Processing Test Case: Place_Order.001
+(S) @LINE: 498
+    >>> Processed Test Case: Place_Order.001
+(I) @LINE: 504
+    >>> Processing Test Case: Place_Order.002
+(S) @LINE: 528
+    >>> Processed Test Case: Place_Order.002
+(I) @LINE: 534
+    >>> Processing Test Case: <<COMPOUND>>.001
+(E) @LINE: 535 TEST.END
+    >>> There are no slots in compound test <<COMPOUND>>.001.
+(S) @LINE: 535
+    >>> Processed Test Case: <<COMPOUND>>.001
+(S) @LINE: 536
+    >>> Script processing completed

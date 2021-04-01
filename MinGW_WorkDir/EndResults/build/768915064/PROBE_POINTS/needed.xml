@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="printf" name="printf" defined="0" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="door_ajar_alarm" name="door_ajar_alarm" defined="0" const="0" file="2" return="">
+        <parameters>
+          <parameter type="int" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="process_door_event" name="process_door_event" defined="1" const="0" file="2" return="t_door_state">
+        <parameters>
+          <parameter type="t_door_state" name="current_state"/>
+        </parameters>
+      </function>
+      <function id="check_rx_err_bit" name="check_rx_err_bit" defined="1" const="0" file="2" return="int"/>
+      <function id="sleep1" name="sleep1" defined="0" const="0" file="2" return="">
+        <parameters>
+          <parameter type="int" name="delay"/>
+        </parameters>
+      </function>
+      <function id="report_error" name="report_error" defined="0" const="0" file="2" return="">
+        <parameters>
+          <parameter type="char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="monitor_task" name="monitor_task" defined="1" const="0" file="2" return=""/>
+      <function id="get_fuel_level" name="get_fuel_level" defined="0" const="0" file="2" return="float"/>
+      <function id="get_recent_mpg" name="get_recent_mpg" defined="0" const="0" file="2" return="float"/>
+      <function id="miles_before_fillup" name="miles_before_fillup" defined="1" const="0" file="2" return="float"/>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">c:\vcast\mingw\include\stdio.h</file>
+    <file id="2">C:/VCAST/Environments/Git_Test/SourceFiles/probe_points.c</file>
+  </files>
+</env_info>

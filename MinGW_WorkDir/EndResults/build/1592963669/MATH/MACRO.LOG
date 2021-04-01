@@ -1,0 +1,10 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1592963669\MATH.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: Divide.001
+(S) @LINE: 32
+    >>> Floating Point Tolerance set to 1.00%
+(S) @LINE: 37
+    >>> Processed Test Case: Divide.001
+(S) @LINE: 37
+    >>> Script processing completed

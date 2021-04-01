@@ -1,0 +1,88 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\5599239\ACME_PAYROLL.tst.tmp
+(I) @LINE: 28
+    >>> Processing Test Case: Verify15K
+(S) @LINE: 31
+    >>> Processed Test Case: Verify15K
+(I) @LINE: 36
+    >>> Processing Test Case: Verify2K
+(S) @LINE: 41
+    >>> Processed Test Case: Verify2K
+(I) @LINE: 46
+    >>> Processing Test Case: Verify5k
+(S) @LINE: 51
+    >>> Processed Test Case: Verify5k
+(I) @LINE: 61
+    >>> Processing Test Case: Init10K.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 16 TEST.NAME:Init10K
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: Init10K.001
+(S) @LINE: 71
+    >>> Processed Test Case: Init10K.001
+(I) @LINE: 79
+    >>> Processing Test Case: Add5K.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 25 TEST.NAME:Add5K
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: Add5K.001
+(S) @LINE: 88
+    >>> Processed Test Case: Add5K.001
+(I) @LINE: 96
+    >>> Processing Test Case: Add_Mary1K.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 33 TEST.NAME:Add_Mary1K
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: Add_Mary1K.001
+(S) @LINE: 109
+    >>> Processed Test Case: Add_Mary1K.001
+(I) @LINE: 115
+    >>> Processing Test Case: Add_Sue2K.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 45 TEST.NAME:Add_Sue2K
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: Add_Sue2K.001
+(S) @LINE: 128
+    >>> Processed Test Case: Add_Sue2K.001
+(I) @LINE: 134
+    >>> Processing Test Case: Add_Tom2K.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 57 TEST.NAME:Add_Tom2K
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: Add_Tom2K.001
+(S) @LINE: 147
+    >>> Processed Test Case: Add_Tom2K.001
+(I) @LINE: 153
+    >>> Processing Test Case: Singleton.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 69 TEST.NAME:Singleton
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: Singleton.001
+(S) @LINE: 168
+    >>> Processed Test Case: Singleton.001
+(I) @LINE: 176
+    >>> Processing Test Case: RemoveSue.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 83 TEST.NAME:RemoveSue
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: RemoveSue.001
+(S) @LINE: 187
+    >>> Processed Test Case: RemoveSue.001
+(I) @LINE: 195
+    >>> Processing Test Case: RunPayroll.001
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 93 TEST.NAME:RunPayroll
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: RunPayroll.001
+(S) @LINE: 203
+    >>> Processed Test Case: RunPayroll.001
+(I) @LINE: 209
+    >>> Processing Test Case: AddCashTest
+(S) @LINE: 213
+    >>> Processed Test Case: AddCashTest
+(I) @LINE: 220
+    >>> Processing Test Case: PayrollTest
+(S) @LINE: 230
+    >>> Processed Test Case: PayrollTest
+(S) @LINE: 231
+    >>> Script processing completed

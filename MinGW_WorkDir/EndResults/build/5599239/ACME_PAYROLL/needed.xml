@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <variable id="npos__Q3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; _CharT, _Traits, _Alloc&gt; ::npos" defined="0" type="unknown" file="1">
+        <reference type="initialized" function-scope="false" line="96" col="30" statement-line="96" statement-col="30" statement-end-line="96" statement-end-col="62"/>
+      </variable>
+      <type name="std::exception"/>
+      <type name="std::bad_exception">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::nested_exception"/>
+      <type name="std::_Nested_exception&lt; _Except&gt; ">
+        <base name="_Except"/>
+        <base name="std::nested_exception"/>
+      </type>
+      <type name="std::bad_alloc">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::bad_array_new_length">
+        <base name="std::bad_alloc"/>
+      </type>
+      <type name="std::_V2::error_category"/>
+      <type name="std::runtime_error">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::system_error">
+        <base name="std::runtime_error"/>
+      </type>
+      <type name="std::ios_base::failure">
+        <base name="std::system_error"/>
+      </type>
+      <function id="__ct__Q3_3std8ios_base4InitFv" name="std::ios_base::Init::Init" defined="0" const="0" file="2" return=""/>
+      <function id="__dt__Q3_3std8ios_base4InitFv" name="std::ios_base::Init::~Init" defined="0" const="0" file="2" return=""/>
+      <type name="std::locale::facet"/>
+      <function id="__dt__Q2_3std8ios_baseFv" name="std::ios_base::~ios_base" defined="0" const="0" virtual="1" type="std::ios_base" file="2" return=""/>
+      <type name="std::ios_base"/>
+      <type name="std::basic_ios&lt; _CharT, _Traits&gt; ">
+        <base name="std::ios_base"/>
+      </type>
+      <type name="std::basic_streambuf&lt; _CharT, _Traits&gt; "/>
+      <type name="std::basic_streambuf&lt; char, std::char_traits&lt; char&gt; &gt; "/>
+      <type name="std::num_put&lt; char, std::ostreambuf_iterator&lt; char, std::char_traits&lt; char&gt; &gt; &gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::ctype&lt; char&gt; ">
+        <base name="std::locale::facet"/>
+        <base name="std::ctype_base"/>
+      </type>
+      <type name="std::basic_streambuf&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; "/>
+      <type name="std::__ctype_abstract_base&lt; wchar_t&gt; ">
+        <base name="std::locale::facet"/>
+        <base name="std::ctype_base"/>
+      </type>
+      <type name="std::ctype&lt; wchar_t&gt; ">
+        <base name="std::__ctype_abstract_base&lt; wchar_t&gt; "/>
+      </type>
+      <type name="std::num_put&lt; wchar_t, std::ostreambuf_iterator&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; &gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::num_get&lt; wchar_t, std::istreambuf_iterator&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; &gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::basic_ios&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; ">
+        <base name="std::ios_base"/>
+      </type>
+      <type name="std::basic_istream&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; ">
+        <base name="std::basic_ios&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; "/>
+      </type>
+      <type name="std::basic_iostream&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; ">
+        <base name="std::basic_istream&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; "/>
+        <base name="std::basic_ostream&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; "/>
+      </type>
+      <type name="std::basic_ostream&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; ">
+        <base name="std::basic_ios&lt; wchar_t, std::char_traits&lt; wchar_t&gt; &gt; "/>
+      </type>
+      <type name="std::num_get&lt; char, std::istreambuf_iterator&lt; char, std::char_traits&lt; char&gt; &gt; &gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::basic_iostream&lt; char, std::char_traits&lt; char&gt; &gt; ">
+        <base name="std::basic_istream&lt; char, std::char_traits&lt; char&gt; &gt; "/>
+        <base name="std::basic_ostream&lt; char, std::char_traits&lt; char&gt; &gt; "/>
+      </type>
+      <type name="std::basic_ostream&lt; char, std::char_traits&lt; char&gt; &gt; ">
+        <base name="std::basic_ios&lt; char, std::char_traits&lt; char&gt; &gt; "/>
+      </type>
+      <type name="std::basic_ios&lt; char, std::char_traits&lt; char&gt; &gt; ">
+        <base name="std::ios_base"/>
+      </type>
+      <type name="std::basic_istream&lt; char, std::char_traits&lt; char&gt; &gt; ">
+        <base name="std::basic_ios&lt; char, std::char_traits&lt; char&gt; &gt; "/>
+      </type>
+      <type name="std::basic_istream&lt; _CharT, _Traits&gt; ">
+        <base name="std::basic_ios&lt; _CharT, _Traits&gt; "/>
+      </type>
+      <type name="std::basic_ostream&lt; _CharT, _Traits&gt; ">
+        <base name="std::basic_ios&lt; _CharT, _Traits&gt; "/>
+      </type>
+      <type name="std::basic_iostream&lt; _CharT, _Traits&gt; ">
+        <base name="std::basic_istream&lt; _CharT, _Traits&gt; "/>
+        <base name="std::basic_ostream&lt; _CharT, _Traits&gt; "/>
+      </type>
+      <type name="std::ctype&lt; _CharT&gt; ">
+        <base name="std::__ctype_abstract_base&lt; _CharT&gt; "/>
+      </type>
+      <type name="std::ctype_byname&lt; _CharT&gt; ">
+        <base name="std::ctype&lt; _CharT&gt; "/>
+      </type>
+      <type name="std::num_get&lt; _CharT, _InIter&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::num_put&lt; _CharT, _OutIter&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::logic_error">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::domain_error">
+        <base name="std::logic_error"/>
+      </type>
+      <type name="std::invalid_argument">
+        <base name="std::logic_error"/>
+      </type>
+      <type name="std::length_error">
+        <base name="std::logic_error"/>
+      </type>
+      <type name="std::out_of_range">
+        <base name="std::logic_error"/>
+      </type>
+      <type name="std::range_error">
+        <base name="std::runtime_error"/>
+      </type>
+      <type name="std::overflow_error">
+        <base name="std::runtime_error"/>
+      </type>
+      <type name="std::underflow_error">
+        <base name="std::runtime_error"/>
+      </type>
+      <type name="std::__ctype_abstract_base&lt; _CharT&gt; ">
+        <base name="std::locale::facet"/>
+        <base name="std::ctype_base"/>
+      </type>
+      <type name="std::ctype_byname&lt; char&gt; ">
+        <base name="std::ctype&lt; char&gt; "/>
+      </type>
+      <type name="std::ctype_byname&lt; wchar_t&gt; ">
+        <base name="std::ctype&lt; wchar_t&gt; "/>
+      </type>
+      <type name="std::__numpunct_cache&lt; _CharT&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::__cxx11::collate&lt; char&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::__cxx11::collate&lt; wchar_t&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::__cxx11::numpunct&lt; char&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::__cxx11::numpunct&lt; wchar_t&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::__cxx11::numpunct&lt; _CharT&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::__cxx11::numpunct_byname&lt; _CharT&gt; ">
+        <base name="std::__cxx11::numpunct&lt; _CharT&gt; "/>
+      </type>
+      <type name="std::__cxx11::collate&lt; _CharT&gt; ">
+        <base name="std::locale::facet"/>
+      </type>
+      <type name="std::__cxx11::collate_byname&lt; _CharT&gt; ">
+        <base name="std::__cxx11::collate&lt; _CharT&gt; "/>
+      </type>
+      <type name="std::__cxx11::collate_byname&lt; char&gt; ">
+        <base name="std::__cxx11::collate&lt; char&gt; "/>
+      </type>
+      <type name="std::__cxx11::collate_byname&lt; wchar_t&gt; ">
+        <base name="std::__cxx11::collate&lt; wchar_t&gt; "/>
+      </type>
+      <type name="std::__cxx11::numpunct_byname&lt; char&gt; ">
+        <base name="std::__cxx11::numpunct&lt; char&gt; "/>
+      </type>
+      <type name="std::__cxx11::numpunct_byname&lt; wchar_t&gt; ">
+        <base name="std::__cxx11::numpunct&lt; wchar_t&gt; "/>
+      </type>
+      <function id="getSalary__8EmployeeFv" name="Employee::getSalary" defined="0" const="0" file="3" return="double"/>
+      <function id="__ct__13PayrollSystemFd" name="PayrollSystem::PayrollSystem" defined="0" const="0" file="4" return="">
+        <parameters>
+          <parameter type="double" name="InitialCash"/>
+        </parameters>
+      </function>
+      <function id="processPayCheck__13PayrollSystemF8Employee" name="PayrollSystem::processPayCheck" defined="0" const="0" virtual="1" type="PayrollSystem" file="4" return="">
+        <parameters>
+          <parameter type="Employee" name="emp"/>
+        </parameters>
+      </function>
+      <type name="PayrollSystem"/>
+      <function id="__ct__18Acme_PayrollSystemFd" name="Acme_PayrollSystem::Acme_PayrollSystem" defined="1" const="0" file="5" return="">
+        <parameters>
+          <parameter type="double" name="InitialCash"/>
+        </parameters>
+      </function>
+      <function id="processPayCheck__18Acme_PayrollSystemF8Employee" name="Acme_PayrollSystem::processPayCheck" defined="1" const="0" virtual="1" type="Acme_PayrollSystem" file="5" return="">
+        <overrides function="processPayCheck__13PayrollSystemF8Employee" type="PayrollSystem"/>
+        <parameters>
+          <parameter type="Employee" name="emp"/>
+        </parameters>
+      </function>
+      <type name="Acme_PayrollSystem">
+        <base name="PayrollSystem"/>
+      </type>
+      <function id="__nw__FUi" name="operator new" defined="0" const="0" file="6" return="void*">
+        <parameters>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dl__FPvUi" name="operator delete" defined="0" const="0" file="6" return="">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <type name="__cxxabiv1::__forced_unwind"/>
+    </unit>
+    <unit id="11">
+      <variable id="npos__Q3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; _CharT, _Traits, _Alloc&gt; ::npos" defined="0" type="unknown" file="1">
+        <reference type="initialized" function-scope="false" line="96" col="30" statement-line="96" statement-col="30" statement-end-line="96" statement-end-col="62"/>
+      </variable>
+      <function id="__ct__Q2_9__gnu_cxx22new_allocator__tm__2_cFv" name="__gnu_cxx::new_allocator&lt; char&gt; ::new_allocator" defined="1" const="0" inline="1" file="7" return=""/>
+      <function id="__ct__Q2_9__gnu_cxx22new_allocator__tm__2_cFRCQ2_9__gnu_cxx24new_allocator__tm__4_Z1Z" name="__gnu_cxx::new_allocator&lt; char&gt; ::new_allocator" defined="1" const="0" inline="1" file="7" return="">
+        <parameters>
+          <parameter type="const __gnu_cxx::new_allocator&lt;char&gt;&amp;" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dt__Q2_9__gnu_cxx22new_allocator__tm__2_cFv" name="__gnu_cxx::new_allocator&lt; char&gt; ::~new_allocator" defined="1" const="0" inline="1" file="7" return=""/>
+      <function id="deallocate__Q2_9__gnu_cxx22new_allocator__tm__2_cFPZ1ZUi_v" name="__gnu_cxx::new_allocator&lt; char&gt; ::deallocate" defined="1" const="0" inline="1" file="7" return="">
+        <parameters>
+          <parameter type="__gnu_cxx::new_allocator&lt;char&gt;::pointer" name="__p"/>
+          <parameter type="__gnu_cxx::new_allocator&lt;char&gt;::size_type" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__ct__Q2_3std18allocator__tm__2_cFv" name="std::allocator&lt; char&gt; ::allocator" defined="1" const="0" inline="1" file="8" return=""/>
+      <function id="__ct__Q2_3std18allocator__tm__2_cFRCQ2_3std20allocator__tm__4_Z1Z" name="std::allocator&lt; char&gt; ::allocator" defined="1" const="0" inline="1" file="8" return="">
+        <parameters>
+          <parameter type="const std::allocator&lt;char&gt;&amp;" name="__a"/>
+        </parameters>
+      </function>
+      <function id="__dt__Q2_3std18allocator__tm__2_cFv" name="std::allocator&lt; char&gt; ::~allocator" defined="1" const="0" inline="1" file="8" return=""/>
+      <function id="__ct__Q4_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_c12_Alloc_hiderFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other7pointerRCZ3Z" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_Alloc_hider::_Alloc_hider" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__dat"/>
+          <parameter type="const std::allocator&lt;char&gt;&amp;" name="__a"/>
+        </parameters>
+      </function>
+      <function id="__as__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFPCZ1Z_RQ3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::operator=" defined="1" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;&amp;">
+        <parameters>
+          <parameter type="const char*" name="__s"/>
+        </parameters>
+      </function>
+      <function id="__CPR124__deallocate__Q2_3std63allocator_traits__ps__30_Q2_3std20allocator__tm__4_Z1Z__tm__2_cSFRQ2_3stdJ53JPZ1ZUi_v" name="std::allocator_traits&lt; std::allocator&lt; char&gt; &gt; ::deallocate" defined="1" const="0" inline="1" file="9" return="">
+        <parameters>
+          <parameter type="std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::allocator_type&amp;" name="__a"/>
+          <parameter type="std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::pointer" name="__p"/>
+          <parameter type="std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::size_type" name="__n"/>
+        </parameters>
+      </function>
+      <function id="__CPR174__select_on_container_copy_construction__Q2_3std63allocator_traits__ps__30_Q2_3std20allocator__tm__4_Z1Z__tm__2_cSFRCQ2_3stdJ80J_Q2_3stdJ80J" name="std::allocator_traits&lt; std::allocator&lt; char&gt; &gt; ::select_on_container_copy_construction" defined="1" const="0" inline="1" file="9" return="std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::allocator_type">
+        <parameters>
+          <parameter type="const std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::allocator_type&amp;" name="__rhs"/>
+        </parameters>
+      </function>
+      <function id="_S_select_on_copy__Q2_9__gnu_cxx50__alloc_traits__tm__28_Q2_3std18allocator__tm__2_cSFRCZ1Z_Z1Z" name="__gnu_cxx::__alloc_traits&lt; std::allocator&lt; char&gt; &gt; ::_S_select_on_copy" defined="1" const="0" inline="1" file="10" return="std::allocator&lt;char&gt;">
+        <parameters>
+          <parameter type="const std::allocator&lt;char&gt;&amp;" name="__a"/>
+        </parameters>
+      </function>
+      <function id="assign__Q2_3std23char_traits__tm__2_c__SSFRcRCc" name="std::char_traits&lt; char&gt; ::assign" defined="1" const="0" inline="1" file="11" return="">
+        <parameters>
+          <parameter type="std::char_traits&lt;char&gt;::char_type&amp;" name="__c1"/>
+          <parameter type="const std::char_traits&lt;char&gt;::char_type&amp;" name="__c2"/>
+        </parameters>
+      </function>
+      <function id="length__Q2_3std23char_traits__tm__2_c__SSFPCc" name="std::char_traits&lt; char&gt; ::length" defined="1" const="0" inline="1" file="11" return="std::size_t">
+        <parameters>
+          <parameter type="const std::char_traits&lt;char&gt;::char_type*" name="__s"/>
+        </parameters>
+      </function>
+      <function id="copy__Q2_3std23char_traits__tm__2_c__SSFPcPCcUi" name="std::char_traits&lt; char&gt; ::copy" defined="1" const="0" inline="1" file="11" return="std::char_traits&lt;char&gt;::char_type*">
+        <parameters>
+          <parameter type="std::char_traits&lt;char&gt;::char_type*" name="__s1"/>
+          <parameter type="const std::char_traits&lt;char&gt;::char_type*" name="__s2"/>
+          <parameter type="std::size_t" name="__n"/>
+        </parameters>
+      </function>
+      <type name="std::exception"/>
+      <type name="std::bad_exception">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::nested_exception"/>
+      <type name="std::_Nested_exception&lt; _Except&gt; ">
+        <base name="_Except"/>
+        <base name="std::nested_exception"/>
+      </type>
+      <type name="std::bad_alloc">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::bad_array_new_length">
+        <base name="std::bad_alloc"/>
+      </type>
+      <function id="pointer_to__Q2_3std35pointer_traits__ps__5_PZ1Z__tm__2_cSFRQ3_3std88conditional__tm__69_XOcsb_1_34value__Q2_3std18is_void__tm__4_Z1ZOQ2_3std11__undefinedZ1Z4type_PZ1Z" name="std::pointer_traits&lt; char *&gt; ::pointer_to" defined="1" const="0" inline="1" file="12" return="std::pointer_traits&lt;char*&gt;::pointer">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="pointer_to__Q2_3std36pointer_traits__ps__5_PZ1Z__tm__3_CcSFRQ3_3std88conditional__tm__69_XOcsb_1_34value__Q2_3std18is_void__tm__4_Z1ZOQ2_3std11__undefinedZ1Z4type_PZ1Z" name="std::pointer_traits&lt; const char *&gt; ::pointer_to" defined="1" const="0" inline="1" file="12" return="std::pointer_traits&lt;const char*&gt;::pointer">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;const char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="__throw_logic_error__3stdFPCc" name="std::__throw_logic_error" defined="0" const="0" file="13" return="">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="addressof__tm__2_c__3stdFRZ1Z_PZ1Z" name="std::addressof" defined="1" const="0" inline="1" file="14" return="std::__make_not_void&lt;char&gt;*">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="__addressof__tm__2_c__3stdFRZ1Z_PZ1Z" name="std::__addressof" defined="1" const="0" inline="1" file="14" return="std::__make_not_void&lt;char&gt;*">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="distance__tm__3_Pc__3stdFZ1ZT1_Q3_3std26iterator_traits__tm__4_Z1Z15difference_type" name="std::distance" defined="1" const="0" inline="1" file="15" return="std::iterator_traits&lt;char*&gt;::difference_type">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__first"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__last"/>
+        </parameters>
+      </function>
+      <function id="__iterator_category__tm__3_Pc__3stdFRCZ1Z_Q3_3std26iterator_traits__tm__4_Z1Z17iterator_category" name="std::__iterator_category" defined="1" const="0" inline="1" file="16" return="std::iterator_traits&lt;char*&gt;::iterator_category">
+        <parameters>
+          <parameter type="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer&amp;" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__distance__tm__3_Pc__3stdFZ1ZT1Q2_3std26random_access_iterator_tag_Q3_3std26iterator_traits__tm__4_Z1Z15difference_type" name="std::__distance" defined="1" const="0" inline="1" file="15" return="std::iterator_traits&lt;char*&gt;::difference_type">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__first"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__last"/>
+          <parameter type="std::random_access_iterator_tag" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="addressof__tm__3_Cc__3stdFRZ1Z_PZ1Z" name="std::addressof" defined="1" const="0" inline="1" file="14" return="std::__make_not_void&lt;const char&gt;*">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;const char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="__addressof__tm__3_Cc__3stdFRZ1Z_PZ1Z" name="std::__addressof" defined="1" const="0" inline="1" file="14" return="std::__make_not_void&lt;const char&gt;*">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;const char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="_M_data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other7pointer_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_data" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__p"/>
+        </parameters>
+      </function>
+      <function id="_M_length__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_length" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__length"/>
+        </parameters>
+      </function>
+      <function id="_M_data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other7pointer" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_data" defined="1" const="1" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer"/>
+      <function id="_M_local_data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other7pointer" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_local_data" defined="1" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer"/>
+      <function id="_M_local_data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other13const_pointer" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_local_data" defined="1" const="1" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::const_pointer"/>
+      <function id="_M_capacity__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_capacity" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__capacity"/>
+        </parameters>
+      </function>
+      <function id="_M_set_length__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_set_length" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__n"/>
+        </parameters>
+      </function>
+      <function id="_M_is_local__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_b" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_is_local" defined="1" const="1" inline="1" file="1" return="bool"/>
+      <function id="__CPR446___M_create__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFRQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_J111J25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_typeQ3_J111JJ121JJ211J_Q3_J111JJ121J7pointer" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_create" defined="0" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type&amp;" name="&lt;anon&gt;"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="_M_dispose__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_dispose" defined="1" const="0" inline="1" file="1" return=""/>
+      <function id="_M_destroy__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_destroy" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__size"/>
+        </parameters>
+      </function>
+      <function id="_M_get_allocator__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv_RQ4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_get_allocator" defined="1" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::allocator_type&amp;"/>
+      <function id="_M_get_allocator__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_RCQ4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_get_allocator" defined="1" const="1" inline="1" file="1" return="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::allocator_type&amp;"/>
+      <function id="_S_copy__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cSFPZ1ZPCZ1ZQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_S_copy" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="char*" name="__d"/>
+          <parameter type="const char*" name="__s"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__n"/>
+        </parameters>
+      </function>
+      <function id="_S_copy_chars__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cSFPZ1ZN21_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_S_copy_chars" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="char*" name="__p"/>
+          <parameter type="char*" name="__k1"/>
+          <parameter type="char*" name="__k2"/>
+        </parameters>
+      </function>
+      <function id="__ct__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::basic_string" defined="1" const="0" inline="1" file="1" return=""/>
+      <function id="__ct__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFRCQ3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::basic_string" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;&amp;" name="__str"/>
+        </parameters>
+      </function>
+      <function id="__dt__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::~basic_string" defined="1" const="0" inline="1" file="1" return=""/>
+      <function id="size__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::size" defined="1" const="1" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type"/>
+      <function id="length__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::length" defined="1" const="1" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type"/>
+      <function id="assign__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFPCZ1Z_RQ3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::assign" defined="1" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;&amp;">
+        <parameters>
+          <parameter type="const char*" name="__s"/>
+        </parameters>
+      </function>
+      <function id="_M_replace__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_typeT1PCZ1ZT1_RQ3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_replace" defined="0" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;&amp;">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__pos"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__len1"/>
+          <parameter type="const char*" name="__s"/>
+          <parameter type="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__len2"/>
+        </parameters>
+      </function>
+      <function id="_M_construct__tm__3_Pc__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFZ1_2ZT1_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_construct" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__beg"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__end"/>
+        </parameters>
+      </function>
+      <function id="_M_construct_aux__tm__3_Pc__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFZ1_2ZT1Q2_3std12__false_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_construct_aux" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__beg"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__end"/>
+          <parameter type="std::__false_type" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="_M_construct__tm__3_Pc__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFZ1_2ZT1Q2_3std20forward_iterator_tag_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_construct" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__beg"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__end"/>
+          <parameter type="std::forward_iterator_tag" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__ct__8EmployeeFv" name="Employee::Employee" defined="1" const="0" file="17" return=""/>
+      <function id="__dt__8EmployeeFv" name="Employee::~Employee" defined="1" const="0" file="17" return=""/>
+      <function id="__ct__8EmployeeFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi" name="Employee::Employee" defined="1" const="0" file="17" return="">
+        <parameters>
+          <parameter type="std::__cxx11::string" name="name"/>
+          <parameter type="double" name="salary"/>
+          <parameter type="int" name="age"/>
+        </parameters>
+      </function>
+      <function id="getSalary__8EmployeeFv" name="Employee::getSalary" defined="1" const="0" file="17" return="double"/>
+      <function id="getAge__8EmployeeFv" name="Employee::getAge" defined="1" const="0" file="17" return="int"/>
+      <function id="__ab5cxx11getName__8EmployeeFv" name="Employee::getName" defined="1" const="0" file="17" return="std::__cxx11::string"/>
+      <function id="__nw__FUi" name="operator new" defined="0" const="0" file="6" return="void*">
+        <parameters>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dl__FPv" name="operator delete" defined="0" const="0" file="6" return="">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dl__FPvUi" name="operator delete" defined="0" const="0" file="6" return="">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__is_null_pointer__tm__2_c__9__gnu_cxxFPZ1Z_b" name="__gnu_cxx::__is_null_pointer" defined="1" const="0" inline="1" file="18" return="bool">
+        <parameters>
+          <parameter type="char*" name="__ptr"/>
+        </parameters>
+      </function>
+      <type name="__cxxabiv1::__forced_unwind"/>
+    </unit>
+    <unit id="12">
+      <variable id="npos__Q3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; _CharT, _Traits, _Alloc&gt; ::npos" defined="0" type="unknown" file="1">
+        <reference type="initialized" function-scope="false" line="96" col="30" statement-line="96" statement-col="30" statement-end-line="96" statement-end-col="62"/>
+      </variable>
+      <function id="__ct__Q2_9__gnu_cxx22new_allocator__tm__2_cFRCQ2_9__gnu_cxx24new_allocator__tm__4_Z1Z" name="__gnu_cxx::new_allocator&lt; char&gt; ::new_allocator" defined="1" const="0" inline="1" file="7" return="">
+        <parameters>
+          <parameter type="const __gnu_cxx::new_allocator&lt;char&gt;&amp;" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dt__Q2_9__gnu_cxx22new_allocator__tm__2_cFv" name="__gnu_cxx::new_allocator&lt; char&gt; ::~new_allocator" defined="1" const="0" inline="1" file="7" return=""/>
+      <function id="deallocate__Q2_9__gnu_cxx22new_allocator__tm__2_cFPZ1ZUi_v" name="__gnu_cxx::new_allocator&lt; char&gt; ::deallocate" defined="1" const="0" inline="1" file="7" return="">
+        <parameters>
+          <parameter type="__gnu_cxx::new_allocator&lt;char&gt;::pointer" name="__p"/>
+          <parameter type="__gnu_cxx::new_allocator&lt;char&gt;::size_type" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__ct__Q2_3std18allocator__tm__2_cFRCQ2_3std20allocator__tm__4_Z1Z" name="std::allocator&lt; char&gt; ::allocator" defined="1" const="0" inline="1" file="8" return="">
+        <parameters>
+          <parameter type="const std::allocator&lt;char&gt;&amp;" name="__a"/>
+        </parameters>
+      </function>
+      <function id="__dt__Q2_3std18allocator__tm__2_cFv" name="std::allocator&lt; char&gt; ::~allocator" defined="1" const="0" inline="1" file="8" return=""/>
+      <function id="__ct__Q4_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_c12_Alloc_hiderFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other7pointerRCZ3Z" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_Alloc_hider::_Alloc_hider" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__dat"/>
+          <parameter type="const std::allocator&lt;char&gt;&amp;" name="__a"/>
+        </parameters>
+      </function>
+      <function id="__CPR124__deallocate__Q2_3std63allocator_traits__ps__30_Q2_3std20allocator__tm__4_Z1Z__tm__2_cSFRQ2_3stdJ53JPZ1ZUi_v" name="std::allocator_traits&lt; std::allocator&lt; char&gt; &gt; ::deallocate" defined="1" const="0" inline="1" file="9" return="">
+        <parameters>
+          <parameter type="std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::allocator_type&amp;" name="__a"/>
+          <parameter type="std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::pointer" name="__p"/>
+          <parameter type="std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::size_type" name="__n"/>
+        </parameters>
+      </function>
+      <function id="__CPR174__select_on_container_copy_construction__Q2_3std63allocator_traits__ps__30_Q2_3std20allocator__tm__4_Z1Z__tm__2_cSFRCQ2_3stdJ80J_Q2_3stdJ80J" name="std::allocator_traits&lt; std::allocator&lt; char&gt; &gt; ::select_on_container_copy_construction" defined="1" const="0" inline="1" file="9" return="std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::allocator_type">
+        <parameters>
+          <parameter type="const std::allocator_traits&lt;std::allocator&lt;char&gt;&gt;::allocator_type&amp;" name="__rhs"/>
+        </parameters>
+      </function>
+      <function id="_S_select_on_copy__Q2_9__gnu_cxx50__alloc_traits__tm__28_Q2_3std18allocator__tm__2_cSFRCZ1Z_Z1Z" name="__gnu_cxx::__alloc_traits&lt; std::allocator&lt; char&gt; &gt; ::_S_select_on_copy" defined="1" const="0" inline="1" file="10" return="std::allocator&lt;char&gt;">
+        <parameters>
+          <parameter type="const std::allocator&lt;char&gt;&amp;" name="__a"/>
+        </parameters>
+      </function>
+      <function id="assign__Q2_3std23char_traits__tm__2_c__SSFRcRCc" name="std::char_traits&lt; char&gt; ::assign" defined="1" const="0" inline="1" file="11" return="">
+        <parameters>
+          <parameter type="std::char_traits&lt;char&gt;::char_type&amp;" name="__c1"/>
+          <parameter type="const std::char_traits&lt;char&gt;::char_type&amp;" name="__c2"/>
+        </parameters>
+      </function>
+      <type name="std::exception"/>
+      <type name="std::bad_exception">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::nested_exception"/>
+      <type name="std::_Nested_exception&lt; _Except&gt; ">
+        <base name="_Except"/>
+        <base name="std::nested_exception"/>
+      </type>
+      <type name="std::bad_alloc">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::bad_array_new_length">
+        <base name="std::bad_alloc"/>
+      </type>
+      <function id="pointer_to__Q2_3std35pointer_traits__ps__5_PZ1Z__tm__2_cSFRQ3_3std88conditional__tm__69_XOcsb_1_34value__Q2_3std18is_void__tm__4_Z1ZOQ2_3std11__undefinedZ1Z4type_PZ1Z" name="std::pointer_traits&lt; char *&gt; ::pointer_to" defined="1" const="0" inline="1" file="12" return="std::pointer_traits&lt;char*&gt;::pointer">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="pointer_to__Q2_3std36pointer_traits__ps__5_PZ1Z__tm__3_CcSFRQ3_3std88conditional__tm__69_XOcsb_1_34value__Q2_3std18is_void__tm__4_Z1ZOQ2_3std11__undefinedZ1Z4type_PZ1Z" name="std::pointer_traits&lt; const char *&gt; ::pointer_to" defined="1" const="0" inline="1" file="12" return="std::pointer_traits&lt;const char*&gt;::pointer">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;const char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="__throw_logic_error__3stdFPCc" name="std::__throw_logic_error" defined="0" const="0" file="13" return="">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__eq__tm__2_c__3stdFRCQ3_3std7__cxx1184basic_string__tm__64_Z1ZQ2_3std22char_traits__tm__4_Z1ZQ2_3std20allocator__tm__4_Z1ZT1_Q3_9__gnu_cxx70__enable_if__tm__51_XOcsb_1_38__value__Q2_3std20__is_char__tm__4_Z1ZOb6__type" name="std::operator==" defined="1" const="0" inline="1" file="1" return="__gnu_cxx::__enable_if&lt;std::__is_char&lt;char&gt;::__value, bool&gt;::__type">
+        <parameters>
+          <parameter type="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;&amp;" name="__lhs"/>
+          <parameter type="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;&amp;" name="__rhs"/>
+        </parameters>
+      </function>
+      <function id="addressof__tm__2_c__3stdFRZ1Z_PZ1Z" name="std::addressof" defined="1" const="0" inline="1" file="14" return="std::__make_not_void&lt;char&gt;*">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="__addressof__tm__2_c__3stdFRZ1Z_PZ1Z" name="std::__addressof" defined="1" const="0" inline="1" file="14" return="std::__make_not_void&lt;char&gt;*">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="distance__tm__3_Pc__3stdFZ1ZT1_Q3_3std26iterator_traits__tm__4_Z1Z15difference_type" name="std::distance" defined="1" const="0" inline="1" file="15" return="std::iterator_traits&lt;char*&gt;::difference_type">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__first"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__last"/>
+        </parameters>
+      </function>
+      <function id="__iterator_category__tm__3_Pc__3stdFRCZ1Z_Q3_3std26iterator_traits__tm__4_Z1Z17iterator_category" name="std::__iterator_category" defined="1" const="0" inline="1" file="16" return="std::iterator_traits&lt;char*&gt;::iterator_category">
+        <parameters>
+          <parameter type="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer&amp;" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__distance__tm__3_Pc__3stdFZ1ZT1Q2_3std26random_access_iterator_tag_Q3_3std26iterator_traits__tm__4_Z1Z15difference_type" name="std::__distance" defined="1" const="0" inline="1" file="15" return="std::iterator_traits&lt;char*&gt;::difference_type">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__first"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__last"/>
+          <parameter type="std::random_access_iterator_tag" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="addressof__tm__3_Cc__3stdFRZ1Z_PZ1Z" name="std::addressof" defined="1" const="0" inline="1" file="14" return="std::__make_not_void&lt;const char&gt;*">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;const char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="__addressof__tm__3_Cc__3stdFRZ1Z_PZ1Z" name="std::__addressof" defined="1" const="0" inline="1" file="14" return="std::__make_not_void&lt;const char&gt;*">
+        <parameters>
+          <parameter type="std::__make_not_void&lt;const char&gt;&amp;" name="__r"/>
+        </parameters>
+      </function>
+      <function id="compare__Q2_3std23char_traits__tm__2_c__SSFPCcT1Ui" name="std::char_traits&lt; char&gt; ::compare" defined="1" const="0" inline="1" file="11" return="int">
+        <parameters>
+          <parameter type="const std::char_traits&lt;char&gt;::char_type*" name="__s1"/>
+          <parameter type="const std::char_traits&lt;char&gt;::char_type*" name="__s2"/>
+          <parameter type="std::size_t" name="__n"/>
+        </parameters>
+      </function>
+      <function id="copy__Q2_3std23char_traits__tm__2_c__SSFPcPCcUi" name="std::char_traits&lt; char&gt; ::copy" defined="1" const="0" inline="1" file="11" return="std::char_traits&lt;char&gt;::char_type*">
+        <parameters>
+          <parameter type="std::char_traits&lt;char&gt;::char_type*" name="__s1"/>
+          <parameter type="const std::char_traits&lt;char&gt;::char_type*" name="__s2"/>
+          <parameter type="std::size_t" name="__n"/>
+        </parameters>
+      </function>
+      <function id="_M_data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other7pointer_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_data" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__p"/>
+        </parameters>
+      </function>
+      <function id="_M_length__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_length" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__length"/>
+        </parameters>
+      </function>
+      <function id="_M_data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other7pointer" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_data" defined="1" const="1" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer"/>
+      <function id="_M_local_data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other7pointer" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_local_data" defined="1" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer"/>
+      <function id="_M_local_data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other13const_pointer" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_local_data" defined="1" const="1" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::const_pointer"/>
+      <function id="_M_capacity__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_capacity" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__capacity"/>
+        </parameters>
+      </function>
+      <function id="_M_set_length__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_set_length" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__n"/>
+        </parameters>
+      </function>
+      <function id="_M_is_local__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_b" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_is_local" defined="1" const="1" inline="1" file="1" return="bool"/>
+      <function id="__CPR446___M_create__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFRQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_J111J25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_typeQ3_J111JJ121JJ211J_Q3_J111JJ121J7pointer" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_create" defined="0" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type&amp;" name="&lt;anon&gt;"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="_M_dispose__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_dispose" defined="1" const="0" inline="1" file="1" return=""/>
+      <function id="_M_destroy__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_destroy" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__size"/>
+        </parameters>
+      </function>
+      <function id="_M_get_allocator__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv_RQ4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_get_allocator" defined="1" const="0" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::allocator_type&amp;"/>
+      <function id="_M_get_allocator__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_RCQ4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_get_allocator" defined="1" const="1" inline="1" file="1" return="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::allocator_type&amp;"/>
+      <function id="_S_copy__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cSFPZ1ZPCZ1ZQ3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_S_copy" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="char*" name="__d"/>
+          <parameter type="const char*" name="__s"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type" name="__n"/>
+        </parameters>
+      </function>
+      <function id="_S_copy_chars__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cSFPZ1ZN21_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_S_copy_chars" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="char*" name="__p"/>
+          <parameter type="char*" name="__k1"/>
+          <parameter type="char*" name="__k2"/>
+        </parameters>
+      </function>
+      <function id="__ct__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFRCQ3_3std7__cxx1130basic_string__tm__10_Z1ZZ2ZZ3Z" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::basic_string" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="const std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;&amp;" name="__str"/>
+        </parameters>
+      </function>
+      <function id="__dt__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFv" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::~basic_string" defined="1" const="0" inline="1" file="1" return=""/>
+      <function id="size__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::size" defined="1" const="1" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type"/>
+      <function id="length__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_Q3_9__gnu_cxx88__alloc_traits__tm__66_Q4_9__gnu_cxx25__alloc_traits__tm__4_Z3Z17rebind__tm__4_Z1Z5other9size_type" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::length" defined="1" const="1" inline="1" file="1" return="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type"/>
+      <function id="data__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cCFv_PCZ1Z" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::data" defined="1" const="1" inline="1" file="1" return="const char*"/>
+      <function id="_M_construct__tm__3_Pc__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFZ1_2ZT1_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_construct" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__beg"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__end"/>
+        </parameters>
+      </function>
+      <function id="_M_construct_aux__tm__3_Pc__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFZ1_2ZT1Q2_3std12__false_type_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_construct_aux" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__beg"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__end"/>
+          <parameter type="std::__false_type" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="_M_construct__tm__3_Pc__Q3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cFZ1_2ZT1Q2_3std20forward_iterator_tag_v" name="std::__cxx11::basic_string&lt; char, std::char_traits&lt; char&gt; , std::allocator&lt; char&gt; &gt; ::_M_construct" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__beg"/>
+          <parameter type="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::pointer" name="__end"/>
+          <parameter type="std::forward_iterator_tag" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dt__8EmployeeFv" name="Employee::~Employee" defined="0" const="0" file="3" return=""/>
+      <function id="__ct__8EmployeeFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi" name="Employee::Employee" defined="0" const="0" file="3" return="">
+        <parameters>
+          <parameter type="std::__cxx11::string" name="name"/>
+          <parameter type="double" name="salary"/>
+          <parameter type="int" name="age"/>
+        </parameters>
+      </function>
+      <function id="getSalary__8EmployeeFv" name="Employee::getSalary" defined="0" const="0" file="3" return="double"/>
+      <function id="__ab5cxx11getName__8EmployeeFv" name="Employee::getName" defined="0" const="0" file="3" return="std::__cxx11::string"/>
+      <function id="__ct__13PayrollSystemFd" name="PayrollSystem::PayrollSystem" defined="1" const="0" file="19" return="">
+        <parameters>
+          <parameter type="double" name="InitialCash"/>
+        </parameters>
+      </function>
+      <function id="addEmployee__13PayrollSystemFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi" name="PayrollSystem::addEmployee" defined="1" const="0" file="19" return="bool">
+        <parameters>
+          <parameter type="std::__cxx11::string" name="name"/>
+          <parameter type="double" name="salary"/>
+          <parameter type="int" name="age"/>
+        </parameters>
+      </function>
+      <function id="removeEmployee__13PayrollSystemFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_c" name="PayrollSystem::removeEmployee" defined="1" const="0" file="19" return="bool">
+        <parameters>
+          <parameter type="std::__cxx11::string" name="name"/>
+        </parameters>
+      </function>
+      <function id="addCash__13PayrollSystemFi" name="PayrollSystem::addCash" defined="1" const="0" file="19" return="">
+        <parameters>
+          <parameter type="int" name="deposit"/>
+        </parameters>
+      </function>
+      <function id="runPayroll__13PayrollSystemFv" name="PayrollSystem::runPayroll" defined="1" const="0" file="19" return="double"/>
+      <function id="processPayCheck__13PayrollSystemF8Employee" name="PayrollSystem::processPayCheck" defined="0" const="0" virtual="1" type="PayrollSystem" file="4" return="">
+        <parameters>
+          <parameter type="Employee" name="emp"/>
+        </parameters>
+      </function>
+      <type name="PayrollSystem"/>
+      <function id="__nw__FUi" name="operator new" defined="0" const="0" file="6" return="void*">
+        <parameters>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dl__FPv" name="operator delete" defined="0" const="0" file="6" return="">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dl__FPvUi" name="operator delete" defined="0" const="0" file="6" return="">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__is_null_pointer__tm__2_c__9__gnu_cxxFPZ1Z_b" name="__gnu_cxx::__is_null_pointer" defined="1" const="0" inline="1" file="18" return="bool">
+        <parameters>
+          <parameter type="char*" name="__ptr"/>
+        </parameters>
+      </function>
+      <type name="__cxxabiv1::__forced_unwind"/>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h</file>
+    <file id="2">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h</file>
+    <file id="3">C:/VCAST/Training/SourceFiles/Payroll/Employee.h</file>
+    <file id="4">C:/VCAST/Training/SourceFiles/Payroll/PayrollSystem.h</file>
+    <file id="5">C:/VCAST/Training/SourceFiles/Payroll/Acme_PayrollSystem.cpp</file>
+    <file id="6">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\new</file>
+    <file id="7">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\new_allocator.h</file>
+    <file id="8">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h</file>
+    <file id="9">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h</file>
+    <file id="10">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h</file>
+    <file id="11">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h</file>
+    <file id="12">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ptr_traits.h</file>
+    <file id="13">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functexcept.h</file>
+    <file id="14">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\move.h</file>
+    <file id="15">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_funcs.h</file>
+    <file id="16">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_types.h</file>
+    <file id="17">C:/VCAST/Training/SourceFiles/Payroll/Employee.cpp</file>
+    <file id="18">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\type_traits.h</file>
+    <file id="19">C:/VCAST/Training/SourceFiles/Payroll/PayrollSystem.cpp</file>
+  </files>
+</env_info>

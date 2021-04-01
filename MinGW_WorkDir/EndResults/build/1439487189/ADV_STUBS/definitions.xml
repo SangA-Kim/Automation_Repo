@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <unit id="8">
+    <variables>
+      <variable defined="1">VECTORCAST_INT1</variable>
+      <variable defined="1">VECTORCAST_INT2</variable>
+      <variable defined="1">VECTORCAST_INT3</variable>
+      <variable defined="1">VECTORCAST_FLT1</variable>
+      <variable defined="1">VECTORCAST_STR1</variable>
+      <variable defined="1">VECTORCAST_BUFFER</variable>
+    </variables>
+  </unit>
+  <unit id="9">
+    <functions>
+      <function defined="1" stubbed="1">malloc</function>
+      <function defined="1">use_malloc</function>
+      <function defined="1">temp_monitor</function>
+      <function defined="1" stubbed="1">read_key_pad</function>
+      <function defined="1">get_numeric_string</function>
+      <function defined="1">log_error_msg</function>
+      <function defined="1" stubbed="1">myGauge</function>
+    </functions>
+    <variables>
+      <variable defined="1" stubbed="1">debug_flag</variable>
+    </variables>
+  </unit>
+</definitions>

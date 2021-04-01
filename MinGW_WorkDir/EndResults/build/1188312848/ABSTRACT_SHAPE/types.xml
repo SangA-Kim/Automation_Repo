@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typefile version="1">
+  <type typeid="100001" typetype="STR_ING" array_type="800001" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100002" typetype="AR_RAY" array_type="800002">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="100003" typetype="STR_ING" array_type="900004" string_type_type="AR_RAY">
+    <range_data size="16%%"/>
+  </type>
+  <type typeid="100004" typetype="NOT_SUPPORTED" ada_scope="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::__T3984335456" unsupported_type_reason="TI_STATUS_GEN_CSU_TYPES_ONLY_ON_SEARCH_PATH"/>
+  <type typeid="800001" typetype="CHAR_ACTER">
+    <range_data min="-128" mid="-1" max="127"/>
+  </type>
+  <type typeid="800002" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="800003" typetype="FL_OAT">
+    <range_data min="-3.40282e+038" mid="0" max="3.40282e+038"/>
+  </type>
+  <type typeid="900001" typetype="CLASS" ada_scope="vcast_concrete_Shape">
+    <constructor index="1" prototype="vcast_concrete_Shape::vcast_concrete_Shape()">
+      <subprog name="vcast_concrete_Shape::vcast_concrete_Shape" index="0" is_constructor="1" mangled="vcast_concrete_Shape" overloaded="1" parameterization="()"/>
+    </constructor>
+    <constructor index="2" prototype="vcast_concrete_Shape::vcast_concrete_Shape(int x, int y)">
+      <subprog name="vcast_concrete_Shape::vcast_concrete_Shape" index="0" is_constructor="1" mangled="vcast_concrete_Shape" overloaded="1" parameterization="(int,int)">
+        <param name="x" index="1" typeid="900003"/>
+        <param name="y" index="2" typeid="900003"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="mX" typeid="900003"/>
+    <field index="2" name="mY" typeid="900003"/>
+  </type>
+  <type typeid="900002" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_VOID_TYPES_ARE_UNTESTABLE"/>
+  <type typeid="900003" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="900004" typetype="CHAR_ACTER">
+    <range_data min="-128" mid="-1" max="127"/>
+  </type>
+  <type typeid="900005" typetype="STR_ING" pointer_type="900004" string_type_type="ACCE_SS"/>
+  <type typeid="900006" typetype="UN_SIGNED">
+    <range_data min="0" mid="2147483647" max="4294967295"/>
+  </type>
+  <type typeid="900007" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900008" typetype="FL_OAT">
+    <range_data min="-3.40282e+038" mid="0" max="3.40282e+038"/>
+  </type>
+  <type typeid="900009" typetype="STD_STRING"/>
+  <type typeid="900010" typetype="NOT_SUPPORTED" ada_scope="std::allocator&lt;char&gt;" unsupported_type_reason="TI_STATUS_GEN_CSU_TYPES_ONLY_ON_SEARCH_PATH"/>
+  <type typeid="900011" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900012" typetype="CLASS_PTR" ada_scope="Shape" pointer_type="900017">
+    <field index="1" name="mX" typeid="900003"/>
+    <field index="2" name="mY" typeid="900003"/>
+    <subclass index="1" typeid="900001"/>
+    <subclass index="2" typeid="900021"/>
+  </type>
+  <type typeid="900013" typetype="NOT_SUPPORTED" ada_scope="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::_Alloc_hider" unsupported_type_reason="TI_STATUS_GEN_CSU_TYPES_ONLY_ON_SEARCH_PATH"/>
+  <type typeid="900014" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900015" typetype="STD_STRING" ada_scope="std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;"/>
+  <type typeid="900016" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900017" typetype="CLASS" ada_scope="Shape">
+    <field index="1" name="mX" typeid="900003"/>
+    <field index="2" name="mY" typeid="900003"/>
+  </type>
+  <type typeid="900018" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900019" typetype="NOT_SUPPORTED" ada_scope="std::initializer_list&lt;char&gt;" unsupported_type_reason="TI_STATUS_GEN_CSU_TYPES_ONLY_ON_SEARCH_PATH"/>
+  <type typeid="900020" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900021" typetype="CLASS" ada_scope="Rectangle">
+    <constructor index="1" prototype="Rectangle::Rectangle()">
+      <subprog name="Rectangle::Rectangle" index="0" is_constructor="1" mangled="__ct__9RectangleFv" overloaded="1" parameterization="()"/>
+    </constructor>
+    <constructor index="2" prototype="Rectangle::Rectangle(int x, int y, int height, int width)">
+      <subprog name="Rectangle::Rectangle" index="0" is_constructor="1" mangled="__ct__9RectangleFiN31" overloaded="1" parameterization="(int,int,int,int)">
+        <param name="x" index="1" typeid="900003"/>
+        <param name="y" index="2" typeid="900003"/>
+        <param name="height" index="3" typeid="900003"/>
+        <param name="width" index="4" typeid="900003"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="mX" typeid="900003"/>
+    <field index="2" name="mY" typeid="900003"/>
+    <field index="3" name="mHeight" typeid="900003"/>
+    <field index="4" name="mWidth" typeid="900003"/>
+  </type>
+  <type typeid="900022" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+</typefile>

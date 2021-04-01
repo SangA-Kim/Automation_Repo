@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paramfile version="1">
+  <source_file index="1">
+    <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/768915064/PROBE_POINTS/S0000008.cpp</path>
+  </source_file>
+  <source_file index="2">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/probe_points.c</path>
+  </source_file>
+  <unit name="USER_GLOBALS_VCAST" index="8" sbf="0" unit_description="Not Stubbed Unit">
+    <source_file index="1">
+      <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/768915064/PROBE_POINTS/S0000008.cpp</path>
+    </source_file>
+    <global name="VECTORCAST_INT1" index="1" typeid="800002"/>
+    <global name="VECTORCAST_INT2" index="2" typeid="800002"/>
+    <global name="VECTORCAST_INT3" index="3" typeid="800002"/>
+    <global name="VECTORCAST_FLT1" index="4" typeid="800003"/>
+    <global name="VECTORCAST_STR1" index="5" typeid="100001"/>
+    <global name="VECTORCAST_BUFFER" index="6" typeid="100002"/>
+  </unit>
+  <unit name="probe_points" index="9" sbf="1" unit_description="UUT">
+    <source_file index="2">
+      <path>C:/VCAST/Environments/Git_Test/SourceFiles/probe_points.c</path>
+    </source_file>
+    <global name="rx_err_count" index="1" typeid="900001" c_static="1"/>
+    <global name="tank_size" index="2" typeid="900001" c_static="1"/>
+    <subprog name="process_door_event" index="1" mangled="process_door_event" parameterization="(t_door_state)t_door_state">
+      <param name="current_state" index="1" typeid="900004"/>
+      <param name="return" index="2" typeid="900004"/>
+      <function unit="10" index="1"/>
+      <source_file index="2"/>
+      <sbf index="3"/>
+    </subprog>
+    <subprog name="check_rx_err_bit" index="2" mangled="check_rx_err_bit" parameterization="()int">
+      <param name="return" index="1" typeid="900001"/>
+      <source_file index="2"/>
+      <sbf index="2"/>
+    </subprog>
+    <subprog name="monitor_task" index="3" mangled="monitor_task" parameterization="()">
+      <global index="1"/>
+      <function unit="9" index="2"/>
+      <function unit="10" index="3"/>
+      <function unit="10" index="2"/>
+      <source_file index="2"/>
+      <sbf index="1"/>
+    </subprog>
+    <subprog name="miles_before_fillup" index="4" mangled="miles_before_fillup" parameterization="()float">
+      <param name="return" index="1" typeid="900006"/>
+      <global index="2"/>
+      <function unit="10" index="4"/>
+      <function unit="10" index="5"/>
+      <source_file index="2"/>
+      <sbf index="2"/>
+    </subprog>
+  </unit>
+  <unit name="uut_prototype_stubs" index="10" sbf="0" unit_description="Stubbed Unit">
+    <subprog name="door_ajar_alarm" index="1" mangled="door_ajar_alarm" parameterization="(int)">
+      <param name="VCAST_PARAM_1" index="1" typeid="900001"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="sleep1" index="2" mangled="sleep1" parameterization="(int)">
+      <param name="delay" index="1" typeid="900001"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="report_error" index="3" mangled="report_error" parameterization="(char*)">
+      <param name="VCAST_PARAM_1" index="1" typeid="900002"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="get_fuel_level" index="4" mangled="get_fuel_level" parameterization="()float">
+      <param name="return" index="1" typeid="900006"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="get_recent_mpg" index="5" mangled="get_recent_mpg" parameterization="()float">
+      <param name="return" index="1" typeid="900006"/>
+      <source_file index="2"/>
+    </subprog>
+  </unit>
+  <environment_exceptions/>
+  <macro name="DEVICE_REG" int="2147516416" source="0"/>
+  <macro name="DOOR_CLOSED" int="2" source="0"/>
+  <macro name="DOOR_OPEN" int="1" source="0"/>
+  <macro name="POWER_UP" int="0" source="0"/>
+  <macro name="RX_ERROR_BIT" int="4" source="0"/>
+  <macro name="THRESHOLD" int="3" source="0"/>
+  <macro name="VCAST_NO_PTR_TO_UNCON_ARRAY_SUPPORT" int="1" source="1"/>
+</paramfile>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includedeps>
+  <unit id="8">
+    <file chksum="9bd8f709d62e7a2ac1a7868a8b4a6247" timestamp="1586154710">C:/VCAST/ENVIRONMENTS/GIT_TEST/SourceFiles/communication.h</file>
+  </unit>
+<unit id="9"><file chksum="eb8670cb70e43ae59f2b6d7fb1b0d04a" timestamp="1586214666">C:/VCAST/Environments/Git_Test/SourceFiles/communication.c</file><file chksum="9bd8f709d62e7a2ac1a7868a8b4a6247" timestamp="1586154710">C:/VCAST/Environments/Git_Test/SourceFiles/communication.h</file></unit></includedeps>

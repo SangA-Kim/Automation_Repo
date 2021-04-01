@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE testcase_data>
+<testcase_data xml_testcase_version="2.0">
+  <compound>
+    <name>&lt;&lt;COMPOUND&gt;&gt;</name>
+  </compound>
+  <init>
+    <name>&lt;&lt;INIT&gt;&gt;</name>
+    <testcase index="1">
+      <name>&lt;&lt;INIT&gt;&gt;.001</name>
+      <unique_id>1</unique_id>
+    </testcase>
+  </init>
+  <unit index="9" coverage_type="Statement+Branch">
+    <name>advanced_stubbing</name>
+    <subprogram index="1">
+      <name>use_malloc</name>
+      <testcase index="1">
+        <name>Real</name>
+        <unique_id>12</unique_id>
+      </testcase>
+      <testcase index="2">
+        <name>Stub</name>
+        <unique_id>13</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="2">
+      <name>temp_monitor</name>
+      <testcase index="1">
+        <name>C_BOILING</name>
+        <unique_id>5</unique_id>
+      </testcase>
+      <testcase index="2">
+        <name>C_FREEZING</name>
+        <unique_id>6</unique_id>
+      </testcase>
+      <testcase index="3">
+        <name>C_NORMAL</name>
+        <unique_id>7</unique_id>
+      </testcase>
+      <testcase index="4">
+        <name>F_BOILING</name>
+        <unique_id>8</unique_id>
+      </testcase>
+      <testcase index="5">
+        <name>F_BOILING.001</name>
+        <unique_id>9</unique_id>
+      </testcase>
+      <testcase index="6">
+        <name>F_FREEZING</name>
+        <unique_id>10</unique_id>
+      </testcase>
+      <testcase index="7">
+        <name>NullFunction</name>
+        <unique_id>11</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="3">
+      <name>get_numeric_string</name>
+      <testcase index="1">
+        <name>get3</name>
+        <unique_id>2</unique_id>
+      </testcase>
+      <testcase index="2">
+        <name>get_3_2_4</name>
+        <unique_id>3</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="4">
+      <name>log_error_msg</name>
+      <testcase index="1">
+        <name>log_error_msg.001</name>
+        <unique_id>4</unique_id>
+      </testcase>
+    </subprogram>
+  </unit>
+</testcase_data>

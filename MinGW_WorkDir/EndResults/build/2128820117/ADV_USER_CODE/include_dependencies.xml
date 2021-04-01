@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includedeps>
+  <unit id="8"/>
+<unit id="9"><file chksum="e9e4e4655477ab12b327812cde85476d" timestamp="1566516204">C:/VCAST/Environments/Git_Test/SourceFiles/datalink_transmit.c</file><file chksum="e13563bebe3a34b80c559609c887e53c" timestamp="1566516204">C:/VCAST/Environments/Git_Test/SourceFiles/datalink_types.h</file><file chksum="d4c616f4fe79e4ad9c210781317910ea" timestamp="1566516204">C:/VCAST/Environments/Git_Test/SourceFiles/datalink_hdwr_tx.h</file></unit></includedeps>

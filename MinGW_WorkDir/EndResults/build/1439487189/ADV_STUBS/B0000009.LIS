@@ -1,0 +1,120 @@
+               #include "c:/vcast/mingw/include/stdlib.h"
+               #include "c:/vcast/mingw/include/stdio.h"
+               #include "c:/vcast/mingw/include/time.h"
+               #include "c:/vcast/mingw/include/string.h"
+               char* use_malloc( void )
+               {
+1 0     ( )    use_malloc
+1 1              char* ptr = (char*)malloc( 10 );
+1 2     ( )( )   if ( !ptr )
+                 {
+1 3                return 0;
+                 }
+                 else
+                 {
+1 4                strcpy( ptr, "ok" );
+                 }
+1 5              return ptr;
+               }
+               /*****************************************************************************************************
+                *  temp_monitor
+                *
+                *  This function reads a water temparature gauge and determines if it is freezing, boiling, or normal
+                *
+                *****************************************************************************************************/
+               typedef float (*tempurature_guage_func_ptr_t)(void);
+               enum e_temp_range
+               {
+                 BAD_GAUGE,
+                 FREEZING,
+                 NORMAL,
+                 BOILING,
+               };
+               enum e_scale
+               {
+                 CELSIUS,
+                 FAHRENHEIT,
+               };
+               enum e_temp_range temp_monitor( tempurature_guage_func_ptr_t func_ptr, enum e_scale scale )
+               {
+                   float current_temperature;
+                   enum e_temp_range rc;
+2 0     ( )    temp_monitor
+2 1     ( )( )   if ( !func_ptr )
+                   {
+2 2                rc = BAD_GAUGE;
+                   }
+                   else
+                   {
+2 3                current_temperature = (*func_ptr)();
+2 4     ( )( )     if (scale == CELSIUS)
+                       {
+2 5     ( )( )       if (current_temperature <= 0.0)
+2 6                    rc = FREEZING;
+                           else 
+2 7     ( )( )         if (current_temperature >= 100.0)
+2 8                      rc = BOILING;
+                           else
+2 9                      rc = NORMAL;
+                       }
+2 10    ( )( )     if (scale == FAHRENHEIT)
+                       {
+2 11    ( )( )       if (current_temperature <= 32.0)
+2 12                   rc = FREEZING;
+                           else 
+2 13    ( )( )         if (current_temperature >= 212.0)
+2 14                     rc = BOILING;
+                           else
+2 15                     rc = NORMAL;
+                       }
+                   }
+2 16             return rc;
+               }
+               /*****************************************************************************************************
+                *  get_numeric_string
+                *
+                *  This function reads a series of ASCII digits from a key pad and converts it to a number.
+                *
+                *****************************************************************************************************/
+               extern char read_key_pad(void);
+               int get_numeric_string(int string_length)
+               {
+                   int i,val;
+                   char ch;
+                   char str[100];
+3 0     ( )    get_numeric_string
+3 1     ( )( )   for (i=0; i < string_length; i++)
+                   {
+3 2                ch = read_key_pad();
+3 3     ( )( )     if (!((ch >= '0') && (ch <= '9'))) 
+3 4                  ch='0';
+3 5                str[i] = ch;
+                   }
+3 6              val = atoi(str);
+3 7              return(val);
+               }
+               /*
+                *  This function prints out a log error string.  If the debug flag is on, the Time-of-day will also be included.
+                *
+                *  The debug flag will be returned as the return value.
+                */
+               extern const int debug_flag;
+               int log_error_msg( char *str )
+               {
+                   static int msg_num=0;
+4 0     ( )    log_error_msg
+4 1              time_t tod = time(
+                                    ((void *)0)
+                                        );
+4 2     ( )( )   if ( debug_flag )
+                   {
+4 3                printf("Log Msg #%d:  %s\n", msg_num, str);
+4 4                printf("Error Occurred on:  %s\n", ctime(&tod));
+                   }
+                   else
+                   {
+4 5                printf("Log Msg #%d:  %s\n", msg_num, str);
+                   }
+4 6              msg_num++;
+4 7              return debug_flag;
+               }

@@ -1,0 +1,27 @@
+               #include "C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.h"
+               Shape::Shape()
+               {
+1 0     ( )    Shape::Shape
+1 1            }
+               Shape::Shape(int x, int y)
+                 : mX(x),
+                   mY(y)
+               {
+2 0     ( )    Shape::Shape
+2 1            }
+               void Shape::setPosition(int x, int y)
+               {
+3 0     ( )    Shape::setPosition
+3 1              mX = x;
+3 2              mY = y;
+               }
+               int Shape::getX() const
+               {
+4 0     ( )    Shape::getX
+4 1              return mX;
+               }
+               int Shape::getY() const
+               {
+5 0     ( )    Shape::getY
+5 1              return mY;
+               }

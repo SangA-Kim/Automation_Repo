@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeset checksum="325997740">
+  <modification id="0">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2068</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned char SBF_9_1 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="1">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2068</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int R_9_2;
+unsigned char SBF_9_2 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="2">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2068</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned char P_9_3_1;
+unsigned char SBF_9_3 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="3">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="data_tx_V1">
+      <line>1949</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern unsigned char *P_9_4_1;
+extern unsigned char P_9_4_2;
+extern enum e_msg_sts R_9_4;
+extern unsigned char SBF_9_4;
+if(SBF_9_4) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_4036716187
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_4036716187
+  if ( vcast_is_in_driver ) {
+    P_9_4_1 = msg;
+    P_9_4_2 = msg_len;
+    vCAST_COMMON_STUB_PROC_9( 9, 4, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_4036716187
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_4036716187
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_4;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="4">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="data_tx_V1">
+      <line>1949</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="5">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="data_tx_V1">
+      <line>1992</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="6">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2068</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned char *P_9_4_1;
+unsigned char P_9_4_2;
+enum e_msg_sts R_9_4;
+unsigned char SBF_9_4 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="7">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="data_tx_V2">
+      <line>1997</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern unsigned char *P_9_5_1;
+extern unsigned char P_9_5_2;
+extern enum e_msg_sts R_9_5;
+extern unsigned char SBF_9_5;
+if(SBF_9_5) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_1771190049
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_1771190049
+  if ( vcast_is_in_driver ) {
+    P_9_5_1 = data_ptr;
+    P_9_5_2 = data_len;
+    vCAST_COMMON_STUB_PROC_9( 9, 5, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_1771190049
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_1771190049
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_5;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="8">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="data_tx_V2">
+      <line>1997</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="9">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="data_tx_V2">
+      <line>2028</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="10">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2068</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned char *P_9_5_1;
+unsigned char P_9_5_2;
+enum e_msg_sts R_9_5;
+unsigned char SBF_9_5 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="11">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="pkt_transmit">
+      <line>2032</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern unsigned char *P_9_6_1;
+extern unsigned char P_9_6_2;
+extern unsigned char P_9_6_3;
+extern enum e_msg_sts R_9_6;
+extern unsigned char SBF_9_6;
+if(SBF_9_6) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_313951443
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_313951443
+  if ( vcast_is_in_driver ) {
+    P_9_6_1 = msg;
+    P_9_6_2 = msg_len;
+    P_9_6_3 = msg_num;
+    vCAST_COMMON_STUB_PROC_9( 9, 6, 4, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_313951443
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_313951443
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_6;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="12">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="pkt_transmit">
+      <line>2032</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="13">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="pkt_transmit">
+      <line>2065</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="14">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>2068</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned char *P_9_6_1;
+unsigned char P_9_6_2;
+unsigned char P_9_6_3;
+enum e_msg_sts R_9_6;
+unsigned char SBF_9_6 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="15">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="hw_send_rts">
+      <line>1927</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_3686245375
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_3686245375
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="16">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="hw_send_rts">
+      <line>1927</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="17">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="hw_send_rts">
+      <line>1929</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="18">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="hw_check_cts">
+      <line>1932</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_1321332304
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_1321332304
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="19">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="hw_check_cts">
+      <line>1932</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="20">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="hw_check_cts">
+      <line>1935</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="21">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="hw_tx_byte">
+      <line>1938</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_3236889976
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_3236889976
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="22">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="hw_tx_byte">
+      <line>1938</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/{/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="23">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="FUNCTION_BODY_CLOSE" function="hw_tx_byte">
+      <line>1940</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/}/*vcast_internal_end*/
+</text>
+  </modification>
+</changeset>

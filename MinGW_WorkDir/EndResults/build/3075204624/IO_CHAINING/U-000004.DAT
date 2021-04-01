@@ -1,0 +1,4 @@
+TEST.VALUE_USER_CODE:<<testcase>>
+system("del TestOutput.txt");
+
+TEST.END_VALUE_USER_CODE:

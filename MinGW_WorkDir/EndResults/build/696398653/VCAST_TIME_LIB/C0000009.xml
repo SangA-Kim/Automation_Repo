@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage_data xml_testcase_version="6">
+  <unit index="9" coverage_type="STATEMENT_BRANCH" field_width="8">
+    <name>vcast_time</name>
+    <configuration>
+      <empty_statements_coverable>1</empty_statements_coverable>
+      <cover_catch_as_branch>1</cover_catch_as_branch>
+      <cover_logical_operators_in_parameters>1</cover_logical_operators_in_parameters>
+      <handle_ternary_operator>1</handle_ternary_operator>
+      <cover_nested_conditional>1</cover_nested_conditional>
+      <coverage_for_included_c_files>1</coverage_for_included_c_files>
+      <coverage_for_headers>0</coverage_for_headers>
+      <instrument_by_block>0</instrument_by_block>
+      <coverage_for_declarations>1</coverage_for_declarations>
+      <basis_paths_for_constant_branches>1</basis_paths_for_constant_branches>
+      <edg_coverage_available>1</edg_coverage_available>
+      <cover_included_c_files>1</cover_included_c_files>
+      <cover_headers>0</cover_headers>
+      <preprocessed>1</preprocessed>
+      <masking_mcdc>0</masking_mcdc>
+      <cuda_mode>0</cuda_mode>
+      <coverage_for_lambdas>2</coverage_for_lambdas>
+      <pack_instr_storage>1</pack_instr_storage>
+      <global_buffer_opts>0</global_buffer_opts>
+    </configuration>
+    <attributes>
+      <has_empty_statements>0</has_empty_statements>
+      <has_catch_statements>0</has_catch_statements>
+      <has_logical_operators_in_parameters>0</has_logical_operators_in_parameters>
+      <has_ternary_operator>0</has_ternary_operator>
+      <has_nested_ternary_operator>0</has_nested_ternary_operator>
+      <has_constant_branch>0</has_constant_branch>
+      <number_ascii_bytes>234</number_ascii_bytes>
+      <file_timestamp>1566516204</file_timestamp>
+      <file_checksum>3723355516</file_checksum>
+      <translation_unit_checksum>404578086</translation_unit_checksum>
+    </attributes>
+    <files>
+      <file index="1" path="c:/vcast/training/sourcefiles/searchpaths/vcast_time.c" crc_checksum="3723355516" sha_checksum="18b7a904f42c5b8728b3d748c83aa8514afe7a5d" timestamp="1566516204"/>
+    </files>
+    <subprogram index="1">
+      <name>time_add_seconds</name>
+      <file_index>1</file_index>
+      <mangled>time_add_seconds</mangled>
+      <source_function_checksum>3218861462</source_function_checksum>
+      <translation_unit_function_checksum>1488110902</translation_unit_function_checksum>
+      <lines>
+        <line number="0" conditions="1" condition_value="1" id="1" stmt_id="0" startline="4" startcol="1" endline="4" endcol="1" tustartline="22" tustartcol="1" tuendline="22" tuendcol="1" allowed_position="3"/>
+        <line number="1" conditions="2" id="2" stmt_id="1" startline="8" startcol="5" endline="8" endcol="28" tustartline="26" tustartcol="5" tuendline="26" tuendcol="28" allowed_position="0"/>
+        <line number="2" id="1" stmt_id="5" startline="10" startcol="9" endline="10" endcol="19" tustartline="28" tustartcol="9" tuendline="28" tuendcol="19" allowed_position="2"/>
+        <line number="3" id="2" stmt_id="7" startline="11" startcol="9" endline="11" endcol="19" tustartline="29" tustartcol="9" tuendline="29" tuendcol="19" allowed_position="2"/>
+        <line number="4" id="3" stmt_id="9" startline="12" startcol="9" endline="12" endcol="19" tustartline="30" tustartcol="9" tuendline="30" tuendcol="19" allowed_position="0"/>
+        <line number="5" id="4" stmt_id="11" startline="15" startcol="5" endline="15" endcol="39" tustartline="33" tustartcol="5" tuendline="33" tuendcol="39" allowed_position="2"/>
+        <line number="6" id="5" stmt_id="13" startline="16" startcol="5" endline="16" endcol="27" tustartline="34" tustartcol="5" tuendline="34" tuendcol="27" allowed_position="2"/>
+        <line number="7" conditions="2" id="3" stmt_id="15" startline="17" startcol="5" endline="17" endcol="27" tustartline="35" tustartcol="5" tuendline="35" tuendcol="27" allowed_position="0"/>
+        <line number="8" id="6" stmt_id="19" startline="19" startcol="9" endline="19" endcol="20" tustartline="37" tustartcol="9" tuendline="37" tuendcol="20" allowed_position="2"/>
+        <line number="9" id="7" stmt_id="21" startline="20" startcol="9" endline="20" endcol="26" tustartline="38" tustartcol="9" tuendline="38" tuendcol="26" allowed_position="2"/>
+        <line number="10" id="8" stmt_id="23" startline="22" startcol="5" endline="22" endcol="27" tustartline="40" tustartcol="5" tuendline="40" tuendcol="27" allowed_position="2"/>
+        <line number="11" id="9" stmt_id="25" startline="24" startcol="5" endline="24" endcol="16" tustartline="42" tustartcol="5" tuendline="42" tuendcol="16" allowed_position="0"/>
+      </lines>
+      <startline>22</startline>
+      <startcol>1</startcol>
+      <endline>43</endline>
+      <endcol>1</endcol>
+      <orig_startline>4</orig_startline>
+      <orig_endline>25</orig_endline>
+      <firstexec_startline>26</firstexec_startline>
+      <firstexec_startcol>5</firstexec_startcol>
+      <firstexec_orig_startline>8</firstexec_orig_startline>
+      <metrics>
+        <complexity>3</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>11</total>
+        </coverage>
+        <coverage coverage_type="BRANCH">
+          <total>5</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+  </unit>
+</coverage_data>

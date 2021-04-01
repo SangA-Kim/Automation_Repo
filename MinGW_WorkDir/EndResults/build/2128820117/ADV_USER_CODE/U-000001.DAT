@@ -1,0 +1,9 @@
+TEST.STUB_VAL_USER_CODE:datalink_transmit.hw_tx_byte.ch
+my_stub_ctr++;
+
+TEST.END_STUB_VAL_USER_CODE:
+TEST.VALUE_USER_CODE:datalink_transmit.pkt_transmit.msg
+<<datalink_transmit.pkt_transmit.msg>> = malloc(100);
+memset(<<datalink_transmit.pkt_transmit.msg>>,'A',100);
+
+TEST.END_VALUE_USER_CODE:

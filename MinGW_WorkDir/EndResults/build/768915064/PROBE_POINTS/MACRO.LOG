@@ -1,0 +1,28 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\768915064\PROBE_POINTS.tst.tmp
+(I) @LINE: 29
+    >>> Processing Test Case: FalsePath
+(S) @LINE: 30
+    >>> Processed Test Case: FalsePath
+(I) @LINE: 36
+    >>> Processing Test Case: TruePath
+(S) @LINE: 37
+    >>> Processed Test Case: TruePath
+(I) @LINE: 45
+    >>> Processing Test Case: CONDITIONAL_TEST
+(S) @LINE: 46
+    >>> Processed Test Case: CONDITIONAL_TEST
+(I) @LINE: 52
+    >>> Processing Test Case: miles_before_fillup.001
+(S) @LINE: 55
+    >>> Processed Test Case: miles_before_fillup.001
+(I) @LINE: 63
+    >>> Processing Test Case: BreakOut5
+(S) @LINE: 64
+    >>> Processed Test Case: BreakOut5
+(I) @LINE: 72
+    >>> Processing Test Case: DoorAjar
+(S) @LINE: 73
+    >>> Processed Test Case: DoorAjar
+(S) @LINE: 73
+    >>> Script processing completed

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paramfile version="1">
+  <source_file index="1">
+    <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3075204624/IO_CHAINING/S0000008.cpp</path>
+  </source_file>
+  <source_file index="2">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/io_wrapper.c</path>
+  </source_file>
+  <unit name="USER_GLOBALS_VCAST" index="8" sbf="0" unit_description="Not Stubbed Unit">
+    <source_file index="1">
+      <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3075204624/IO_CHAINING/S0000008.cpp</path>
+    </source_file>
+    <global name="VECTORCAST_INT1" index="1" typeid="800002"/>
+    <global name="VECTORCAST_INT2" index="2" typeid="800002"/>
+    <global name="VECTORCAST_INT3" index="3" typeid="800002"/>
+    <global name="VECTORCAST_FLT1" index="4" typeid="800003"/>
+    <global name="VECTORCAST_STR1" index="5" typeid="100001"/>
+    <global name="VECTORCAST_BUFFER" index="6" typeid="100002"/>
+  </unit>
+  <unit name="io_wrapper" index="9" sbf="1" unit_description="UUT">
+    <source_file index="2">
+      <path>C:/VCAST/Environments/Git_Test/SourceFiles/io_wrapper.c</path>
+    </source_file>
+    <global name="close_ret" index="1" typeid="900002"/>
+    <subprog name="CloseFile" index="1" mangled="CloseFile" parameterization="(struct FILE_TYPE*)t_bool">
+      <param name="fp" index="1" typeid="900005"/>
+      <param name="return" index="2" typeid="900009"/>
+      <global index="1"/>
+      <source_file index="2"/>
+      <sbf index="3"/>
+    </subprog>
+    <subprog name="OpenFile" index="2" mangled="OpenFile" parameterization="(char[],enum FileModeT)struct FILE_TYPE*">
+      <param name="filename" index="1" typeid="900001"/>
+      <param name="mode" index="2" typeid="900006"/>
+      <param name="return" index="3" typeid="900005"/>
+      <source_file index="2"/>
+      <sbf index="4"/>
+    </subprog>
+    <subprog name="ReadLine" index="3" mangled="ReadLine" parameterization="(struct FILE_TYPE*,char[])t_bool">
+      <param name="fp" index="1" typeid="900005"/>
+      <param name="line" index="2" typeid="900001"/>
+      <param name="return" index="3" typeid="900009"/>
+      <source_file index="2"/>
+      <sbf index="4"/>
+    </subprog>
+    <subprog name="WriteString" index="4" mangled="WriteString" parameterization="(struct FILE_TYPE*,char[])t_bool">
+      <param name="fp" index="1" typeid="900005"/>
+      <param name="line" index="2" typeid="900001"/>
+      <param name="return" index="3" typeid="900009"/>
+      <source_file index="2"/>
+      <sbf index="4"/>
+    </subprog>
+    <subprog name="WriteInteger" index="5" mangled="WriteInteger" parameterization="(struct FILE_TYPE*,int)t_bool">
+      <param name="fp" index="1" typeid="900005"/>
+      <param name="value" index="2" typeid="900002"/>
+      <param name="return" index="3" typeid="900009"/>
+      <source_file index="2"/>
+      <sbf index="4"/>
+    </subprog>
+    <subprog name="WriteFloat" index="6" mangled="WriteFloat" parameterization="(struct FILE_TYPE*,float)t_bool">
+      <param name="fp" index="1" typeid="900005"/>
+      <param name="value" index="2" typeid="900008"/>
+      <param name="return" index="3" typeid="900009"/>
+      <source_file index="2"/>
+      <sbf index="4"/>
+    </subprog>
+  </unit>
+  <unit name="uut_prototype_stubs" index="10" sbf="0" unit_description="Stubbed Unit"/>
+  <environment_exceptions/>
+  <macro name="F_APPEND" int="2" source="0"/>
+  <macro name="F_READ" int="0" source="0"/>
+  <macro name="F_WRITE" int="1" source="0"/>
+  <macro name="False" int="0" source="0"/>
+  <macro name="True" int="1" source="0"/>
+  <macro name="VCAST_NO_PTR_TO_UNCON_ARRAY_SUPPORT" int="1" source="1"/>
+</paramfile>

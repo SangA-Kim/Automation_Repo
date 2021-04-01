@@ -1,0 +1,22 @@
+               struct coordT {
+                  float X;
+                  float Y;
+                  };
+               /* functions to determine missing value in 'y = mx + b' */
+               /* y = mx + b */
+               float findY ( float x, float m, float b ) {
+1 0     ( )    findY
+1 1              return m * x + b;
+               }
+               float findX ( float y, float m, float b ) {
+2 0     ( )    findX
+2 1              return ( y - b ) / m;
+               }
+               float findM ( struct coordT coord, float b ) {
+3 0     ( )    findM
+3 1              return ( coord.Y - b ) / coord.X;
+               }
+               float findB ( struct coordT coord, float m ) {
+4 0     ( )    findB
+4 1              return coord.Y - m * coord.X;
+               }

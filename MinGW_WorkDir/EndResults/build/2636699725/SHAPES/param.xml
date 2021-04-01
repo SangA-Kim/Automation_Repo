@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paramfile version="1">
+  <source_file index="1">
+    <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/2636699725/SHAPES/S0000008.cpp</path>
+  </source_file>
+  <source_file index="2">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/rectangle.cpp</path>
+  </source_file>
+  <source_file index="3">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.h</path>
+  </source_file>
+  <source_file index="4">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/rectangle.h</path>
+  </source_file>
+  <source_file index="5">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.cpp</path>
+  </source_file>
+  <unit name="USER_GLOBALS_VCAST" index="8" sbf="0" unit_description="Not Stubbed Unit">
+    <source_file index="1">
+      <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/2636699725/SHAPES/S0000008.cpp</path>
+    </source_file>
+    <global name="VECTORCAST_INT1" index="1" typeid="800002"/>
+    <global name="VECTORCAST_INT2" index="2" typeid="800002"/>
+    <global name="VECTORCAST_INT3" index="3" typeid="800002"/>
+    <global name="VECTORCAST_FLT1" index="4" typeid="800003"/>
+    <global name="VECTORCAST_STR1" index="5" typeid="100001"/>
+    <global name="VECTORCAST_BUFFER" index="6" typeid="100002"/>
+  </unit>
+  <unit name="rectangle" index="9" sbf="1" unit_description="UUT">
+    <source_file index="2">
+      <path>C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/rectangle.cpp</path>
+    </source_file>
+    <global name="C_3328162424_9" index="1" typeid="900022" is_c_object="1"/>
+    <subprog name="Rectangle::Rectangle" index="1" typeid="900022" is_constructor="1" mangled="__ct__9RectangleFv" overloaded="1" parameterization="()" overloaded_in_reports="1">
+      <source_file index="2"/>
+      <sbf index="1"/>
+    </subprog>
+    <subprog name="Rectangle::Rectangle" index="2" typeid="900022" is_constructor="1" mangled="__ct__9RectangleFiN31" overloaded="1" parameterization="(int,int,int,int)" overloaded_in_reports="1">
+      <param name="x" index="1" typeid="900003"/>
+      <param name="y" index="2" typeid="900003"/>
+      <param name="height" index="3" typeid="900003"/>
+      <param name="width" index="4" typeid="900003"/>
+      <source_file index="2"/>
+      <sbf index="5"/>
+    </subprog>
+    <subprog name="Rectangle::getArea" index="3" typeid="900022" mangled="getArea__9RectangleCFv" parameterization="()float const">
+      <param name="return" index="1" typeid="900008"/>
+      <source_file index="2"/>
+      <sbf index="2"/>
+    </subprog>
+    <subprog name="Rectangle::setPosition" index="4" typeid="900022" mangled="setPosition__5ShapeFiT1" parameterization="(int,int)">
+      <param name="x" index="1" typeid="900003"/>
+      <param name="y" index="2" typeid="900003"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="Rectangle::getX" index="5" typeid="900022" mangled="getX__5ShapeCFv" parameterization="()int const">
+      <param name="return" index="1" typeid="900003"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="Rectangle::getY" index="6" typeid="900022" mangled="getY__5ShapeCFv" parameterization="()int const">
+      <param name="return" index="1" typeid="900003"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="Rectangle::getName" index="7" typeid="900022" mangled="__ab5cxx11getName__9RectangleCFv" parameterization="()std::__cxx11::string const" is_inline="1">
+      <param name="return" index="1" typeid="900009"/>
+      <source_file index="4"/>
+      <sbf index="2"/>
+    </subprog>
+  </unit>
+  <unit name="uut_prototype_stubs" index="10" sbf="0" unit_description="Stubbed Unit">
+    <subprog name="vcast_concrete_Shape::getName" index="1" mangled="vcast_mangled___ab5cxx11getName__5ShapeCFv" parameterization="()std::__cxx11::string const">
+      <param name="return" index="1" typeid="900009"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="vcast_concrete_Shape::getArea" index="2" mangled="vcast_mangled_getArea__5ShapeCFv" parameterization="()float const">
+      <param name="return" index="1" typeid="900008"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="vcast_concrete_Shape::vcast_concrete_Shape" index="3" is_constructor="1" mangled="vcast_concrete_Shape" overloaded="1" parameterization="()">
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="vcast_concrete_Shape::vcast_concrete_Shape" index="4" is_constructor="1" mangled="vcast_concrete_Shape" overloaded="1" parameterization="(int,int)">
+      <param name="x" index="1" typeid="900003"/>
+      <param name="y" index="2" typeid="900003"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="Shape::getName" index="5" mangled="__ab5cxx11getName__5ShapeCFv" parameterization="()std::__cxx11::string const">
+      <param name="return" index="1" typeid="900009"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="Shape::getArea" index="6" mangled="getArea__5ShapeCFv" parameterization="()float const">
+      <param name="return" index="1" typeid="900008"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="Shape::Shape" index="7" is_constructor="1" mangled="__ct__5ShapeFv" overloaded="1" parameterization="()">
+      <source_file index="5"/>
+      <sbf index="1"/>
+    </subprog>
+    <subprog name="Shape::Shape" index="8" is_constructor="1" mangled="__ct__5ShapeFiT1" overloaded="1" parameterization="(int,int)">
+      <param name="x" index="1" typeid="1100003"/>
+      <param name="y" index="2" typeid="1100003"/>
+      <source_file index="5"/>
+      <sbf index="3"/>
+    </subprog>
+  </unit>
+  <unit name="shape" index="11" sbf="1" unit_description="UUT">
+    <source_file index="5">
+      <path>C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.cpp</path>
+    </source_file>
+    <global name="C_3429158504_11" index="1" typeid="1100004" is_c_object="1"/>
+    <subprog name="Shape::setPosition" index="1" typeid="1100004" mangled="setPosition__5ShapeFiT1" parameterization="(int,int)">
+      <param name="x" index="1" typeid="1100003"/>
+      <param name="y" index="2" typeid="1100003"/>
+      <source_file index="5"/>
+      <sbf index="3"/>
+    </subprog>
+    <subprog name="Shape::getX" index="2" typeid="1100004" mangled="getX__5ShapeCFv" parameterization="()int const">
+      <param name="return" index="1" typeid="1100003"/>
+      <source_file index="5"/>
+      <sbf index="2"/>
+    </subprog>
+    <subprog name="Shape::getY" index="3" typeid="1100004" mangled="getY__5ShapeCFv" parameterization="()int const">
+      <param name="return" index="1" typeid="1100003"/>
+      <source_file index="5"/>
+      <sbf index="2"/>
+    </subprog>
+  </unit>
+  <environment_exceptions/>
+  <macro name="VCAST_NO_PTR_TO_UNCON_ARRAY_SUPPORT" int="1" source="1"/>
+</paramfile>

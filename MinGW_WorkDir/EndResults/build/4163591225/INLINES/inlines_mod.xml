@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeset checksum="714957269">
+  <modification id="0">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="__ct__23class_with_some_inlinesFi">
+      <line>38</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern int P_9_1_1;
+extern unsigned char SBF_9_1;
+if(SBF_9_1) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_1860086096
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_1860086096
+  if ( vcast_is_in_driver ) {
+    P_9_1_1 = i;
+    vCAST_COMMON_STUB_PROC_9( 9, 1, 2, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_1860086096
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_1860086096
+  vCAST_USER_CODE_TIMER_START();
+  return;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="1">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>51</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int P_9_1_1;
+unsigned char SBF_9_1 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="2">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="use_int__23class_with_some_inlinesFv">
+      <line>42</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+extern int R_9_2;
+extern unsigned char SBF_9_2;
+if(SBF_9_2) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_1844480316
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_1844480316
+  if ( vcast_is_in_driver ) {
+    vCAST_COMMON_STUB_PROC_9( 9, 2, 1, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_1844480316
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_1844480316
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_2;
+}
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="3">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>51</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int R_9_2;
+unsigned char SBF_9_2 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="4">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>51</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int R_9_3;
+unsigned char SBF_9_3 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="5">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>51</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int R_9_4;
+unsigned char SBF_9_4 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="6">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>51</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+unsigned char SBF_9_5 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="7">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNIT_APPENDIX_START">
+      <line>51</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+int R_9_6;
+unsigned char SBF_9_6 = 0;
+
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="8">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="non_member_inline__Fv">
+      <line>24</line>
+      <col>1</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_1445771036
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_1445771036
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="9">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="get_int__23class_with_some_inlinesFv">
+      <line>17</line>
+      <col>17</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_4281873062
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_4281873062
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="10">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="__ct__23class_with_only_inlinesFv">
+      <line>31</line>
+      <col>29</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_1297009154
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_1297009154
+/*vcast_internal_end*/
+</text>
+  </modification>
+  <modification id="11">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="FUNCTION_BODY_OPEN" function="inline_member__23class_with_only_inlinesFv">
+      <line>32</line>
+      <col>23</col>
+    </pos>
+    <text>/*vcast_internal_start*/
+#define VCAST_STUBBED_INLINE_757571370
+#include "vcast_stubbed_inlines.cpp"
+#undef VCAST_STUBBED_INLINE_757571370
+/*vcast_internal_end*/
+</text>
+  </modification>
+</changeset>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeset checksum="2891448267">
+  <modification id="146">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="UNKNOWN_POSITION">
+      <line>1595</line>
+      <col>0</col>
+    </pos>
+    <text>/*******Inserted File Scope probe_point_id=5**********/
+int loop_cnt=0;
+
+</text>
+  </modification>
+  <modification id="140">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNKNOWN_POSITION">
+      <line>1731</line>
+      <col>5</col>
+    </pos>
+    <text>
+/*******Inserted Before probe_point_id=1**********/
+if (vcast_test_name_equals( "CONDITIONAL_TEST" ))
+  fuel_level=25.5;
+else
+  fuel_level=tank_size;
+vcast_probe_print( "\nTank Size =" );
+vcast_probe_print_unsigned( tank_size );
+vcast_probe_print( "\nFuel level=" );
+vcast_probe_print_float( fuel_level );
+vcast_probe_print( "\n" );
+
+
+</text>
+  </modification>
+  <modification id="119">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNKNOWN_POSITION">
+      <line>1705</line>
+      <col>9</col>
+    </pos>
+    <text>
+/*******Inserted Before probe_point_id=4**********/
+if (++loop_cnt &gt;= 5)  break;
+
+</text>
+  </modification>
+  <modification id="97">
+    <kind>ADD_TEXT_AFTER</kind>
+    <pos description="UNKNOWN_POSITION">
+      <line>1673</line>
+      <col>44</col>
+    </pos>
+    <text>
+/*******Inserted After probe_point_id=3**********/
+#endif
+if (vcast_test_name_equals( "TruePath" ))
+  reg_value=4;
+else
+  reg_value=0;
+
+</text>
+  </modification>
+  <modification id="95">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNKNOWN_POSITION">
+      <line>1673</line>
+      <col>3</col>
+    </pos>
+    <text>
+/*******Inserted Before probe_point_id=3**********/
+#if (0)
+</text>
+  </modification>
+  <modification id="72">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <pos description="UNKNOWN_POSITION">
+      <line>1650</line>
+      <col>5</col>
+    </pos>
+    <text>
+/*******Inserted Before probe_point_id=2**********/
+close_count=3;
+
+</text>
+  </modification>
+  <modification id="74">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <sentinel/>
+    <pos description="UNKNOWN_POSITION">
+      <line>1650</line>
+      <col>5</col>
+    </pos>
+    <text>{
+</text>
+  </modification>
+  <modification id="76">
+    <kind>ADD_TEXT_AFTER</kind>
+    <sentinel/>
+    <pos description="UNKNOWN_POSITION">
+      <line>1654</line>
+      <col>5</col>
+    </pos>
+    <text>}
+</text>
+  </modification>
+  <modification id="142">
+    <kind>ADD_TEXT_BEFORE</kind>
+    <sentinel/>
+    <pos description="UNKNOWN_POSITION">
+      <line>1731</line>
+      <col>5</col>
+    </pos>
+    <text>{
+</text>
+  </modification>
+  <modification id="144">
+    <kind>ADD_TEXT_AFTER</kind>
+    <sentinel/>
+    <pos description="UNKNOWN_POSITION">
+      <line>1735</line>
+      <col>5</col>
+    </pos>
+    <text>}
+</text>
+  </modification>
+</changeset>

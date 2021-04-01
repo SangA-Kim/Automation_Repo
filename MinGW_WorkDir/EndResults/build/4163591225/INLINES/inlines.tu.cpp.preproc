@@ -1,0 +1,56 @@
+#line 3 "vcast_preprocess.7260.18.cpp"                                                                                                                             
+# 1 "vcast_preprocess.7260.16.cpp" 1
+
+typedef int VECTORCAST_MARKER__UNIT_PREFIX_START;
+
+typedef int VECTORCAST_MARKER__UNIT_PREFIX_END;
+# 1 "C:/VCAST/Environments/Git_Test/SourceFiles/inlines.cpp" 1
+# 1 "C:/VCAST/Environments/Git_Test/SourceFiles/inlines.h" 1
+
+
+
+class class_with_some_inlines
+{
+public:
+  class_with_some_inlines(int i);
+  int use_int();
+  int get_int() { return m_i; }
+
+public:
+  int m_i;
+};
+
+inline int non_member_inline(void)
+{
+  return 1;
+}
+
+class class_with_only_inlines
+{
+public:
+  class_with_only_inlines() {}
+  int inline_member() { return 2; }
+};
+# 2 "C:/VCAST/Environments/Git_Test/SourceFiles/inlines.cpp" 2
+
+class_with_some_inlines::class_with_some_inlines(int i)
+  : m_i( i )
+{
+}
+
+int class_with_some_inlines::use_int()
+{
+  if ( m_i )
+  {
+    return 3;
+  }
+  return 4;
+}
+# 6 "vcast_preprocess.7260.16.cpp" 2
+
+typedef int VECTORCAST_MARKER__UNIT_APPENDIX_START;
+
+typedef int VECTORCAST_MARKER__UNIT_APPENDIX_END;
+# 4 "vcast_preprocess.7260.18.cpp" 2
+
+                                               

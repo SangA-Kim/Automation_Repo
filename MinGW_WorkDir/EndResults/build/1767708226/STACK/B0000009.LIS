@@ -1,0 +1,86 @@
+               enum StackErrorsT { E_OVERFLOW, E_UNDERFLOW };
+               template <typename T>
+               class Stack {
+                 public:
+                   Stack(unsigned maxSize);
+                   bool empty();
+                   operator bool();
+                   void push(T item) throw ( StackErrorsT );
+                   T pop() throw ( StackErrorsT );
+                   unsigned count();
+                   void grow ( unsigned newMax ) throw ( StackErrorsT );
+                 public:
+                   struct ItemContainer {
+                     ItemContainer(T p) : item(p), next(0) {
+1 1              }
+                     T item;
+                     ItemContainer *next;
+                   };
+                   ItemContainer *mStack;
+                   unsigned mStackCount;
+                   unsigned mMaxSize;
+               };
+               template <typename T>
+               Stack<T>::Stack(unsigned maxSize) :
+                 mStack(0),
+                 mStackCount(0),
+                 mMaxSize(maxSize)
+               {
+2 1              }
+               template <typename T>
+               bool Stack<T>::empty()
+               {
+3 1              return !(bool)mStack;
+               }
+               template <typename T>
+               Stack<T>::operator bool()
+               {
+4 1              return !empty();
+               }
+               template <typename T>
+               void Stack<T>::push(T item)
+               throw ( StackErrorsT )
+               {
+5 1              if (mStack) {
+5 2                if ( mStackCount >= mMaxSize )
+5 3                  throw E_OVERFLOW;
+5 4                ItemContainer *tmp =
+                         new ItemContainer(item);
+5 5                if ( !tmp )
+5 6                  throw E_OVERFLOW;
+5 7                tmp->next = mStack;
+5 8                mStack = tmp;
+5 9                mStackCount++;
+                 } else {
+5 10               mStack = new ItemContainer (item);
+5 11               mStackCount++;
+5 12               if ( !mStack )
+5 13                 throw E_OVERFLOW;
+                 }
+               }
+               template <typename T>
+               T Stack<T>::pop()
+               throw ( StackErrorsT )
+               {
+6 1              if (empty()) {
+6 2                throw E_UNDERFLOW;
+                 }
+6 3              T rtn = mStack->item;
+6 4              ItemContainer *tmp = mStack;
+6 5              mStack = mStack->next;
+6 6              delete tmp;
+6 7              mStackCount--;
+6 8              return rtn;
+               }
+               template <typename T>
+               unsigned Stack<T>::count()
+               {
+7 1              return mStackCount;
+               }
+               template <typename T>
+               void Stack<T>::grow ( unsigned newMax ) throw(StackErrorsT)
+               {
+8 1              if ( newMax < mStackCount )
+8 2                throw E_OVERFLOW;
+8 3              mMaxSize = newMax;
+               }

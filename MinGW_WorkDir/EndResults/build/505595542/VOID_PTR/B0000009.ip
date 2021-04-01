@@ -1,0 +1,28 @@
+1,0,B    {
+1,1,S    enum Boolean rc=True;
+1,2,S    switch ( messageCategory )
+1,3,B    case Change_Altitude:
+1,4,S    AltCmdT *cmd = (AltCmdT *)message;
+1,5,S    int altitude = cmd->newAltitude;
+1,6,B    if ( (altitude < 10) || (altitude > 40000) )
+1,7,S    printf("\nBad Altitude: %d\n", altitude);
+1,8,S    rc = False;
+1,9,S    ChangeAltitude ( altitude );
+1,10,S    printf("\nNew Altitude: %d\n", altitude);
+1,11,S    break;
+1,12,B    case Change_Course:
+1,13,S    CourseCmdT *cmd = (CourseCmdT *)message;
+1,14,S    float course = cmd->newCourse;
+1,15,B    if ( (course < 0) || (course > (2*(3.14159265))))
+1,16,S    printf("\nBad Course: %f\n", course);
+1,17,S    rc = False;
+1,18,S    printf ("\nNew Course: %f\n", course );
+1,19,S    ChangeCourse ( course );
+1,20,S    break;
+1,21,B    case Text_Message:
+1,22,S    ascii_msg = (char *)message;
+1,23,S    printf ("\n%s\n", ascii_msg );
+1,24,S    break;
+1,25,B    default:
+1,26,S    InvalidCommand( messageCategory );
+1,27,S    return(rc);

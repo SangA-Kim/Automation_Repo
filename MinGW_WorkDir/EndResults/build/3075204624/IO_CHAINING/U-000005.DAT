@@ -1,0 +1,3 @@
+TEST.VALUE_USER_CODE:io_wrapper.ReadLine.fp
+<<io_wrapper.ReadLine.fp>> = ( <<io_wrapper.OpenFile.return>> );
+TEST.END_VALUE_USER_CODE:

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typefile version="1">
+  <type typeid="100001" typetype="STR_ING" array_type="800001" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100002" typetype="AR_RAY" array_type="800002">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="800001" typetype="CHAR_ACTER">
+    <range_data min="-128" mid="-1" max="127"/>
+  </type>
+  <type typeid="800002" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="800003" typetype="FL_OAT">
+    <range_data min="-3.40282e+038" mid="0" max="3.40282e+038"/>
+  </type>
+  <type typeid="900001" typetype="CLASS_PTR" ada_scope="class_with_some_inlines" pointer_type="900003">
+    <constructor index="1" prototype="class_with_some_inlines::class_with_some_inlines(int i)">
+      <subprog name="class_with_some_inlines::class_with_some_inlines" index="0" is_constructor="1" mangled="__ct__23class_with_some_inlinesFi" parameterization="(int)">
+        <param name="i" index="1" typeid="900002"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="m_i" typeid="900002"/>
+    <subclass index="1" typeid="900003"/>
+  </type>
+  <type typeid="900002" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="900003" typetype="CLASS" ada_scope="class_with_some_inlines">
+    <constructor index="1" prototype="class_with_some_inlines::class_with_some_inlines(int i)">
+      <subprog name="class_with_some_inlines::class_with_some_inlines" index="0" is_constructor="1" mangled="__ct__23class_with_some_inlinesFi" parameterization="(int)">
+        <param name="i" index="1" typeid="900002"/>
+      </subprog>
+    </constructor>
+    <field index="1" name="m_i" typeid="900002"/>
+  </type>
+  <type typeid="900004" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+  <type typeid="900005" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_VOID_TYPES_ARE_UNTESTABLE"/>
+  <type typeid="900006" typetype="CLASS" ada_scope="class_with_only_inlines">
+    <constructor index="1" prototype="class_with_only_inlines::class_with_only_inlines()">
+      <subprog name="class_with_only_inlines::class_with_only_inlines" index="0" is_constructor="1" mangled="__ct__23class_with_only_inlinesFv" parameterization="()" is_inline="1"/>
+    </constructor>
+  </type>
+  <type typeid="900007" typetype="CLASS_PTR" ada_scope="class_with_only_inlines" pointer_type="900006">
+    <constructor index="1" prototype="class_with_only_inlines::class_with_only_inlines()">
+      <subprog name="class_with_only_inlines::class_with_only_inlines" index="0" is_constructor="1" mangled="__ct__23class_with_only_inlinesFv" parameterization="()" is_inline="1"/>
+    </constructor>
+    <subclass index="1" typeid="900006"/>
+  </type>
+  <type typeid="900008" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_QUALIFIER_UNSUPPORTED"/>
+</typefile>

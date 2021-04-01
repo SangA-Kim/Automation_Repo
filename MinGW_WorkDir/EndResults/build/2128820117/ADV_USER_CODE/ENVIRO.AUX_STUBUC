@@ -1,0 +1,9 @@
+
+BEGINNING_OF_STUB.uut_prototype_stubs.log_msg
+printf("\n%s\n",msg);
+
+END_BEGINNING_OF_STUB.uut_prototype_stubs.log_msg
+BEGINNING_OF_STUB.uut_prototype_stubs.calc_crc
+return (0xAB);
+
+END_BEGINNING_OF_STUB.uut_prototype_stubs.calc_crc

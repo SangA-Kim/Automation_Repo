@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="28">
+  <config>
+    <config>
+      <key>WHITEBOX</key>
+      <value>YES</value>
+      <key>STANDARD_OUTPUT</key>
+      <value>REDIRECT</value>
+      <key>STANDARD_ERROR</key>
+      <value>REDIRECT</value>
+      <key>COVERAGE_TYPE</key>
+      <value>Statement+Branch</value>
+    </config>
+    <search-directory type="TESTABLE_SOURCE_DIR">$(PROJECT_ROOT_DIR)\SourceFiles</search-directory>
+    <search-directory type="TESTABLE_SOURCE_DIR">$(PROJECT_ROOT_DIR)\SourceFiles\Shapes</search-directory>
+    <saved-logs>5</saved-logs>
+    <build-directory-naming-strategy>COMPRESSED</build-directory-naming-strategy>
+  </config>
+  <project-id>1539964716</project-id>
+  <factor-config-options>0</factor-config-options>
+  <environment name="ABSTRACT_SHAPE" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/629463815</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="ACME_PAYROLL" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/861883954</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="ADV_STUBS" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/1992317469</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="ADV_USER_CODE" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/677640584</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="CBA_EXAMPLE" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/1311446307</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="CONTROL_FLOW" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/4089473624</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="CSV_IMPORT" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/4169183048</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="DEBUG_MGR" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/2563965999</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="DISH_BLACKBOX" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/3266152262</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="DISH_WHITEBOX" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/3707052758</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="INLINES" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/1897746203</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="IO_CHAINING" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/3194500733</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="MATH" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/2598723541</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="MCDC" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/1148272738</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="MGR_COVER" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/936170989</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="MGR_UT1" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/3907613845</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="PROBE_POINTS" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/517900365</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="RGW_TEST" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/961339884</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="SHAPES" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/2014321364</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="STACK" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/2216788623</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="VCAST_TIME" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/2910119421</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="VCAST_TIME_LIB" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/135310455</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="VOID_PTR" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>EndResults/build/3419124065</original-environment-directory>
+    </config>
+  </environment>
+  <group name="Group">
+    <environment name="ABSTRACT_SHAPE"/>
+    <environment name="ACME_PAYROLL"/>
+    <environment name="ADV_STUBS"/>
+    <environment name="ADV_USER_CODE"/>
+    <environment name="CBA_EXAMPLE"/>
+    <environment name="CONTROL_FLOW"/>
+    <environment name="CSV_IMPORT"/>
+    <environment name="DEBUG_MGR"/>
+    <environment name="DISH_BLACKBOX"/>
+    <environment name="DISH_WHITEBOX"/>
+    <environment name="INLINES"/>
+    <environment name="IO_CHAINING"/>
+    <environment name="MATH"/>
+    <environment name="MCDC"/>
+    <environment name="MGR_COVER"/>
+    <environment name="MGR_UT1"/>
+    <environment name="PROBE_POINTS"/>
+    <environment name="RGW_TEST"/>
+    <environment name="SHAPES"/>
+    <environment name="STACK"/>
+    <environment name="VCAST_TIME"/>
+    <environment name="VCAST_TIME_LIB"/>
+    <environment name="VOID_PTR"/>
+  </group>
+  <group name="SystemTestGroup"/>
+  <compiler>
+    <compiler>
+      <name>VectorCAST_MinGW_C++</name>
+      <config>
+        <config>
+          <key>C_COMPILER_TAG</key>
+          <value>BUILTIN_MINGW_63_CPP</value>
+        </config>
+      </config>
+    </compiler>
+    <testsuite name="SystemTestSuite">
+      <group name="SystemTestGroup"/>
+    </testsuite>
+    <testsuite name="UnitTestSuiite">
+      <group name="Group"/>
+    </testsuite>
+  </compiler>
+</project>

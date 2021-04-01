@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paramfile version="1">
+  <source_file index="1">
+    <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/4089473624/CONTROL_FLOW/S0000008.cpp</path>
+  </source_file>
+  <source_file index="2">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/control_flow.c</path>
+  </source_file>
+  <unit name="USER_GLOBALS_VCAST" index="8" sbf="0" unit_description="Not Stubbed Unit">
+    <source_file index="1">
+      <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/4089473624/CONTROL_FLOW/S0000008.cpp</path>
+    </source_file>
+    <global name="VECTORCAST_INT1" index="1" typeid="800002"/>
+    <global name="VECTORCAST_INT2" index="2" typeid="800002"/>
+    <global name="VECTORCAST_INT3" index="3" typeid="800002"/>
+    <global name="VECTORCAST_FLT1" index="4" typeid="800003"/>
+    <global name="VECTORCAST_STR1" index="5" typeid="100001"/>
+    <global name="VECTORCAST_BUFFER" index="6" typeid="100002"/>
+  </unit>
+  <unit name="control_flow" index="9" sbf="1" unit_description="UUT">
+    <source_file index="2">
+      <path>C:/VCAST/Environments/Git_Test/SourceFiles/control_flow.c</path>
+    </source_file>
+    <global name="widthX" index="1" typeid="900001"/>
+    <global name="lengthY" index="2" typeid="900001"/>
+    <global name="heightZ" index="3" typeid="900001"/>
+    <global name="Status" index="4" typeid="900003"/>
+    <subprog name="setDimensions" index="1" mangled="setDimensions" parameterization="(float,float,float)">
+      <param name="x" index="1" typeid="900001"/>
+      <param name="y" index="2" typeid="900001"/>
+      <param name="z" index="3" typeid="900001"/>
+      <global index="1"/>
+      <global index="2"/>
+      <global index="3"/>
+      <source_file index="2"/>
+      <sbf index="4"/>
+    </subprog>
+    <subprog name="computeBaseArea" index="2" mangled="computeBaseArea" parameterization="(enum e_shape)float">
+      <param name="shape" index="1" typeid="900002"/>
+      <param name="return" index="2" typeid="900001"/>
+      <global index="1"/>
+      <global index="2"/>
+      <global index="3"/>
+      <function unit="10" index="1"/>
+      <source_file index="2"/>
+      <sbf index="3"/>
+    </subprog>
+    <subprog name="computeVolume" index="3" mangled="computeVolume" parameterization="(enum e_shape)float">
+      <param name="shape" index="1" typeid="900002"/>
+      <param name="return" index="2" typeid="900001"/>
+      <global index="1"/>
+      <global index="2"/>
+      <global index="3"/>
+      <function unit="10" index="1"/>
+      <source_file index="2"/>
+      <sbf index="3"/>
+    </subprog>
+    <subprog name="partitionExample" index="4" mangled="partitionExample" parameterization="(unsigned char)">
+      <param name="numberOfIterations" index="1" typeid="900004"/>
+      <global index="4"/>
+      <source_file index="2"/>
+      <sbf index="2"/>
+    </subprog>
+    <subprog name="controlFlowExample" index="5" mangled="controlFlowExample" parameterization="()">
+      <function unit="10" index="2"/>
+      <function unit="10" index="3"/>
+      <function unit="10" index="4"/>
+      <function unit="10" index="5"/>
+      <function unit="10" index="6"/>
+      <source_file index="2"/>
+      <sbf index="1"/>
+    </subprog>
+  </unit>
+  <unit name="uut_prototype_stubs" index="10" sbf="0" unit_description="Stubbed Unit">
+    <subprog name="validShape" index="1" mangled="validShape" parameterization="(enum e_shape,float,float,float)int">
+      <param name="shape" index="1" typeid="900002"/>
+      <param name="x" index="2" typeid="900001"/>
+      <param name="y" index="3" typeid="900001"/>
+      <param name="z" index="4" typeid="900001"/>
+      <param name="return" index="5" typeid="900003"/>
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="someExternalFunctionA" index="2" mangled="someExternalFunctionA" parameterization="()">
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="someExternalFunctionB" index="3" mangled="someExternalFunctionB" parameterization="()">
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="someExternalFunctionC" index="4" mangled="someExternalFunctionC" parameterization="()">
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="someExternalFunctionD" index="5" mangled="someExternalFunctionD" parameterization="()">
+      <source_file index="2"/>
+    </subprog>
+    <subprog name="someExternalFunctionE" index="6" mangled="someExternalFunctionE" parameterization="()">
+      <source_file index="2"/>
+    </subprog>
+  </unit>
+  <environment_exceptions/>
+  <macro name="BOX" int="2" source="0"/>
+  <macro name="CONE" int="1" source="0"/>
+  <macro name="CYLINDER" int="0" source="0"/>
+  <macro name="PI" float="3.14159" source="0"/>
+  <macro name="VCAST_NO_PTR_TO_UNCON_ARRAY_SUPPORT" int="1" source="1"/>
+</paramfile>

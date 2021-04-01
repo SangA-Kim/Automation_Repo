@@ -1,0 +1,20 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1191757134\CBA_EXAMPLE.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: CAN
+(S) @LINE: 40
+    >>> Processed Test Case: CAN
+(I) @LINE: 46
+    >>> Processing Test Case: ENET
+(S) @LINE: 54
+    >>> Processed Test Case: ENET
+(I) @LINE: 60
+    >>> Processing Test Case: INVALID
+(S) @LINE: 68
+    >>> Processed Test Case: INVALID
+(I) @LINE: 74
+    >>> Processing Test Case: SERIAL
+(S) @LINE: 82
+    >>> Processed Test Case: SERIAL
+(S) @LINE: 82
+    >>> Script processing completed

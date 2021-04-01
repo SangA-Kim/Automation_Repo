@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="__ct__23class_with_some_inlinesFi" name="class_with_some_inlines::class_with_some_inlines" defined="1" const="0" file="1" return="">
+        <parameters>
+          <parameter type="int" name="i"/>
+        </parameters>
+      </function>
+      <function id="use_int__23class_with_some_inlinesFv" name="class_with_some_inlines::use_int" defined="1" const="0" file="1" return="int"/>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Environments/Git_Test/SourceFiles/inlines.cpp</file>
+  </files>
+</env_info>

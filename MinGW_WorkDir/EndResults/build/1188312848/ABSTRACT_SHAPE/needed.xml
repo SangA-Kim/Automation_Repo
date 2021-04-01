@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="__ct__5ShapeFv" name="Shape::Shape" defined="1" const="0" file="1" return=""/>
+      <function id="__ct__5ShapeFiT1" name="Shape::Shape" defined="1" const="0" file="1" return="">
+        <parameters>
+          <parameter type="int" name="x"/>
+          <parameter type="int" name="y"/>
+        </parameters>
+      </function>
+      <function id="setPosition__5ShapeFiT1" name="Shape::setPosition" defined="1" const="0" file="1" return="">
+        <parameters>
+          <parameter type="int" name="x"/>
+          <parameter type="int" name="y"/>
+        </parameters>
+      </function>
+      <function id="getX__5ShapeCFv" name="Shape::getX" defined="1" const="1" file="1" return="int"/>
+      <function id="getY__5ShapeCFv" name="Shape::getY" defined="1" const="1" file="1" return="int"/>
+      <type name="std::exception"/>
+      <type name="std::bad_exception">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::nested_exception"/>
+      <type name="std::_Nested_exception&lt; _Except&gt; ">
+        <base name="_Except"/>
+        <base name="std::nested_exception"/>
+      </type>
+      <type name="std::bad_alloc">
+        <base name="std::exception"/>
+      </type>
+      <type name="std::bad_array_new_length">
+        <base name="std::bad_alloc"/>
+      </type>
+      <function id="__ab5cxx11getName__5ShapeCFv" name="Shape::getName" defined="0" const="1" virtual="1" type="Shape" file="2" return="std::__cxx11::string"/>
+      <function id="getArea__5ShapeCFv" name="Shape::getArea" defined="0" const="1" virtual="1" type="Shape" file="2" return="float"/>
+      <type name="Shape"/>
+      <type name="Rectangle">
+        <base name="Shape"/>
+      </type>
+      <function id="__nw__FUi" name="operator new" defined="0" const="0" file="3" return="void*">
+        <parameters>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="__dl__FPvUi" name="operator delete" defined="0" const="0" file="3" return="">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+          <parameter type="std::size_t" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <type name="__cxxabiv1::__forced_unwind"/>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Environments/Git_Test/SourceFiles/Shapes/shape.cpp</file>
+    <file id="2">C:\VCAST\ENVIRONMENTS\GIT_TEST\SOURCEFILES\Shapes/shape.h</file>
+    <file id="3">c:\vcast\mingw\lib\gcc\mingw32\6.3.0\include\c++\new</file>
+  </files>
+</env_info>

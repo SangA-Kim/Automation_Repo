@@ -1,0 +1,50 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER.tst.tmp
+(I) @LINE: 31
+    >>> Processing Test Case: FreeCake
+(S) @LINE: 38
+    >>> Processed Test Case: FreeCake
+(I) @LINE: 44
+    >>> Processing Test Case: FreePie
+(S) @LINE: 50
+    >>> Processed Test Case: FreePie
+(I) @LINE: 56
+    >>> Processing Test Case: NoDessert
+(S) @LINE: 60
+    >>> Processed Test Case: NoDessert
+(I) @LINE: 68
+    >>> Processing Test Case: Add_Tax_Tip.001
+(S) @LINE: 69
+    >>> Processed Test Case: Add_Tax_Tip.001
+(I) @LINE: 77
+    >>> Processing Test Case: Chicken
+(S) @LINE: 80
+    >>> Processed Test Case: Chicken
+(I) @LINE: 86
+    >>> Processing Test Case: InvalidOrder
+(S) @LINE: 87
+    >>> Warning: Setting data to out-of-range value.  The value 1000 does not correspond to an enumeral value.
+(S) @LINE: 89
+    >>> Processed Test Case: InvalidOrder
+(I) @LINE: 95
+    >>> Processing Test Case: Lobster
+(S) @LINE: 98
+    >>> Processed Test Case: Lobster
+(I) @LINE: 104
+    >>> Processing Test Case: NoEntree
+(S) @LINE: 107
+    >>> Processed Test Case: NoEntree
+(I) @LINE: 113
+    >>> Processing Test Case: Pasta
+(S) @LINE: 116
+    >>> Processed Test Case: Pasta
+(I) @LINE: 122
+    >>> Processing Test Case: SEG_FAULT
+(S) @LINE: 125
+    >>> Processed Test Case: SEG_FAULT
+(I) @LINE: 131
+    >>> Processing Test Case: Steak
+(S) @LINE: 134
+    >>> Processed Test Case: Steak
+(S) @LINE: 134
+    >>> Script processing completed

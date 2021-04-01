@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="open_for_business" name="open_for_business" defined="1" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="int" name="time"/>
+          <parameter type="t_day_of_week" name="day"/>
+        </parameters>
+      </function>
+      <function id="Conditional_Example" name="Conditional_Example" defined="1" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="int" name="a"/>
+          <parameter type="int" name="b"/>
+          <parameter type="int" name="c"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Environments/Git_Test/SourceFiles/mcdc_example.c</file>
+  </files>
+</env_info>

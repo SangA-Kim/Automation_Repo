@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <unit id="8">
+    <variables>
+      <variable defined="1">VECTORCAST_INT1</variable>
+      <variable defined="1">VECTORCAST_INT2</variable>
+      <variable defined="1">VECTORCAST_INT3</variable>
+      <variable defined="1">VECTORCAST_FLT1</variable>
+      <variable defined="1">VECTORCAST_STR1</variable>
+      <variable defined="1">VECTORCAST_BUFFER</variable>
+    </variables>
+  </unit>
+  <unit id="9">
+    <functions>
+      <function defined="1">__ct__16Stack__tm__4_Z1ZFUi</function>
+      <function defined="1">empty__16Stack__tm__4_Z1ZFv_b</function>
+      <function defined="1">__opb__16Stack__tm__4_Z1ZFv</function>
+      <function defined="1">push__16Stack__tm__4_Z1ZFZ1Z_v</function>
+      <function defined="1">pop__16Stack__tm__4_Z1ZFv_Z1Z</function>
+      <function defined="1">count__16Stack__tm__4_Z1ZFv_Ui</function>
+      <function defined="1">grow__16Stack__tm__4_Z1ZFUi_v</function>
+      <function defined="1">__ct__Q2_14Stack__tm__2_f13ItemContainerFZ1Z</function>
+      <function defined="1">__ct__14Stack__tm__2_fFUi</function>
+      <function defined="1">empty__14Stack__tm__2_fFv_b</function>
+      <function defined="1">__opb__14Stack__tm__2_fFv</function>
+      <function defined="1">push__14Stack__tm__2_fFZ1Z_v</function>
+      <function defined="1">pop__14Stack__tm__2_fFv_Z1Z</function>
+      <function defined="1">count__14Stack__tm__2_fFv_Ui</function>
+      <function defined="1">grow__14Stack__tm__2_fFUi_v</function>
+      <function defined="1">__ct__Q2_14Stack__tm__2_i13ItemContainerFZ1Z</function>
+      <function defined="1">__ct__14Stack__tm__2_iFUi</function>
+      <function defined="1">empty__14Stack__tm__2_iFv_b</function>
+      <function defined="1">__opb__14Stack__tm__2_iFv</function>
+      <function defined="1">push__14Stack__tm__2_iFZ1Z_v</function>
+      <function defined="1">pop__14Stack__tm__2_iFv_Z1Z</function>
+      <function defined="1">count__14Stack__tm__2_iFv_Ui</function>
+      <function defined="1">grow__14Stack__tm__2_iFUi_v</function>
+    </functions>
+  </unit>
+</definitions>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="3926721288" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="checkHeatingElement" canonical="" mangled="checkHeatingElement" class_member="FALSE" testable="FALSE">
+    <listing_start>39</listing_start>
+    <listing_end>44</listing_end>
+  </subprogram>
+  <subprogram index="2" name="processIdleState" canonical="" mangled="processIdleState" class_member="FALSE" testable="FALSE">
+    <listing_start>47</listing_start>
+    <listing_end>70</listing_end>
+  </subprogram>
+  <subprogram index="3" name="processWashCycle" canonical="" mangled="processWashCycle" class_member="FALSE" testable="FALSE">
+    <listing_start>73</listing_start>
+    <listing_end>98</listing_end>
+  </subprogram>
+  <subprogram index="4" name="processRinseCycle" canonical="" mangled="processRinseCycle" class_member="FALSE" testable="FALSE">
+    <listing_start>98</listing_start>
+    <listing_end>126</listing_end>
+  </subprogram>
+  <subprogram index="5" name="processDryCycle" canonical="" mangled="processDryCycle" class_member="FALSE" testable="FALSE">
+    <listing_start>126</listing_start>
+    <listing_end>141</listing_end>
+  </subprogram>
+  <subprogram index="6" name="applyPower" canonical="" mangled="applyPower" class_member="FALSE" testable="TRUE">
+    <listing_start>143</listing_start>
+    <listing_end>156</listing_end>
+  </subprogram>
+  <subprogram index="7" name="turnOffPower" canonical="" mangled="turnOffPower" class_member="FALSE" testable="TRUE">
+    <listing_start>156</listing_start>
+    <listing_end>169</listing_end>
+  </subprogram>
+  <subprogram index="8" name="EventHandler" canonical="" mangled="EventHandler" class_member="FALSE" testable="TRUE">
+    <listing_start>173</listing_start>
+    <listing_end>196</listing_end>
+  </subprogram>
+</basis_paths>

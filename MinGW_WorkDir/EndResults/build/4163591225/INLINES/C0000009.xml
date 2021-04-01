@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage_data xml_testcase_version="6">
+  <unit index="9" coverage_type="STATEMENT" field_width="8">
+    <name>inlines</name>
+    <configuration>
+      <empty_statements_coverable>1</empty_statements_coverable>
+      <cover_catch_as_branch>1</cover_catch_as_branch>
+      <cover_logical_operators_in_parameters>0</cover_logical_operators_in_parameters>
+      <handle_ternary_operator>0</handle_ternary_operator>
+      <cover_nested_conditional>0</cover_nested_conditional>
+      <coverage_for_included_c_files>1</coverage_for_included_c_files>
+      <coverage_for_headers>1</coverage_for_headers>
+      <instrument_by_block>0</instrument_by_block>
+      <coverage_for_declarations>2</coverage_for_declarations>
+      <basis_paths_for_constant_branches>1</basis_paths_for_constant_branches>
+      <edg_coverage_available>1</edg_coverage_available>
+      <cover_included_c_files>1</cover_included_c_files>
+      <cover_headers>1</cover_headers>
+      <preprocessed>1</preprocessed>
+      <masking_mcdc>0</masking_mcdc>
+      <cuda_mode>0</cuda_mode>
+      <coverage_for_lambdas>1</coverage_for_lambdas>
+      <pack_instr_storage>1</pack_instr_storage>
+      <global_buffer_opts>0</global_buffer_opts>
+    </configuration>
+    <attributes>
+      <has_empty_statements>0</has_empty_statements>
+      <has_catch_statements>0</has_catch_statements>
+      <has_logical_operators_in_parameters>0</has_logical_operators_in_parameters>
+      <has_ternary_operator>0</has_ternary_operator>
+      <has_nested_ternary_operator>0</has_nested_ternary_operator>
+      <has_constant_branch>0</has_constant_branch>
+      <number_ascii_bytes>48</number_ascii_bytes>
+      <file_timestamp>1566516204</file_timestamp>
+      <file_checksum>1859496711</file_checksum>
+      <translation_unit_checksum>714957269</translation_unit_checksum>
+    </attributes>
+    <files>
+      <file index="1" path="c:/vcast/environments/git_test/sourcefiles/inlines.cpp" crc_checksum="1859496711" sha_checksum="563a52b1cf322802835832392ca96906553fce5c" timestamp="1566516204"/>
+      <file index="2" path="c:/vcast/environments/git_test/sourcefiles/inlines.h" crc_checksum="1683381343" sha_checksum="2161ac211bcc623a72f410ace4f337c1ed6145c9" timestamp="1566516204"/>
+    </files>
+    <subprogram index="1">
+      <name>class_with_some_inlines::get_int</name>
+      <file_index>2</file_index>
+      <canonical>get_int__23class_with_some_inlinesFv in c:/vcast/environments/git_test/sourcefiles/inlines.h</canonical>
+      <mangled>get_int__23class_with_some_inlinesFv</mangled>
+      <source_function_checksum>3177154310</source_function_checksum>
+      <translation_unit_function_checksum>800790832</translation_unit_function_checksum>
+      <lines>
+        <line number="1" id="1" stmt_id="1" startline="9" startcol="19" endline="9" endcol="29" tustartline="17" tustartcol="19" tuendline="17" tuendcol="29" allowed_position="0"/>
+      </lines>
+      <startline>17</startline>
+      <startcol>7</startcol>
+      <endline>17</endline>
+      <endcol>31</endcol>
+      <orig_startline>9</orig_startline>
+      <orig_endline>9</orig_endline>
+      <firstexec_startline>17</firstexec_startline>
+      <firstexec_startcol>19</firstexec_startcol>
+      <firstexec_orig_startline>9</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="2">
+      <name>non_member_inline</name>
+      <file_index>2</file_index>
+      <canonical>non_member_inline__Fv in c:/vcast/environments/git_test/sourcefiles/inlines.h</canonical>
+      <mangled>non_member_inline__Fv</mangled>
+      <source_function_checksum>1146269988</source_function_checksum>
+      <translation_unit_function_checksum>3875313726</translation_unit_function_checksum>
+      <lines>
+        <line number="1" id="2" stmt_id="1" startline="17" startcol="3" endline="17" endcol="11" tustartline="25" tustartcol="3" tuendline="25" tuendcol="11" allowed_position="0"/>
+      </lines>
+      <startline>23</startline>
+      <startcol>12</startcol>
+      <endline>26</endline>
+      <endcol>1</endcol>
+      <orig_startline>15</orig_startline>
+      <orig_endline>18</orig_endline>
+      <firstexec_startline>25</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>17</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="3">
+      <name>class_with_only_inlines::class_with_only_inlines</name>
+      <file_index>2</file_index>
+      <canonical>__ct__23class_with_only_inlinesFv in c:/vcast/environments/git_test/sourcefiles/inlines.h</canonical>
+      <mangled>__ct__23class_with_only_inlinesFv</mangled>
+      <source_function_checksum>2550104086</source_function_checksum>
+      <translation_unit_function_checksum>633327059</translation_unit_function_checksum>
+      <lines>
+        <line number="1" id="3" stmt_id="1" startline="23" startcol="30" endline="23" endcol="30" tustartline="31" tustartcol="30" tuendline="31" tuendcol="30" allowed_position="2"/>
+      </lines>
+      <startline>31</startline>
+      <startcol>3</startcol>
+      <endline>31</endline>
+      <endcol>30</endcol>
+      <orig_startline>23</orig_startline>
+      <orig_endline>23</orig_endline>
+      <firstexec_startline>31</firstexec_startline>
+      <firstexec_startcol>30</firstexec_startcol>
+      <firstexec_orig_startline>23</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="4">
+      <name>class_with_only_inlines::inline_member</name>
+      <file_index>2</file_index>
+      <canonical>inline_member__23class_with_only_inlinesFv in c:/vcast/environments/git_test/sourcefiles/inlines.h</canonical>
+      <mangled>inline_member__23class_with_only_inlinesFv</mangled>
+      <source_function_checksum>289221894</source_function_checksum>
+      <translation_unit_function_checksum>2700660136</translation_unit_function_checksum>
+      <lines>
+        <line number="1" id="4" stmt_id="1" startline="24" startcol="25" endline="24" endcol="33" tustartline="32" tustartcol="25" tuendline="32" tuendcol="33" allowed_position="0"/>
+      </lines>
+      <startline>32</startline>
+      <startcol>7</startcol>
+      <endline>32</endline>
+      <endcol>35</endcol>
+      <orig_startline>24</orig_startline>
+      <orig_endline>24</orig_endline>
+      <firstexec_startline>32</firstexec_startline>
+      <firstexec_startcol>25</firstexec_startcol>
+      <firstexec_orig_startline>24</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="5">
+      <name>class_with_some_inlines::class_with_some_inlines</name>
+      <file_index>1</file_index>
+      <mangled>__ct__23class_with_some_inlinesFi</mangled>
+      <source_function_checksum>2550104086</source_function_checksum>
+      <translation_unit_function_checksum>2116201205</translation_unit_function_checksum>
+      <lines>
+        <line number="1" id="5" stmt_id="1" startline="6" startcol="1" endline="6" endcol="1" tustartline="39" tustartcol="1" tuendline="39" tuendcol="1" allowed_position="2"/>
+      </lines>
+      <startline>36</startline>
+      <startcol>26</startcol>
+      <endline>39</endline>
+      <endcol>1</endcol>
+      <orig_startline>3</orig_startline>
+      <orig_endline>6</orig_endline>
+      <firstexec_startline>39</firstexec_startline>
+      <firstexec_startcol>1</firstexec_startcol>
+      <firstexec_orig_startline>6</firstexec_orig_startline>
+      <metrics>
+        <complexity>1</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>1</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+    <subprogram index="6">
+      <name>class_with_some_inlines::use_int</name>
+      <file_index>1</file_index>
+      <mangled>use_int__23class_with_some_inlinesFv</mangled>
+      <source_function_checksum>2891315231</source_function_checksum>
+      <translation_unit_function_checksum>3229680863</translation_unit_function_checksum>
+      <lines>
+        <line number="1" id="6" stmt_id="1" startline="10" startcol="3" endline="10" endcol="12" tustartline="43" tustartcol="3" tuendline="43" tuendcol="12" allowed_position="0"/>
+        <line number="2" id="7" stmt_id="3" startline="12" startcol="5" endline="12" endcol="13" tustartline="45" tustartcol="5" tuendline="45" tuendcol="13" allowed_position="0"/>
+        <line number="3" id="8" stmt_id="4" startline="14" startcol="3" endline="14" endcol="11" tustartline="47" tustartcol="3" tuendline="47" tuendcol="11" allowed_position="0"/>
+      </lines>
+      <startline>41</startline>
+      <startcol>30</startcol>
+      <endline>48</endline>
+      <endcol>1</endcol>
+      <orig_startline>8</orig_startline>
+      <orig_endline>15</orig_endline>
+      <firstexec_startline>43</firstexec_startline>
+      <firstexec_startcol>3</firstexec_startcol>
+      <firstexec_orig_startline>10</firstexec_orig_startline>
+      <metrics>
+        <complexity>2</complexity>
+        <coverage coverage_type="STATEMENT">
+          <total>3</total>
+        </coverage>
+      </metrics>
+    </subprogram>
+  </unit>
+</coverage_data>

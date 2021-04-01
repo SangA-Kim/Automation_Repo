@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unit_mcdc_tables index="9" mcdversion="4" pruneEquiv="1">
+  <sub idx="1">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="1">
+          <b>3</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="1">
+          <b>2</b>
+        </pr>
+      </subc>
+      <ln>12</ln>
+      <act>(time &gt; 800 &amp;&amp; time &lt; 1700) &amp;&amp; day != (SUNDAY)</act>
+      <ops>
+        <op subc="a">
+          <sim>time &gt; 800</sim>
+          <start_line>18</start_line>
+          <start_col>8</start_col>
+          <end_line>18</end_line>
+          <end_col>17</end_col>
+        </op>
+        <op subc="b">
+          <sim>time &lt; 1700</sim>
+          <start_line>18</start_line>
+          <start_col>24</start_col>
+          <end_line>18</end_line>
+          <end_col>34</end_col>
+        </op>
+        <op subc="c">
+          <sim>day != (SUNDAY)</sim>
+          <start_line>18</start_line>
+          <start_col>41</start_col>
+          <end_line>18</end_line>
+          <end_col>53</end_col>
+        </op>
+      </ops>
+      <sim>((a &amp;&amp; b) &amp;&amp; c)</sim>
+      <res idx="1">T</res>
+      <res idx="2">F</res>
+      <res idx="3">F</res>
+      <res idx="5">F</res>
+    </con>
+  </sub>
+  <sub idx="2">
+    <con idx="1">
+      <subc letter="a">
+        <pr a="1">
+          <b>5</b>
+        </pr>
+        <pr a="2">
+          <b>6</b>
+        </pr>
+        <pr a="3">
+          <b>7</b>
+        </pr>
+      </subc>
+      <subc letter="b">
+        <pr a="2">
+          <b>4</b>
+        </pr>
+      </subc>
+      <subc letter="c">
+        <pr a="3">
+          <b>4</b>
+        </pr>
+      </subc>
+      <ln>26</ln>
+      <act>a &amp;&amp; (b || c)</act>
+      <ops>
+        <op subc="a">
+          <sim>a</sim>
+          <start_line>32</start_line>
+          <start_col>8</start_col>
+          <end_line>32</end_line>
+          <end_col>8</end_col>
+        </op>
+        <op subc="b">
+          <sim>b</sim>
+          <start_line>32</start_line>
+          <start_col>14</start_col>
+          <end_line>32</end_line>
+          <end_col>14</end_col>
+        </op>
+        <op subc="c">
+          <sim>c</sim>
+          <start_line>32</start_line>
+          <start_col>19</start_col>
+          <end_line>32</end_line>
+          <end_col>19</end_col>
+        </op>
+      </ops>
+      <sim>(a &amp;&amp; (b || c))</sim>
+      <res idx="1">T</res>
+      <res idx="2">T</res>
+      <res idx="3">T</res>
+      <res idx="4">F</res>
+      <res idx="5">F</res>
+      <res idx="6">F</res>
+      <res idx="7">F</res>
+    </con>
+  </sub>
+</unit_mcdc_tables>

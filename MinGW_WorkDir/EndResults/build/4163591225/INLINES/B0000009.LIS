@@ -1,0 +1,36 @@
+               /*vcast_header_expansion_start:C:/VCAST/Environments/Git_Test/SourceFiles/inlines.h*/
+               class class_with_some_inlines
+               {
+               public:
+                 class_with_some_inlines(int i);
+                 int use_int();
+                 int get_int() { 
+1 1              return m_i; }
+               public:
+                 int m_i;
+               };
+               inline int non_member_inline(void)
+               {
+2 1              return 1;
+               }
+               class class_with_only_inlines
+               {
+               public:
+                 class_with_only_inlines() {
+3 1              }
+                 int inline_member() { 
+4 1              return 2; }
+               };
+               /*vcast_header_expansion_end*/
+               class_with_some_inlines::class_with_some_inlines(int i)
+                 : m_i( i )
+               {
+5 1              }
+               int class_with_some_inlines::use_int()
+               {
+6 1              if ( m_i )
+                 {
+6 2                return 3;
+                 }
+6 3              return 4;
+               }

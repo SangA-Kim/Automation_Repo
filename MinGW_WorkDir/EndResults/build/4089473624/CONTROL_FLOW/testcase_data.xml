@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE testcase_data>
+<testcase_data xml_testcase_version="2.0">
+  <compound>
+    <name>&lt;&lt;COMPOUND&gt;&gt;</name>
+  </compound>
+  <init>
+    <name>&lt;&lt;INIT&gt;&gt;</name>
+  </init>
+  <unit index="9" coverage_type="Statement+Branch">
+    <name>control_flow</name>
+    <subprogram index="1">
+      <name>setDimensions</name>
+    </subprogram>
+    <subprogram index="2">
+      <name>computeBaseArea</name>
+      <testcase index="1">
+        <name>AreaTest</name>
+        <unique_id>1</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="3">
+      <name>computeVolume</name>
+      <testcase index="1">
+        <name>VolumeTest1</name>
+        <unique_id>2</unique_id>
+      </testcase>
+      <testcase index="2">
+        <name>VolumeTest1.001</name>
+        <unique_id>3</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="4">
+      <name>partitionExample</name>
+      <testcase index="1">
+        <name>partitionExample-PARTITIONS</name>
+        <unique_id>4</unique_id>
+      </testcase>
+      <testcase index="2">
+        <name>partitionExample-PARTITIONS.001</name>
+        <unique_id>5</unique_id>
+      </testcase>
+    </subprogram>
+    <subprogram index="5">
+      <name>controlFlowExample</name>
+    </subprogram>
+  </unit>
+</testcase_data>

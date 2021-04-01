@@ -1,0 +1,4 @@
+(E) Errors from previous script import(s)
+    >>> (E) @LINE: 25 TEST.NAME:GET.001
+    >>>     >>> Invalid Test Case Name - Duplicate Test Case Name
+    >>>     >>> Using Automatic Name: GET.001.001

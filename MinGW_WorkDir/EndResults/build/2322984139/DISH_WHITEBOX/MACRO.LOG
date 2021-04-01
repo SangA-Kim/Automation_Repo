@@ -1,0 +1,24 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\2322984139\DISH_WHITEBOX.tst.tmp
+(I) @LINE: 28
+    >>> Processing Test Case: POWER_ON
+(S) @LINE: 31
+    >>> Processed Test Case: POWER_ON
+(I) @LINE: 41
+    >>> Processing Test Case: START_WASH
+(S) @LINE: 44
+    >>> Processed Test Case: START_WASH
+(I) @LINE: 52
+    >>> Processing Test Case: NO_HEAT
+(S) @LINE: 57
+    >>> Processed Test Case: NO_HEAT
+(I) @LINE: 65
+    >>> Processing Test Case: START_RINSE
+(S) @LINE: 68
+    >>> Processed Test Case: START_RINSE
+(I) @LINE: 74
+    >>> Processing Test Case: <<COMPOUND>>.001
+(S) @LINE: 77
+    >>> Processed Test Case: <<COMPOUND>>.001
+(S) @LINE: 78
+    >>> Script processing completed

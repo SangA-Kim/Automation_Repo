@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="printf" name="printf" defined="0" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="ChangeAltitude" name="ChangeAltitude" defined="0" const="0" file="2" return="">
+        <parameters>
+          <parameter type="unsigned" name="altitude"/>
+        </parameters>
+      </function>
+      <function id="ChangeCourse" name="ChangeCourse" defined="0" const="0" file="2" return="">
+        <parameters>
+          <parameter type="float" name="course"/>
+        </parameters>
+      </function>
+      <function id="InvalidCommand" name="InvalidCommand" defined="0" const="0" file="2" return="">
+        <parameters>
+          <parameter type="MessageT" name="messageCategory"/>
+        </parameters>
+      </function>
+      <function id="ProcessMessage" name="ProcessMessage" defined="1" const="0" file="3" return="enum Boolean">
+        <parameters>
+          <parameter type="MessageT" name="messageCategory"/>
+          <parameter type="void*" name="message"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">c:\vcast\mingw\include\stdio.h</file>
+    <file id="2">C:/VCAST/Environments/Git_Test/SourceFiles/communication.h</file>
+    <file id="3">C:/VCAST/Environments/Git_Test/SourceFiles/communication.c</file>
+  </files>
+</env_info>

@@ -1,0 +1,195 @@
+               /*
+                *  This module simulates the control of a simple dishwasher appliacance, by using
+                *  a Finite State Machine (FSM).  The states are pretty simple, going from IDLE through
+                *  the normal WASH-RINSE-DRY cycles.  These states are defined in the enumerator
+                *  "t_machine_state".  The events that can occur are defined below by "t_event".
+                *
+                */
+               enum eventValues {
+                   EVENT_START_WASH,
+                   EVENT_START_RINSE,
+                   EVENT_START_DRY,
+                   EVENT_STOP,
+               };
+               typedef enum eventValues t_event;
+               enum stateValues {
+                   STATE_IDLE,
+                   STATE_WASHING,
+                   STATE_RINSING,
+                   STATE_DRYING,
+               } ;
+               typedef enum stateValues t_machine_state;
+               //
+               //  Error Status Codes
+               //
+               enum e_status {
+                   STS_ALL_GOOD,
+                   STS_NO_POWER,
+                   STS_UNEXPECTED_EVENT,
+                   STS_NO_HEAT,
+                   STS_GENERAL_ERROR
+                   };
+               typedef enum e_status t_status;
+               // Module Level Global Data:
+               static t_machine_state currentState = STATE_IDLE;
+               static int powerOn = 0;
+               //
+               //  Not implemented yet.  Return All Good for now.
+               //
+               static t_status checkHeatingElement( void )
+               {
+1 0     ( )    checkHeatingElement
+1 1              return( STS_ALL_GOOD );
+               }
+               /*
+                *  Process events while in the IDLE State/Cycle
+                */
+               static t_status processIdleState (t_event event) {
+                   t_status sts;
+2 0     ( )    processIdleState
+2 1              switch (event)
+                   {
+2 2     ( )        case EVENT_START_WASH:
+2 3     ( )( )       if (powerOn)
+                           {
+2 4                    sts = STS_ALL_GOOD;
+2 5                    currentState = STATE_WASHING; // Go to Wash Cycle
+                           }
+                           else
+2 6                    sts = STS_NO_POWER;
+2 7                  break;
+2 8     ( )        case EVENT_STOP:
+2 9                  sts = STS_ALL_GOOD; // Stopping while Idle is okay.  Just stay in Idle state.
+2 10                 break;
+2 11    ( )        default: //  Anything else that comes in is invalid.
+2 12                 sts = STS_UNEXPECTED_EVENT;
+2 13                 break;
+                   }
+2 14             return sts;
+               }
+               /*
+                *  Process events while during the WASH Cycle.
+                */
+               static t_status processWashCycle (t_event event)
+               {
+                   t_status sts;
+3 0     ( )    processWashCycle
+3 1              switch (event)
+                   {
+3 2     ( )        case EVENT_START_RINSE:
+3 3     ( )( )       if (powerOn)
+                           {
+3 4                    sts = STS_ALL_GOOD;
+3 5                    currentState = STATE_RINSING; // Go to Rinse Cycle
+                           }
+                           else
+3 6                    sts = STS_NO_POWER;
+3 7                  break;
+3 8     ( )        case EVENT_STOP:
+3 9                  sts = STS_ALL_GOOD;
+3 10                 currentState = STATE_IDLE; // Go back to the Idle State
+3 11                 break;
+3 12    ( )        default: //  Anything else that comes in is invalid.
+3 13                 sts = STS_UNEXPECTED_EVENT;
+3 14                 break;
+                   }
+3 15             return sts;
+               }
+               static t_status processRinseCycle (t_event event)
+               {
+                   t_status sts;
+4 0     ( )    processRinseCycle
+4 1              switch (event)
+                   {
+4 2     ( )        case EVENT_START_DRY:
+4 3     ( )( )       if (powerOn)
+                           {
+4 4                    sts = checkHeatingElement();
+4 5     ( )( )         if (sts == STS_ALL_GOOD)
+4 6                      currentState = STATE_DRYING;
+                               else
+4 7                      currentState = STATE_IDLE; // Go back to the Idle State
+                           }
+                           else
+4 8                    sts = STS_NO_POWER;
+4 9                  break;
+4 10    ( )        case EVENT_STOP:
+4 11                 sts = STS_ALL_GOOD;
+4 12                 currentState = STATE_IDLE; // Go back to the Idle State
+4 13                 break;
+4 14    ( )        default: //  Anything else that comes in is invalid.
+4 15                 sts = STS_UNEXPECTED_EVENT;
+4 16                 break;
+                   }
+4 17             return sts;
+               }
+               static t_status processDryCycle (t_event event) {
+                   t_status sts;
+5 0     ( )    processDryCycle
+5 1              switch (event)
+                   {
+5 2     ( )        case EVENT_STOP:
+5 3                  sts = STS_ALL_GOOD;
+5 4                  currentState = STATE_IDLE; // Go back to the Idle State
+5 5                  break;
+5 6     ( )        default: //  Anything else that comes in is invalid.
+5 7                  sts = STS_UNEXPECTED_EVENT;
+5 8                  break;
+                   }
+5 9              return sts;
+               }
+               //  These functions will be called to bring the dishwasher in and out of low-power mode.
+               //  None of the Dishwasher cycles should be performed until power is applied.
+               t_status applyPower ()
+               {
+6 0     ( )    applyPower
+6 1     ( )( )   if (currentState == STATE_IDLE)
+                  {
+6 2                powerOn = 1;
+6 3                return (STS_ALL_GOOD);
+                  }
+                  else
+                  {
+6 4                return (STS_GENERAL_ERROR);
+                  }
+               }
+               t_status turnOffPower ()
+               {
+7 0     ( )    turnOffPower
+7 1     ( )( )   if (currentState == STATE_IDLE)
+                  {
+7 2                powerOn = 0;
+7 3                return (STS_ALL_GOOD);
+                  }
+                  else
+                  {
+7 4                return (STS_GENERAL_ERROR);
+                  }
+               }
+               //
+               //  This function is the main entry point into the Dishwasher Finite State Machine.  This function will pass the incoming event
+               //  to the corresponding handler routine based on the current state of the machine.
+               //
+               t_status EventHandler (t_event event) {
+                  t_status ret_sts;
+8 0     ( )    EventHandler
+8 1              switch (currentState)
+                   {
+8 2     ( )        case STATE_IDLE :
+8 3                  ret_sts = processIdleState (event);
+8 4                  break;
+8 5     ( )        case STATE_WASHING :
+8 6                  ret_sts = processWashCycle (event);
+8 7                  break;
+8 8     ( )        case STATE_RINSING :
+8 9                  ret_sts = processRinseCycle (event);
+8 10                 break;
+8 11    ( )        case STATE_DRYING :
+8 12                 ret_sts = processDryCycle (event);
+8 13                 break;
+8 14    ( )        default :
+8 15                 ret_sts = STS_GENERAL_ERROR; // Invalid State.  Should never happen.
+8 16                 break;
+                   }
+8 17             return ret_sts;
+               }

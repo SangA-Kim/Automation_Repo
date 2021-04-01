@@ -1,0 +1,3 @@
+advanced_stubbing.c.use_malloc
+uut_prototype_stubs.malloc
+advanced_stubbing.c.use_malloc

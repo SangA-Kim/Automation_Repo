@@ -1,0 +1,24 @@
+               #include "C:/VCAST/Training/SourceFiles/Payroll/Acme_PayrollSystem.h"
+               #include "c:/vcast/mingw/lib/gcc/mingw32/6.3.0/include/c++/iostream"
+               using namespace std;
+               //
+               //  Set the local tax rate here and use the Base Constructor to initialize the base class.
+               //
+               Acme_PayrollSystem::Acme_PayrollSystem(double InitialCash ) : PayrollSystem(InitialCash)
+               {
+1 0     ( )    Acme_PayrollSystem::Acme_PayrollSystem
+1 1              mTaxRate=.20;
+1 2              mTotalTaxCollections = 0;
+               }
+               //
+               //  Process the paycheck for an individual employee.  This is defined as a virtual function in the
+               //  base class and needs to be implemented here to handle the specifics of ACME.
+               //
+               void Acme_PayrollSystem::processPayCheck(Employee emp)
+               {
+2 0     ( )    Acme_PayrollSystem::processPayCheck
+2 1              double Salary;
+2 2              Salary = emp.getSalary();
+2 3              mTotalTaxCollections += (mTaxRate * Salary);
+                   // TBD:  print paycheck, process benefits, etc...
+               }

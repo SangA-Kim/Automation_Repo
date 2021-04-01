@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <variable id="widthX" name="widthX" defined="1" type="scalar" file="1">
+        <reference type="initialized" function-scope="false" line="17" col="7" statement-line="17" statement-col="7" statement-end-line="17" statement-end-col="15"/>
+      </variable>
+      <variable id="lengthY" name="lengthY" defined="1" type="scalar" file="1">
+        <reference type="initialized" function-scope="false" line="18" col="7" statement-line="18" statement-col="7" statement-end-line="18" statement-end-col="16"/>
+      </variable>
+      <variable id="heightZ" name="heightZ" defined="1" type="scalar" file="1">
+        <reference type="initialized" function-scope="false" line="19" col="7" statement-line="19" statement-col="7" statement-end-line="19" statement-end-col="16"/>
+      </variable>
+      <variable id="Status" name="Status" defined="1" type="scalar" file="1"/>
+      <function id="validShape" name="validShape" defined="0" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="enum e_shape" name="shape"/>
+          <parameter type="float" name="x"/>
+          <parameter type="float" name="y"/>
+          <parameter type="float" name="z"/>
+        </parameters>
+      </function>
+      <function id="setDimensions" name="setDimensions" defined="1" const="0" file="1" return="">
+        <parameters>
+          <parameter type="float" name="x"/>
+          <parameter type="float" name="y"/>
+          <parameter type="float" name="z"/>
+        </parameters>
+      </function>
+      <function id="computeBaseArea" name="computeBaseArea" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="enum e_shape" name="shape"/>
+        </parameters>
+      </function>
+      <function id="computeVolume" name="computeVolume" defined="1" const="0" file="1" return="float">
+        <parameters>
+          <parameter type="enum e_shape" name="shape"/>
+        </parameters>
+      </function>
+      <function id="partitionExample" name="partitionExample" defined="1" const="0" file="1" return="">
+        <parameters>
+          <parameter type="unsigned char" name="numberOfIterations"/>
+        </parameters>
+      </function>
+      <function id="someExternalFunctionA" name="someExternalFunctionA" defined="0" const="0" file="1" return=""/>
+      <function id="someExternalFunctionB" name="someExternalFunctionB" defined="0" const="0" file="1" return=""/>
+      <function id="someExternalFunctionC" name="someExternalFunctionC" defined="0" const="0" file="1" return=""/>
+      <function id="someExternalFunctionD" name="someExternalFunctionD" defined="0" const="0" file="1" return=""/>
+      <function id="someExternalFunctionE" name="someExternalFunctionE" defined="0" const="0" file="1" return=""/>
+      <function id="controlFlowExample" name="controlFlowExample" defined="1" const="0" file="1" return=""/>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Environments/Git_Test/SourceFiles/control_flow.c</file>
+  </files>
+</env_info>

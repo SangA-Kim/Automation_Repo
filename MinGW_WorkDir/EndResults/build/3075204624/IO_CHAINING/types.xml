@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typefile version="1">
+  <type typeid="100001" typetype="STR_ING" array_type="800001" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100002" typetype="AR_RAY" array_type="800002">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="800001" typetype="CHAR_ACTER">
+    <range_data min="-128" mid="-1" max="127"/>
+  </type>
+  <type typeid="800002" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="800003" typetype="FL_OAT">
+    <range_data min="-3.40282e+038" mid="0" max="3.40282e+038"/>
+  </type>
+  <type typeid="900001" typetype="STR_ING" pointer_type="900003" string_type_type="ACCE_SS"/>
+  <type typeid="900002" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="900003" typetype="CHAR_ACTER">
+    <range_data min="-128" mid="-1" max="127"/>
+  </type>
+  <type typeid="900004" typetype="UN_SIGNED">
+    <range_data min="0" mid="2147483647" max="4294967295"/>
+  </type>
+  <type typeid="900005" typetype="ACCE_SS" pointer_type="900007"/>
+  <type typeid="900006" typetype="ENUMERATION">
+    <range_data min="F_READ" max="F_APPEND"/>
+    <enum value="F_READ" constant="0"/>
+    <enum value="F_WRITE" constant="1"/>
+    <enum value="F_APPEND" constant="2"/>
+  </type>
+  <type typeid="900007" typetype="REC_ORD" ada_scope="FILE_TYPE">
+    <field index="1" name="fileHandle" typeid="900004"/>
+    <field index="2" name="isOpen" typeid="900009"/>
+  </type>
+  <type typeid="900008" typetype="FL_OAT">
+    <range_data min="-3.40282e+038" mid="0" max="3.40282e+038"/>
+  </type>
+  <type typeid="900009" typetype="ENUMERATION">
+    <range_data min="False" max="True"/>
+    <enum value="False" constant="0"/>
+    <enum value="True" constant="1"/>
+  </type>
+</typefile>

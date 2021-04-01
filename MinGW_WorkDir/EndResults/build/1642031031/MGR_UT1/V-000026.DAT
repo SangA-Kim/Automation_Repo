@@ -1,0 +1,3 @@
+TEST.EXPECTED_USER_CODE:<<testcase>>
+printf("Test Case User Code Expected!\n");
+TEST.END_EXPECTED_USER_CODE:

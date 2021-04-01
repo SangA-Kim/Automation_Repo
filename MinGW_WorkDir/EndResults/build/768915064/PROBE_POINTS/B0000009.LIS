@@ -1,0 +1,102 @@
+               #include "c:/vcast/mingw/include/stdio.h"
+               void door_ajar_alarm(int);
+               typedef enum
+               {
+                   POWER_UP, DOOR_OPEN, DOOR_CLOSED
+               }
+               t_door_state;
+               /*
+                *  This function gets called at a periodic rate and determines the Open/Close status of a door.
+                *  It uses a hysteresis/debounce algorithm to determine the stable state.  If the door status
+                *  is either "opened" or "closed" for THRESHOLD subsequent times, then the state is considered stable.
+                */
+                t_door_state process_door_event(t_door_state current_state)
+               {
+                   static int open_count;
+                   static int close_count;
+                   static t_door_state stable_state;
+                   int z;
+1 0     ( )    process_door_event
+1 1              switch (current_state)
+                   {
+1 2     ( )        case POWER_UP:
+1 3                  open_count = 0;
+1 4                  close_count = 0;
+1 5                  stable_state=POWER_UP;
+1 6                  break;
+1 7     ( )        case DOOR_OPEN:
+1 8                  open_count++;
+1 9                  close_count = 0;
+1 10                 break;
+1 11    ( )        case DOOR_CLOSED:
+1 12                 open_count = 0;
+1 13                 close_count++;
+1 14                 break;
+                   }
+1 15    ( )( )   if (open_count == 3)
+                   {
+1 16               door_ajar_alarm(1); // Set Alarm
+1 17               stable_state = DOOR_OPEN;
+                   }
+1 18    ( )( )   if (close_count == 3)
+                   {
+1 19               door_ajar_alarm(0); // Clear Alarm
+1 20               stable_state = DOOR_CLOSED;
+                   }
+1 21             return(stable_state);
+               }
+               /*
+                *  This function simply reads a Memory Mapped Register and isolates
+                *  the Receive Error Bit.
+                */
+               int check_rx_err_bit(void)
+               {
+                 unsigned char reg_value;
+2 0     ( )    check_rx_err_bit
+2 1              reg_value = *((unsigned char*)0x80008000);
+2 2     ( )( )   if (reg_value & 0x04)
+2 3                return(1);
+                 else
+2 4                return(0);
+               }
+               /*
+                *  This function is a task that monitors for any Receive Errors.
+                *  If an error occurs, it is counted and reported.
+                */
+               extern void sleep1(int delay);
+               extern void report_error(char *);
+               static int rx_err_count=0;
+               void monitor_task(void)
+               {
+3 0     ( )    monitor_task
+3 1     ( )      while (1)
+                   {
+3 2     ( )( )     if (check_rx_err_bit())
+                       {
+3 3                  rx_err_count++;
+3 4                  report_error("Rx Error");
+                       }
+3 5                sleep1(100); // Sleep 100ms
+                   }
+3 6              return;
+               }
+               /*
+                *  Example code to show some highlights of probe points.
+                */
+               static int tank_size = 20; // In gallons
+               extern float get_fuel_level(void);
+               extern float get_recent_mpg(void);
+               float miles_before_fillup(void)
+               {
+                   float fuel_level, mpg, miles;
+4 0     ( )    miles_before_fillup
+4 1              fuel_level = get_fuel_level();
+4 2     ( )( )   if (fuel_level > tank_size)
+                   {
+4 3                printf("\nInvalid Fuel Reading\n");
+4 4                fuel_level = tank_size;
+                   }
+4 5              mpg = get_recent_mpg();
+4 6              miles = fuel_level*mpg;
+4 7              return(miles);
+               }

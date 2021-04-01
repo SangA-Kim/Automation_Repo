@@ -1,0 +1,17 @@
+1,0,B    {
+1,1,B    if (msg_type >= INVALID)
+1,2,S    return(-1);
+1,3,S    switch (msg_type)
+1,4,B    case CAN_BUS:
+1,5,S    rc = send_can_msg(msg);
+1,6,S    break;
+1,7,B    case ENET:
+1,8,S    rc = send_enet_msg(msg);
+1,9,S    break;
+1,10,B    case SERIAL:
+1,11,S    rc = send_serial_msg(msg);
+1,12,S    break;
+1,13,B    default:
+1,14,S    printf("\nBad Message Type");
+1,15,S    rc = -1;
+1,16,S    return(rc);

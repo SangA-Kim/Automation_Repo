@@ -1,0 +1,12 @@
+(I) @LINE: 1
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3970274843\RGW_TEST.tst.tmp
+(I) @LINE: 29
+    >>> Processing Test Case: SteakOrder
+(E) @LINE: 30 TEST.REQUIREMENT_KEY:FR13
+    >>> Requirement with Key 'FR13' does not exist in the Repository.
+(E) @LINE: 31 TEST.REQUIREMENT_KEY:FR17
+    >>> Requirement with Key 'FR17' does not exist in the Repository.
+(S) @LINE: 36
+    >>> Processed Test Case: SteakOrder
+(S) @LINE: 36
+    >>> Script processing completed

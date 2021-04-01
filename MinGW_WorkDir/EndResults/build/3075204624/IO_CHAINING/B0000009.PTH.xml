@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="2426940212" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="CloseFile" canonical="" mangled="CloseFile" class_member="FALSE" testable="TRUE">
+    <listing_start>6</listing_start>
+    <listing_end>19</listing_end>
+  </subprogram>
+  <subprogram index="2" name="OpenFile" canonical="" mangled="OpenFile" class_member="FALSE" testable="TRUE">
+    <listing_start>19</listing_start>
+    <listing_end>53</listing_end>
+  </subprogram>
+  <subprogram index="3" name="ReadLine" canonical="" mangled="ReadLine" class_member="FALSE" testable="TRUE">
+    <listing_start>53</listing_start>
+    <listing_end>68</listing_end>
+  </subprogram>
+  <subprogram index="4" name="WriteString" canonical="" mangled="WriteString" class_member="FALSE" testable="TRUE">
+    <listing_start>68</listing_start>
+    <listing_end>83</listing_end>
+  </subprogram>
+  <subprogram index="5" name="WriteInteger" canonical="" mangled="WriteInteger" class_member="FALSE" testable="TRUE">
+    <listing_start>83</listing_start>
+    <listing_end>94</listing_end>
+  </subprogram>
+  <subprogram index="6" name="WriteFloat" canonical="" mangled="WriteFloat" class_member="FALSE" testable="TRUE">
+    <listing_start>94</listing_start>
+    <listing_end>105</listing_end>
+  </subprogram>
+</basis_paths>

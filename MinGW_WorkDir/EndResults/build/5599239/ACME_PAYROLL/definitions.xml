@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <unit id="8">
+    <variables>
+      <variable defined="1">VECTORCAST_INT1</variable>
+      <variable defined="1">VECTORCAST_INT2</variable>
+      <variable defined="1">VECTORCAST_INT3</variable>
+      <variable defined="1">VECTORCAST_FLT1</variable>
+      <variable defined="1">VECTORCAST_STR1</variable>
+      <variable defined="1">VECTORCAST_BUFFER</variable>
+    </variables>
+  </unit>
+  <unit id="9">
+    <functions>
+      <function defined="1">__ct__18Acme_PayrollSystemFd</function>
+      <function defined="1">processPayCheck__18Acme_PayrollSystemF8Employee</function>
+      <function defined="1" stubbed="1">vcast_mangled_processPayCheck__13PayrollSystemF8Employee</function>
+      <function defined="1" stubbed="1">vcast_concrete_PayrollSystem</function>
+      <function defined="1" stubbed="1">processPayCheck__13PayrollSystemF8Employee</function>
+    </functions>
+  </unit>
+  <unit id="11">
+    <functions>
+      <function defined="1">__ct__8EmployeeFv</function>
+      <function defined="1">__dt__8EmployeeFv</function>
+      <function defined="1">__ct__8EmployeeFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi</function>
+      <function defined="1">getSalary__8EmployeeFv</function>
+      <function defined="1">getAge__8EmployeeFv</function>
+      <function defined="1">__ab5cxx11getName__8EmployeeFv</function>
+    </functions>
+  </unit>
+  <unit id="12">
+    <functions>
+      <function defined="1">__ct__13PayrollSystemFd</function>
+      <function defined="1">addEmployee__13PayrollSystemFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_cdi</function>
+      <function defined="1">removeEmployee__13PayrollSystemFQ3_3std7__cxx1178basic_string__tm__58_cQ2_3std20char_traits__tm__2_cQ2_3std18allocator__tm__2_c</function>
+      <function defined="1">addCash__13PayrollSystemFi</function>
+      <function defined="1">runPayroll__13PayrollSystemFv</function>
+    </functions>
+  </unit>
+</definitions>

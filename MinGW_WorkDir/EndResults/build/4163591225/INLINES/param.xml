@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paramfile version="1">
+  <source_file index="1">
+    <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/4163591225/INLINES/S0000008.cpp</path>
+  </source_file>
+  <source_file index="2">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/inlines.cpp</path>
+  </source_file>
+  <source_file index="3">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/inlines.h</path>
+  </source_file>
+  <unit name="USER_GLOBALS_VCAST" index="8" sbf="0" unit_description="Not Stubbed Unit">
+    <source_file index="1">
+      <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/4163591225/INLINES/S0000008.cpp</path>
+    </source_file>
+    <global name="VECTORCAST_INT1" index="1" typeid="800002"/>
+    <global name="VECTORCAST_INT2" index="2" typeid="800002"/>
+    <global name="VECTORCAST_INT3" index="3" typeid="800002"/>
+    <global name="VECTORCAST_FLT1" index="4" typeid="800003"/>
+    <global name="VECTORCAST_STR1" index="5" typeid="100001"/>
+    <global name="VECTORCAST_BUFFER" index="6" typeid="100002"/>
+  </unit>
+  <unit name="inlines" index="9" sbf="1" unit_description="UUT">
+    <source_file index="2">
+      <path>C:/VCAST/Environments/Git_Test/SourceFiles/inlines.cpp</path>
+    </source_file>
+    <global name="C_345208_9" index="1" typeid="900001" is_c_object="1"/>
+    <global name="C_11558984_9" index="2" typeid="900007" is_c_object="1"/>
+    <subprog name="class_with_some_inlines::class_with_some_inlines" index="1" typeid="900001" is_constructor="1" mangled="__ct__23class_with_some_inlinesFi" parameterization="(int)">
+      <param name="i" index="1" typeid="900002"/>
+      <source_file index="2"/>
+      <sbf index="2"/>
+    </subprog>
+    <subprog name="class_with_some_inlines::use_int" index="2" typeid="900001" mangled="use_int__23class_with_some_inlinesFv" parameterization="()int">
+      <param name="return" index="1" typeid="900002"/>
+      <source_file index="2"/>
+      <sbf index="2"/>
+    </subprog>
+    <subprog name="non_member_inline" index="3" mangled="non_member_inline__Fv" parameterization="()int" is_inline="1">
+      <param name="return" index="1" typeid="900002"/>
+      <source_file index="3"/>
+      <sbf index="2"/>
+    </subprog>
+    <subprog name="class_with_some_inlines::get_int" index="4" typeid="900001" mangled="get_int__23class_with_some_inlinesFv" parameterization="()int" is_inline="1">
+      <param name="return" index="1" typeid="900002"/>
+      <source_file index="3"/>
+      <sbf index="2"/>
+    </subprog>
+    <subprog name="class_with_only_inlines::class_with_only_inlines" index="5" typeid="900007" is_constructor="1" mangled="__ct__23class_with_only_inlinesFv" parameterization="()" is_inline="1">
+      <source_file index="3"/>
+      <sbf index="1"/>
+    </subprog>
+    <subprog name="class_with_only_inlines::inline_member" index="6" typeid="900007" mangled="inline_member__23class_with_only_inlinesFv" parameterization="()int" is_inline="1">
+      <param name="return" index="1" typeid="900002"/>
+      <source_file index="3"/>
+      <sbf index="2"/>
+    </subprog>
+  </unit>
+  <unit name="uut_prototype_stubs" index="10" sbf="0" unit_description="Stubbed Unit"/>
+  <environment_exceptions/>
+  <macro name="VCAST_NO_PTR_TO_UNCON_ARRAY_SUPPORT" int="1" source="1"/>
+</paramfile>

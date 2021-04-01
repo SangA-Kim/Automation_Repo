@@ -1,0 +1,51 @@
+1,0,B    {
+1,1,B    if ( fp->isOpen )
+1,2,S    close_ret = fclose ( (FILE *)fp->fileHandle );
+1,3,B    if (close_ret == 0)
+1,4,S    return True;
+1,5,S    return False;
+1,6,S    return False;
+2,0,B    {
+2,1,S    retVal = (struct FILE_TYPE *)malloc(sizeof(struct FILE_TYPE));
+2,2,B    if (!retVal)
+2,3,S    printf("\nNo memory available!\n");
+2,4,S    return(retVal);
+2,5,S    retVal->isOpen = False;
+2,6,S    switch ( mode )
+2,7,B    case F_READ:
+2,8,S    retVal->fileHandle = (unsigned int)fopen ( filename, "r" );
+2,9,S    break;
+2,10,B    case F_WRITE:
+2,11,S    retVal->fileHandle = (unsigned int)fopen ( filename, "w" );
+2,12,S    break;
+2,13,B    case F_APPEND:
+2,14,S    retVal->fileHandle = (unsigned int)fopen ( filename, "a" );
+2,15,S    break;
+2,16,B    if (retVal->fileHandle == 0)
+2,17,S    retVal->isOpen = False;
+2,18,S    retVal->isOpen = True;
+2,19,S    return retVal;
+3,0,B    {
+3,1,B    if ( fp->isOpen )
+3,2,S    ret_ptr = fgets ( line, 100, (FILE *)fp->fileHandle );
+3,3,B    if (ret_ptr == 0)
+3,4,S    return False;
+3,5,S    return True;
+3,6,S    return False;
+4,0,B    {
+4,1,B    if ( fp->isOpen )
+4,2,S    rc = fprintf ( (FILE *)fp->fileHandle, "%s", line );
+4,3,B    if (rc == strlen(line))
+4,4,S    return True;
+4,5,S    return False;
+4,6,S    return False;
+5,0,B    {
+5,1,B    if ( fp->isOpen )
+5,2,S    fprintf ( (FILE *)fp->fileHandle, "%d", value );
+5,3,S    return True;
+5,4,S    return False;
+6,0,B    {
+6,1,B    if ( fp->isOpen )
+6,2,S    fprintf ( (FILE *)fp->fileHandle, "%f", value );
+6,3,S    return True;
+6,4,S    return False;

@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------
+Environment Overview
+--------------------------------------------------------------------------------
+
+
+
+
+  Environment Name:    ACME_PAYROLL
+  Environment Status:  Normal
+  Environment Version: REVISION_2020_RENAME_BUILD_INFO_XML
+  Environment Build Type: Full
+  Coverage Status:     ISO-26262 (Automotive) Unit Level ASIL B/C (enabled)
+  Language:            C++
+  Compiler Name:       VectorCAST MinGW_C++
+  White Box:           Yes
+  Search List:         $(PROJECT_ROOT_DIR)\SourceFiles  (testable)
+                       $(PROJECT_ROOT_DIR)\SourceFiles\Shapes  (testable)
+                       C:\VCAST\Training\SourceFiles\Payroll  (testable)
+  Units Under Test:    Acme_PayrollSystem
+  Stub List:           uut_prototype_stubs
+  Stub None (Source Files): Employee
+                       PayrollSystem
+

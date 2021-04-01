@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="__ct__Q2_14Stack__tm__2_f13ItemContainerFZ1Z" name="Stack&lt; float&gt; ::ItemContainer::ItemContainer" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="float" name="p"/>
+        </parameters>
+      </function>
+      <function id="__ct__14Stack__tm__2_fFUi" name="Stack&lt; float&gt; ::Stack" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="unsigned" name="maxSize"/>
+        </parameters>
+      </function>
+      <function id="empty__14Stack__tm__2_fFv_b" name="Stack&lt; float&gt; ::empty" defined="1" const="0" inline="1" file="1" return="bool"/>
+      <function id="__opb__14Stack__tm__2_fFv" name="Stack&lt; float&gt; ::operator bool" defined="1" const="0" inline="1" file="1" return="bool"/>
+      <function id="push__14Stack__tm__2_fFZ1Z_v" name="Stack&lt; float&gt; ::push" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="float" name="item"/>
+        </parameters>
+      </function>
+      <function id="pop__14Stack__tm__2_fFv_Z1Z" name="Stack&lt; float&gt; ::pop" defined="1" const="0" inline="1" file="1" return="float"/>
+      <function id="count__14Stack__tm__2_fFv_Ui" name="Stack&lt; float&gt; ::count" defined="1" const="0" inline="1" file="1" return="unsigned"/>
+      <function id="grow__14Stack__tm__2_fFUi_v" name="Stack&lt; float&gt; ::grow" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="unsigned" name="newMax"/>
+        </parameters>
+      </function>
+      <function id="__ct__Q2_14Stack__tm__2_i13ItemContainerFZ1Z" name="Stack&lt; int&gt; ::ItemContainer::ItemContainer" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="int" name="p"/>
+        </parameters>
+      </function>
+      <function id="__ct__14Stack__tm__2_iFUi" name="Stack&lt; int&gt; ::Stack" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="unsigned" name="maxSize"/>
+        </parameters>
+      </function>
+      <function id="empty__14Stack__tm__2_iFv_b" name="Stack&lt; int&gt; ::empty" defined="1" const="0" inline="1" file="1" return="bool"/>
+      <function id="__opb__14Stack__tm__2_iFv" name="Stack&lt; int&gt; ::operator bool" defined="1" const="0" inline="1" file="1" return="bool"/>
+      <function id="push__14Stack__tm__2_iFZ1Z_v" name="Stack&lt; int&gt; ::push" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="int" name="item"/>
+        </parameters>
+      </function>
+      <function id="pop__14Stack__tm__2_iFv_Z1Z" name="Stack&lt; int&gt; ::pop" defined="1" const="0" inline="1" file="1" return="int"/>
+      <function id="count__14Stack__tm__2_iFv_Ui" name="Stack&lt; int&gt; ::count" defined="1" const="0" inline="1" file="1" return="unsigned"/>
+      <function id="grow__14Stack__tm__2_iFUi_v" name="Stack&lt; int&gt; ::grow" defined="1" const="0" inline="1" file="1" return="">
+        <parameters>
+          <parameter type="unsigned" name="newMax"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">C:/VCAST/Environments/Git_Test/SourceFiles/stack.cpp</file>
+  </files>
+</env_info>

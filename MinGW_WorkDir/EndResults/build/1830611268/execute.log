@@ -1,0 +1,775 @@
+COMMAND: C:\VCAST\clicast.exe -e CSV_IMPORT -l CPLUSPLUS execute batch
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/1830611268
+TIME: 2021-03-30 14:21:45
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2021
+**Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Running all line.findY test cases
+    Running: findY-ROW_0001
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0002
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\2_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0003
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\3_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0004
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\4_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0005
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\5_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0006
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\6_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0007
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\7_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0008
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\8_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0009
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\9_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0010
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\10_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0011
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\11_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0012
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\12_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0013
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\13_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0014
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\14_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0015
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\15_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0016
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\16_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0017
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\17_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0018
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\18_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0019
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\19_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0020
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\20_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0021
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\21_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0022
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\22_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0023
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\23_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0024
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\24_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0025
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\25_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0026
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\26_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0027
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\27_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0028
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\28_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0029
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\29_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0030
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\30_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0031
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\31_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0032
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\32_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0033
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\33_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0034
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\34_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0035
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\35_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0036
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\36_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0037
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\37_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0038
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\38_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0039
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\39_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0040
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\40_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0041
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\41_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findY-ROW_0042
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\42_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all line.findX test cases
+    Running: findX-ROW_0001
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\43_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0002
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\44_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0003
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\45_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0004
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\46_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0005
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\47_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0006
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\48_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0007
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\49_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0008
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\50_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0009
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\51_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0010
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\52_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0011
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\53_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0012
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\54_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0013
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\55_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0014
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\56_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0015
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\57_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0016
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\58_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0017
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\59_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0018
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\60_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0019
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\61_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0020
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\62_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0021
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\63_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0022
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\64_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0023
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\65_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0024
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\66_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0025
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\67_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0026
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\68_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0027
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\69_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0028
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\70_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0029
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\71_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0030
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\72_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0031
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\73_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0032
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\74_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0033
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\75_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0034
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\76_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0035
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\77_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0036
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\78_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0037
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\79_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0038
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\80_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0039
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\81_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0040
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\82_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0041
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\83_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: findX-ROW_0042
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1830611268\CSV_IMPORT\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\84_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Completed Batch Execution processing
+EXIT_CODE: 28

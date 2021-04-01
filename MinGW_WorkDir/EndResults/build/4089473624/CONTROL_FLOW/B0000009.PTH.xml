@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basis_paths xml_basis_paths_version="1.0" basis_paths="FALSE" edg="Y" checksum="3888282870" handle_ternary="Y" handle_nested_ternary="Y" cover_declarations="Y" cover_headers="N" basis_paths_for_constant_branches="Y">
+  <subprogram index="1" name="setDimensions" canonical="" mangled="setDimensions" class_member="FALSE" testable="TRUE">
+    <listing_start>10</listing_start>
+    <listing_end>16</listing_end>
+  </subprogram>
+  <subprogram index="2" name="computeBaseArea" canonical="" mangled="computeBaseArea" class_member="FALSE" testable="TRUE">
+    <listing_start>16</listing_start>
+    <listing_end>41</listing_end>
+  </subprogram>
+  <subprogram index="3" name="computeVolume" canonical="" mangled="computeVolume" class_member="FALSE" testable="TRUE">
+    <listing_start>41</listing_start>
+    <listing_end>67</listing_end>
+  </subprogram>
+  <subprogram index="4" name="partitionExample" canonical="" mangled="partitionExample" class_member="FALSE" testable="TRUE">
+    <listing_start>68</listing_start>
+    <listing_end>86</listing_end>
+  </subprogram>
+  <subprogram index="5" name="controlFlowExample" canonical="" mangled="controlFlowExample" class_member="FALSE" testable="TRUE">
+    <listing_start>91</listing_start>
+    <listing_end>99</listing_end>
+  </subprogram>
+</basis_paths>

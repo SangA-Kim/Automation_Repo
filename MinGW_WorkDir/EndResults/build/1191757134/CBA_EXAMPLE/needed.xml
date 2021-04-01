@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env_info>
+  <needed_entities>
+    <unit id="9">
+      <function id="printf" name="printf" defined="0" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="const char*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="send_can_msg" name="send_can_msg" defined="0" const="0" file="2" return="int">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="send_enet_msg" name="send_enet_msg" defined="0" const="0" file="2" return="int">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="send_serial_msg" name="send_serial_msg" defined="0" const="0" file="2" return="int">
+        <parameters>
+          <parameter type="void*" name="&lt;anon&gt;"/>
+        </parameters>
+      </function>
+      <function id="route_msg" name="route_msg" defined="1" const="0" file="2" return="int">
+        <parameters>
+          <parameter type="t_msg_type" name="msg_type"/>
+          <parameter type="void*" name="msg"/>
+        </parameters>
+      </function>
+    </unit>
+  </needed_entities>
+  <files>
+    <file id="1">c:\vcast\mingw\include\stdio.h</file>
+    <file id="2">C:/VCAST/Environments/Git_Test/SourceFiles/cba_example.c</file>
+  </files>
+</env_info>

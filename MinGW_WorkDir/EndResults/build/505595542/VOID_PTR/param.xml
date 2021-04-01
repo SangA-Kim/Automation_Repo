@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paramfile version="1">
+  <source_file index="1">
+    <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/505595542/VOID_PTR/S0000008.cpp</path>
+  </source_file>
+  <source_file index="2">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/communication.c</path>
+  </source_file>
+  <source_file index="3">
+    <path>C:/VCAST/Environments/Git_Test/SourceFiles/communication.h</path>
+  </source_file>
+  <unit name="USER_GLOBALS_VCAST" index="8" sbf="0" unit_description="Not Stubbed Unit">
+    <source_file index="1">
+      <path>C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/505595542/VOID_PTR/S0000008.cpp</path>
+    </source_file>
+    <global name="AltCmd" index="1" typeid="800004"/>
+    <global name="CourseCmd" index="2" typeid="800006"/>
+    <global name="VECTORCAST_INT1" index="3" typeid="800001"/>
+    <global name="VECTORCAST_INT2" index="4" typeid="800001"/>
+    <global name="VECTORCAST_INT3" index="5" typeid="800001"/>
+    <global name="VECTORCAST_FLT1" index="6" typeid="800008"/>
+    <global name="VECTORCAST_STR1" index="7" typeid="100001"/>
+    <global name="VECTORCAST_BUFFER" index="8" typeid="100002"/>
+  </unit>
+  <unit name="communication" index="9" sbf="1" unit_description="UUT">
+    <source_file index="2">
+      <path>C:/VCAST/Environments/Git_Test/SourceFiles/communication.c</path>
+    </source_file>
+    <subprog name="ProcessMessage" index="1" mangled="ProcessMessage" parameterization="(MessageT,void*)enum Boolean">
+      <param name="messageCategory" index="1" typeid="900006"/>
+      <param name="message" index="2" typeid="900002"/>
+      <param name="return" index="3" typeid="900003"/>
+      <function unit="10" index="1"/>
+      <function unit="10" index="2"/>
+      <function unit="10" index="3"/>
+      <source_file index="2"/>
+      <sbf index="4"/>
+    </subprog>
+  </unit>
+  <unit name="uut_prototype_stubs" index="10" sbf="0" unit_description="Stubbed Unit">
+    <subprog name="ChangeAltitude" index="1" mangled="ChangeAltitude" parameterization="(unsigned)">
+      <param name="altitude" index="1" typeid="900001"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="ChangeCourse" index="2" mangled="ChangeCourse" parameterization="(float)">
+      <param name="course" index="1" typeid="900004"/>
+      <source_file index="3"/>
+    </subprog>
+    <subprog name="InvalidCommand" index="3" mangled="InvalidCommand" parameterization="(MessageT)">
+      <param name="messageCategory" index="1" typeid="900006"/>
+      <source_file index="3"/>
+    </subprog>
+  </unit>
+  <environment_exceptions/>
+  <macro name="Change_Altitude" int="0" source="0"/>
+  <macro name="Change_Course" int="1" source="0"/>
+  <macro name="False" int="0" source="0"/>
+  <macro name="Invalid" int="3" source="0"/>
+  <macro name="MAX_ALTITUDE" int="40000" source="0"/>
+  <macro name="MAX_COURSE" float="6.28319" source="0"/>
+  <macro name="MIN_ALTITUDE" int="10" source="0"/>
+  <macro name="MIN_COURSE" int="0" source="0"/>
+  <macro name="Pi" float="3.14159" source="0"/>
+  <macro name="Text_Message" int="2" source="0"/>
+  <macro name="True" int="1" source="0"/>
+  <macro name="VCAST_NO_PTR_TO_UNCON_ARRAY_SUPPORT" int="1" source="1"/>
+</paramfile>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typefile version="1">
+  <type typeid="100001" typetype="STR_ING" array_type="800001" string_type_type="AR_RAY">
+    <range_data size="8%%"/>
+  </type>
+  <type typeid="100002" typetype="AR_RAY" array_type="800002">
+    <range_data size="4%%"/>
+  </type>
+  <type typeid="800001" typetype="CHAR_ACTER">
+    <range_data min="-128" mid="-1" max="127"/>
+  </type>
+  <type typeid="800002" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="800003" typetype="FL_OAT">
+    <range_data min="-3.40282e+038" mid="0" max="3.40282e+038"/>
+  </type>
+  <type typeid="900001" typetype="INT_EGER">
+    <range_data min="-2147483648" mid="-1" max="2147483647"/>
+  </type>
+  <type typeid="900002" typetype="VOID_POINTER"/>
+  <type typeid="900003" typetype="NOT_SUPPORTED" unsupported_type_reason="TI_STATUS_VOID_TYPES_ARE_UNTESTABLE"/>
+  <type typeid="900004" typetype="ENUMERATION">
+    <range_data min="CAN_BUS" max="INVALID"/>
+    <enum value="CAN_BUS" constant="0"/>
+    <enum value="ENET" constant="1"/>
+    <enum value="SERIAL" constant="2"/>
+    <enum value="INVALID" constant="3"/>
+  </type>
+</typefile>
