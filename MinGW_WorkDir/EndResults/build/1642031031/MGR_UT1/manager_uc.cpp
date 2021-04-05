@@ -3,30 +3,6 @@
 void vCAST_VALUE_USER_CODE_9 (
          int vcast_slot_index ) {
 /* BEGIN VALUE_USER_CODE_9 */
-/* BEGIN C-000026.DAT */
-if ( ( vCAST_UNIT == 9 ) &&
-     ( vCAST_SUBPROGRAM == 3 ) &&
-     ( VCAST_test_name_cmp ( "Place_Order.001" ) == 0 ) ) {
-if (vcast_initializing) {
-/* begin testcase user code*/
-{
-printf("Test Case User Code Input!\n");
-}
-
-/* end   testcase user code */
-/* begin constructor user code */
-/* end   constructor user code */
-} else /* not initializing */ {
-/* begin parameter user code */
-{
-printf("input parameter user code\n");
-}
-
-/* end   parameter user code */
-} /* initializing */
-} /* Place_Order.001 */
-/* END C-000026.DAT */
-
 /* DONE VALUE_USER_CODE_9 */
 }
 
@@ -34,12 +10,12 @@ printf("input parameter user code\n");
 void vCAST_EXPECTED_USER_CODE_9 (
          int vcast_slot_index ) {
 /* BEGIN EXPECTED_USER_CODE_9 */
-/* BEGIN C-000016.DAT */
+/* BEGIN C-000023.DAT */
 if ( ( vCAST_UNIT == 9 ) &&
-     ( vCAST_SUBPROGRAM == 1 ) &&
+     ( vCAST_SUBPROGRAM == 2 ) &&
      ( VCAST_test_name_cmp ( "Normal.001" ) == 0 ) ) {
 {
-        if ( R_9_1 <= ( 11 )  )
+        if ( R_9_2 <= ( 11 )  )
         {
           vectorcast_fprint_string_with_cr (VCAST_EXP_FILE, "<match>|manager.Add_Tax_Tip.return| <<manager."
 "Add_Tax_Tip.return>> <= ( 11 ) " );
@@ -53,18 +29,7 @@ if ( ( vCAST_UNIT == 9 ) &&
 }
 
 } /* Normal.001 */
-/* END C-000016.DAT */
-
-/* BEGIN C-000026.DAT */
-if ( ( vCAST_UNIT == 9 ) &&
-     ( vCAST_SUBPROGRAM == 3 ) &&
-     ( VCAST_test_name_cmp ( "Place_Order.001" ) == 0 ) ) {
-{
-printf("Test Case User Code Expected!\n");
-}
-
-} /* Place_Order.001 */
-/* END C-000026.DAT */
+/* END C-000023.DAT */
 
 /* DONE EXPECTED_USER_CODE_9 */
 }

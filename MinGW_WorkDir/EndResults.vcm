@@ -10,6 +10,8 @@
       <value>REDIRECT</value>
       <key>COVERAGE_TYPE</key>
       <value>Statement+Branch</value>
+      <key>VCAST_CUSTOM_REPORT_FORMAT</key>
+      <value>HTML</value>
     </config>
     <search-directory type="TESTABLE_SOURCE_DIR">$(PROJECT_ROOT_DIR)\SourceFiles</search-directory>
     <search-directory type="TESTABLE_SOURCE_DIR">$(PROJECT_ROOT_DIR)\SourceFiles\Shapes</search-directory>

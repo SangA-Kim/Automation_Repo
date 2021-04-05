@@ -10,13 +10,16 @@
   <unit index="9" coverage_type="Statement+Branch">
     <name>manager</name>
     <subprogram index="1">
+      <name>Add</name>
+    </subprogram>
+    <subprogram index="2">
       <name>Add_Tax_Tip</name>
       <testcase index="1">
         <name>Add_Tax_Tip.001</name>
         <unique_id>4</unique_id>
       </testcase>
     </subprogram>
-    <subprogram index="2">
+    <subprogram index="3">
       <name>Add_Included_Dessert</name>
       <testcase index="1">
         <name>FreeCake</name>
@@ -31,7 +34,7 @@
         <unique_id>3</unique_id>
       </testcase>
     </subprogram>
-    <subprogram index="3">
+    <subprogram index="4">
       <name>Place_Order</name>
       <testcase index="1">
         <name>Chicken</name>
@@ -62,16 +65,16 @@
         <unique_id>11</unique_id>
       </testcase>
     </subprogram>
-    <subprogram index="4">
+    <subprogram index="5">
       <name>Clear_Table</name>
     </subprogram>
-    <subprogram index="5">
+    <subprogram index="6">
       <name>Get_Check_Total</name>
     </subprogram>
-    <subprogram index="6">
+    <subprogram index="7">
       <name>Add_Party_To_Waiting_List</name>
     </subprogram>
-    <subprogram index="7">
+    <subprogram index="8">
       <name>Get_Next_Party_To_Be_Seated</name>
     </subprogram>
   </unit>

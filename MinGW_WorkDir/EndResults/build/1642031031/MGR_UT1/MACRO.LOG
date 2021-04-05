@@ -9,13 +9,13 @@
 (S) @LINE: 69
     >>> Processed Test Case: COND_1_ROW_2_PAIR_c_TTF
 (I) @LINE: 75
-    >>> Processing Test Case: COND_1_ROW_3_PAIR_b_TFT
+    >>> Processing Test Case: COND_1_ROW_3_PAIR_b_TFx
 (S) @LINE: 91
-    >>> Processed Test Case: COND_1_ROW_3_PAIR_b_TFT
+    >>> Processed Test Case: COND_1_ROW_3_PAIR_b_TFx
 (I) @LINE: 97
-    >>> Processing Test Case: COND_1_ROW_5_PAIR_a_FTT
+    >>> Processing Test Case: COND_1_ROW_5_PAIR_a_Fxx
 (S) @LINE: 113
-    >>> Processed Test Case: COND_1_ROW_5_PAIR_a_FTT
+    >>> Processed Test Case: COND_1_ROW_5_PAIR_a_Fxx
 (I) @LINE: 119
     >>> Processing Test Case: COND_2_ROW_1_PAIR_a_TTT
 (S) @LINE: 136
@@ -25,13 +25,13 @@
 (S) @LINE: 159
     >>> Processed Test Case: COND_2_ROW_2_PAIR_c_TTF
 (I) @LINE: 165
-    >>> Processing Test Case: COND_2_ROW_3_PAIR_b_TFT
+    >>> Processing Test Case: COND_2_ROW_3_PAIR_b_TFx
 (S) @LINE: 182
-    >>> Processed Test Case: COND_2_ROW_3_PAIR_b_TFT
+    >>> Processed Test Case: COND_2_ROW_3_PAIR_b_TFx
 (I) @LINE: 188
-    >>> Processing Test Case: COND_2_ROW_5_PAIR_a_FTT
+    >>> Processing Test Case: COND_2_ROW_5_PAIR_a_Fxx
 (S) @LINE: 205
-    >>> Processed Test Case: COND_2_ROW_5_PAIR_a_FTT
+    >>> Processed Test Case: COND_2_ROW_5_PAIR_a_Fxx
 (I) @LINE: 211
     >>> Processing Test Case: Cake
 (S) @LINE: 218
@@ -52,69 +52,93 @@
     >>> Processing Test Case: Add_Party_To_Waiting_List.002
 (S) @LINE: 291
     >>> Processed Test Case: Add_Party_To_Waiting_List.002
-(I) @LINE: 299
-    >>> Processing Test Case: CheckStubValues
-(S) @LINE: 312
-    >>> Processed Test Case: CheckStubValues
-(I) @LINE: 318
-    >>> Processing Test Case: Normal
-(S) @LINE: 325
-    >>> Processed Test Case: Normal
-(I) @LINE: 331
-    >>> Processing Test Case: Normal.001
-(S) @LINE: 341
-    >>> Processed Test Case: Normal.001
-(I) @LINE: 347
-    >>> Processing Test Case: TenPercentTax
-(S) @LINE: 355
-    >>> Processed Test Case: TenPercentTax
-(I) @LINE: 361
-    >>> Processing Test Case: ZeroTax
-(S) @LINE: 366
-    >>> Processed Test Case: ZeroTax
-(I) @LINE: 374
-    >>> Processing Test Case: Clear_Table.001
-(S) @LINE: 376
-    >>> Processed Test Case: Clear_Table.001
-(I) @LINE: 384
+(I) @LINE: 297
     >>> Processing Test Case: BASIS-PATH-001
-(S) @LINE: 394
-    >>> Warning: Setting data to out-of-range value.  The value 5 does not correspond to an enumeral value.
-(S) @LINE: 395
+(S) @LINE: 308
     >>> Processed Test Case: BASIS-PATH-001
-(I) @LINE: 401
+(I) @LINE: 314
     >>> Processing Test Case: BASIS-PATH-002
-(S) @LINE: 412
+(S) @LINE: 326
     >>> Processed Test Case: BASIS-PATH-002
-(I) @LINE: 418
+(I) @LINE: 332
     >>> Processing Test Case: BASIS-PATH-003
-(S) @LINE: 429
+(S) @LINE: 343
     >>> Processed Test Case: BASIS-PATH-003
-(I) @LINE: 435
+(I) @LINE: 351
+    >>> Processing Test Case: BASIS-PATH-001
+(S) @LINE: 365
+    >>> Processed Test Case: BASIS-PATH-001
+(I) @LINE: 371
+    >>> Processing Test Case: BASIS-PATH-002
+(S) @LINE: 385
+    >>> Processed Test Case: BASIS-PATH-002
+(I) @LINE: 391
+    >>> Processing Test Case: BASIS-PATH-003
+(S) @LINE: 405
+    >>> Processed Test Case: BASIS-PATH-003
+(I) @LINE: 411
     >>> Processing Test Case: BASIS-PATH-004
-(S) @LINE: 446
+(S) @LINE: 424
     >>> Processed Test Case: BASIS-PATH-004
-(I) @LINE: 452
+(I) @LINE: 430
+    >>> Processing Test Case: CheckStubValues
+(S) @LINE: 443
+    >>> Processed Test Case: CheckStubValues
+(I) @LINE: 449
+    >>> Processing Test Case: Normal
+(S) @LINE: 456
+    >>> Processed Test Case: Normal
+(I) @LINE: 462
+    >>> Processing Test Case: Normal.001
+(S) @LINE: 472
+    >>> Processed Test Case: Normal.001
+(I) @LINE: 478
+    >>> Processing Test Case: TenPercentTax
+(S) @LINE: 486
+    >>> Processed Test Case: TenPercentTax
+(I) @LINE: 492
+    >>> Processing Test Case: ZeroTax
+(S) @LINE: 497
+    >>> Processed Test Case: ZeroTax
+(I) @LINE: 505
+    >>> Processing Test Case: Clear_Table.001
+(S) @LINE: 507
+    >>> Processed Test Case: Clear_Table.001
+(I) @LINE: 515
+    >>> Processing Test Case: BASIS-PATH-001
+(S) @LINE: 525
+    >>> Warning: Setting data to out-of-range value.  The value 5 does not correspond to an enumeral value.
+(S) @LINE: 526
+    >>> Processed Test Case: BASIS-PATH-001
+(I) @LINE: 532
+    >>> Processing Test Case: BASIS-PATH-002
+(S) @LINE: 543
+    >>> Processed Test Case: BASIS-PATH-002
+(I) @LINE: 549
+    >>> Processing Test Case: BASIS-PATH-003
+(S) @LINE: 560
+    >>> Processed Test Case: BASIS-PATH-003
+(I) @LINE: 566
+    >>> Processing Test Case: BASIS-PATH-004
+(S) @LINE: 577
+    >>> Processed Test Case: BASIS-PATH-004
+(I) @LINE: 583
     >>> Processing Test Case: BASIS-PATH-005
-(S) @LINE: 463
+(S) @LINE: 594
     >>> Processed Test Case: BASIS-PATH-005
-(I) @LINE: 469
+(I) @LINE: 600
     >>> Processing Test Case: BASIS-PATH-006
-(S) @LINE: 480
+(S) @LINE: 611
     >>> Processed Test Case: BASIS-PATH-006
-(I) @LINE: 486
-    >>> Processing Test Case: Place_Order.001
-(S) @LINE: 498
-    >>> Processed Test Case: Place_Order.001
-(I) @LINE: 504
+(I) @LINE: 617
     >>> Processing Test Case: Place_Order.002
-(S) @LINE: 528
+(S) @LINE: 641
     >>> Processed Test Case: Place_Order.002
-(I) @LINE: 534
+(I) @LINE: 647
     >>> Processing Test Case: <<COMPOUND>>.001
-(E) @LINE: 535 TEST.END
+(E) @LINE: 648 TEST.END
     >>> There are no slots in compound test <<COMPOUND>>.001.
-(S) @LINE: 535
+(S) @LINE: 648
     >>> Processed Test Case: <<COMPOUND>>.001
-(S) @LINE: 536
+(S) @LINE: 649
     >>> Script processing completed

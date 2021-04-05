@@ -1,0 +1,276 @@
+COMMAND: C:\VCAST\clicast.exe -e MGR_UT1 -l CPLUSPLUS execute batch
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/1642031031
+TIME: 2021-03-30 14:24:05
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2021
+**Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Compiling file manager
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
+        Command Returned Exit Code: 0
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\2_Command
+        Command Returned Exit Code: 0
+    Linking Instrumented Harness
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\3_Command
+        Command Returned Exit Code: 0
+    User Code compiled into environment
+    Running all <<COMPOUND>> test cases
+    There are no slots in compound test <<COMPOUND>>.001.
+    Running all manager.Add_Tax_Tip test cases
+    Running: CheckStubValues
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\4_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: Normal
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\5_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: Normal.001
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\6_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: TenPercentTax
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\7_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: ZeroTax
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\8_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all manager.Add_Included_Dessert test cases
+    Running: COND_1_ROW_1_PAIR_a_TTT
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\9_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: COND_1_ROW_2_PAIR_c_TTF
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\10_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: COND_1_ROW_3_PAIR_b_TFT
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\11_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: COND_1_ROW_5_PAIR_a_FTT
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\12_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: COND_2_ROW_1_PAIR_a_TTT
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\13_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: COND_2_ROW_2_PAIR_c_TTF
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\14_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: COND_2_ROW_3_PAIR_b_TFT
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\15_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: COND_2_ROW_5_PAIR_a_FTT
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\16_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: Cake
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\17_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: Neither
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\18_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: Pie
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\19_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all manager.Place_Order test cases
+    Running: BASIS-PATH-001
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\20_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: BASIS-PATH-002
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\21_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: BASIS-PATH-003
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\22_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: BASIS-PATH-004
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\23_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: BASIS-PATH-005
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\24_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: BASIS-PATH-006
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\25_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: Place_Order.001
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\26_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: Place_Order.002
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\27_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all manager.Clear_Table test cases
+    Running: Clear_Table.001
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\28_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running all manager.Add_Party_To_Waiting_List test cases
+    Running: Add_Party_To_Waiting_List.001
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\29_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Running: Add_Party_To_Waiting_List.002
+    Preparing Test Data
+    Running Test Case
+    Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1\UUT_INST.EXE
+        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\30_Command
+        Command Returned Exit Code: 0
+    Processing Execution Data
+    Updating Coverage Data
+    Test Execution Complete
+    Completed Batch Execution processing
+EXIT_CODE: 28

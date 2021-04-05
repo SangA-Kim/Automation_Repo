@@ -28,7 +28,7 @@ void vCAST_STUB_PROCESSING_9 (
 /* BEGIN STUB_VAL_USER_CODE_9 */
 /* BEGIN C-000002.DAT */
 if ( ( vCAST_UNIT == 9 ) &&
-     ( vCAST_SUBPROGRAM == 3 ) &&
+     ( vCAST_SUBPROGRAM == 4 ) &&
      ( VCAST_test_name_cmp ( "SpinForever" ) == 0 ) ) {
       if ( (UnitIndex == 10) && 
            (SubprogramIndex == 2) ) {

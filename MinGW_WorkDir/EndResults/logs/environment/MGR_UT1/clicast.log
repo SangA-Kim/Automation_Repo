@@ -1,0 +1,54 @@
+COMMAND: C:\VCAST\clicast.exe -e MGR_UT1 environment script create C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/1642031031/MGR_UT1.env
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/1642031031
+TIME: 2021-04-02 08:29:36
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_OBJECT_PATH=c:\\VCAST\\Environments\\Git_Test\\MinGW_WorkDir\\EndResults\\build\\1642031031\\MGR_UT1
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+VCV_TEST_NAME=Pie
+VCV_ENVIRONMENT_DIR=c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1
+VCV_ENVIRONMENT_NAME=MGR_UT1
+VCV_SUBPROGRAM_NAME=Add_Included_Dessert
+VCV_VCAST_OUTPUT_BUFFER_SIZE= 20000
+VCV_UNIT_NAME=manager
+VCV_EXECUTABLE_NAME=UUT_INST.EXE
+VCAST_OBJECT_FILES=B0000001.o B0000002.o S0000003.o B0000008.o B0000004.o  B0000007.o  B1_switch.o  B4_switch.o  S3_switch.o   I0000009.o
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2021
+**Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Building Script File
+    Script Building Completed
+COMMAND: C:\VCAST\clicast.exe -e MGR_UT1 test script create C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/1642031031/MGR_UT1.tst
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/1642031031
+TIME: 2021-04-02 08:29:37
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_OBJECT_PATH=c:\\VCAST\\Environments\\Git_Test\\MinGW_WorkDir\\EndResults\\build\\1642031031\\MGR_UT1
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+VCV_TEST_NAME=Pie
+VCV_ENVIRONMENT_DIR=c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\MGR_UT1
+VCV_ENVIRONMENT_NAME=MGR_UT1
+VCV_SUBPROGRAM_NAME=Add_Included_Dessert
+VCV_VCAST_OUTPUT_BUFFER_SIZE= 20000
+VCV_UNIT_NAME=manager
+VCV_EXECUTABLE_NAME=UUT_INST.EXE
+VCAST_OBJECT_FILES=B0000001.o B0000002.o S0000003.o B0000008.o B0000004.o  B0000007.o  B1_switch.o  B4_switch.o  S3_switch.o   I0000009.o
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2021
+**Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\1642031031\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    Creating Script File
+    Building Test Case Script
+    Test Case Script Created
+    Script processing completed

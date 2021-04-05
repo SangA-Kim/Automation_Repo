@@ -45,7 +45,7 @@
 #define VCAST_NUMBER_BRANCH_STRUCTS  0
 #endif
 #ifndef VCAST_NUMBER_MCDC_STRUCTS
-#define VCAST_NUMBER_MCDC_STRUCTS  7
+#define VCAST_NUMBER_MCDC_STRUCTS  8
 #endif
 #ifndef VCAST_PROBE_POINTS_AVAILABLE
 #define VCAST_PROBE_POINTS_AVAILABLE 1
@@ -93,7 +93,7 @@
  * For a 16 bit executable configuration:
  *   statement bit array:.................size: 1          count: 7      bytes:  7
  *   mcdc avltree array:..................size: 2          bytes:  0 *
- *   mcdc bit array 0:....................size (bits): 2   count: 13     bytes:  4
+ *   mcdc bit array 0:....................size (bits): 2   count: 14     bytes:  4
  *   mcdc bit array 1:....................size (bits): 4   count: 6      bytes:  3
  *   mcdc bit array 2:....................size (bits): 12  count: 1      bytes:  2
  *   mcdc bit array 3:....................size (bits): 32  count: 2      bytes:  8
@@ -111,7 +111,7 @@
  * For a 32 bit executable configuration:
  *   statement bit array:.................size: 1          count: 7      bytes:  7
  *   mcdc avltree array:..................size: 4          bytes:  0 *
- *   mcdc bit array 0:....................size (bits): 2   count: 13     bytes:  4
+ *   mcdc bit array 0:....................size (bits): 2   count: 14     bytes:  4
  *   mcdc bit array 1:....................size (bits): 4   count: 6      bytes:  3
  *   mcdc bit array 2:....................size (bits): 12  count: 1      bytes:  2
  *   mcdc bit array 3:....................size (bits): 32  count: 2      bytes:  8
@@ -129,7 +129,7 @@
  * For a 64 bit executable configuration:
  *   statement bit array:.................size: 1          count: 7      bytes:  7
  *   mcdc avltree array:..................size: 8          bytes:  0 *
- *   mcdc bit array 0:....................size (bits): 2   count: 13     bytes:  4
+ *   mcdc bit array 0:....................size (bits): 2   count: 14     bytes:  4
  *   mcdc bit array 1:....................size (bits): 4   count: 6      bytes:  3
  *   mcdc bit array 2:....................size (bits): 12  count: 1      bytes:  2
  *   mcdc bit array 3:....................size (bits): 32  count: 2      bytes:  8
@@ -241,7 +241,7 @@ struct vcast_unit_list {
 
 VCAST_UNIT_LIST_VALUES_ATTR
 static const struct vcast_unit_list vcast_unit_list_values[] = {
-  {9, (char *)vcast_unit_stmt_bytes_9, sizeof(vcast_unit_stmt_bytes_9), (char *)vcast_unit_optimized_mcdc_bytes_9_0, 13, (char *)vcast_unit_optimized_mcdc_bytes_9_1, 6, (char *)vcast_unit_optimized_mcdc_bytes_9_2, 1, (char *)vcast_unit_optimized_mcdc_bytes_9_3, 2, (char *)0, 0, (char *)0, 0, (char *)0, 0, (char *)0, 0, (char *)0, 0},
+  {9, (char *)vcast_unit_stmt_bytes_9, sizeof(vcast_unit_stmt_bytes_9), (char *)vcast_unit_optimized_mcdc_bytes_9_0, 14, (char *)vcast_unit_optimized_mcdc_bytes_9_1, 6, (char *)vcast_unit_optimized_mcdc_bytes_9_2, 1, (char *)vcast_unit_optimized_mcdc_bytes_9_3, 2, (char *)0, 0, (char *)0, 0, (char *)0, 0, (char *)0, 0, (char *)0, 0},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 };
 

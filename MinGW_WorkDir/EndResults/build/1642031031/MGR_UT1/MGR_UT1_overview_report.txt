@@ -9,7 +9,7 @@ Environment Overview
   Environment Status:  Normal
   Environment Version: REVISION_2020_RENAME_BUILD_INFO_XML
   Environment Build Type: Full
-  Coverage Status:     ISO-26262 (Automotive) Unit Level ASIL D (enabled)
+  Coverage Status:     Statement+MC/DC (enabled)
   Language:            C++
   Compiler Name:       VectorCAST MinGW_C++
   White Box:           Yes

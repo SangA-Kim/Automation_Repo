@@ -140,7 +140,7 @@ const char *vcast_get_filename(enum vcast_env_file_kind kind);
 /* -------------------------------------------------------------------------------*/
 /* -------------------------------------------------------------------------------*/
 /* End of File, close the Extern C block */
-extern int vCAST_ITERATION_COUNTERS [3][11];
+extern int vCAST_ITERATION_COUNTERS [3][12];
 /***********************************************
  *      VectorCAST Test Harness Component      *
  *     Copyright 2021 Vector Informatik, GmbH.    *
@@ -420,7 +420,7 @@ void VCAST_WRITE_TO_INST_FILE (const char VC_S[]);
 
  *   mcdc avltree array:..................size: 2          bytes:  0 *
 
- *   mcdc bit array 0:....................size (bits): 2   count: 13     bytes:  4
+ *   mcdc bit array 0:....................size (bits): 2   count: 14     bytes:  4
 
  *   mcdc bit array 1:....................size (bits): 4   count: 6      bytes:  3
 
@@ -456,7 +456,7 @@ void VCAST_WRITE_TO_INST_FILE (const char VC_S[]);
 
  *   mcdc avltree array:..................size: 4          bytes:  0 *
 
- *   mcdc bit array 0:....................size (bits): 2   count: 13     bytes:  4
+ *   mcdc bit array 0:....................size (bits): 2   count: 14     bytes:  4
 
  *   mcdc bit array 1:....................size (bits): 4   count: 6      bytes:  3
 
@@ -492,7 +492,7 @@ void VCAST_WRITE_TO_INST_FILE (const char VC_S[]);
 
  *   mcdc avltree array:..................size: 8          bytes:  0 *
 
- *   mcdc bit array 0:....................size (bits): 2   count: 13     bytes:  4
+ *   mcdc bit array 0:....................size (bits): 2   count: 14     bytes:  4
 
  *   mcdc bit array 1:....................size (bits): 4   count: 6      bytes:  3
 
@@ -771,61 +771,70 @@ void VCAST_DRIVER_9( int VC_SUBPROGRAM ) {
       vCAST_USER_CODE_TIMER_START();
       break;
     case 1: {
-      /* float Add_Tax_Tip(float check_total, float sales_tax, float tip) */
+      /* int Add(int a, int b) */
       vCAST_SET_HISTORY_FLAGS ( 9, 1 );
       vCAST_USER_CODE_TIMER_START();
       R_9_1 =
-      ( Add_Tax_Tip(
+      ( Add(
         ( P_9_1_1 ),
-        ( P_9_1_2 ),
-        ( P_9_1_3 ) ) );
+        ( P_9_1_2 ) ) );
       break; }
     case 2: {
-      /* int Add_Included_Dessert(struct order_type * Order) */
+      /* float Add_Tax_Tip(float check_total, float sales_tax, float tip) */
       vCAST_SET_HISTORY_FLAGS ( 9, 2 );
       vCAST_USER_CODE_TIMER_START();
       R_9_2 =
-      ( Add_Included_Dessert(
-        ( P_9_2_1 ) ) );
+      ( Add_Tax_Tip(
+        ( P_9_2_1 ),
+        ( P_9_2_2 ),
+        ( P_9_2_3 ) ) );
       break; }
     case 3: {
-      /* float Place_Order(table_index_type Table, seat_index_type Seat, struct order_type Order) */
+      /* int Add_Included_Dessert(struct order_type * Order) */
       vCAST_SET_HISTORY_FLAGS ( 9, 3 );
       vCAST_USER_CODE_TIMER_START();
       R_9_3 =
-      ( Place_Order(
-        ( P_9_3_1 ),
-        ( P_9_3_2 ),
-        ( P_9_3_3 ) ) );
+      ( Add_Included_Dessert(
+        ( P_9_3_1 ) ) );
       break; }
     case 4: {
-      /* int Clear_Table(table_index_type Table) */
+      /* float Place_Order(table_index_type Table, seat_index_type Seat, struct order_type Order) */
       vCAST_SET_HISTORY_FLAGS ( 9, 4 );
       vCAST_USER_CODE_TIMER_START();
       R_9_4 =
-      ( Clear_Table(
-        ( P_9_4_1 ) ) );
+      ( Place_Order(
+        ( P_9_4_1 ),
+        ( P_9_4_2 ),
+        ( P_9_4_3 ) ) );
       break; }
     case 5: {
-      /* float Get_Check_Total(table_index_type Table) */
+      /* int Clear_Table(table_index_type Table) */
       vCAST_SET_HISTORY_FLAGS ( 9, 5 );
       vCAST_USER_CODE_TIMER_START();
       R_9_5 =
-      ( Get_Check_Total(
+      ( Clear_Table(
         ( P_9_5_1 ) ) );
       break; }
     case 6: {
-      /* void Add_Party_To_Waiting_List(char * Name) */
+      /* float Get_Check_Total(table_index_type Table) */
       vCAST_SET_HISTORY_FLAGS ( 9, 6 );
       vCAST_USER_CODE_TIMER_START();
-      ( Add_Party_To_Waiting_List(
+      R_9_6 =
+      ( Get_Check_Total(
         ( P_9_6_1 ) ) );
       break; }
     case 7: {
-      /* char *Get_Next_Party_To_Be_Seated(void) */
+      /* void Add_Party_To_Waiting_List(char * Name) */
       vCAST_SET_HISTORY_FLAGS ( 9, 7 );
       vCAST_USER_CODE_TIMER_START();
-      R_9_7 =
+      ( Add_Party_To_Waiting_List(
+        ( P_9_7_1 ) ) );
+      break; }
+    case 8: {
+      /* char *Get_Next_Party_To_Be_Seated(void) */
+      vCAST_SET_HISTORY_FLAGS ( 9, 8 );
+      vCAST_USER_CODE_TIMER_START();
+      R_9_8 =
       ( Get_Next_Party_To_Be_Seated( ) );
       break; }
     default:
@@ -856,6 +865,9 @@ void VCAST_SBF_9( int VC_SUBPROGRAM ) {
       break; }
     case 7: {
       SBF_9_7 = 0;
+      break; }
+    case 8: {
+      SBF_9_8 = 0;
       break; }
     default:
       break;
@@ -909,7 +921,7 @@ void VCAST_RUN_DATA_IF_9( int VCAST_SUB_INDEX, int VCAST_PARAM_INDEX ) {
           break;
       } /* switch( VCAST_PARAM_INDEX ) */
       break; /* case 0 (global objects) */
-    case 8: /* function log_tax_receipts */
+    case 9: /* function log_tax_receipts */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
           VCAST_TI_8_3 ( &(P_10_1_1));
@@ -919,7 +931,7 @@ void VCAST_RUN_DATA_IF_9( int VCAST_SUB_INDEX, int VCAST_PARAM_INDEX ) {
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
       break; /* function log_tax_receipts */
-    case 9: /* function Get_Table_Record */
+    case 10: /* function Get_Table_Record */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
           VCAST_TI_9_17 ( &(P_10_2_1));
@@ -929,7 +941,7 @@ void VCAST_RUN_DATA_IF_9( int VCAST_SUB_INDEX, int VCAST_PARAM_INDEX ) {
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
       break; /* function Get_Table_Record */
-    case 10: /* function Update_Table_Record */
+    case 11: /* function Update_Table_Record */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
           VCAST_TI_9_17 ( &(P_10_3_1));
@@ -942,100 +954,116 @@ void VCAST_RUN_DATA_IF_9( int VCAST_SUB_INDEX, int VCAST_PARAM_INDEX ) {
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
       break; /* function Update_Table_Record */
-    case 1: /* function Add_Tax_Tip */
+    case 1: /* function Add */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
-          VCAST_TI_8_3 ( &(P_9_1_1));
+          VCAST_TI_8_2 ( &(P_9_1_1));
           break;
         case 2:
-          VCAST_TI_8_3 ( &(P_9_1_2));
+          VCAST_TI_8_2 ( &(P_9_1_2));
           break;
         case 3:
-          VCAST_TI_8_3 ( &(P_9_1_3));
+          VCAST_TI_8_2 ( &(R_9_1));
           break;
         case 4:
-          VCAST_TI_8_3 ( &(R_9_1));
-          break;
-        case 5:
           VCAST_TI_SBF_OBJECT( &SBF_9_1 );
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
-      break; /* function Add_Tax_Tip */
-    case 2: /* function Add_Included_Dessert */
+      break; /* function Add */
+    case 2: /* function Add_Tax_Tip */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
-          VCAST_TI_9_6 ( &(P_9_2_1));
+          VCAST_TI_8_3 ( &(P_9_2_1));
           break;
         case 2:
-          VCAST_TI_8_2 ( &(R_9_2));
+          VCAST_TI_8_3 ( &(P_9_2_2));
           break;
         case 3:
+          VCAST_TI_8_3 ( &(P_9_2_3));
+          break;
+        case 4:
+          VCAST_TI_8_3 ( &(R_9_2));
+          break;
+        case 5:
           VCAST_TI_SBF_OBJECT( &SBF_9_2 );
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
-      break; /* function Add_Included_Dessert */
-    case 3: /* function Place_Order */
+      break; /* function Add_Tax_Tip */
+    case 3: /* function Add_Included_Dessert */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
-          VCAST_TI_9_17 ( &(P_9_3_1));
+          VCAST_TI_9_6 ( &(P_9_3_1));
           break;
         case 2:
-          VCAST_TI_9_17 ( &(P_9_3_2));
+          VCAST_TI_8_2 ( &(R_9_3));
           break;
         case 3:
-          VCAST_TI_9_11 ( &(P_9_3_3));
-          break;
-        case 4:
-          VCAST_TI_8_3 ( &(R_9_3));
-          break;
-        case 5:
           VCAST_TI_SBF_OBJECT( &SBF_9_3 );
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
-      break; /* function Place_Order */
-    case 4: /* function Clear_Table */
+      break; /* function Add_Included_Dessert */
+    case 4: /* function Place_Order */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
           VCAST_TI_9_17 ( &(P_9_4_1));
           break;
         case 2:
-          VCAST_TI_8_2 ( &(R_9_4));
+          VCAST_TI_9_17 ( &(P_9_4_2));
           break;
         case 3:
+          VCAST_TI_9_11 ( &(P_9_4_3));
+          break;
+        case 4:
+          VCAST_TI_8_3 ( &(R_9_4));
+          break;
+        case 5:
           VCAST_TI_SBF_OBJECT( &SBF_9_4 );
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
-      break; /* function Clear_Table */
-    case 5: /* function Get_Check_Total */
+      break; /* function Place_Order */
+    case 5: /* function Clear_Table */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
           VCAST_TI_9_17 ( &(P_9_5_1));
           break;
         case 2:
-          VCAST_TI_8_3 ( &(R_9_5));
+          VCAST_TI_8_2 ( &(R_9_5));
           break;
         case 3:
           VCAST_TI_SBF_OBJECT( &SBF_9_5 );
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
-      break; /* function Get_Check_Total */
-    case 6: /* function Add_Party_To_Waiting_List */
+      break; /* function Clear_Table */
+    case 6: /* function Get_Check_Total */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
-          VCAST_TI_9_2 ( &(P_9_6_1));
+          VCAST_TI_9_17 ( &(P_9_6_1));
           break;
         case 2:
+          VCAST_TI_8_3 ( &(R_9_6));
+          break;
+        case 3:
           VCAST_TI_SBF_OBJECT( &SBF_9_6 );
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
-      break; /* function Add_Party_To_Waiting_List */
-    case 7: /* function Get_Next_Party_To_Be_Seated */
+      break; /* function Get_Check_Total */
+    case 7: /* function Add_Party_To_Waiting_List */
       switch ( VCAST_PARAM_INDEX ) {
         case 1:
-          VCAST_TI_9_2 ( &(R_9_7));
+          VCAST_TI_9_2 ( &(P_9_7_1));
           break;
         case 2:
           VCAST_TI_SBF_OBJECT( &SBF_9_7 );
+          break;
+      } /* switch ( VCAST_PARAM_INDEX ) */
+      break; /* function Add_Party_To_Waiting_List */
+    case 8: /* function Get_Next_Party_To_Be_Seated */
+      switch ( VCAST_PARAM_INDEX ) {
+        case 1:
+          VCAST_TI_9_2 ( &(R_9_8));
+          break;
+        case 2:
+          VCAST_TI_SBF_OBJECT( &SBF_9_8 );
           break;
       } /* switch ( VCAST_PARAM_INDEX ) */
       break; /* function Get_Next_Party_To_Be_Seated */
@@ -1665,39 +1693,18 @@ for stub processing and value/expected user code */
 void vCAST_VALUE_USER_CODE_9 (
          int vcast_slot_index ) {
 /* BEGIN VALUE_USER_CODE_9 */
-/* BEGIN C-000026.DAT */
-if ( ( vCAST_UNIT == 9 ) &&
-     ( vCAST_SUBPROGRAM == 3 ) &&
-     ( VCAST_test_name_cmp ( "Place_Order.001" ) == 0 ) ) {
-if (vcast_initializing) {
-/* begin testcase user code*/
-{
-printf("Test Case User Code Input!\n");
-}
-/* end   testcase user code */
-/* begin constructor user code */
-/* end   constructor user code */
-} else /* not initializing */ {
-/* begin parameter user code */
-{
-printf("input parameter user code\n");
-}
-/* end   parameter user code */
-} /* initializing */
-} /* Place_Order.001 */
-/* END C-000026.DAT */
 /* DONE VALUE_USER_CODE_9 */
 }
 /********************/
 void vCAST_EXPECTED_USER_CODE_9 (
          int vcast_slot_index ) {
 /* BEGIN EXPECTED_USER_CODE_9 */
-/* BEGIN C-000016.DAT */
+/* BEGIN C-000023.DAT */
 if ( ( vCAST_UNIT == 9 ) &&
-     ( vCAST_SUBPROGRAM == 1 ) &&
+     ( vCAST_SUBPROGRAM == 2 ) &&
      ( VCAST_test_name_cmp ( "Normal.001" ) == 0 ) ) {
 {
-        if ( R_9_1 <= ( 11 ) )
+        if ( R_9_2 <= ( 11 ) )
         {
           vectorcast_fprint_string_with_cr (VCAST_EXP_FILE, "<match>|manager.Add_Tax_Tip.return| <<manager."
 "Add_Tax_Tip.return>> <= ( 11 ) " );
@@ -1709,16 +1716,7 @@ if ( ( vCAST_UNIT == 9 ) &&
         }
 }
 } /* Normal.001 */
-/* END C-000016.DAT */
-/* BEGIN C-000026.DAT */
-if ( ( vCAST_UNIT == 9 ) &&
-     ( vCAST_SUBPROGRAM == 3 ) &&
-     ( VCAST_test_name_cmp ( "Place_Order.001" ) == 0 ) ) {
-{
-printf("Test Case User Code Expected!\n");
-}
-} /* Place_Order.001 */
-/* END C-000026.DAT */
+/* END C-000023.DAT */
 /* DONE EXPECTED_USER_CODE_9 */
 }
 /********************/

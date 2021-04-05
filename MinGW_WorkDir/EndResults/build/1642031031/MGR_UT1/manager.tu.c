@@ -1,5 +1,5 @@
-#line 3 "vcast_preprocess.19228.10.c"                                                                                                                            
-# 1 "vcast_preprocess.19228.8.c" 1
+#line 3 "vcast_preprocess.15168.10.c"                                                                                                                            
+# 1 "vcast_preprocess.15168.8.c" 1
 
 typedef int VECTORCAST_MARKER__UNIT_PREFIX_START;
 
@@ -1659,6 +1659,13 @@ static float state_tax = .03;
 
 static float default_tax = .05;
 
+int Add(int a, int b)
+{
+ int sum = 0;
+ sum = a + b;
+ return sum;
+}
+
 float Add_Tax_Tip( float check_total, float sales_tax, float tip )
 {
     float new_total, tax;
@@ -1808,11 +1815,11 @@ char* Get_Next_Party_To_Be_Seated(void)
     WaitingListIndex = 0;
   return WaitingList[WaitingListIndex++];
 }
-# 6 "vcast_preprocess.19228.8.c" 2
+# 6 "vcast_preprocess.15168.8.c" 2
 
 typedef int VECTORCAST_MARKER__UNIT_APPENDIX_START;
 
 typedef int VECTORCAST_MARKER__UNIT_APPENDIX_END;
-# 4 "vcast_preprocess.19228.10.c" 2
+# 4 "vcast_preprocess.15168.10.c" 2
 
                                                

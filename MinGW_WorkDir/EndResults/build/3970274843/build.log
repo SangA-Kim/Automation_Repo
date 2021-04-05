@@ -1,10 +1,10 @@
 COMMAND: C:/VCAST/enviroedg.exe C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3970274843/RGW_TEST.env
 DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3970274843
-TIME: 2021-03-30 14:24:21
+TIME: 2021-04-05 15:34:57
 TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
 -----------------------------Process Environment------------------------------
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
 VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
-Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
 ---------------------------End Process Environment----------------------------
 **Environment Builder Version 20.sp6 (02/02/21)
     Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3970274843\CCAST_.CFG
@@ -14,90 +14,36 @@ Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WI
     Creating Environment "RGW_TEST"
     Unit 8 (not-stubbed): User Defined Globals
        Parsing 
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\2_Command
-        Command Returned Exit Code: 0
        Initializing parse data
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\3_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\4_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\5_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\6_Command
-        Command Returned Exit Code: 0
        Generating harness code
        Saving unit data
     Parsing manager
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\7_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\8_Command
-        Command Returned Exit Code: 0
     Unit 9 (stub-by-function): manager
        Loading stored IL
        Initializing parse data
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\9_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\10_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\11_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\12_Command
-        Command Returned Exit Code: 0
        Generating harness code
        Saving unit data
     Compiling file VECTORCAST_IO
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\13_Command
-        Command Returned Exit Code: 0
     Compiling file User Defined Globals
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\14_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\15_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\16_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\17_Command
-        Command Returned Exit Code: 0
     Compiling file Data File Number 1
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\18_Command
-        Command Returned Exit Code: 0
     Compiling file Data File Number 2
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\19_Command
-        Command Returned Exit Code: 0
     Compiling file Driver
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\20_Command
-        Command Returned Exit Code: 0
     Compiling file User Defined Package
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\21_Command
-        Command Returned Exit Code: 0
-    Setting Up ISO-26262 (Automotive) Unit Level ASIL B/C Coverage
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\22_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\23_Command
-        Command Returned Exit Code: 0
+    Setting Up Statement+Branch Coverage
     Instrumenting file manager
     Compiling file manager
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\24_Command
-        Command Returned Exit Code: 0
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\25_Command
-        Command Returned Exit Code: 0
     Compiling file Data File Number 1
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\26_Command
-        Command Returned Exit Code: 0
     Linking Instrumented Harness
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\27_Command
-        Command Returned Exit Code: 0
     Coverage Initialized
     Writing VectorCAST Database Files to Disk
     Environment built Successfully
-COMMAND: C:\VCAST\clicast.exe -e RGW_TEST -l CPLUSPLUS test script run C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3970274843/RGW_TEST.tst.tmp
+COMMAND: C:\VCAST\clicast.exe -e RGW_TEST -l CPLUSPLUS test script convert C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3970274843/RGW_TEST.tst.tmp
 DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3970274843
-TIME: 2021-03-30 14:24:28
+TIME: 2021-04-05 15:35:02
 TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
 -----------------------------Process Environment------------------------------
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
 VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
-Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
 ---------------------------End Process Environment----------------------------
 VectorCAST Copyright (C) 1993 - 2021
 **Version 20.sp6 (02/02/21)
@@ -112,13 +58,14 @@ or by using the 'clicast RGW Initialize' command.
     Opening Parameter/Global File
     Opening Types File
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3970274843\RGW_TEST\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
-        Command Returned Exit Code: 0
     Building Master Min Mid Max data.
     Opening Parameter/Global File
     Opening Types File
     Environment is Open
     Processing Script File
+    Test Script Maintenance Started
+    Test Script Maintenance Complete (0)
+    Translated 0 script lines
     Script Creation Completed
 --------------------------------------------------------------------------------
 Test Script Log

@@ -888,67 +888,98 @@ const struct order_type NULL_ORDER =
 static int log_err_cnt=0;
 static float state_tax = .03;
 static float default_tax = .05;
-float Add_Tax_Tip( float check_total, float sales_tax, float tip )
+int Add(int a, int b)
 {/*vcast_internal_start*/
-extern float P_9_1_1;
-extern float P_9_1_2;
-extern float P_9_1_3;
-extern float R_9_1;
+extern int P_9_1_1;
+extern int P_9_1_2;
+extern int R_9_1;
 extern unsigned char SBF_9_1;
 if(SBF_9_1) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_3310826759
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_3310826759
+  if ( vcast_is_in_driver ) {
+    P_9_1_1 = a;
+    P_9_1_2 = b;
+    vCAST_COMMON_STUB_PROC_9( 9, 1, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_3310826759
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_3310826759
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_1;
+}
+/*vcast_internal_end*/
+/*vcast_internal_start*/{/*vcast_internal_end*/
+ int sum = (VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 0, 1),(VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,0),0));
+ VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,1);
+sum = a + b;
+ VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,2);
+return sum;
+/*vcast_internal_start*/}/*vcast_internal_end*/
+}
+float Add_Tax_Tip( float check_total, float sales_tax, float tip )
+{/*vcast_internal_start*/
+extern float P_9_2_1;
+extern float P_9_2_2;
+extern float P_9_2_3;
+extern float R_9_2;
+extern unsigned char SBF_9_2;
+if(SBF_9_2) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_3904200724
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_3904200724
   if ( vcast_is_in_driver ) {
-    P_9_1_1 = check_total;
-    P_9_1_2 = sales_tax;
-    P_9_1_3 = tip;
-    vCAST_COMMON_STUB_PROC_9( 9, 1, 4, 0 );
+    P_9_2_1 = check_total;
+    P_9_2_2 = sales_tax;
+    P_9_2_3 = tip;
+    vCAST_COMMON_STUB_PROC_9( 9, 2, 4, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_3904200724
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_3904200724
   vCAST_USER_CODE_TIMER_START();
-  return R_9_1;
+  return R_9_2;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
       struct vcast_mcdc_statement vcast_mcdc_statement = {0, 0};
 float new_total, tax;
     int log_err;
-    VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 0, 1);
+    VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 1, 1);
 if ( VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_1(vcast_unit_optimized_mcdc_bytes_9_1, &vcast_mcdc_statement, 9, 0, (VCAST_CONDITION_TYP)(VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 1, (VCAST_CONDITION_TYP)(sales_tax > 0))
 )))
     {
-        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,0);
+        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,3);
 tax = sales_tax;
     }
     else {
 if ( VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_1(vcast_unit_optimized_mcdc_bytes_9_1, &vcast_mcdc_statement, 9, 1, (VCAST_CONDITION_TYP)(VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 1, (VCAST_CONDITION_TYP)(sales_tax == 0))
 )))
     {
-        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,1);
+        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,4);
 tax = default_tax;
     }
     else
     {
-        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,2);
+        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,5);
 tax = 0;
     }}
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,3);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,6);
 log_err = log_tax_receipts( tax*check_total );
     if ( VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_1(vcast_unit_optimized_mcdc_bytes_9_1, &vcast_mcdc_statement, 9, 2, (VCAST_CONDITION_TYP)(VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 1, (VCAST_CONDITION_TYP)(log_err))
 )))
     {
-        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,4);
+        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,7);
 log_err_cnt++;
-        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,5);
+        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,8);
 printf("\nError in Logging Tax Receipts\n");
     }
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,6);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,9);
 new_total = check_total * (1 + tax + tip);
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,7);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,10);
 return( new_total );
 /*vcast_internal_start*/}/*vcast_internal_end*/
 }
@@ -957,30 +988,30 @@ return( new_total );
    entree, salad, and beverage choice. */
 int Add_Included_Dessert(struct order_type* Order)
 {/*vcast_internal_start*/
-extern struct order_type *P_9_2_1;
-extern int R_9_2;
-extern unsigned char SBF_9_2;
-if(SBF_9_2) {
+extern struct order_type *P_9_3_1;
+extern int R_9_3;
+extern unsigned char SBF_9_3;
+if(SBF_9_3) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_1220426544
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_1220426544
   if ( vcast_is_in_driver ) {
-    P_9_2_1 = Order;
-    vCAST_COMMON_STUB_PROC_9( 9, 2, 2, 0 );
+    P_9_3_1 = Order;
+    vCAST_COMMON_STUB_PROC_9( 9, 3, 2, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_1220426544
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_1220426544
   vCAST_USER_CODE_TIMER_START();
-  return R_9_2;
+  return R_9_3;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
     struct vcast_mcdc_statement vcast_mcdc_statement = {0, 0};
 static int rc;
-  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 1, 1);
-VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,8);
+  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 2, 1);
+VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,11);
 rc = 0; //Neither
   if( VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME(vcast_unit_optimized_mcdc_bytes_9_3, &vcast_mcdc_statement, 9, 0, 3, (VCAST_CONDITION_TYP)(VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 1, (VCAST_CONDITION_TYP)(Order->Entree == STEAK))
  &&
@@ -989,9 +1020,9 @@ rc = 0; //Neither
      VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 3, (VCAST_CONDITION_TYP)(Order->Beverage == MIXED_DRINK))
 )))
   {
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,9);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,12);
 rc = 1;
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,10);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,13);
 Order->Dessert = PIE;
   }
   else {
@@ -1002,12 +1033,12 @@ if( VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME(vcast_unit_opt
           VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 3, (VCAST_CONDITION_TYP)(Order->Beverage == WINE))
 )))
   {
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,11);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,14);
 rc = 2;
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,12);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,15);
 Order->Dessert = CAKE;
   }}
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,13);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,16);
 return(rc);
 /*vcast_internal_start*/}/*vcast_internal_end*/
 }
@@ -1015,177 +1046,177 @@ float Place_Order(table_index_type Table,
                 seat_index_type Seat,
                 struct order_type Order)
 {/*vcast_internal_start*/
-extern unsigned short P_9_3_1;
-extern unsigned short P_9_3_2;
-extern struct order_type P_9_3_3;
-extern float R_9_3;
-extern unsigned char SBF_9_3;
-if(SBF_9_3) {
+extern unsigned short P_9_4_1;
+extern unsigned short P_9_4_2;
+extern struct order_type P_9_4_3;
+extern float R_9_4;
+extern unsigned char SBF_9_4;
+if(SBF_9_4) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_453126248
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_453126248
   if ( vcast_is_in_driver ) {
-    P_9_3_1 = Table;
-    P_9_3_2 = Seat;
-    P_9_3_3 = Order;
-    vCAST_COMMON_STUB_PROC_9( 9, 3, 4, 0 );
+    P_9_4_1 = Table;
+    P_9_4_2 = Seat;
+    P_9_4_3 = Order;
+    vCAST_COMMON_STUB_PROC_9( 9, 4, 4, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_453126248
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_453126248
   vCAST_USER_CODE_TIMER_START();
-  return R_9_3;
+  return R_9_4;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
   int vcast_switch_taken_1 = 0;
 struct table_data_type Table_Data;
   struct table_data_type *Table_Bfr;
-  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 2, 1);
-VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,14);
+  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 3, 1);
+VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,17);
 Table_Data = Get_Table_Record(Table);
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,15);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,18);
 Table_Data.Is_Occupied = v_true;
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,16);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,19);
 Table_Data.Number_In_Party = Table_Data.Number_In_Party + 1;
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,17);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,20);
 Table_Data.Order[Seat] = Order;
   /* Add a free dessert in some cases */
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,18);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,21);
 Add_Included_Dessert(&Table_Data.Order[Seat]);
   {
-VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,19);
+VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,22);
 {vcast_switch_taken_1 = 0;
 switch(Order.Entree)
     {
-    case NO_ENTREE :VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 3, 1);vcast_switch_taken_1 = 1;
-       VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,20);
-break;
-    case STEAK :if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 4, 1);vcast_switch_taken_1 = 1;
-       VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,21);
-Table_Data.Check_Total = Table_Data.Check_Total + 14;
-       VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,22);
-break;
-    case CHICKEN :if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 5, 1);vcast_switch_taken_1 = 1;
+    case NO_ENTREE :VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 4, 1);vcast_switch_taken_1 = 1;
        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,23);
-Table_Data.Check_Total = Table_Data.Check_Total + 10;
+break;
+    case STEAK :if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 5, 1);vcast_switch_taken_1 = 1;
        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,24);
-break;
-    case LOBSTER :if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 6, 1);vcast_switch_taken_1 = 1;
+Table_Data.Check_Total = Table_Data.Check_Total + 14;
        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,25);
-Table_Data.Check_Total = Table_Data.Check_Total + 18;
+break;
+    case CHICKEN :if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 6, 1);vcast_switch_taken_1 = 1;
        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,26);
-break;
-    case PASTA :if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 7, 1);vcast_switch_taken_1 = 1;
+Table_Data.Check_Total = Table_Data.Check_Total + 10;
        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,27);
-Table_Data.Check_Total = Table_Data.Check_Total + 12;
-       VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,28);
 break;
-    default:if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 8, 1);vcast_switch_taken_1 = 1;
+    case LOBSTER :if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 7, 1);vcast_switch_taken_1 = 1;
+       VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,28);
+Table_Data.Check_Total = Table_Data.Check_Total + 18;
        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,29);
-printf( "Invalid Entree: %d", Order.Entree);
+break;
+    case PASTA :if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 8, 1);vcast_switch_taken_1 = 1;
        VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,30);
+Table_Data.Check_Total = Table_Data.Check_Total + 12;
+       VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,31);
+break;
+    default:if (!vcast_switch_taken_1) VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 9, 1);vcast_switch_taken_1 = 1;
+       VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,32);
+printf( "Invalid Entree: %d", Order.Entree);
+       VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,33);
 break;
     }}
 }
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,31);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,34);
 Update_Table_Record(Table, Table_Data.Check_Total, Table_Data);
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,32);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,35);
 return (Table_Data.Check_Total);
 /*vcast_internal_start*/}/*vcast_internal_end*/
 }
 int Clear_Table(table_index_type Table)
 {/*vcast_internal_start*/
-extern unsigned short P_9_4_1;
-extern int R_9_4;
-extern unsigned char SBF_9_4;
-if(SBF_9_4) {
+extern unsigned short P_9_5_1;
+extern int R_9_5;
+extern unsigned char SBF_9_5;
+if(SBF_9_5) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_2460377677
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_2460377677
   if ( vcast_is_in_driver ) {
-    P_9_4_1 = Table;
-    vCAST_COMMON_STUB_PROC_9( 9, 4, 2, 0 );
+    P_9_5_1 = Table;
+    vCAST_COMMON_STUB_PROC_9( 9, 5, 2, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_2460377677
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_2460377677
   vCAST_USER_CODE_TIMER_START();
-  return R_9_4;
+  return R_9_5;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
     struct vcast_mcdc_statement vcast_mcdc_statement = {0, 0};
 struct table_data_type Table_Data;
   seat_index_type Seat;
-  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 9, 1);
-VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,33);
+  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 10, 1);
+VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,36);
 Table_Data = Get_Table_Record(Table);
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,34);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,37);
 Table_Data.Is_Occupied = v_false;
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,35);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,38);
 Table_Data.Number_In_Party = 1;
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,36);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,39);
 printf("\nClear Table %d\n", Table);
   {
 for (Seat=0;  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_1(vcast_unit_optimized_mcdc_bytes_9_1, &vcast_mcdc_statement, 9, 3, (VCAST_CONDITION_TYP)(VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 1, (VCAST_CONDITION_TYP)(Seat < 4))
 )); Seat++)
     {
-VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,37);
+VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,40);
 Table_Data.Order[Seat] = NULL_ORDER;}
 }
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,38);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,41);
 Table_Data.Check_Total = 0;
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,39);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,42);
 Update_Table_Record(Table, 0, Table_Data);
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,40);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,43);
 return 0;
 /*vcast_internal_start*/}/*vcast_internal_end*/
 }
 float Get_Check_Total(table_index_type Table)
 {/*vcast_internal_start*/
-extern unsigned short P_9_5_1;
-extern float R_9_5;
-extern unsigned char SBF_9_5;
-if(SBF_9_5) {
+extern unsigned short P_9_6_1;
+extern float R_9_6;
+extern unsigned char SBF_9_6;
+if(SBF_9_6) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_3462039048
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_3462039048
   if ( vcast_is_in_driver ) {
-    P_9_5_1 = Table;
-    vCAST_COMMON_STUB_PROC_9( 9, 5, 2, 0 );
+    P_9_6_1 = Table;
+    vCAST_COMMON_STUB_PROC_9( 9, 6, 2, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_3462039048
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_3462039048
   vCAST_USER_CODE_TIMER_START();
-  return R_9_5;
+  return R_9_6;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
   struct table_data_type Table_Data;
-  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 10, 1);
-VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,41);
+  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 11, 1);
+VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,44);
 Table_Data = Get_Table_Record(Table);
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,42);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,45);
 return (Table_Data.Check_Total);
 /*vcast_internal_start*/}/*vcast_internal_end*/
 }
 void Add_Party_To_Waiting_List(char* Name)
 {/*vcast_internal_start*/
-extern char *P_9_6_1;
-extern unsigned char SBF_9_6;
-if(SBF_9_6) {
+extern char *P_9_7_1;
+extern unsigned char SBF_9_7;
+if(SBF_9_7) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_1361818386
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_1361818386
   if ( vcast_is_in_driver ) {
-    P_9_6_1 = Name;
-    vCAST_COMMON_STUB_PROC_9( 9, 6, 2, 0 );
+    P_9_7_1 = Name;
+    vCAST_COMMON_STUB_PROC_9( 9, 7, 2, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_1361818386
 #include "vcast_configure_stub.c"
@@ -1196,91 +1227,97 @@ if(SBF_9_6) {
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
     struct vcast_mcdc_statement vcast_mcdc_statement = {0, 0};
-int i = (VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 11, 1),(VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,43),0));
+int i = (VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 12, 1),(VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,46),0));
   if( VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_1(vcast_unit_optimized_mcdc_bytes_9_1, &vcast_mcdc_statement, 9, 4, (VCAST_CONDITION_TYP)(VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 1, (VCAST_CONDITION_TYP)(WaitingListSize > 9))
 )))
     {
-VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,44);
+VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,47);
 WaitingListSize = 0;}
   {
 while( VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME(vcast_unit_optimized_mcdc_bytes_9_2, &vcast_mcdc_statement, 9, 0, 2, (VCAST_CONDITION_TYP)(VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 1, (VCAST_CONDITION_TYP)(!!(Name)))
  && VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 2, (VCAST_CONDITION_TYP)(*Name))
 ))) {
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,45);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,48);
 WaitingList[WaitingListSize][i++] = *Name;
-    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,46);
+    VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,49);
 Name++;
   }}
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,47);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,50);
 WaitingList[WaitingListSize++][i] = 0;
 /*vcast_internal_start*/}/*vcast_internal_end*/
 }
 char* Get_Next_Party_To_Be_Seated(void)
 {  struct vcast_mcdc_statement vcast_mcdc_statement = {0, 0};
 /*vcast_internal_start*/
-extern char *R_9_7;
-extern unsigned char SBF_9_7;
-if(SBF_9_7) {
+extern char *R_9_8;
+extern unsigned char SBF_9_8;
+if(SBF_9_8) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_11444024
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_11444024
   if ( vcast_is_in_driver ) {
-    vCAST_COMMON_STUB_PROC_9( 9, 7, 1, 0 );
+    vCAST_COMMON_STUB_PROC_9( 9, 8, 1, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_11444024
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_11444024
   vCAST_USER_CODE_TIMER_START();
-  return R_9_7;
+  return R_9_8;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
-  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 12, 1);
+  VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_0(vcast_unit_optimized_mcdc_bytes_9_0, 9, 13, 1);
 if( VCAST_OPTIMIZED_MCDC_CONDITION_INSTRUMENTATION_POINT_REALTIME_1(vcast_unit_optimized_mcdc_bytes_9_1, &vcast_mcdc_statement, 9, 5, (VCAST_CONDITION_TYP)(VCAST_SAVE_MCDC_SUBCONDITION(&vcast_mcdc_statement, 1, (VCAST_CONDITION_TYP)(WaitingListIndex > 9))
 )))
     {
-VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,48);
+VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,51);
 WaitingListIndex = 0;}
-  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,49);
+  VCAST_STATEMENT_INSTRUMENTATION_POINT_REALTIME(vcast_unit_stmt_bytes_9,9,52);
 return WaitingList[WaitingListIndex++];
 /*vcast_internal_start*/}/*vcast_internal_end*/
 }
 /*vcast_internal_start*/
-float P_9_1_1;
-float P_9_1_2;
-float P_9_1_3;
-float R_9_1;
+int P_9_1_1;
+int P_9_1_2;
+int R_9_1;
 unsigned char SBF_9_1 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
-struct order_type *P_9_2_1;
-int R_9_2;
+float P_9_2_1;
+float P_9_2_2;
+float P_9_2_3;
+float R_9_2;
 unsigned char SBF_9_2 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
-unsigned short P_9_3_1;
-unsigned short P_9_3_2;
-struct order_type P_9_3_3;
-float R_9_3;
+struct order_type *P_9_3_1;
+int R_9_3;
 unsigned char SBF_9_3 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
 unsigned short P_9_4_1;
-int R_9_4;
+unsigned short P_9_4_2;
+struct order_type P_9_4_3;
+float R_9_4;
 unsigned char SBF_9_4 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
 unsigned short P_9_5_1;
-float R_9_5;
+int R_9_5;
 unsigned char SBF_9_5 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
-char *P_9_6_1;
+unsigned short P_9_6_1;
+float R_9_6;
 unsigned char SBF_9_6 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
-char *R_9_7;
+char *P_9_7_1;
 unsigned char SBF_9_7 = 0;
+/*vcast_internal_end*/
+/*vcast_internal_start*/
+char *R_9_8;
+unsigned char SBF_9_8 = 0;
 /*vcast_internal_end*/
 

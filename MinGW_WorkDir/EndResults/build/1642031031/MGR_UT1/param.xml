@@ -31,7 +31,14 @@
     <global name="log_err_cnt" index="5" typeid="900001" c_static="1"/>
     <global name="state_tax" index="6" typeid="900005" c_static="1"/>
     <global name="default_tax" index="7" typeid="900005" c_static="1"/>
-    <subprog name="Add_Tax_Tip" index="1" mangled="Add_Tax_Tip" parameterization="(float,float,float)float">
+    <subprog name="Add" index="1" mangled="Add" parameterization="(int,int)int">
+      <param name="a" index="1" typeid="900001"/>
+      <param name="b" index="2" typeid="900001"/>
+      <param name="return" index="3" typeid="900001"/>
+      <source_file index="2"/>
+      <sbf index="4"/>
+    </subprog>
+    <subprog name="Add_Tax_Tip" index="2" mangled="Add_Tax_Tip" parameterization="(float,float,float)float">
       <param name="check_total" index="1" typeid="900005"/>
       <param name="sales_tax" index="2" typeid="900005"/>
       <param name="tip" index="3" typeid="900005"/>
@@ -42,24 +49,24 @@
       <source_file index="2"/>
       <sbf index="5"/>
     </subprog>
-    <subprog name="Add_Included_Dessert" index="2" mangled="Add_Included_Dessert" parameterization="(struct order_type*)int">
+    <subprog name="Add_Included_Dessert" index="3" mangled="Add_Included_Dessert" parameterization="(struct order_type*)int">
       <param name="Order" index="1" typeid="900006"/>
       <param name="return" index="2" typeid="900001"/>
       <source_file index="2"/>
       <sbf index="3"/>
     </subprog>
-    <subprog name="Place_Order" index="3" mangled="Place_Order" parameterization="(table_index_type,seat_index_type,order_type)float">
+    <subprog name="Place_Order" index="4" mangled="Place_Order" parameterization="(table_index_type,seat_index_type,order_type)float">
       <param name="Table" index="1" typeid="900017"/>
       <param name="Seat" index="2" typeid="900017"/>
       <param name="Order" index="3" typeid="900011"/>
       <param name="return" index="4" typeid="900005"/>
       <function unit="10" index="2"/>
-      <function unit="9" index="2"/>
+      <function unit="9" index="3"/>
       <function unit="10" index="3"/>
       <source_file index="2"/>
       <sbf index="5"/>
     </subprog>
-    <subprog name="Clear_Table" index="4" mangled="Clear_Table" parameterization="(table_index_type)int">
+    <subprog name="Clear_Table" index="5" mangled="Clear_Table" parameterization="(table_index_type)int">
       <param name="Table" index="1" typeid="900017"/>
       <param name="return" index="2" typeid="900001"/>
       <global index="4"/>
@@ -68,21 +75,21 @@
       <source_file index="2"/>
       <sbf index="3"/>
     </subprog>
-    <subprog name="Get_Check_Total" index="5" mangled="Get_Check_Total" parameterization="(table_index_type)float">
+    <subprog name="Get_Check_Total" index="6" mangled="Get_Check_Total" parameterization="(table_index_type)float">
       <param name="Table" index="1" typeid="900017"/>
       <param name="return" index="2" typeid="900005"/>
       <function unit="10" index="2"/>
       <source_file index="2"/>
       <sbf index="3"/>
     </subprog>
-    <subprog name="Add_Party_To_Waiting_List" index="6" mangled="Add_Party_To_Waiting_List" parameterization="(char*)">
+    <subprog name="Add_Party_To_Waiting_List" index="7" mangled="Add_Party_To_Waiting_List" parameterization="(char*)">
       <param name="Name" index="1" typeid="900002"/>
       <global index="2"/>
       <global index="1"/>
       <source_file index="2"/>
       <sbf index="2"/>
     </subprog>
-    <subprog name="Get_Next_Party_To_Be_Seated" index="7" mangled="Get_Next_Party_To_Be_Seated" parameterization="()char*">
+    <subprog name="Get_Next_Party_To_Be_Seated" index="8" mangled="Get_Next_Party_To_Be_Seated" parameterization="()char*">
       <param name="return" index="1" typeid="900002"/>
       <global index="3"/>
       <global index="1"/>

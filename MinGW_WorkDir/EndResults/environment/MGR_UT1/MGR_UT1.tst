@@ -68,11 +68,11 @@ TEST.VALUE:manager.Add_Included_Dessert.Order[0].Entree:STEAK
 TEST.VALUE:manager.Add_Included_Dessert.Order[0].Beverage:NO_BEVERAGE
 TEST.END
 
--- Test Case: COND_1_ROW_3_PAIR_b_TFT
+-- Test Case: COND_1_ROW_3_PAIR_b_TFx
 TEST.UNIT:manager
 TEST.SUBPROGRAM:Add_Included_Dessert
 TEST.NEW
-TEST.NAME:COND_1_ROW_3_PAIR_b_TFT
+TEST.NAME:COND_1_ROW_3_PAIR_b_TFx
 TEST.MCDC_BASIS_PATH:3 of 8
 TEST.NOTES:
 This is an automatically generated test case.
@@ -90,11 +90,11 @@ TEST.VALUE:manager.Add_Included_Dessert.Order[0].Entree:STEAK
 TEST.VALUE:manager.Add_Included_Dessert.Order[0].Beverage:MIXED_DRINK
 TEST.END
 
--- Test Case: COND_1_ROW_5_PAIR_a_FTT
+-- Test Case: COND_1_ROW_5_PAIR_a_Fxx
 TEST.UNIT:manager
 TEST.SUBPROGRAM:Add_Included_Dessert
 TEST.NEW
-TEST.NAME:COND_1_ROW_5_PAIR_a_FTT
+TEST.NAME:COND_1_ROW_5_PAIR_a_Fxx
 TEST.MCDC_BASIS_PATH:1 of 8
 TEST.NOTES:
 This is an automatically generated test case.
@@ -158,11 +158,11 @@ TEST.VALUE:manager.Add_Included_Dessert.Order[0].Entree:LOBSTER
 TEST.VALUE:manager.Add_Included_Dessert.Order[0].Beverage:NO_BEVERAGE
 TEST.END
 
--- Test Case: COND_2_ROW_3_PAIR_b_TFT
+-- Test Case: COND_2_ROW_3_PAIR_b_TFx
 TEST.UNIT:manager
 TEST.SUBPROGRAM:Add_Included_Dessert
 TEST.NEW
-TEST.NAME:COND_2_ROW_3_PAIR_b_TFT
+TEST.NAME:COND_2_ROW_3_PAIR_b_TFx
 TEST.MCDC_BASIS_PATH:7 of 8
 TEST.NOTES:
 This is an automatically generated test case.
@@ -181,11 +181,11 @@ TEST.VALUE:manager.Add_Included_Dessert.Order[0].Entree:LOBSTER
 TEST.VALUE:manager.Add_Included_Dessert.Order[0].Beverage:WINE
 TEST.END
 
--- Test Case: COND_2_ROW_5_PAIR_a_FTT
+-- Test Case: COND_2_ROW_5_PAIR_a_Fxx
 TEST.UNIT:manager
 TEST.SUBPROGRAM:Add_Included_Dessert
 TEST.NEW
-TEST.NAME:COND_2_ROW_5_PAIR_a_FTT
+TEST.NAME:COND_2_ROW_5_PAIR_a_Fxx
 TEST.MCDC_BASIS_PATH:5 of 8
 TEST.NOTES:
 This is an automatically generated test case.
@@ -290,7 +290,138 @@ TEST.VALUE:manager.Add_Party_To_Waiting_List.Name[3]:8#0#
 TEST.EXPECTED:manager.<<GLOBAL>>.WaitingList[0]:"Tom"
 TEST.END
 
+-- Test Case: BASIS-PATH-001
+TEST.UNIT:manager
+TEST.SUBPROGRAM:Add_Party_To_Waiting_List
+TEST.NEW
+TEST.NAME:BASIS-PATH-001
+TEST.BASIS_PATH:1 of 3
+TEST.NOTES:
+This is an automatically generated test case.
+   Test Path 1
+      (1) if (WaitingListSize > (9)) ==> FALSE
+      (2) while (Name && *Name) ==> FALSE
+   Test Case Generation Notes:
+TEST.END_NOTES:
+TEST.VALUE:manager.<<GLOBAL>>.WaitingListSize:<<MIN>>
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:<<null>>
+TEST.END
+
+-- Test Case: BASIS-PATH-002
+TEST.UNIT:manager
+TEST.SUBPROGRAM:Add_Party_To_Waiting_List
+TEST.NEW
+TEST.NAME:BASIS-PATH-002
+TEST.BASIS_PATH:2 of 3
+TEST.NOTES:
+This is an automatically generated test case.
+   Test Path 2
+      (1) if (WaitingListSize > (9)) ==> FALSE
+      (2) while (Name && *Name) ==> TRUE
+   Test Case Generation Notes:
+TEST.END_NOTES:
+TEST.VALUE:manager.<<GLOBAL>>.WaitingListSize:<<MIN>>
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:<<malloc 1>>
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name[0]:<<MIN>>
+TEST.END
+
+-- Test Case: BASIS-PATH-003
+TEST.UNIT:manager
+TEST.SUBPROGRAM:Add_Party_To_Waiting_List
+TEST.NEW
+TEST.NAME:BASIS-PATH-003
+TEST.BASIS_PATH:3 of 3
+TEST.NOTES:
+This is an automatically generated test case.
+   Test Path 3
+      (1) if (WaitingListSize > (9)) ==> TRUE
+      (2) while (Name && *Name) ==> FALSE
+   Test Case Generation Notes:
+TEST.END_NOTES:
+TEST.VALUE:manager.<<GLOBAL>>.WaitingListSize:<<MAX>>
+TEST.VALUE:manager.Add_Party_To_Waiting_List.Name:<<null>>
+TEST.END
+
 -- Subprogram: Add_Tax_Tip
+
+-- Test Case: BASIS-PATH-001
+TEST.UNIT:manager
+TEST.SUBPROGRAM:Add_Tax_Tip
+TEST.NEW
+TEST.NAME:BASIS-PATH-001
+TEST.BASIS_PATH:1 of 4
+TEST.NOTES:
+This is an automatically generated test case.
+   Test Path 1
+      (1) if (sales_tax > (0)) ==> FALSE
+      (2) if (sales_tax == (0)) ==> FALSE
+      (3) if log_err ==> FALSE
+   Test Case Generation Notes:
+TEST.END_NOTES:
+TEST.VALUE:manager.Add_Tax_Tip.check_total:<<MIN>>
+TEST.VALUE:manager.Add_Tax_Tip.sales_tax:<<MIN>>
+TEST.VALUE:manager.Add_Tax_Tip.tip:<<MIN>>
+TEST.VALUE:uut_prototype_stubs.log_tax_receipts.return:0
+TEST.END
+
+-- Test Case: BASIS-PATH-002
+TEST.UNIT:manager
+TEST.SUBPROGRAM:Add_Tax_Tip
+TEST.NEW
+TEST.NAME:BASIS-PATH-002
+TEST.BASIS_PATH:2 of 4
+TEST.NOTES:
+This is an automatically generated test case.
+   Test Path 2
+      (1) if (sales_tax > (0)) ==> FALSE
+      (2) if (sales_tax == (0)) ==> FALSE
+      (3) if log_err ==> TRUE
+   Test Case Generation Notes:
+TEST.END_NOTES:
+TEST.VALUE:manager.Add_Tax_Tip.check_total:<<MIN>>
+TEST.VALUE:manager.Add_Tax_Tip.sales_tax:<<MIN>>
+TEST.VALUE:manager.Add_Tax_Tip.tip:<<MIN>>
+TEST.VALUE:uut_prototype_stubs.log_tax_receipts.return:<<MIN>>
+TEST.END
+
+-- Test Case: BASIS-PATH-003
+TEST.UNIT:manager
+TEST.SUBPROGRAM:Add_Tax_Tip
+TEST.NEW
+TEST.NAME:BASIS-PATH-003
+TEST.BASIS_PATH:3 of 4
+TEST.NOTES:
+This is an automatically generated test case.
+   Test Path 3
+      (1) if (sales_tax > (0)) ==> FALSE
+      (2) if (sales_tax == (0)) ==> TRUE
+      (3) if log_err ==> FALSE
+   Test Case Generation Notes:
+TEST.END_NOTES:
+TEST.VALUE:manager.Add_Tax_Tip.check_total:<<MIN>>
+TEST.VALUE:manager.Add_Tax_Tip.sales_tax:0.0
+TEST.VALUE:manager.Add_Tax_Tip.tip:<<MIN>>
+TEST.VALUE:uut_prototype_stubs.log_tax_receipts.return:0
+TEST.END
+
+-- Test Case: BASIS-PATH-004
+TEST.UNIT:manager
+TEST.SUBPROGRAM:Add_Tax_Tip
+TEST.NEW
+TEST.NAME:BASIS-PATH-004
+TEST.BASIS_PATH:4 of 4
+TEST.NOTES:
+This is an automatically generated test case.
+   Test Path 4
+      (1) if (sales_tax > (0)) ==> TRUE
+      (3) if log_err ==> FALSE
+   Test Case Generation Notes:
+TEST.END_NOTES:
+TEST.VALUE:manager.Add_Tax_Tip.check_total:<<MIN>>
+TEST.VALUE:manager.Add_Tax_Tip.sales_tax:<<MAX>>
+TEST.VALUE:manager.Add_Tax_Tip.tip:<<MIN>>
+TEST.VALUE:uut_prototype_stubs.log_tax_receipts.return:0
+TEST.END
 
 -- Test Case: CheckStubValues
 TEST.UNIT:manager
@@ -477,24 +608,6 @@ TEST.END_NOTES:
 TEST.VALUE:manager.Place_Order.Table:<<MIN>>
 TEST.VALUE:manager.Place_Order.Seat:<<MIN>>
 TEST.VALUE:manager.Place_Order.Order.Entree:PASTA
-TEST.END
-
--- Test Case: Place_Order.001
-TEST.UNIT:manager
-TEST.SUBPROGRAM:Place_Order
-TEST.NEW
-TEST.NAME:Place_Order.001
-TEST.VALUE:<<OPTIONS>>.GLOBAL_DATA_DISPLAY:EACH_EVENT
-TEST.EXPECTED:manager.Place_Order.return:MACRO=COST_OF_STEAK
-TEST.VALUE_USER_CODE:<<testcase>>
-printf("Test Case User Code Input!\n");
-TEST.END_VALUE_USER_CODE:
-TEST.VALUE_USER_CODE:manager.Place_Order.Order.Entree
-printf("input parameter user code\n");
-TEST.END_VALUE_USER_CODE:
-TEST.EXPECTED_USER_CODE:<<testcase>>
-printf("Test Case User Code Expected!\n");
-TEST.END_EXPECTED_USER_CODE:
 TEST.END
 
 -- Test Case: Place_Order.002

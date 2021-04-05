@@ -1,0 +1,33 @@
+COMMAND: C:\VCAST\clicast.exe -e DEBUG_MGR -l CPLUSPLUS environment incremental rebuild C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3151989479/DEBUG_MGR.env
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3151989479
+TIME: 2021-04-05 15:34:17
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2021
+**Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3151989479\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open
+    No Probe Points found.
+    Parsing manager
+    Incremental Rebuild failed due to a global scope change. Rebuild the environment to incorporate the source code changes into the test harness.
+    Previous harness files restored
+EXIT_CODE: 23
+COMMAND: C:\VCAST\clicast.exe -e DEBUG_MGR tools delete_imported_results
+DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3151989479
+TIME: 2021-04-05 15:34:17
+TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
+-----------------------------Process Environment------------------------------
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+---------------------------End Process Environment----------------------------
+VectorCAST Copyright (C) 1993 - 2021
+**Version 20.sp6 (02/02/21)
+    Processing options file c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3151989479\CCAST_.CFG
+    Opening Environment
+    Opening Parameter/Global File
+    Opening Types File
+    Environment is Open

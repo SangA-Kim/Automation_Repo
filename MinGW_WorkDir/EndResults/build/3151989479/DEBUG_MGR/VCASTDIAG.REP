@@ -13,7 +13,7 @@ Environment Overview
   Environment Status:  Normal
   Environment Version: REVISION_2020_RENAME_BUILD_INFO_XML
   Environment Build Type: Full
-  Coverage Status:     ISO-26262 (Automotive) Unit Level ASIL B/C (enabled)
+  Coverage Status:     Statement+Branch (enabled)
   Language:            C++
   Compiler Name:       VectorCAST MinGW_C++
   White Box:           Yes
@@ -36,59 +36,87 @@ Found compiler C:\VCAST\MinGW\bin\g++.exe
 ###################################
 ############ ENV. VARS ############
 ###################################
-ComSpec=C:\WINDOWS\system32\cmd.exe
-ProgramFiles=C:\Program Files
-USERPROFILE=C:\Users\skim
-USERNAME=skim
-PROCESSOR_LEVEL=6
-HOMEPATH=\Users\skim
-TEMP=D:\TEMP
-VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
-OS=Windows_NT
-Z3_LIBRARY_PATH=C:/VCAST/python/3rd_party/z3
-DriverData=C:\Windows\System32\Drivers\DriverData
-SystemDrive=C:
-PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
-PUBLIC=C:\Users\Public
-VECTORCAST_SUB_PROCESS_VERBOSE=TRUE
-ProgramData=C:\ProgramData
-GIT_HOME=C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd
-PROMPT=$P$G
-USERDOMAIN=VECTOR
-ProgramFiles(x86)=C:\Program Files (x86)
-CommonProgramFiles=C:\Program Files\Common Files
-USERDNSDOMAIN=VI.VECTOR.INT
-PROCESSOR_ARCHITECTURE=AMD64
-GIT_SSL_NO_VERIFY=true
-PROCESSOR_REVISION=8e0c
-ProgramW6432=C:\Program Files
-windir=C:\WINDOWS
-OneDrive=C:\Users\skim\OneDrive
-SESSIONNAME=Console
-SVN_SSH=a3701311b84bd278347b5b1bb69f1606_ssh -q --
-LOGONSERVER=\\VKSEORODC2
-USERDOMAIN_ROAMINGPROFILE=VECTOR
-NcpClntDataPath=C:\ProgramData\NCP\SecureClient
-NcpClntInstallPath=C:\Program Files\NCP\SecureClient
-HOMEDRIVE=C:
-APPDATA=C:\Users\skim\AppData\Roaming
-COMPUTERNAME=KR02003NB
 NUMBER_OF_PROCESSORS=8
-SystemRoot=C:\WINDOWS
-LOCALAPPDATA=C:\Users\skim\AppData\Local
-PROJECT_ROOT_DIR=C:\VCAST\Environments\Git_Test
-LM_APP_DISABLE_CACHE_READ=1
-UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
-PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\NWC Services\PSX7\Modules
-VECTORCAST_DIR=C:\VCAST
-ALLUSERSPROFILE=C:\ProgramData
-CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+PROMPT=$P$G
+SERVICE_ID=jenkins
+JOB_BASE_NAME=EndResults.vcast.single
+EXECUTOR_NUMBER=1
+BUILD_DISPLAY_NAME=#3
+COMPUTERNAME=KR02003NB
+VCAST_RPTS_PRETTY_PRINT_HTML=FALSE
+NODE_LABELS=master
+HUDSON_COOKIE=e937936d-1e92-4c17-9af0-367c7546489c
 PWD=C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3151989479
-VECTOR_LICENSE_FILE=27000@localhost
+BUILD_CAUSE_SCMTRIGGER=true
+USERDOMAIN=VECTOR
+HUDSON_SERVER_COOKIE=7f6ed4b873e3fa09
+PROJECT_ROOT_DIR=C:\VCAST\Environments\Git_Test
+WORKSPACE=C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\EndResults.vcast.single
+JENKINS_HOME=C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins
+SystemRoot=C:\WINDOWS
+ComSpec=C:\WINDOWS\system32\cmd.exe
+HUDSON_URL=http://localhost:8081/
+APPDATA=C:\WINDOWS\system32\config\systemprofile\AppData\Roaming
+GIT_URL=https://github.com/SangA-Kim/Automation_Repo.git
+ROOT_BUILD_CAUSE=SCMTRIGGER
+GIT_COMMIT=480a8d6e02632d54ea912978635b73eddf31d370
+GIT_BRANCH=origin/master
+USERNAME=KR02003NB$
+JOB_NAME=EndResults.vcast.single
+RUN_TESTS_DISPLAY_URL=http://localhost:8081/job/EndResults.vcast.single/3/display/redirect?page=tests
 PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+VECTOR_LICENSE_FILE=27000@localhost
+HUDSON_HOME=C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins
+JOB_URL=http://localhost:8081/job/EndResults.vcast.single/
+PUBLIC=C:\Users\Public
+OS=Windows_NT
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+VECTORCAST_DIR=C:\VCAST
+RUN_DISPLAY_URL=http://localhost:8081/job/EndResults.vcast.single/3/display/redirect
+PATH=C:\VCAST\MinGW\bin;C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+SystemDrive=C:
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+PROCESSOR_REVISION=8e0c
+ALLUSERSPROFILE=C:\ProgramData
+RUN_CHANGES_DISPLAY_URL=http://localhost:8081/job/EndResults.vcast.single/3/display/redirect?page=changes
+BUILD_CAUSE=SCMTRIGGER
+JOB_DISPLAY_URL=http://localhost:8081/job/EndResults.vcast.single/display/redirect
+TEMP=D:\TEMP
+BUILD_NUMBER=3
+NcpClntDataPath=C:\ProgramData\NCP\SecureClient
+WINSW_EXECUTABLE=C:\Program Files\Jenkins\jenkins.exe
+WINSW_SERVICE_ID=jenkins
+BASE=C:\Program Files\Jenkins
+JENKINS_URL=http://localhost:8081/
+UATDATA=C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+DriverData=C:\Windows\System32\Drivers\DriverData
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files\NWC Services\PSX7\Modules
+windir=C:\WINDOWS
 CommonProgramW6432=C:\Program Files\Common Files
-PATH=C:\VCAST\MinGW\bin;C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+Z3_LIBRARY_PATH=C:/VCAST/python/3rd_party/z3
+BUILD_ID=3
+NODE_NAME=master
+ProgramFiles(x86)=C:\Program Files (x86)
+PROCESSOR_LEVEL=6
+NcpClntInstallPath=C:\Program Files\NCP\SecureClient
+JENKINS_SERVER_COOKIE=7f6ed4b873e3fa09
+LM_APP_DISABLE_CACHE_READ=1
+USERPROFILE=C:\WINDOWS\system32\config\systemprofile
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+ROOT_BUILD_CAUSE_SCMTRIGGER=true
+ProgramFiles=C:\Program Files
+ProgramData=C:\ProgramData
+WORKSPACE_TMP=C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\EndResults.vcast.single@tmp
+SVN_SSH=a3701311b84bd278347b5b1bb69f1606_ssh -q --
+LOCALAPPDATA=C:\WINDOWS\system32\config\systemprofile\AppData\Local
 TMP=D:\TEMP
+BUILD_URL=http://localhost:8081/job/EndResults.vcast.single/3/
+VCAST_NO_FILE_TRUNCATION=1
+PROCESSOR_ARCHITECTURE=AMD64
+ProgramW6432=C:\Program Files
+RUN_ARTIFACTS_DISPLAY_URL=http://localhost:8081/job/EndResults.vcast.single/3/display/redirect?page=artifacts
+BUILD_TAG=jenkins-EndResults.vcast.single-3
 VCV_ENVIRONMENT_NAME=DEBUG_MGR
 VCV_ENVIRONMENT_DIR=c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3151989479\DEBUG_MGR
 VCAST_OBJECT_PATH=c:\\VCAST\\Environments\\Git_Test\\MinGW_WorkDir\\EndResults\\build\\3151989479\\DEBUG_MGR
@@ -166,6 +194,7 @@ Contents of c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\315198
   VCAST_COMMAND_LINE_DEBUGGER: TRUE
   VCAST_COMPILER_SUPPORTS_CPP_CASTS: TRUE
   VCAST_COVERAGE_FOR_AGGREGATE_INIT: TRUE
+  VCAST_CUSTOM_REPORT_FORMAT: HTML
   VCAST_CYGPATH_LINE_DIRECTIVES: FALSE
   VCAST_C_FILE_EXTENSIONS: c
   VCAST_DISABLE_CPP_EXCEPTIONS: FALSE
@@ -233,12 +262,14 @@ These config options are being set by environment vars:
 none
 
 These env. vars contain VCAST and could be affecting behavior:
-VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
-Z3_LIBRARY_PATH=C:/VCAST/python/3rd_party/z3
+VCAST_RPTS_PRETTY_PRINT_HTML=FALSE
+PWD=C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3151989479
 PROJECT_ROOT_DIR=C:\VCAST\Environments\Git_Test
 VECTORCAST_DIR=C:\VCAST
-PWD=C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/3151989479
-PATH=C:\VCAST\MinGW\bin;C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
+PATH=C:\VCAST\MinGW\bin;C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
+Z3_LIBRARY_PATH=C:/VCAST/python/3rd_party/z3
+VCAST_NO_FILE_TRUNCATION=1
 VCV_ENVIRONMENT_DIR=c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3151989479\DEBUG_MGR
 VCAST_OBJECT_PATH=c:\\VCAST\\Environments\\Git_Test\\MinGW_WorkDir\\EndResults\\build\\3151989479\\DEBUG_MGR
 VCAST_OBJECT_FILES=B0000001.o B0000002.o S0000003.o B0000008.o B0000004.o  B0000007.o  B1_switch.o  B4_switch.o  S3_switch.o   I0000009.o

@@ -1,12 +1,4 @@
 (I) @LINE: 1
-    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3151989479\DEBUG_MGR.tst.tmp
-(I) @LINE: 29
-    >>> Processing Test Case: SEG_FAULT
-(S) @LINE: 32
-    >>> Processed Test Case: SEG_FAULT
-(I) @LINE: 38
-    >>> Processing Test Case: SpinForever
-(S) @LINE: 49
-    >>> Processed Test Case: SpinForever
-(S) @LINE: 49
+    >>> Opening script file C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\3151989479\DEBUG_MGR.tst.update
+(S) @LINE: 11
     >>> Script processing completed

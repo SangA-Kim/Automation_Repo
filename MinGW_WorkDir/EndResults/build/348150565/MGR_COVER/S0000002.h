@@ -3,9 +3,9 @@
 #include "S0000008.h"
 
 #ifdef S0000002
-int vCAST_ITERATION_COUNTERS [3][11];
+int vCAST_ITERATION_COUNTERS [3][12];
 #else
-extern int vCAST_ITERATION_COUNTERS [3][11];
+extern int vCAST_ITERATION_COUNTERS [3][12];
 #endif
 #include "vcast_basics.h"
 

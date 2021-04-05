@@ -27,6 +27,12 @@
           <parameter type="table_data_type" name="Data"/>
         </parameters>
       </function>
+      <function id="Add" name="Add" defined="1" const="0" file="1" return="int">
+        <parameters>
+          <parameter type="int" name="a"/>
+          <parameter type="int" name="b"/>
+        </parameters>
+      </function>
       <function id="Add_Tax_Tip" name="Add_Tax_Tip" defined="1" const="0" file="1" return="float">
         <parameters>
           <parameter type="float" name="check_total"/>

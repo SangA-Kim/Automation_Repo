@@ -1,10 +1,10 @@
-COMMAND: C:\VCAST\clicast.exe -e MGR_COVER -l CPLUSPLUS execute batch
+COMMAND: C:\VCAST\clicast.exe -e MGR_COVER -l CPLUSPLUS execute incremental
 DIRECTORY: C:/VCAST/Environments/Git_Test/MinGW_WorkDir/EndResults/build/348150565
-TIME: 2021-03-30 14:23:53
+TIME: 2021-04-05 15:34:44
 TEST SUITE: VectorCAST_MinGW_C++/UnitTestSuiite
 -----------------------------Process Environment------------------------------
+Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
 VCAST_MANAGE_PROJECT_DIRECTORY=C:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults
-Path=C:\VCAST\MinGW\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\skim\Anaconda3;C:\Users\skim\Anaconda3\Library\mingw-w64\bin;C:\Users\skim\Anaconda3\Library\usr\bin;C:\Users\skim\Anaconda3\Library\bin;C:\Users\skim\Anaconda3\Scripts;C:\Users\skim\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin;C:\VCAST;
 ---------------------------End Process Environment----------------------------
 VectorCAST Copyright (C) 1993 - 2021
 **Version 20.sp6 (02/02/21)
@@ -18,8 +18,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\1_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -28,8 +26,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\2_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -37,8 +33,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\3_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -46,8 +40,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\4_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -56,8 +48,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\5_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -65,8 +55,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\6_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -74,8 +62,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\7_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -83,8 +69,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\8_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -92,8 +76,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\9_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -101,8 +83,6 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\10_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
@@ -110,9 +90,8 @@ VectorCAST Copyright (C) 1993 - 2021
     Preparing Test Data
     Running Test Case
     Running Test with command: c:\VCAST\Environments\Git_Test\MinGW_WorkDir\EndResults\build\348150565\MGR_COVER\UUT_INST.EXE
-        Running Command: C:/Users/skim\.vcastProcessMonitorLogs\11_Command
-        Command Returned Exit Code: 0
     Processing Execution Data
     Updating Coverage Data
     Test Execution Complete
-    Completed Batch Execution processing
+    Completed Incremental Execution processing
+EXIT_CODE: 28

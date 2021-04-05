@@ -15,6 +15,7 @@
       <function defined="1" stubbed="1">log_tax_receipts</function>
       <function defined="1" stubbed="1">Get_Table_Record</function>
       <function defined="1" stubbed="1">Update_Table_Record</function>
+      <function defined="1">Add</function>
       <function defined="1">Add_Tax_Tip</function>
       <function defined="1">Add_Included_Dessert</function>
       <function defined="1">Place_Order</function>

@@ -52,15 +52,15 @@ case 10: /* PROTOTYPES */
       break;
         case 1:
           /* For log_tax_receipts */
-          VCAST_RUN_DATA_IF_9( 8, VCAST_PARAM_INDEX );
+          VCAST_RUN_DATA_IF_9( 9, VCAST_PARAM_INDEX );
           break;
         case 2:
           /* For Get_Table_Record */
-          VCAST_RUN_DATA_IF_9( 9, VCAST_PARAM_INDEX );
+          VCAST_RUN_DATA_IF_9( 10, VCAST_PARAM_INDEX );
           break;
         case 3:
           /* For Update_Table_Record */
-          VCAST_RUN_DATA_IF_9( 10, VCAST_PARAM_INDEX );
+          VCAST_RUN_DATA_IF_9( 11, VCAST_PARAM_INDEX );
           break;
     default:
       vCAST_TOOL_ERROR = vCAST_true;

@@ -52,29 +52,58 @@ const struct order_type NULL_ORDER =
 static int log_err_cnt=0;
 static float state_tax = .03;
 static float default_tax = .05;
-float Add_Tax_Tip( float check_total, float sales_tax, float tip )
+int Add(int a, int b)
 {/*vcast_internal_start*/
-extern float P_9_1_1;
-extern float P_9_1_2;
-extern float P_9_1_3;
-extern float R_9_1;
+extern int P_9_1_1;
+extern int P_9_1_2;
+extern int R_9_1;
 extern unsigned char SBF_9_1;
 if(SBF_9_1) {
+  vCAST_USER_CODE_TIMER_STOP();
+#define BEGINNING_OF_STUB_USER_CODE_9_3310826759
+#include "vcast_configure_stub.c"
+#undef BEGINNING_OF_STUB_USER_CODE_9_3310826759
+  if ( vcast_is_in_driver ) {
+    P_9_1_1 = a;
+    P_9_1_2 = b;
+    vCAST_COMMON_STUB_PROC_9( 9, 1, 3, 0 );
+  } /* vcast_is_in_driver */
+#define END_OF_STUB_USER_CODE_9_3310826759
+#include "vcast_configure_stub.c"
+#undef END_OF_STUB_USER_CODE_9_3310826759
+  vCAST_USER_CODE_TIMER_START();
+  return R_9_1;
+}
+/*vcast_internal_end*/
+/*vcast_internal_start*/{/*vcast_internal_end*/
+ int sum = 0;
+ sum = a + b;
+ return sum;
+/*vcast_internal_start*/}/*vcast_internal_end*/
+}
+float Add_Tax_Tip( float check_total, float sales_tax, float tip )
+{/*vcast_internal_start*/
+extern float P_9_2_1;
+extern float P_9_2_2;
+extern float P_9_2_3;
+extern float R_9_2;
+extern unsigned char SBF_9_2;
+if(SBF_9_2) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_3904200724
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_3904200724
   if ( vcast_is_in_driver ) {
-    P_9_1_1 = check_total;
-    P_9_1_2 = sales_tax;
-    P_9_1_3 = tip;
-    vCAST_COMMON_STUB_PROC_9( 9, 1, 4, 0 );
+    P_9_2_1 = check_total;
+    P_9_2_2 = sales_tax;
+    P_9_2_3 = tip;
+    vCAST_COMMON_STUB_PROC_9( 9, 2, 4, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_3904200724
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_3904200724
   vCAST_USER_CODE_TIMER_START();
-  return R_9_1;
+  return R_9_2;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
@@ -107,23 +136,23 @@ if(SBF_9_1) {
    entree, salad, and beverage choice. */
 int Add_Included_Dessert(struct order_type* Order)
 {/*vcast_internal_start*/
-extern struct order_type *P_9_2_1;
-extern int R_9_2;
-extern unsigned char SBF_9_2;
-if(SBF_9_2) {
+extern struct order_type *P_9_3_1;
+extern int R_9_3;
+extern unsigned char SBF_9_3;
+if(SBF_9_3) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_1220426544
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_1220426544
   if ( vcast_is_in_driver ) {
-    P_9_2_1 = Order;
-    vCAST_COMMON_STUB_PROC_9( 9, 2, 2, 0 );
+    P_9_3_1 = Order;
+    vCAST_COMMON_STUB_PROC_9( 9, 3, 2, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_1220426544
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_1220426544
   vCAST_USER_CODE_TIMER_START();
-  return R_9_2;
+  return R_9_3;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
@@ -150,27 +179,27 @@ float Place_Order(table_index_type Table,
                 seat_index_type Seat,
                 struct order_type Order)
 {/*vcast_internal_start*/
-extern unsigned short P_9_3_1;
-extern unsigned short P_9_3_2;
-extern struct order_type P_9_3_3;
-extern float R_9_3;
-extern unsigned char SBF_9_3;
-if(SBF_9_3) {
+extern unsigned short P_9_4_1;
+extern unsigned short P_9_4_2;
+extern struct order_type P_9_4_3;
+extern float R_9_4;
+extern unsigned char SBF_9_4;
+if(SBF_9_4) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_453126248
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_453126248
   if ( vcast_is_in_driver ) {
-    P_9_3_1 = Table;
-    P_9_3_2 = Seat;
-    P_9_3_3 = Order;
-    vCAST_COMMON_STUB_PROC_9( 9, 3, 4, 0 );
+    P_9_4_1 = Table;
+    P_9_4_2 = Seat;
+    P_9_4_3 = Order;
+    vCAST_COMMON_STUB_PROC_9( 9, 4, 4, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_453126248
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_453126248
   vCAST_USER_CODE_TIMER_START();
-  return R_9_3;
+  return R_9_4;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
@@ -208,23 +237,23 @@ if(SBF_9_3) {
 }
 int Clear_Table(table_index_type Table)
 {/*vcast_internal_start*/
-extern unsigned short P_9_4_1;
-extern int R_9_4;
-extern unsigned char SBF_9_4;
-if(SBF_9_4) {
+extern unsigned short P_9_5_1;
+extern int R_9_5;
+extern unsigned char SBF_9_5;
+if(SBF_9_5) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_2460377677
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_2460377677
   if ( vcast_is_in_driver ) {
-    P_9_4_1 = Table;
-    vCAST_COMMON_STUB_PROC_9( 9, 4, 2, 0 );
+    P_9_5_1 = Table;
+    vCAST_COMMON_STUB_PROC_9( 9, 5, 2, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_2460377677
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_2460377677
   vCAST_USER_CODE_TIMER_START();
-  return R_9_4;
+  return R_9_5;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
@@ -243,23 +272,23 @@ if(SBF_9_4) {
 }
 float Get_Check_Total(table_index_type Table)
 {/*vcast_internal_start*/
-extern unsigned short P_9_5_1;
-extern float R_9_5;
-extern unsigned char SBF_9_5;
-if(SBF_9_5) {
+extern unsigned short P_9_6_1;
+extern float R_9_6;
+extern unsigned char SBF_9_6;
+if(SBF_9_6) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_3462039048
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_3462039048
   if ( vcast_is_in_driver ) {
-    P_9_5_1 = Table;
-    vCAST_COMMON_STUB_PROC_9( 9, 5, 2, 0 );
+    P_9_6_1 = Table;
+    vCAST_COMMON_STUB_PROC_9( 9, 6, 2, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_3462039048
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_3462039048
   vCAST_USER_CODE_TIMER_START();
-  return R_9_5;
+  return R_9_6;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
@@ -270,16 +299,16 @@ if(SBF_9_5) {
 }
 void Add_Party_To_Waiting_List(char* Name)
 {/*vcast_internal_start*/
-extern char *P_9_6_1;
-extern unsigned char SBF_9_6;
-if(SBF_9_6) {
+extern char *P_9_7_1;
+extern unsigned char SBF_9_7;
+if(SBF_9_7) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_1361818386
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_1361818386
   if ( vcast_is_in_driver ) {
-    P_9_6_1 = Name;
-    vCAST_COMMON_STUB_PROC_9( 9, 6, 2, 0 );
+    P_9_7_1 = Name;
+    vCAST_COMMON_STUB_PROC_9( 9, 7, 2, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_1361818386
 #include "vcast_configure_stub.c"
@@ -301,21 +330,21 @@ if(SBF_9_6) {
 }
 char* Get_Next_Party_To_Be_Seated(void)
 {/*vcast_internal_start*/
-extern char *R_9_7;
-extern unsigned char SBF_9_7;
-if(SBF_9_7) {
+extern char *R_9_8;
+extern unsigned char SBF_9_8;
+if(SBF_9_8) {
   vCAST_USER_CODE_TIMER_STOP();
 #define BEGINNING_OF_STUB_USER_CODE_9_11444024
 #include "vcast_configure_stub.c"
 #undef BEGINNING_OF_STUB_USER_CODE_9_11444024
   if ( vcast_is_in_driver ) {
-    vCAST_COMMON_STUB_PROC_9( 9, 7, 1, 0 );
+    vCAST_COMMON_STUB_PROC_9( 9, 8, 1, 0 );
   } /* vcast_is_in_driver */
 #define END_OF_STUB_USER_CODE_9_11444024
 #include "vcast_configure_stub.c"
 #undef END_OF_STUB_USER_CODE_9_11444024
   vCAST_USER_CODE_TIMER_START();
-  return R_9_7;
+  return R_9_8;
 }
 /*vcast_internal_end*/
 /*vcast_internal_start*/{/*vcast_internal_end*/
@@ -325,39 +354,45 @@ if(SBF_9_7) {
 /*vcast_internal_start*/}/*vcast_internal_end*/
 }
 /*vcast_internal_start*/
-float P_9_1_1;
-float P_9_1_2;
-float P_9_1_3;
-float R_9_1;
+int P_9_1_1;
+int P_9_1_2;
+int R_9_1;
 unsigned char SBF_9_1 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
-struct order_type *P_9_2_1;
-int R_9_2;
+float P_9_2_1;
+float P_9_2_2;
+float P_9_2_3;
+float R_9_2;
 unsigned char SBF_9_2 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
-unsigned short P_9_3_1;
-unsigned short P_9_3_2;
-struct order_type P_9_3_3;
-float R_9_3;
+struct order_type *P_9_3_1;
+int R_9_3;
 unsigned char SBF_9_3 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
 unsigned short P_9_4_1;
-int R_9_4;
+unsigned short P_9_4_2;
+struct order_type P_9_4_3;
+float R_9_4;
 unsigned char SBF_9_4 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
 unsigned short P_9_5_1;
-float R_9_5;
+int R_9_5;
 unsigned char SBF_9_5 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
-char *P_9_6_1;
+unsigned short P_9_6_1;
+float R_9_6;
 unsigned char SBF_9_6 = 0;
 /*vcast_internal_end*/
 /*vcast_internal_start*/
-char *R_9_7;
+char *P_9_7_1;
 unsigned char SBF_9_7 = 0;
+/*vcast_internal_end*/
+/*vcast_internal_start*/
+char *R_9_8;
+unsigned char SBF_9_8 = 0;
 /*vcast_internal_end*/
